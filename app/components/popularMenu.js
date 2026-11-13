@@ -12,4 +12,29 @@ export function getPopularMenu(jumlah = 4) {
     return randomMenu.slice(0, jumlah)
 }
 
-export default getPopularMenu;
+
+
+const ALL_IMAGE = ALL_MENU.filter((item) => 
+    Boolean(item.image)
+)
+
+export function getImagePopularMenu(jumlah = 15) {
+    const randomImage = [...ALL_IMAGE].sort(() => 0.5 - Math.random());
+    return randomImage.slice(0, jumlah)
+}
+
+
+const ALL_ISLAND = DATA_PULAU.map((pulau) => ({
+    id: pulau.id,
+    nama:pulau.nama,
+    bentuk_pulau: pulau.bentuk_pulau,
+    total_kuliner: pulau.menu[0].total,
+    preview_menu: pulau.menu[0].data.slice(0,2)
+}));
+
+export function getIsland(jumlah =  8){
+    const randomIsland = [...ALL_ISLAND].sort(() => 0.5 - Math.random());
+    return randomIsland.slice(0,jumlah)
+}
+
+export default  getImagePopularMenu;

@@ -1,29 +1,28 @@
 'use client'
 import { useState, useEffect } from "react";
-import { getPopularMenu } from "@/app/components/popularMenu";
+import { getPopularMenu, getImagePopularMenu } from "@/app/components/popularMenu";
 import { FaMagnifyingGlass } from "react-icons/fa6";
-import CircularCarousel from '@/app/components/CircularCarousel';
-import DATA_PULAU from "@/app/components/data";
+import DriftWall from "@/app/components/DriftWall";
 
 
 export default function Homepage(){
     // popular menu
     const[popularMenu, setPopularMenu] = useState([]);
+    const [imagePopularMenu, setImagePopularMenu] = useState([])
 
     useEffect(() => {
         setPopularMenu(getPopularMenu(4))
     }, [])
 
-    const CAROUSEL_ITEMS = DATA_PULAU.map((pulau) => {
-        const menu = pulau.menu[0].data.find((m) => Boolean(m.image));
+    useEffect(() => {
+        setImagePopularMenu(getImagePopularMenu(15))
+    },[])
 
-        return{
-            src: menu.image,
-            alt: menu.name,
-            title:menu.name,
-            subtitle:pulau.nama
-        }
-    })
+    const IMAGES_ITEMS = imagePopularMenu.map((makanan) => ({
+        image: makanan.image,
+        title: makanan.name,
+        href: makanan.name   
+    }))
 
 
     return(
@@ -81,33 +80,29 @@ export default function Homepage(){
                                 </div>
                         </div>
                     </li>
-                    <li className="flex w-1/2 h-screen ">
-                    <CircularCarousel
-                        items={CAROUSEL_ITEMS}
-                        preset="cylinder"
-                        intro="rise"
-                        cardWidth={220}
-                        aspectRatio={1}
-                        speed={14}
-                        captions={false}
-                        gap={25}
-                        tilt={-5}
-                        curve={1}
-                        perspective={2500}
-                        autoplay="drift"
-                        interval={3}
-                        direction="left"
-                        momentum={0.6}
-                        snap
-                        pauseOnHover
-                        focusOnClick
-                        draggable
-                        parallax={0.3}
-                        stretch={0.5}
-                        fadeColor="#000000"
-                        depthFade={0.55}
-                        innerShade={0.6}
-                        cornerRadius={12}
+                    <li className="flex w-1/2 h-screen relative justify-end target">
+                     <DriftWall
+                        items={IMAGES_ITEMS.length > 0? IMAGES_ITEMS : undefined}
+                        columns={5}
+                        tileWidth={150}
+                        tileHeight={100}
+                        gap={18}
+                        tilt={16}
+                        turn={-14}
+                        perspective={1200}
+                        depth={120}
+                        speed={42}
+                        direction="up"
+                        variance={0.45}
+                        parallax={0.6}
+                        lift={64}
+                        fade={0.6}
+                        dim={0.55}
+                        overlayColor="#060010"
+                        radius={14}
+                        roll={0}
+                        pauseOnHover={false}
+                        grayscale={false}
                     />
                     </li>
                 </ul>

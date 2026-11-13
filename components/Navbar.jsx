@@ -7,7 +7,7 @@ import { FaMagnifyingGlass ,FaBars, FaX} from "react-icons/fa6";
 export default function Navbar() {
     const [ isOpen, setIsOpen ] = useState(false)
     return(
-        <div className="fixed w-full h-[72px] bg-[#e3a008] font-[Montserrat] font-semibold text-black">
+        <div className="fixed w-full h-[72px] bg-[#e3a008] font-[Montserrat] font-semibold text-black z-10">
             <div className="flex items-center h-full justify-around">
                     <h1>
                         Nama Website

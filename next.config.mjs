@@ -1,5 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images:{
+    remotePatterns: [
+      {
+        protocol:'https',
+        hostname: 'commons.wikimedia.org',
+        pathname:'/**'
+      },
+    ],
+  },
   /* config options here */
   experimental: {
     agentFeedback: true,

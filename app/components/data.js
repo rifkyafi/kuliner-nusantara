@@ -1,10 +1,12 @@
-// Gambar menu di-hotlink dari Wikimedia Commons (lisensi bebas, https://commons.wikimedia.org)
+// Gambar menu dan bentuk pulau di-hotlink dari Wikimedia Commons (lisensi bebas, https://commons.wikimedia.org)
+// Peta bentuk pulau: seri "Locator Topography" dari data SRTM (PD); Sulawesi berlisensi CC BY-SA
 const DATA_PULAU = [
     {
-        id: 1,
-        nama: "Sumatera",
-        ibukota: "Medan",
-        provinsi: [
+        "id": 1,
+        "nama": "Sumatera",
+        "ibukota": "Medan",
+        "bentuk_pulau": "https://commons.wikimedia.org/wiki/Special:FilePath/Sumatra%20Locator%20Topography.png?width=400",
+        "provinsi": [
             "Aceh",
             "Sumatera Utara",
             "Sumatera Barat",
@@ -16,100 +18,1802 @@ const DATA_PULAU = [
             "Bengkulu",
             "Lampung"
         ],
-        deskripsi: "Pulau terbesar keenam di dunia, kaya akan budaya Melayu, Batak, Minangkabau, dan Aceh.",
-        menu: [
+        "deskripsi": "Pulau terbesar keenam di dunia, kaya akan budaya Melayu, Batak, Minangkabau, dan Aceh.",
+        "menu": [
             {
-            "total": 5,
-            "data": [
-                {
-                "id": "sm-001",
-                "name": "Rendang",
-                "origin": "Padang",
-                "category": "Main Dish",
-                "description_eng": "Beef slow-simmered for hours in coconut milk and a rich spice paste until the sauce caramelizes and the meat turns tender and intensely flavorful, a Minangkabau culinary heritage.",
-                "description_ind": "Daging sapi yang dimasak berjam-jam dalam santan dan bumbu rempah pekat hingga kuah mengering dan daging menjadi empuk beraroma rempah, warisan kuliner Minangkabau dari Padang.",
-                "ingredients_eng": ["Beef","Coconut Milk","Toasted Coconut","Galangal","Chili","Spices"],
-                "ingredients_ind": ["Daging Sapi","Santan","Kelapa Sangrai","Lengkuas","Cabai","Rempah"],
-                "flavor_profile": ["Savory", "Rich", "Spicy"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["rendang","rendang padang","masakan padang","sumatera barat","daging sapi"],
-                "search_keywords_eng": ["rendang","beef rendang","padang food","west sumatera","slow cooked beef"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beef%20Rendang..JPG?width=800"
-                },
-                {
-                "id": "sm-002",
-                "name": "Sate Padang",
-                "origin": "Padang",
-                "category": "Main Dish",
-                "description_eng": "Beef satay from Padang served in a thick yellowish-brown gravy made from rice flour, turmeric, and rich offal broth, topped with crispy crackers.",
-                "description_ind": "Sate daging sapi khas Padang berkuah kental kuning kecokelatan dari tepung beras, kunyit, dan kaldu jeroan, disajikan hangat dengan taburan kerupuk renyah.",
-                "ingredients_eng": ["Beef","Offal","Rice Flour","Turmeric","Shallots","Chili"],
-                "ingredients_ind": ["Daging Sapi","Jeroan","Tepung Beras","Kunyit","Bawang Merah","Cabai"],
-                "flavor_profile": ["Savory", "Rich", "Umami"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["sate padang","sate","padang","kuah kental","sumatera barat"],
-                "search_keywords_eng": ["sate padang","padang satay","beef satay","thick gravy satay","west sumatera"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20padang.jpg?width=800"
-                },
-                {
-                "id": "sm-003",
-                "name": "Pempek",
-                "origin": "Palembang",
-                "category": "Snack",
-                "description_eng": "Palembang fishcake made from ground Spanish mackerel and sago flour, boiled and served with cuko, a hot, sour, and sweet vinegar-based sauce.",
-                "description_ind": "Makanan khas Palembang dari adonan ikan tenggiri giling dan tepung sagu yang direbus, disajikan dengan cuko, kuah cuka pedas manis yang menyegarkan.",
-                "ingredients_eng": ["Spanish Mackerel","Sago Flour","Garlic","Vinegar","Chili","Sugar"],
-                "ingredients_ind": ["Ikan Tenggiri","Tepung Sagu","Bawang Putih","Cuka","Cabai","Gula"],
-                "flavor_profile": ["Savory", "Sour", "Spicy"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["pempek","pempek palembang","cuko","sumatera selatan","ikan"],
-                "search_keywords_eng": ["pempek","fishcake","palembang","south sumatera","cuko sauce"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pempek%20Palembang.jpg?width=800"
-                },
-                {
-                "id": "sm-004",
-                "name": "Bika Ambon",
-                "origin": "Medan",
-                "category": "Dessert",
-                "description_eng": "A spongy honeycomb-textured cake scented with pandan and coconut from Medan, baked from tapioca flour, eggs, sugar, and coconut milk.",
-                "description_ind": "Kue berongga bertekstur kenyal beraroma pandan dan kelapa khas Medan, dibuat dari tepung tapioka, telur, gula, dan santan, dipanggang hingga berlubang-lubang.",
-                "ingredients_eng": ["Tapioca Flour","Egg","Sugar","Coconut Milk","Pandan Leaf"],
-                "ingredients_ind": ["Tepung Tapioka","Telur","Gula","Santan","Daun Pandan"],
-                "flavor_profile": ["Sweet", "Fragrant", "Chewy"],
-                "is_halal": true,
-                "is_vegetarian": true,
-                "search_keywords_ind": ["bika ambon","kue medan","oleh-oleh medan","sumatera utara","kue pandan"],
-                "search_keywords_eng": ["bika ambon","medan cake","honeycomb cake","north sumatera","pandan cake"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20bika%20ambon.JPG?width=800"
-                },
-                {
-                "id": "sm-005",
-                "name": "Mie Aceh",
-                "origin": "Aceh",
-                "category": "Main Dish",
-                "description_eng": "Thick yellow noodles from Aceh, stir-fried or served in a spiced curry gravy with beef or seafood, bean sprouts, and fiery chili.",
-                "description_ind": "Mie kuning tebal khas Aceh yang ditumis atau disajikan berkuah kari rempah dengan daging sapi atau seafood, tauge, dan cabai yang pedas menggigit.",
-                "ingredients_eng": ["Yellow Noodles","Beef","Seafood","Bean Sprouts","Chili","Curry Spices"],
-                "ingredients_ind": ["Mie Kuning","Daging Sapi","Seafood","Tauge","Cabai","Rempah Kari"],
-                "flavor_profile": ["Spicy", "Savory", "Rich"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["mie aceh","mi aceh","aceh","kari mie","goreng mie"],
-                "search_keywords_eng": ["mie aceh","aceh noodles","curry noodles","spicy fried noodles","acehnese cuisine"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20Aceh.jpg?width=800"
-                }
-            ]
+                "total": 50,
+                "data": [
+                    {
+                        "id": "sm-001",
+                        "name": "Rendang",
+                        "origin": "Padang",
+                        "category": "Main Dish",
+                        "description_eng": "Beef slow-simmered for hours in coconut milk and a rich spice paste until the sauce caramelizes and the meat turns tender and intensely flavorful, a Minangkabau culinary heritage.",
+                        "description_ind": "Daging sapi yang dimasak berjam-jam dalam santan dan bumbu rempah pekat hingga kuah mengering dan daging menjadi empuk beraroma rempah, warisan kuliner Minangkabau dari Padang.",
+                        "ingredients_eng": [
+                            "Beef",
+                            "Coconut Milk",
+                            "Toasted Coconut",
+                            "Galangal",
+                            "Chili",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Daging Sapi",
+                            "Santan",
+                            "Kelapa Sangrai",
+                            "Lengkuas",
+                            "Cabai",
+                            "Rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Rich",
+                            "Spicy"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "rendang",
+                            "rendang padang",
+                            "masakan padang",
+                            "sumatera barat",
+                            "daging sapi"
+                        ],
+                        "search_keywords_eng": [
+                            "rendang",
+                            "beef rendang",
+                            "padang food",
+                            "west sumatera",
+                            "slow cooked beef"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beef%20Rendang..JPG?width=800"
+                    },
+                    {
+                        "id": "sm-002",
+                        "name": "Sate Padang",
+                        "origin": "Padang",
+                        "category": "Main Dish",
+                        "description_eng": "Beef satay from Padang served in a thick yellowish-brown gravy made from rice flour, turmeric, and rich offal broth, topped with crispy crackers.",
+                        "description_ind": "Sate daging sapi khas Padang berkuah kental kuning kecokelatan dari tepung beras, kunyit, dan kaldu jeroan, disajikan hangat dengan taburan kerupuk renyah.",
+                        "ingredients_eng": [
+                            "Beef",
+                            "Offal",
+                            "Rice Flour",
+                            "Turmeric",
+                            "Shallots",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Daging Sapi",
+                            "Jeroan",
+                            "Tepung Beras",
+                            "Kunyit",
+                            "Bawang Merah",
+                            "Cabai"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Rich",
+                            "Umami"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate padang",
+                            "sate",
+                            "padang",
+                            "kuah kental",
+                            "sumatera barat"
+                        ],
+                        "search_keywords_eng": [
+                            "sate padang",
+                            "padang satay",
+                            "beef satay",
+                            "thick gravy satay",
+                            "west sumatera"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20padang.jpg?width=800"
+                    },
+                    {
+                        "id": "sm-003",
+                        "name": "Pempek",
+                        "origin": "Palembang",
+                        "category": "Snack",
+                        "description_eng": "Palembang fishcake made from ground Spanish mackerel and sago flour, boiled and served with cuko, a hot, sour, and sweet vinegar-based sauce.",
+                        "description_ind": "Makanan khas Palembang dari adonan ikan tenggiri giling dan tepung sagu yang direbus, disajikan dengan cuko, kuah cuka pedas manis yang menyegarkan.",
+                        "ingredients_eng": [
+                            "Spanish Mackerel",
+                            "Sago Flour",
+                            "Garlic",
+                            "Vinegar",
+                            "Chili",
+                            "Sugar"
+                        ],
+                        "ingredients_ind": [
+                            "Ikan Tenggiri",
+                            "Tepung Sagu",
+                            "Bawang Putih",
+                            "Cuka",
+                            "Cabai",
+                            "Gula"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Sour",
+                            "Spicy"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "pempek",
+                            "pempek palembang",
+                            "cuko",
+                            "sumatera selatan",
+                            "ikan"
+                        ],
+                        "search_keywords_eng": [
+                            "pempek",
+                            "fishcake",
+                            "palembang",
+                            "south sumatera",
+                            "cuko sauce"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pempek%20Palembang.jpg?width=800"
+                    },
+                    {
+                        "id": "sm-004",
+                        "name": "Bika Ambon",
+                        "origin": "Medan",
+                        "category": "Dessert",
+                        "description_eng": "A spongy honeycomb-textured cake scented with pandan and coconut from Medan, baked from tapioca flour, eggs, sugar, and coconut milk.",
+                        "description_ind": "Kue berongga bertekstur kenyal beraroma pandan dan kelapa khas Medan, dibuat dari tepung tapioka, telur, gula, dan santan, dipanggang hingga berlubang-lubang.",
+                        "ingredients_eng": [
+                            "Tapioca Flour",
+                            "Egg",
+                            "Sugar",
+                            "Coconut Milk",
+                            "Pandan Leaf"
+                        ],
+                        "ingredients_ind": [
+                            "Tepung Tapioka",
+                            "Telur",
+                            "Gula",
+                            "Santan",
+                            "Daun Pandan"
+                        ],
+                        "flavor_profile": [
+                            "Sweet",
+                            "Fragrant",
+                            "Chewy"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "bika ambon",
+                            "kue medan",
+                            "oleh-oleh medan",
+                            "sumatera utara",
+                            "kue pandan"
+                        ],
+                        "search_keywords_eng": [
+                            "bika ambon",
+                            "medan cake",
+                            "honeycomb cake",
+                            "north sumatera",
+                            "pandan cake"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20bika%20ambon.JPG?width=800"
+                    },
+                    {
+                        "id": "sm-005",
+                        "name": "Mie Aceh",
+                        "origin": "Aceh",
+                        "category": "Main Dish",
+                        "description_eng": "Thick yellow noodles from Aceh, stir-fried or served in a spiced curry gravy with beef or seafood, bean sprouts, and fiery chili.",
+                        "description_ind": "Mie kuning tebal khas Aceh yang ditumis atau disajikan berkuah kari rempah dengan daging sapi atau seafood, tauge, dan cabai yang pedas menggigit.",
+                        "ingredients_eng": [
+                            "Yellow Noodles",
+                            "Beef",
+                            "Seafood",
+                            "Bean Sprouts",
+                            "Chili",
+                            "Curry Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Mie Kuning",
+                            "Daging Sapi",
+                            "Seafood",
+                            "Tauge",
+                            "Cabai",
+                            "Rempah Kari"
+                        ],
+                        "flavor_profile": [
+                            "Spicy",
+                            "Savory",
+                            "Rich"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie aceh",
+                            "mi aceh",
+                            "aceh",
+                            "kari mie",
+                            "goreng mie"
+                        ],
+                        "search_keywords_eng": [
+                            "mie aceh",
+                            "aceh noodles",
+                            "curry noodles",
+                            "spicy fried noodles",
+                            "acehnese cuisine"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20Aceh.jpg?width=800"
+                    },
+                    {
+                        "id": "sm-006",
+                        "name": "Dendeng Balado",
+                        "origin": "Padang",
+                        "category": "Main Dish",
+                        "description_eng": "Spicy crisp beef with red chili",
+                        "description_ind": "Varian Dendeng Balado otentik dari Padang.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "dendeng balado",
+                            "padang",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "dendeng balado",
+                            "traditional",
+                            "padang"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-007",
+                        "name": "Ayam Pop",
+                        "origin": "Bukittinggi",
+                        "category": "Main Dish",
+                        "description_eng": "Pale fried chicken with tangy sambal",
+                        "description_ind": "Varian Ayam Pop otentik dari Bukittinggi.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam pop",
+                            "bukittinggi",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam pop",
+                            "traditional",
+                            "bukittinggi"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-008",
+                        "name": "Soto Padang",
+                        "origin": "Padang",
+                        "category": "Main Dish",
+                        "description_eng": "Crispy beef soto",
+                        "description_ind": "Varian Soto Padang otentik dari Padang.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto padang",
+                            "padang",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "soto padang",
+                            "traditional",
+                            "padang"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-009",
+                        "name": "Mie Celor",
+                        "origin": "Palembang",
+                        "category": "Main Dish",
+                        "description_eng": "Noodles in thick shrimp broth",
+                        "description_ind": "Varian Mie Celor otentik dari Palembang.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie celor",
+                            "palembang",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "mie celor",
+                            "traditional",
+                            "palembang"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-010",
+                        "name": "Lempah Kuning",
+                        "origin": "Bangka",
+                        "category": "Main Dish",
+                        "description_eng": "Yellow fish soup with pineapple",
+                        "description_ind": "Varian Lempah Kuning otentik dari Bangka.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "lempah kuning",
+                            "bangka",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "lempah kuning",
+                            "traditional",
+                            "bangka"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-011",
+                        "name": "Ayam Tangkap",
+                        "origin": "Aceh",
+                        "category": "Main Dish",
+                        "description_eng": "Fried chicken with aromatic curry leaves",
+                        "description_ind": "Varian Ayam Tangkap otentik dari Aceh.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam tangkap",
+                            "aceh",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam tangkap",
+                            "traditional",
+                            "aceh"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-012",
+                        "name": "Gulai Tunjang",
+                        "origin": "Padang",
+                        "category": "Main Dish",
+                        "description_eng": "Beef tendon curry",
+                        "description_ind": "Varian Gulai Tunjang otentik dari Padang.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "gulai tunjang",
+                            "padang",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "gulai tunjang",
+                            "traditional",
+                            "padang"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-013",
+                        "name": "Sate Padang Pariaman",
+                        "origin": "Pariaman",
+                        "category": "Main Dish",
+                        "description_eng": "Beef satay with red spicy gravy",
+                        "description_ind": "Varian Sate Padang Pariaman otentik dari Pariaman.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate padang pariaman",
+                            "pariaman",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "sate padang pariaman",
+                            "traditional",
+                            "pariaman"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-014",
+                        "name": "Babi Panggang Karo",
+                        "origin": "Karo",
+                        "category": "Main Dish",
+                        "description_eng": "Roasted pork belly with blood sauce (Non-halal)",
+                        "description_ind": "Varian Babi Panggang Karo otentik dari Karo.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": false,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "babi panggang karo",
+                            "karo",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "babi panggang karo",
+                            "traditional",
+                            "karo"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-015",
+                        "name": "Tekwan",
+                        "origin": "Palembang",
+                        "category": "Snack",
+                        "description_eng": "Fish soup with yam bean and mushrooms",
+                        "description_ind": "Varian Tekwan otentik dari Palembang.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tekwan",
+                            "palembang",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "tekwan",
+                            "traditional",
+                            "palembang"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-016",
+                        "name": "Es Campur Lampung",
+                        "origin": "Lampung",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Lampung.",
+                        "description_ind": "Hidangan Es Campur Lampung tradisional khas Lampung yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "lampung",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "lampung"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-017",
+                        "name": "Kopi Khas Bengkulu",
+                        "origin": "Bengkulu",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Bengkulu.",
+                        "description_ind": "Hidangan Kopi Khas Bengkulu tradisional khas Bengkulu yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "bengkulu",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "bengkulu"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-018",
+                        "name": "Kerupuk Riau",
+                        "origin": "Riau",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Riau.",
+                        "description_ind": "Hidangan Kerupuk Riau tradisional khas Riau yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "riau",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "riau"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-019",
+                        "name": "Soto Sumatera Barat",
+                        "origin": "Sumatera Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Sumatera Barat.",
+                        "description_ind": "Hidangan Soto Sumatera Barat tradisional khas Sumatera Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "sumatera barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "sumatera barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-020",
+                        "name": "Kue Basah Aceh",
+                        "origin": "Aceh",
+                        "category": "Snack",
+                        "description_eng": "Traditional sweet snack from Aceh.",
+                        "description_ind": "Hidangan Kue Basah Aceh tradisional khas Aceh yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Flour",
+                            "Coconut",
+                            "Sugar",
+                            "Pandan"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue basah",
+                            "aceh",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kue basah",
+                            "food",
+                            "aceh"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-021",
+                        "name": "Sambal Sumatera Utara",
+                        "origin": "Sumatera Utara",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Sumatera Utara.",
+                        "description_ind": "Hidangan Sambal Sumatera Utara tradisional khas Sumatera Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "sumatera utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "sumatera utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-022",
+                        "name": "Ikan Bakar Kepulauan Bangka Belitung",
+                        "origin": "Kepulauan Bangka Belitung",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Kepulauan Bangka Belitung signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Kepulauan Bangka Belitung tradisional khas Kepulauan Bangka Belitung yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "kepulauan bangka belitung",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "kepulauan bangka belitung"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-023",
+                        "name": "Sate Jambi",
+                        "origin": "Jambi",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Jambi marinade.",
+                        "description_ind": "Hidangan Sate Jambi tradisional khas Jambi yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "jambi",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "jambi"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-024",
+                        "name": "Kerupuk Kepulauan Riau",
+                        "origin": "Kepulauan Riau",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Kepulauan Riau.",
+                        "description_ind": "Hidangan Kerupuk Kepulauan Riau tradisional khas Kepulauan Riau yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "kepulauan riau",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "kepulauan riau"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-025",
+                        "name": "Mie Kuah Kepulauan Bangka Belitung",
+                        "origin": "Kepulauan Bangka Belitung",
+                        "category": "Main Dish",
+                        "description_eng": "Warm noodle soup native to Kepulauan Bangka Belitung.",
+                        "description_ind": "Hidangan Mie Kuah Kepulauan Bangka Belitung tradisional khas Kepulauan Bangka Belitung yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Noodles",
+                            "Broth",
+                            "Vegetables",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie kuah",
+                            "kepulauan bangka belitung",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "mie kuah",
+                            "food",
+                            "kepulauan bangka belitung"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-026",
+                        "name": "Kerupuk Sumatera Barat",
+                        "origin": "Sumatera Barat",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Sumatera Barat.",
+                        "description_ind": "Hidangan Kerupuk Sumatera Barat tradisional khas Sumatera Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "sumatera barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "sumatera barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-027",
+                        "name": "Mie Kuah Sumatera Selatan",
+                        "origin": "Sumatera Selatan",
+                        "category": "Main Dish",
+                        "description_eng": "Warm noodle soup native to Sumatera Selatan.",
+                        "description_ind": "Hidangan Mie Kuah Sumatera Selatan tradisional khas Sumatera Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Noodles",
+                            "Broth",
+                            "Vegetables",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie kuah",
+                            "sumatera selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "mie kuah",
+                            "food",
+                            "sumatera selatan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-028",
+                        "name": "Tumis Sayur Bengkulu",
+                        "origin": "Bengkulu",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Bengkulu.",
+                        "description_ind": "Hidangan Tumis Sayur Bengkulu tradisional khas Bengkulu yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "bengkulu",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "bengkulu"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-029",
+                        "name": "Ikan Bakar Aceh",
+                        "origin": "Aceh",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Aceh signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Aceh tradisional khas Aceh yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "aceh",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "aceh"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-030",
+                        "name": "Sambal Kepulauan Bangka Belitung",
+                        "origin": "Kepulauan Bangka Belitung",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Kepulauan Bangka Belitung.",
+                        "description_ind": "Hidangan Sambal Kepulauan Bangka Belitung tradisional khas Kepulauan Bangka Belitung yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "kepulauan bangka belitung",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "kepulauan bangka belitung"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-031",
+                        "name": "Tumis Sayur Bengkulu",
+                        "origin": "Bengkulu",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Bengkulu.",
+                        "description_ind": "Hidangan Tumis Sayur Bengkulu tradisional khas Bengkulu yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "bengkulu",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "bengkulu"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-032",
+                        "name": "Kerupuk Jambi",
+                        "origin": "Jambi",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Jambi.",
+                        "description_ind": "Hidangan Kerupuk Jambi tradisional khas Jambi yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "jambi",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "jambi"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-033",
+                        "name": "Kerupuk Aceh",
+                        "origin": "Aceh",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Aceh.",
+                        "description_ind": "Hidangan Kerupuk Aceh tradisional khas Aceh yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "aceh",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "aceh"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-034",
+                        "name": "Sate Kepulauan Bangka Belitung",
+                        "origin": "Kepulauan Bangka Belitung",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Kepulauan Bangka Belitung marinade.",
+                        "description_ind": "Hidangan Sate Kepulauan Bangka Belitung tradisional khas Kepulauan Bangka Belitung yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "kepulauan bangka belitung",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "kepulauan bangka belitung"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-035",
+                        "name": "Ikan Bakar Aceh",
+                        "origin": "Aceh",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Aceh signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Aceh tradisional khas Aceh yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "aceh",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "aceh"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-036",
+                        "name": "Es Campur Sumatera Utara",
+                        "origin": "Sumatera Utara",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Sumatera Utara.",
+                        "description_ind": "Hidangan Es Campur Sumatera Utara tradisional khas Sumatera Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "sumatera utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "sumatera utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-037",
+                        "name": "Kerupuk Kepulauan Riau",
+                        "origin": "Kepulauan Riau",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Kepulauan Riau.",
+                        "description_ind": "Hidangan Kerupuk Kepulauan Riau tradisional khas Kepulauan Riau yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "kepulauan riau",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "kepulauan riau"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-038",
+                        "name": "Sambal Aceh",
+                        "origin": "Aceh",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Aceh.",
+                        "description_ind": "Hidangan Sambal Aceh tradisional khas Aceh yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "aceh",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "aceh"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-039",
+                        "name": "Sate Aceh",
+                        "origin": "Aceh",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Aceh marinade.",
+                        "description_ind": "Hidangan Sate Aceh tradisional khas Aceh yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "aceh",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "aceh"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-040",
+                        "name": "Tumis Sayur Lampung",
+                        "origin": "Lampung",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Lampung.",
+                        "description_ind": "Hidangan Tumis Sayur Lampung tradisional khas Lampung yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "lampung",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "lampung"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-041",
+                        "name": "Nasi Goreng Jambi",
+                        "origin": "Jambi",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to Jambi.",
+                        "description_ind": "Hidangan Nasi Goreng Jambi tradisional khas Jambi yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "jambi",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "jambi"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-042",
+                        "name": "Tumis Sayur Bengkulu",
+                        "origin": "Bengkulu",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Bengkulu.",
+                        "description_ind": "Hidangan Tumis Sayur Bengkulu tradisional khas Bengkulu yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "bengkulu",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "bengkulu"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-043",
+                        "name": "Nasi Goreng Sumatera Utara",
+                        "origin": "Sumatera Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to Sumatera Utara.",
+                        "description_ind": "Hidangan Nasi Goreng Sumatera Utara tradisional khas Sumatera Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "sumatera utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "sumatera utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-044",
+                        "name": "Bubur Ayam Lampung",
+                        "origin": "Lampung",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Lampung.",
+                        "description_ind": "Hidangan Bubur Ayam Lampung tradisional khas Lampung yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "lampung",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "lampung"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-045",
+                        "name": "Kopi Khas Jambi",
+                        "origin": "Jambi",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Jambi.",
+                        "description_ind": "Hidangan Kopi Khas Jambi tradisional khas Jambi yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "jambi",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "jambi"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-046",
+                        "name": "Es Campur Aceh",
+                        "origin": "Aceh",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Aceh.",
+                        "description_ind": "Hidangan Es Campur Aceh tradisional khas Aceh yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "aceh",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "aceh"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-047",
+                        "name": "Sate Kepulauan Riau",
+                        "origin": "Kepulauan Riau",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Kepulauan Riau marinade.",
+                        "description_ind": "Hidangan Sate Kepulauan Riau tradisional khas Kepulauan Riau yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "kepulauan riau",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "kepulauan riau"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-048",
+                        "name": "Kerupuk Aceh",
+                        "origin": "Aceh",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Aceh.",
+                        "description_ind": "Hidangan Kerupuk Aceh tradisional khas Aceh yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "aceh",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "aceh"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-049",
+                        "name": "Kerupuk Sumatera Barat",
+                        "origin": "Sumatera Barat",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Sumatera Barat.",
+                        "description_ind": "Hidangan Kerupuk Sumatera Barat tradisional khas Sumatera Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "sumatera barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "sumatera barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sm-050",
+                        "name": "Kerupuk Aceh",
+                        "origin": "Aceh",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Aceh.",
+                        "description_ind": "Hidangan Kerupuk Aceh tradisional khas Aceh yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "aceh",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "aceh"
+                        ],
+                        "image": null
+                    }
+                ]
             }
         ]
     },
     {
-        id: 2,
-        nama: "Jawa",
-        ibukota: "Jakarta",
-        provinsi: [
+        "id": 2,
+        "nama": "Jawa",
+        "ibukota": "Jakarta",
+        "bentuk_pulau": "https://commons.wikimedia.org/wiki/Special:FilePath/Java%20Locator%20Topography.png?width=400",
+        "provinsi": [
             "DKI Jakarta",
             "Banten",
             "Jawa Barat",
@@ -117,205 +1821,3598 @@ const DATA_PULAU = [
             "DI Yogyakarta",
             "Jawa Timur"
         ],
-        deskripsi: "Pulau terpadat di Indonesia, pusat pemerintahan dan kebudayaan nasional.",
-        menu: [
+        "deskripsi": "Pulau terpadat di Indonesia, pusat pemerintahan dan kebudayaan nasional.",
+        "menu": [
             {
-            "total": 5,
-            "data": [
-                {
-                "id": "jw-001",
-                "name": "Lumpia Semarang",
-                "origin": "Semarang",
-                "category": "Snack",
-                "description_eng": "Crispy or soft spring rolls filled with sautéed bamboo shoots, minced chicken or prawns, and eggs.",
-                "description_ind": "Lumpia khas Semarang berisi rebung tumis gurih, daging ayam atau udang cincang, dan telur, disajikan basah atau goreng renyah.",
-                "ingredients_eng": ["Bamboo Shoots","Chicken","Shrimp","Egg","Pastry Wrapper"],
-                "ingredients_ind": ["Rebung","Daging Ayam","Udang","Telur","Kulit Lumpia"],
-                "flavor_profile": ["Sweet", "Savory"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["lumpia semarang","lumpia","rebung","semarang","gorengan"],
-                "search_keywords_eng": ["spring roll","bamboo shoots","semarang","lumpia","snack"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lumpia%20Semarang.jpg?width=800"
-                },
-                {
-                "id": "jw-002",
-                "name": "Nasi Liwet Solo",
-                "origin": "Surakarta",
-                "category": "Main Dish",
-                "description_eng": "Fragrant coconut rice served with shredded spiced chicken, chayote stew, boiled egg, and thick coconut cream sauce.",
-                "description_ind": "Nasi gurih beraroma kelapa khas Solo yang disajikan bersama suwiran ayam opor, sayur labu siam pedas, telur pindang, dan siraman areh kental.",
-                "ingredients_eng": ["Rice","Coconut Milk","Chicken","Chayote","Egg","Spices"],
-                "ingredients_ind": ["Beras","Santan","Daging Ayam","Labu Siam","Telur","Rempah"],
-                "flavor_profile": ["Savory", "Rich", "Umami"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["nasi liwet solo","nasi liwet","solo","surakarta","sayur labu siam"],
-                "search_keywords_eng": ["rice","coconut rice","solo","surakarta","nasi liwet"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20Liwet%20Solo.jpg?width=800"
-                },
-                {
-                "id": "jw-003",
-                "name": "Gudeg",
-                "origin": "Yogyakarta",
-                "category": "Main Dish",
-                "description_eng": "Traditional Yogyakarta dish of young jackfruit slow-cooked in palm sugar and coconut milk, served with chicken, egg, and spicy krecek.",
-                "description_ind": "Olahan nangka muda khas Yogyakarta yang dimasak perlahan dengan gula kelapa dan santan, disajikan bersama ayam kampung, telur, dan sambal goreng krecek gurih pedas.",
-                "ingredients_eng": ["Young Jackfruit","Palm Sugar","Coconut Milk","Chicken","Egg","Cattle Skin (Krecek)"],
-                "ingredients_ind": ["Nangka Muda","Gula Merah","Santan","Ayam","Telur","Krecek"],
-                "flavor_profile": ["Sweet", "Savory", "Rich"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["gudeg","gudeg jogja","nangka muda","yogyakarta","jogja"],
-                "search_keywords_eng": ["gudeg","jackfruit","yogyakarta","jogja","traditional stew"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gudeg%20Ayam.jpg?width=800"
-                },
-                {
-                "id": "jw-004",
-                "name": "Rawon",
-                "origin": "Surabaya",
-                "category": "Main Dish",
-                "description_eng": "East Javanese rich aromatic beef soup with a deep black broth made from keluak nuts, served with bean sprouts, salted egg, and sambal.",
-                "description_ind": "Sup daging sapi khas Jawa Timur berkuah hitam pekat aromatik dari biji keluak, disajikan bersama tauge pendek segar, telur asin, dan sambal terasi.",
-                "ingredients_eng": ["Beef","Keluak Nut","Lemongrass","Bean Sprouts","Salted Egg","Shallot"],
-                "ingredients_ind": ["Daging Sapi","Keluak","Serai","Tauge Pendek","Telur Asin","Bawang Merah"],
-                "flavor_profile": ["Savory", "Earthy", "Rich"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["rawon","rawon surabaya","sup hitam","daging sapi","keluak"],
-                "search_keywords_eng": ["rawon","black soup","beef soup","surabaya","east java"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rawon%20Setan.jpg?width=800"
-                },
-                {
-                "id": "jw-005",
-                "name": "Soto Lamongan",
-                "origin": "Lamongan",
-                "category": "Main Dish",
-                "description_eng": "Turmeric-yellow chicken soup packed with shredded chicken, glass noodles, boiled egg, and a signature savory koya powder made from garlic and prawn crackers.",
-                "description_ind": "Soto ayam berkuah kuning kunyit khas Lamongan dengan suwiran ayam, soun, telur rebus, dan taburan bubuk koya gurih dari kerupuk udang dan bawang putih goreng.",
-                "ingredients_eng": ["Chicken","Glass Noodles","Egg","Turmeric","Garlic","Koya Powder"],
-                "ingredients_ind": ["Daging Ayam","Soun","Telur Rebus","Kunyit","Bawang Putih","Bubuk Koya"],
-                "flavor_profile": ["Savory", "Aromatic", "Light"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["soto lamongan","soto ayam","koya","lamongan","jawa timur"],
-                "search_keywords_eng": ["soto lamongan","chicken soup","koya","lamongan","yellow soup"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20Lamongan.jpg?width=800"
-                }
-            ]
+                "total": 50,
+                "data": [
+                    {
+                        "id": "jw-001",
+                        "name": "Lumpia Semarang",
+                        "origin": "Semarang",
+                        "category": "Snack",
+                        "description_eng": "Crispy or soft spring rolls filled with sautéed bamboo shoots, minced chicken or prawns, and eggs.",
+                        "description_ind": "Lumpia khas Semarang berisi rebung tumis gurih, daging ayam atau udang cincang, dan telur, disajikan basah atau goreng renyah.",
+                        "ingredients_eng": [
+                            "Bamboo Shoots",
+                            "Chicken",
+                            "Shrimp",
+                            "Egg",
+                            "Pastry Wrapper"
+                        ],
+                        "ingredients_ind": [
+                            "Rebung",
+                            "Daging Ayam",
+                            "Udang",
+                            "Telur",
+                            "Kulit Lumpia"
+                        ],
+                        "flavor_profile": [
+                            "Sweet",
+                            "Savory"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "lumpia semarang",
+                            "lumpia",
+                            "rebung",
+                            "semarang",
+                            "gorengan"
+                        ],
+                        "search_keywords_eng": [
+                            "spring roll",
+                            "bamboo shoots",
+                            "semarang",
+                            "lumpia",
+                            "snack"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lumpia%20Semarang.jpg?width=800"
+                    },
+                    {
+                        "id": "jw-002",
+                        "name": "Nasi Liwet Solo",
+                        "origin": "Surakarta",
+                        "category": "Main Dish",
+                        "description_eng": "Fragrant coconut rice served with shredded spiced chicken, chayote stew, boiled egg, and thick coconut cream sauce.",
+                        "description_ind": "Nasi gurih beraroma kelapa khas Solo yang disajikan bersama suwiran ayam opor, sayur labu siam pedas, telur pindang, dan siraman areh kental.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Coconut Milk",
+                            "Chicken",
+                            "Chayote",
+                            "Egg",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Beras",
+                            "Santan",
+                            "Daging Ayam",
+                            "Labu Siam",
+                            "Telur",
+                            "Rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Rich",
+                            "Umami"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi liwet solo",
+                            "nasi liwet",
+                            "solo",
+                            "surakarta",
+                            "sayur labu siam"
+                        ],
+                        "search_keywords_eng": [
+                            "rice",
+                            "coconut rice",
+                            "solo",
+                            "surakarta",
+                            "nasi liwet"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20Liwet%20Solo.jpg?width=800"
+                    },
+                    {
+                        "id": "jw-003",
+                        "name": "Gudeg",
+                        "origin": "Yogyakarta",
+                        "category": "Main Dish",
+                        "description_eng": "Traditional Yogyakarta dish of young jackfruit slow-cooked in palm sugar and coconut milk, served with chicken, egg, and spicy krecek.",
+                        "description_ind": "Olahan nangka muda khas Yogyakarta yang dimasak perlahan dengan gula kelapa dan santan, disajikan bersama ayam kampung, telur, dan sambal goreng krecek gurih pedas.",
+                        "ingredients_eng": [
+                            "Young Jackfruit",
+                            "Palm Sugar",
+                            "Coconut Milk",
+                            "Chicken",
+                            "Egg",
+                            "Cattle Skin (Krecek)"
+                        ],
+                        "ingredients_ind": [
+                            "Nangka Muda",
+                            "Gula Merah",
+                            "Santan",
+                            "Ayam",
+                            "Telur",
+                            "Krecek"
+                        ],
+                        "flavor_profile": [
+                            "Sweet",
+                            "Savory",
+                            "Rich"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "gudeg",
+                            "gudeg jogja",
+                            "nangka muda",
+                            "yogyakarta",
+                            "jogja"
+                        ],
+                        "search_keywords_eng": [
+                            "gudeg",
+                            "jackfruit",
+                            "yogyakarta",
+                            "jogja",
+                            "traditional stew"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gudeg%20Ayam.jpg?width=800"
+                    },
+                    {
+                        "id": "jw-004",
+                        "name": "Rawon",
+                        "origin": "Surabaya",
+                        "category": "Main Dish",
+                        "description_eng": "East Javanese rich aromatic beef soup with a deep black broth made from keluak nuts, served with bean sprouts, salted egg, and sambal.",
+                        "description_ind": "Sup daging sapi khas Jawa Timur berkuah hitam pekat aromatik dari biji keluak, disajikan bersama tauge pendek segar, telur asin, dan sambal terasi.",
+                        "ingredients_eng": [
+                            "Beef",
+                            "Keluak Nut",
+                            "Lemongrass",
+                            "Bean Sprouts",
+                            "Salted Egg",
+                            "Shallot"
+                        ],
+                        "ingredients_ind": [
+                            "Daging Sapi",
+                            "Keluak",
+                            "Serai",
+                            "Tauge Pendek",
+                            "Telur Asin",
+                            "Bawang Merah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Earthy",
+                            "Rich"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "rawon",
+                            "rawon surabaya",
+                            "sup hitam",
+                            "daging sapi",
+                            "keluak"
+                        ],
+                        "search_keywords_eng": [
+                            "rawon",
+                            "black soup",
+                            "beef soup",
+                            "surabaya",
+                            "east java"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rawon%20Setan.jpg?width=800"
+                    },
+                    {
+                        "id": "jw-005",
+                        "name": "Soto Lamongan",
+                        "origin": "Lamongan",
+                        "category": "Main Dish",
+                        "description_eng": "Turmeric-yellow chicken soup packed with shredded chicken, glass noodles, boiled egg, and a signature savory koya powder made from garlic and prawn crackers.",
+                        "description_ind": "Soto ayam berkuah kuning kunyit khas Lamongan dengan suwiran ayam, soun, telur rebus, dan taburan bubuk koya gurih dari kerupuk udang dan bawang putih goreng.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Glass Noodles",
+                            "Egg",
+                            "Turmeric",
+                            "Garlic",
+                            "Koya Powder"
+                        ],
+                        "ingredients_ind": [
+                            "Daging Ayam",
+                            "Soun",
+                            "Telur Rebus",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Bubuk Koya"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Aromatic",
+                            "Light"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto lamongan",
+                            "soto ayam",
+                            "koya",
+                            "lamongan",
+                            "jawa timur"
+                        ],
+                        "search_keywords_eng": [
+                            "soto lamongan",
+                            "chicken soup",
+                            "koya",
+                            "lamongan",
+                            "yellow soup"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20Lamongan.jpg?width=800"
+                    },
+                    {
+                        "id": "jw-006",
+                        "name": "Tahu Tek",
+                        "origin": "Surabaya",
+                        "category": "Main Dish",
+                        "description_eng": "Tofu and rice cake in petis sauce",
+                        "description_ind": "Varian Tahu Tek otentik dari Surabaya.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tahu tek",
+                            "surabaya",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "tahu tek",
+                            "traditional",
+                            "surabaya"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-007",
+                        "name": "Rujak Cingur",
+                        "origin": "Surabaya",
+                        "category": "Main Dish",
+                        "description_eng": "Beef snout salad with petis",
+                        "description_ind": "Varian Rujak Cingur otentik dari Surabaya.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "rujak cingur",
+                            "surabaya",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "rujak cingur",
+                            "traditional",
+                            "surabaya"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-008",
+                        "name": "Tongseng",
+                        "origin": "Solo",
+                        "category": "Main Dish",
+                        "description_eng": "Spicy mutton stew with cabbage",
+                        "description_ind": "Varian Tongseng otentik dari Solo.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tongseng",
+                            "solo",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "tongseng",
+                            "traditional",
+                            "solo"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-009",
+                        "name": "Sate Klatak",
+                        "origin": "Bantul",
+                        "category": "Main Dish",
+                        "description_eng": "Mutton satay grilled on iron spokes",
+                        "description_ind": "Varian Sate Klatak otentik dari Bantul.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate klatak",
+                            "bantul",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "sate klatak",
+                            "traditional",
+                            "bantul"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-010",
+                        "name": "Mangut Lele",
+                        "origin": "Yogyakarta",
+                        "category": "Main Dish",
+                        "description_eng": "Smoked catfish in coconut curry",
+                        "description_ind": "Varian Mangut Lele otentik dari Yogyakarta.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mangut lele",
+                            "yogyakarta",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "mangut lele",
+                            "traditional",
+                            "yogyakarta"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-011",
+                        "name": "Garang Asem",
+                        "origin": "Kudus",
+                        "category": "Main Dish",
+                        "description_eng": "Chicken cooked in banana leaf with starfruit",
+                        "description_ind": "Varian Garang Asem otentik dari Kudus.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "garang asem",
+                            "kudus",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "garang asem",
+                            "traditional",
+                            "kudus"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-012",
+                        "name": "Empal Gentong",
+                        "origin": "Cirebon",
+                        "category": "Main Dish",
+                        "description_eng": "Beef soup cooked in clay pot",
+                        "description_ind": "Varian Empal Gentong otentik dari Cirebon.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "empal gentong",
+                            "cirebon",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "empal gentong",
+                            "traditional",
+                            "cirebon"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-013",
+                        "name": "Batagor",
+                        "origin": "Bandung",
+                        "category": "Snack",
+                        "description_eng": "Fried fish dumplings with peanut sauce",
+                        "description_ind": "Varian Batagor otentik dari Bandung.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "batagor",
+                            "bandung",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "batagor",
+                            "traditional",
+                            "bandung"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-014",
+                        "name": "Seblak",
+                        "origin": "Bandung",
+                        "category": "Snack",
+                        "description_eng": "Spicy wet crackers with egg and chicken feet",
+                        "description_ind": "Varian Seblak otentik dari Bandung.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "seblak",
+                            "bandung",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "seblak",
+                            "traditional",
+                            "bandung"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-015",
+                        "name": "Kerak Telor",
+                        "origin": "Jakarta",
+                        "category": "Snack",
+                        "description_eng": "Spicy omelette with glutinous rice and coconut",
+                        "description_ind": "Varian Kerak Telor otentik dari Jakarta.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "kerak telor",
+                            "jakarta",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "kerak telor",
+                            "traditional",
+                            "jakarta"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-016",
+                        "name": "Sambal DKI Jakarta",
+                        "origin": "DKI Jakarta",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from DKI Jakarta.",
+                        "description_ind": "Hidangan Sambal DKI Jakarta tradisional khas DKI Jakarta yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "dki jakarta",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "dki jakarta"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-017",
+                        "name": "Bubur Ayam Jawa Barat",
+                        "origin": "Jawa Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Jawa Barat.",
+                        "description_ind": "Hidangan Bubur Ayam Jawa Barat tradisional khas Jawa Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "jawa barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "jawa barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-018",
+                        "name": "Bubur Ayam Jawa Timur",
+                        "origin": "Jawa Timur",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Jawa Timur.",
+                        "description_ind": "Hidangan Bubur Ayam Jawa Timur tradisional khas Jawa Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "jawa timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "jawa timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-019",
+                        "name": "Sate DI Yogyakarta",
+                        "origin": "DI Yogyakarta",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local DI Yogyakarta marinade.",
+                        "description_ind": "Hidangan Sate DI Yogyakarta tradisional khas DI Yogyakarta yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "di yogyakarta",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "di yogyakarta"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-020",
+                        "name": "Sambal Jawa Tengah",
+                        "origin": "Jawa Tengah",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Jawa Tengah.",
+                        "description_ind": "Hidangan Sambal Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "jawa tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "jawa tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-021",
+                        "name": "Tumis Sayur DI Yogyakarta",
+                        "origin": "DI Yogyakarta",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from DI Yogyakarta.",
+                        "description_ind": "Hidangan Tumis Sayur DI Yogyakarta tradisional khas DI Yogyakarta yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "di yogyakarta",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "di yogyakarta"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-022",
+                        "name": "Nasi Goreng DI Yogyakarta",
+                        "origin": "DI Yogyakarta",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to DI Yogyakarta.",
+                        "description_ind": "Hidangan Nasi Goreng DI Yogyakarta tradisional khas DI Yogyakarta yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "di yogyakarta",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "di yogyakarta"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-023",
+                        "name": "Kue Basah Jawa Tengah",
+                        "origin": "Jawa Tengah",
+                        "category": "Snack",
+                        "description_eng": "Traditional sweet snack from Jawa Tengah.",
+                        "description_ind": "Hidangan Kue Basah Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Flour",
+                            "Coconut",
+                            "Sugar",
+                            "Pandan"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue basah",
+                            "jawa tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kue basah",
+                            "food",
+                            "jawa tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-024",
+                        "name": "Ayam Bakar DI Yogyakarta",
+                        "origin": "DI Yogyakarta",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from DI Yogyakarta.",
+                        "description_ind": "Hidangan Ayam Bakar DI Yogyakarta tradisional khas DI Yogyakarta yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "di yogyakarta",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "di yogyakarta"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-025",
+                        "name": "Sambal Banten",
+                        "origin": "Banten",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Banten.",
+                        "description_ind": "Hidangan Sambal Banten tradisional khas Banten yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "banten",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "banten"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-026",
+                        "name": "Es Campur DKI Jakarta",
+                        "origin": "DKI Jakarta",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from DKI Jakarta.",
+                        "description_ind": "Hidangan Es Campur DKI Jakarta tradisional khas DKI Jakarta yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "dki jakarta",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "dki jakarta"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-027",
+                        "name": "Sate Jawa Barat",
+                        "origin": "Jawa Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Jawa Barat marinade.",
+                        "description_ind": "Hidangan Sate Jawa Barat tradisional khas Jawa Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "jawa barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "jawa barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-028",
+                        "name": "Bubur Ayam Banten",
+                        "origin": "Banten",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Banten.",
+                        "description_ind": "Hidangan Bubur Ayam Banten tradisional khas Banten yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "banten",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "banten"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-029",
+                        "name": "Sambal Jawa Tengah",
+                        "origin": "Jawa Tengah",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Jawa Tengah.",
+                        "description_ind": "Hidangan Sambal Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "jawa tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "jawa tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-030",
+                        "name": "Kerupuk DKI Jakarta",
+                        "origin": "DKI Jakarta",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from DKI Jakarta.",
+                        "description_ind": "Hidangan Kerupuk DKI Jakarta tradisional khas DKI Jakarta yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "dki jakarta",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "dki jakarta"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-031",
+                        "name": "Bubur Ayam Jawa Timur",
+                        "origin": "Jawa Timur",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Jawa Timur.",
+                        "description_ind": "Hidangan Bubur Ayam Jawa Timur tradisional khas Jawa Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "jawa timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "jawa timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-032",
+                        "name": "Mie Kuah Jawa Tengah",
+                        "origin": "Jawa Tengah",
+                        "category": "Main Dish",
+                        "description_eng": "Warm noodle soup native to Jawa Tengah.",
+                        "description_ind": "Hidangan Mie Kuah Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Noodles",
+                            "Broth",
+                            "Vegetables",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie kuah",
+                            "jawa tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "mie kuah",
+                            "food",
+                            "jawa tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-033",
+                        "name": "Sambal Jawa Tengah",
+                        "origin": "Jawa Tengah",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Jawa Tengah.",
+                        "description_ind": "Hidangan Sambal Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "jawa tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "jawa tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-034",
+                        "name": "Nasi Goreng Banten",
+                        "origin": "Banten",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to Banten.",
+                        "description_ind": "Hidangan Nasi Goreng Banten tradisional khas Banten yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "banten",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "banten"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-035",
+                        "name": "Nasi Goreng Jawa Timur",
+                        "origin": "Jawa Timur",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to Jawa Timur.",
+                        "description_ind": "Hidangan Nasi Goreng Jawa Timur tradisional khas Jawa Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "jawa timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "jawa timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-036",
+                        "name": "Sambal Jawa Tengah",
+                        "origin": "Jawa Tengah",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Jawa Tengah.",
+                        "description_ind": "Hidangan Sambal Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "jawa tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "jawa tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-037",
+                        "name": "Sambal Jawa Tengah",
+                        "origin": "Jawa Tengah",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Jawa Tengah.",
+                        "description_ind": "Hidangan Sambal Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "jawa tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "jawa tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-038",
+                        "name": "Sambal DKI Jakarta",
+                        "origin": "DKI Jakarta",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from DKI Jakarta.",
+                        "description_ind": "Hidangan Sambal DKI Jakarta tradisional khas DKI Jakarta yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "dki jakarta",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "dki jakarta"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-039",
+                        "name": "Ayam Bakar Banten",
+                        "origin": "Banten",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Banten.",
+                        "description_ind": "Hidangan Ayam Bakar Banten tradisional khas Banten yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "banten",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "banten"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-040",
+                        "name": "Kue Basah Banten",
+                        "origin": "Banten",
+                        "category": "Snack",
+                        "description_eng": "Traditional sweet snack from Banten.",
+                        "description_ind": "Hidangan Kue Basah Banten tradisional khas Banten yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Flour",
+                            "Coconut",
+                            "Sugar",
+                            "Pandan"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue basah",
+                            "banten",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kue basah",
+                            "food",
+                            "banten"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-041",
+                        "name": "Kerupuk Jawa Timur",
+                        "origin": "Jawa Timur",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Jawa Timur.",
+                        "description_ind": "Hidangan Kerupuk Jawa Timur tradisional khas Jawa Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "jawa timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "jawa timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-042",
+                        "name": "Kerupuk Banten",
+                        "origin": "Banten",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Banten.",
+                        "description_ind": "Hidangan Kerupuk Banten tradisional khas Banten yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "banten",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "banten"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-043",
+                        "name": "Kopi Khas Jawa Tengah",
+                        "origin": "Jawa Tengah",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Jawa Tengah.",
+                        "description_ind": "Hidangan Kopi Khas Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "jawa tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "jawa tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-044",
+                        "name": "Tumis Sayur Banten",
+                        "origin": "Banten",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Banten.",
+                        "description_ind": "Hidangan Tumis Sayur Banten tradisional khas Banten yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "banten",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "banten"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-045",
+                        "name": "Sambal Jawa Timur",
+                        "origin": "Jawa Timur",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Jawa Timur.",
+                        "description_ind": "Hidangan Sambal Jawa Timur tradisional khas Jawa Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "jawa timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "jawa timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-046",
+                        "name": "Sate DI Yogyakarta",
+                        "origin": "DI Yogyakarta",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local DI Yogyakarta marinade.",
+                        "description_ind": "Hidangan Sate DI Yogyakarta tradisional khas DI Yogyakarta yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "di yogyakarta",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "di yogyakarta"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-047",
+                        "name": "Ikan Bakar DKI Jakarta",
+                        "origin": "DKI Jakarta",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with DKI Jakarta signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar DKI Jakarta tradisional khas DKI Jakarta yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "dki jakarta",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "dki jakarta"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-048",
+                        "name": "Kopi Khas Jawa Barat",
+                        "origin": "Jawa Barat",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Jawa Barat.",
+                        "description_ind": "Hidangan Kopi Khas Jawa Barat tradisional khas Jawa Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "jawa barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "jawa barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-049",
+                        "name": "Tumis Sayur DKI Jakarta",
+                        "origin": "DKI Jakarta",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from DKI Jakarta.",
+                        "description_ind": "Hidangan Tumis Sayur DKI Jakarta tradisional khas DKI Jakarta yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "dki jakarta",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "dki jakarta"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "jw-050",
+                        "name": "Sambal Jawa Tengah",
+                        "origin": "Jawa Tengah",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Jawa Tengah.",
+                        "description_ind": "Hidangan Sambal Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "jawa tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "jawa tengah"
+                        ],
+                        "image": null
+                    }
+                ]
             }
-
         ]
     },
     {
-        id: 3,
-        nama: "Kalimantan",
-        ibukota: "Pontianak",
-        provinsi: [
+        "id": 3,
+        "nama": "Kalimantan",
+        "ibukota": "Pontianak",
+        "bentuk_pulau": "https://commons.wikimedia.org/wiki/Special:FilePath/Borneo%20Locator%20Topography.png?width=400",
+        "provinsi": [
             "Kalimantan Barat",
             "Kalimantan Tengah",
             "Kalimantan Selatan",
             "Kalimantan Timur",
             "Kalimantan Utara"
         ],
-        deskripsi: "Pulau terbesar ketiga di dunia, rumah bagi hutan hujan tropis dan suku Dayak.",
-        menu: [
+        "deskripsi": "Pulau terbesar ketiga di dunia, rumah bagi hutan hujan tropis dan suku Dayak.",
+        "menu": [
             {
-            "total": 5,
-            "data": [
-                {
-                "id": "kl-001",
-                "name": "Ayam Bakar Manday Sambal Seruit",
-                "origin": "South Kalimantan",
-                "category": "Main Dish",
-                "description_eng": "Smoky grilled chicken accompanied by fried mandai (fermented cempedak rind) and fiery seruit chili relish.",
-                "description_ind": "Ayam bakar beraroma asap khas Kalimantan Selatan yang disajikan dengan gorengan mandai (kulit cempedak fermentasi) dan sambal seruit pedas segar.",
-                "ingredients_eng": ["Chicken","Mandai (Cempedak Rind)","Chili","Tomato","Shrimp Paste","Lime"],
-                "ingredients_ind": ["Daging Ayam","Mandai (Kulit Cempedak)","Cabai","Tomat","Terasi","Jeruk Nipis"],
-                "flavor_profile": ["Spicy", "Savory", "Smoky"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["ayam bakar manday","sambal seruit","mandai","ayam bakar kalimantan","kalsel"],
-                "search_keywords_eng": ["ayam bakar manday","sambal seruit","grilled chicken","south kalimantan","cempedak"],
-                // TODO: cari foto hidangan ini di Wikimedia Commons (belum ada yang akurat)
-                "image": null
-                },
-                {
-                "id": "kl-002",
-                "name": "Ayam Masak Habang",
-                "origin": "Banjarmasin",
-                "category": "Main Dish",
-                "description_eng": "Tender chicken braised in a thick sweet and savory red chili sauce, a celebrated classic from Banjarmasin.",
-                "description_ind": "Ayam empuk yang dimasak dalam bumbu merah pekat khas Banjar yang manis dan gurih namun tidak terlalu pedas.",
-                "ingredients_eng": ["Chicken","Dried Red Chili","Sweet Soy Sauce","Shallots","Garlic","Ginger"],
-                "ingredients_ind": ["Daging Ayam","Cabai Merah Kering","Kecap Manis","Bawang Merah","Bawang Putih","Jahe"],
-                "flavor_profile": ["Sweet", "Spicy", "Savory"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["ayam masak habang","bumbu habang","banjarmasin","ayam merah","banjar"],
-                "search_keywords_eng": ["ayam masak habang","red chicken","banjarmasin","kalimantan","sweet savory chicken"],
-                // TODO: cari foto hidangan ini di Wikimedia Commons (belum ada yang akurat)
-                "image": null
-                },
-                {
-                "id": "kl-003",
-                "name": "Juhu Umbut Rotan",
-                "origin": "Central Kalimantan",
-                "category": "Main Dish",
-                "description_eng": "Traditional Dayak soup made from tender young rattan shoots cooked in rich coconut milk and aromatic spices, with a delicate pleasant bitterness.",
-                "description_ind": "Sayur khas suku Dayak dari umbut rotan muda yang dimasak dengan kuah santan gurih berempah, memiliki cita rasa pahit lembut yang khas dan segar.",
-                "ingredients_eng": ["Young Rattan Shoots","Coconut Milk","Shallots","Garlic","Turmeric","Lemongrass"],
-                "ingredients_ind": ["Umbut Rotan Muda","Santan","Bawang Merah","Bawang Putih","Kunyit","Serai"],
-                "flavor_profile": ["Bitter", "Savory", "Creamy"],
-                "is_halal": true,
-                "is_vegetarian": true,
-                "search_keywords_ind": ["juhu umbut rotan","rotan","masakan dayak","kalimantan tengah","sayur rotan"],
-                "search_keywords_eng": ["juhu umbut rotan","rattan shoots","dayak soup","central kalimantan","exotic soup"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Juhu%20Umbut%20Rotan%20Ikan%20Nila.jpg?width=800"
-                },
-                {
-                "id": "kl-004",
-                "name": "Amplang",
-                "origin": "Samarinda",
-                "category": "Snack",
-                "description_eng": "Light and crispy savory fish crackers made from fresh Spanish mackerel and tapioca, a renowned snack from Samarinda.",
-                "description_ind": "Kerupuk renyah bertekstur empuk yang terbuat dari campuran daging ikan tenggiri segar dan tepung tapioka, oleh-oleh legendaris dari Samarinda.",
-                "ingredients_eng": ["Mackerel Fish","Tapioca Flour","Garlic","Egg","Salt"],
-                "ingredients_ind": ["Ikan Tenggiri","Tepung Tapioka","Bawang Putih","Telur","Garam"],
-                "flavor_profile": ["Savory", "Crispy", "Umami"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["amplang","kuku macan","kerupuk ikan","samarinda","oleh-oleh kalimantan"],
-                "search_keywords_eng": ["amplang","fish cracker","samarinda","kalimantan snack","crispy snack"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Amplang.jpg?width=800"
-                },
-                {
-                "id": "kl-005",
-                "name": "Kepiting Soka",
-                "origin": "Balikpapan",
-                "category": "Main Dish",
-                "description_eng": "Crispy fried soft-shell crab that can be savored entirely, served with spicy sweet Balikpapan chili sauce.",
-                "description_ind": "Kepiting cangkang lunak khas Balikpapan yang digoreng renyah sehingga dapat dimakan seutuhnya, disajikan dengan saus lada hitam atau saus asam manis pedas.",
-                "ingredients_eng": ["Soft-shell Crab","Garlic","Chili Sauce","Flour","Butter"],
-                "ingredients_ind": ["Kepiting Soka","Bawang Putih","Saus Cabai","Tepung","Mentega"],
-                "flavor_profile": ["Savory", "Crispy", "Spicy"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["kepiting soka","kepiting cangkang lunak","balikpapan","seafood kalimantan","kepiting goreng"],
-                "search_keywords_eng": ["kepiting soka","soft-shell crab","balikpapan","kalimantan seafood","crispy crab"],
-                // TODO: cari foto hidangan ini di Wikimedia Commons (belum ada yang akurat)
-                "image": null
-                }
-            ]
+                "total": 50,
+                "data": [
+                    {
+                        "id": "kl-001",
+                        "name": "Ayam Bakar Manday Sambal Seruit",
+                        "origin": "South Kalimantan",
+                        "category": "Main Dish",
+                        "description_eng": "Smoky grilled chicken accompanied by fried mandai (fermented cempedak rind) and fiery seruit chili relish.",
+                        "description_ind": "Ayam bakar beraroma asap khas Kalimantan Selatan yang disajikan dengan gorengan mandai (kulit cempedak fermentasi) dan sambal seruit pedas segar.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Mandai (Cempedak Rind)",
+                            "Chili",
+                            "Tomato",
+                            "Shrimp Paste",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Daging Ayam",
+                            "Mandai (Kulit Cempedak)",
+                            "Cabai",
+                            "Tomat",
+                            "Terasi",
+                            "Jeruk Nipis"
+                        ],
+                        "flavor_profile": [
+                            "Spicy",
+                            "Savory",
+                            "Smoky"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar manday",
+                            "sambal seruit",
+                            "mandai",
+                            "ayam bakar kalimantan",
+                            "kalsel"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar manday",
+                            "sambal seruit",
+                            "grilled chicken",
+                            "south kalimantan",
+                            "cempedak"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-002",
+                        "name": "Ayam Masak Habang",
+                        "origin": "Banjarmasin",
+                        "category": "Main Dish",
+                        "description_eng": "Tender chicken braised in a thick sweet and savory red chili sauce, a celebrated classic from Banjarmasin.",
+                        "description_ind": "Ayam empuk yang dimasak dalam bumbu merah pekat khas Banjar yang manis dan gurih namun tidak terlalu pedas.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Dried Red Chili",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Garlic",
+                            "Ginger"
+                        ],
+                        "ingredients_ind": [
+                            "Daging Ayam",
+                            "Cabai Merah Kering",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Jahe"
+                        ],
+                        "flavor_profile": [
+                            "Sweet",
+                            "Spicy",
+                            "Savory"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam masak habang",
+                            "bumbu habang",
+                            "banjarmasin",
+                            "ayam merah",
+                            "banjar"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam masak habang",
+                            "red chicken",
+                            "banjarmasin",
+                            "kalimantan",
+                            "sweet savory chicken"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-003",
+                        "name": "Juhu Umbut Rotan",
+                        "origin": "Central Kalimantan",
+                        "category": "Main Dish",
+                        "description_eng": "Traditional Dayak soup made from tender young rattan shoots cooked in rich coconut milk and aromatic spices, with a delicate pleasant bitterness.",
+                        "description_ind": "Sayur khas suku Dayak dari umbut rotan muda yang dimasak dengan kuah santan gurih berempah, memiliki cita rasa pahit lembut yang khas dan segar.",
+                        "ingredients_eng": [
+                            "Young Rattan Shoots",
+                            "Coconut Milk",
+                            "Shallots",
+                            "Garlic",
+                            "Turmeric",
+                            "Lemongrass"
+                        ],
+                        "ingredients_ind": [
+                            "Umbut Rotan Muda",
+                            "Santan",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Kunyit",
+                            "Serai"
+                        ],
+                        "flavor_profile": [
+                            "Bitter",
+                            "Savory",
+                            "Creamy"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "juhu umbut rotan",
+                            "rotan",
+                            "masakan dayak",
+                            "kalimantan tengah",
+                            "sayur rotan"
+                        ],
+                        "search_keywords_eng": [
+                            "juhu umbut rotan",
+                            "rattan shoots",
+                            "dayak soup",
+                            "central kalimantan",
+                            "exotic soup"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Juhu%20Umbut%20Rotan%20Ikan%20Nila.jpg?width=800"
+                    },
+                    {
+                        "id": "kl-004",
+                        "name": "Amplang",
+                        "origin": "Samarinda",
+                        "category": "Snack",
+                        "description_eng": "Light and crispy savory fish crackers made from fresh Spanish mackerel and tapioca, a renowned snack from Samarinda.",
+                        "description_ind": "Kerupuk renyah bertekstur empuk yang terbuat dari campuran daging ikan tenggiri segar dan tepung tapioka, oleh-oleh legendaris dari Samarinda.",
+                        "ingredients_eng": [
+                            "Mackerel Fish",
+                            "Tapioca Flour",
+                            "Garlic",
+                            "Egg",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Ikan Tenggiri",
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Telur",
+                            "Garam"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Crispy",
+                            "Umami"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "amplang",
+                            "kuku macan",
+                            "kerupuk ikan",
+                            "samarinda",
+                            "oleh-oleh kalimantan"
+                        ],
+                        "search_keywords_eng": [
+                            "amplang",
+                            "fish cracker",
+                            "samarinda",
+                            "kalimantan snack",
+                            "crispy snack"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Amplang.jpg?width=800"
+                    },
+                    {
+                        "id": "kl-005",
+                        "name": "Kepiting Soka",
+                        "origin": "Balikpapan",
+                        "category": "Main Dish",
+                        "description_eng": "Crispy fried soft-shell crab that can be savored entirely, served with spicy sweet Balikpapan chili sauce.",
+                        "description_ind": "Kepiting cangkang lunak khas Balikpapan yang digoreng renyah sehingga dapat dimakan seutuhnya, disajikan dengan saus lada hitam atau saus asam manis pedas.",
+                        "ingredients_eng": [
+                            "Soft-shell Crab",
+                            "Garlic",
+                            "Chili Sauce",
+                            "Flour",
+                            "Butter"
+                        ],
+                        "ingredients_ind": [
+                            "Kepiting Soka",
+                            "Bawang Putih",
+                            "Saus Cabai",
+                            "Tepung",
+                            "Mentega"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Crispy",
+                            "Spicy"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "kepiting soka",
+                            "kepiting cangkang lunak",
+                            "balikpapan",
+                            "seafood kalimantan",
+                            "kepiting goreng"
+                        ],
+                        "search_keywords_eng": [
+                            "kepiting soka",
+                            "soft-shell crab",
+                            "balikpapan",
+                            "kalimantan seafood",
+                            "crispy crab"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-006",
+                        "name": "Soto Banjar",
+                        "origin": "Banjarmasin",
+                        "category": "Main Dish",
+                        "description_eng": "Clear chicken soup with spices",
+                        "description_ind": "Varian Soto Banjar otentik dari Banjarmasin.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto banjar",
+                            "banjarmasin",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "soto banjar",
+                            "traditional",
+                            "banjarmasin"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-007",
+                        "name": "Ketupat Kandangan",
+                        "origin": "Kandangan",
+                        "category": "Main Dish",
+                        "description_eng": "Rice cakes with snakehead fish curry",
+                        "description_ind": "Varian Ketupat Kandangan otentik dari Kandangan.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ketupat kandangan",
+                            "kandangan",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "ketupat kandangan",
+                            "traditional",
+                            "kandangan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-008",
+                        "name": "Nasi Kuning Banjar",
+                        "origin": "Banjarmasin",
+                        "category": "Main Dish",
+                        "description_eng": "Yellow rice with habang sauce",
+                        "description_ind": "Varian Nasi Kuning Banjar otentik dari Banjarmasin.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi kuning banjar",
+                            "banjarmasin",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi kuning banjar",
+                            "traditional",
+                            "banjarmasin"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-009",
+                        "name": "Bingka Barantai",
+                        "origin": "Banjar",
+                        "category": "Dessert",
+                        "description_eng": "Sweet traditional flower-shaped cake",
+                        "description_ind": "Varian Bingka Barantai otentik dari Banjar.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "bingka barantai",
+                            "banjar",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "bingka barantai",
+                            "traditional",
+                            "banjar"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-010",
+                        "name": "Pengkang",
+                        "origin": "Pontianak",
+                        "category": "Snack",
+                        "description_eng": "Grilled sticky rice with dried shrimp",
+                        "description_ind": "Varian Pengkang otentik dari Pontianak.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "pengkang",
+                            "pontianak",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "pengkang",
+                            "traditional",
+                            "pontianak"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-011",
+                        "name": "Choi Pan",
+                        "origin": "Singkawang",
+                        "category": "Snack",
+                        "description_eng": "Steamed dumplings stuffed with jicama",
+                        "description_ind": "Varian Choi Pan otentik dari Singkawang.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "choi pan",
+                            "singkawang",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "choi pan",
+                            "traditional",
+                            "singkawang"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-012",
+                        "name": "Bubur Pedas",
+                        "origin": "Sambas",
+                        "category": "Main Dish",
+                        "description_eng": "Spicy vegetable and rice porridge",
+                        "description_ind": "Varian Bubur Pedas otentik dari Sambas.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur pedas",
+                            "sambas",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur pedas",
+                            "traditional",
+                            "sambas"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-013",
+                        "name": "Ayam Cincane",
+                        "origin": "Samarinda",
+                        "category": "Main Dish",
+                        "description_eng": "Roasted chicken with red spices",
+                        "description_ind": "Varian Ayam Cincane otentik dari Samarinda.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam cincane",
+                            "samarinda",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam cincane",
+                            "traditional",
+                            "samarinda"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-014",
+                        "name": "Gence Ruan",
+                        "origin": "Kutai",
+                        "category": "Main Dish",
+                        "description_eng": "Snakehead fish with coarse chili paste",
+                        "description_ind": "Varian Gence Ruan otentik dari Kutai.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "gence ruan",
+                            "kutai",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "gence ruan",
+                            "traditional",
+                            "kutai"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-015",
+                        "name": "Tumis Pakis",
+                        "origin": "Palangkaraya",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried fern leaves with shrimp paste",
+                        "description_ind": "Varian Tumis Pakis otentik dari Palangkaraya.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis pakis",
+                            "palangkaraya",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis pakis",
+                            "traditional",
+                            "palangkaraya"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-016",
+                        "name": "Ikan Bakar Kalimantan Utara",
+                        "origin": "Kalimantan Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Kalimantan Utara signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "kalimantan utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "kalimantan utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-017",
+                        "name": "Kopi Khas Kalimantan Timur",
+                        "origin": "Kalimantan Timur",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Kalimantan Timur.",
+                        "description_ind": "Hidangan Kopi Khas Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "kalimantan timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "kalimantan timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-018",
+                        "name": "Es Campur Kalimantan Timur",
+                        "origin": "Kalimantan Timur",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Kalimantan Timur.",
+                        "description_ind": "Hidangan Es Campur Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "kalimantan timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "kalimantan timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-019",
+                        "name": "Soto Kalimantan Timur",
+                        "origin": "Kalimantan Timur",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Kalimantan Timur.",
+                        "description_ind": "Hidangan Soto Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "kalimantan timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "kalimantan timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-020",
+                        "name": "Ayam Bakar Kalimantan Utara",
+                        "origin": "Kalimantan Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Kalimantan Utara.",
+                        "description_ind": "Hidangan Ayam Bakar Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "kalimantan utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "kalimantan utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-021",
+                        "name": "Es Campur Kalimantan Tengah",
+                        "origin": "Kalimantan Tengah",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Kalimantan Tengah.",
+                        "description_ind": "Hidangan Es Campur Kalimantan Tengah tradisional khas Kalimantan Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "kalimantan tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "kalimantan tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-022",
+                        "name": "Bubur Ayam Kalimantan Tengah",
+                        "origin": "Kalimantan Tengah",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Kalimantan Tengah.",
+                        "description_ind": "Hidangan Bubur Ayam Kalimantan Tengah tradisional khas Kalimantan Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "kalimantan tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "kalimantan tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-023",
+                        "name": "Soto Kalimantan Barat",
+                        "origin": "Kalimantan Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Kalimantan Barat.",
+                        "description_ind": "Hidangan Soto Kalimantan Barat tradisional khas Kalimantan Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "kalimantan barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "kalimantan barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-024",
+                        "name": "Ayam Bakar Kalimantan Utara",
+                        "origin": "Kalimantan Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Kalimantan Utara.",
+                        "description_ind": "Hidangan Ayam Bakar Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "kalimantan utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "kalimantan utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-025",
+                        "name": "Sambal Kalimantan Tengah",
+                        "origin": "Kalimantan Tengah",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Kalimantan Tengah.",
+                        "description_ind": "Hidangan Sambal Kalimantan Tengah tradisional khas Kalimantan Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "kalimantan tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "kalimantan tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-026",
+                        "name": "Soto Kalimantan Selatan",
+                        "origin": "Kalimantan Selatan",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Kalimantan Selatan.",
+                        "description_ind": "Hidangan Soto Kalimantan Selatan tradisional khas Kalimantan Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "kalimantan selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "kalimantan selatan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-027",
+                        "name": "Kue Basah Kalimantan Utara",
+                        "origin": "Kalimantan Utara",
+                        "category": "Snack",
+                        "description_eng": "Traditional sweet snack from Kalimantan Utara.",
+                        "description_ind": "Hidangan Kue Basah Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Flour",
+                            "Coconut",
+                            "Sugar",
+                            "Pandan"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue basah",
+                            "kalimantan utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kue basah",
+                            "food",
+                            "kalimantan utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-028",
+                        "name": "Bubur Ayam Kalimantan Selatan",
+                        "origin": "Kalimantan Selatan",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Kalimantan Selatan.",
+                        "description_ind": "Hidangan Bubur Ayam Kalimantan Selatan tradisional khas Kalimantan Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "kalimantan selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "kalimantan selatan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-029",
+                        "name": "Ikan Bakar Kalimantan Utara",
+                        "origin": "Kalimantan Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Kalimantan Utara signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "kalimantan utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "kalimantan utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-030",
+                        "name": "Es Campur Kalimantan Barat",
+                        "origin": "Kalimantan Barat",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Kalimantan Barat.",
+                        "description_ind": "Hidangan Es Campur Kalimantan Barat tradisional khas Kalimantan Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "kalimantan barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "kalimantan barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-031",
+                        "name": "Kerupuk Kalimantan Selatan",
+                        "origin": "Kalimantan Selatan",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Kalimantan Selatan.",
+                        "description_ind": "Hidangan Kerupuk Kalimantan Selatan tradisional khas Kalimantan Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "kalimantan selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "kalimantan selatan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-032",
+                        "name": "Mie Kuah Kalimantan Selatan",
+                        "origin": "Kalimantan Selatan",
+                        "category": "Main Dish",
+                        "description_eng": "Warm noodle soup native to Kalimantan Selatan.",
+                        "description_ind": "Hidangan Mie Kuah Kalimantan Selatan tradisional khas Kalimantan Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Noodles",
+                            "Broth",
+                            "Vegetables",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie kuah",
+                            "kalimantan selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "mie kuah",
+                            "food",
+                            "kalimantan selatan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-033",
+                        "name": "Soto Kalimantan Utara",
+                        "origin": "Kalimantan Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Kalimantan Utara.",
+                        "description_ind": "Hidangan Soto Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "kalimantan utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "kalimantan utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-034",
+                        "name": "Nasi Goreng Kalimantan Utara",
+                        "origin": "Kalimantan Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to Kalimantan Utara.",
+                        "description_ind": "Hidangan Nasi Goreng Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "kalimantan utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "kalimantan utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-035",
+                        "name": "Kerupuk Kalimantan Tengah",
+                        "origin": "Kalimantan Tengah",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Kalimantan Tengah.",
+                        "description_ind": "Hidangan Kerupuk Kalimantan Tengah tradisional khas Kalimantan Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "kalimantan tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "kalimantan tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-036",
+                        "name": "Kerupuk Kalimantan Timur",
+                        "origin": "Kalimantan Timur",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Kalimantan Timur.",
+                        "description_ind": "Hidangan Kerupuk Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "kalimantan timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "kalimantan timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-037",
+                        "name": "Kerupuk Kalimantan Utara",
+                        "origin": "Kalimantan Utara",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Kalimantan Utara.",
+                        "description_ind": "Hidangan Kerupuk Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "kalimantan utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "kalimantan utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-038",
+                        "name": "Bubur Ayam Kalimantan Selatan",
+                        "origin": "Kalimantan Selatan",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Kalimantan Selatan.",
+                        "description_ind": "Hidangan Bubur Ayam Kalimantan Selatan tradisional khas Kalimantan Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "kalimantan selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "kalimantan selatan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-039",
+                        "name": "Soto Kalimantan Barat",
+                        "origin": "Kalimantan Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Kalimantan Barat.",
+                        "description_ind": "Hidangan Soto Kalimantan Barat tradisional khas Kalimantan Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "kalimantan barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "kalimantan barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-040",
+                        "name": "Ikan Bakar Kalimantan Timur",
+                        "origin": "Kalimantan Timur",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Kalimantan Timur signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "kalimantan timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "kalimantan timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-041",
+                        "name": "Soto Kalimantan Timur",
+                        "origin": "Kalimantan Timur",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Kalimantan Timur.",
+                        "description_ind": "Hidangan Soto Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "kalimantan timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "kalimantan timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-042",
+                        "name": "Bubur Ayam Kalimantan Barat",
+                        "origin": "Kalimantan Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Kalimantan Barat.",
+                        "description_ind": "Hidangan Bubur Ayam Kalimantan Barat tradisional khas Kalimantan Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "kalimantan barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "kalimantan barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-043",
+                        "name": "Nasi Goreng Kalimantan Tengah",
+                        "origin": "Kalimantan Tengah",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to Kalimantan Tengah.",
+                        "description_ind": "Hidangan Nasi Goreng Kalimantan Tengah tradisional khas Kalimantan Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "kalimantan tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "kalimantan tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-044",
+                        "name": "Tumis Sayur Kalimantan Utara",
+                        "origin": "Kalimantan Utara",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Kalimantan Utara.",
+                        "description_ind": "Hidangan Tumis Sayur Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "kalimantan utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "kalimantan utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-045",
+                        "name": "Es Campur Kalimantan Timur",
+                        "origin": "Kalimantan Timur",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Kalimantan Timur.",
+                        "description_ind": "Hidangan Es Campur Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "kalimantan timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "kalimantan timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-046",
+                        "name": "Kue Basah Kalimantan Timur",
+                        "origin": "Kalimantan Timur",
+                        "category": "Snack",
+                        "description_eng": "Traditional sweet snack from Kalimantan Timur.",
+                        "description_ind": "Hidangan Kue Basah Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Flour",
+                            "Coconut",
+                            "Sugar",
+                            "Pandan"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue basah",
+                            "kalimantan timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kue basah",
+                            "food",
+                            "kalimantan timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-047",
+                        "name": "Mie Kuah Kalimantan Utara",
+                        "origin": "Kalimantan Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Warm noodle soup native to Kalimantan Utara.",
+                        "description_ind": "Hidangan Mie Kuah Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Noodles",
+                            "Broth",
+                            "Vegetables",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie kuah",
+                            "kalimantan utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "mie kuah",
+                            "food",
+                            "kalimantan utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-048",
+                        "name": "Soto Kalimantan Selatan",
+                        "origin": "Kalimantan Selatan",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Kalimantan Selatan.",
+                        "description_ind": "Hidangan Soto Kalimantan Selatan tradisional khas Kalimantan Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "kalimantan selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "kalimantan selatan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-049",
+                        "name": "Nasi Goreng Kalimantan Utara",
+                        "origin": "Kalimantan Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to Kalimantan Utara.",
+                        "description_ind": "Hidangan Nasi Goreng Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "kalimantan utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "kalimantan utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "kl-050",
+                        "name": "Ikan Bakar Kalimantan Utara",
+                        "origin": "Kalimantan Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Kalimantan Utara signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "kalimantan utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "kalimantan utara"
+                        ],
+                        "image": null
+                    }
+                ]
             }
-
         ]
     },
     {
-        id: 4,
-        nama: "Sulawesi",
-        ibukota: "Makassar",
-        provinsi: [
+        "id": 4,
+        "nama": "Sulawesi",
+        "ibukota": "Makassar",
+        "bentuk_pulau": "https://commons.wikimedia.org/wiki/Special:FilePath/Sulawesi%20Locator%20Topography.png?width=400",
+        "provinsi": [
             "Sulawesi Utara",
             "Gorontalo",
             "Sulawesi Tengah",
@@ -323,100 +5420,1802 @@ const DATA_PULAU = [
             "Sulawesi Selatan",
             "Sulawesi Tenggara"
         ],
-        deskripsi: "Pulau berbentuk unik dengan kekayaan budaya Bugis, Makassar, Toraja, dan Minahasa.",
-        menu: [
+        "deskripsi": "Pulau berbentuk unik dengan kekayaan budaya Bugis, Makassar, Toraja, dan Minahasa.",
+        "menu": [
             {
-            "total": 5,
-            "data": [
-                {
-                "id": "sl-001",
-                "name": "Coto Makassar",
-                "origin": "Makassar",
-                "category": "Main Dish",
-                "description_eng": "Rich beef and offal stew simmered with freshly roasted ground peanuts and spices, customarily accompanied by ketupat rice cakes.",
-                "description_ind": "Soto daging dan jeroan sapi khas Makassar berkuah kental gurih dari racikan kacang tanah sangrai dan rempah, disantap bersama ketupat.",
-                "ingredients_eng": ["Beef","Beef Offal","Roasted Peanuts","Lemongrass","Coriander","Ketupat"],
-                "ingredients_ind": ["Daging Sapi","Jeroan Sapi","Kacang Tanah Sangrai","Serai","Ketumbar","Ketupat"],
-                "flavor_profile": ["Savory", "Rich", "Nutty"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["coto makassar","coto","makassar","daging sapi","kuliner sulsel"],
-                "search_keywords_eng": ["coto makassar","beef stew","peanut soup","makassar","sulawesi"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coto%20makassar.jpg?width=800"
-                },
-                {
-                "id": "sl-002",
-                "name": "Ikan Woku Belanga",
-                "origin": "Manado",
-                "category": "Main Dish",
-                "description_eng": "Fish simmered in an aromatic yellow herbal sauce with fresh turmeric, crushed chili, lemongrass, lime leaves, and wild basil.",
-                "description_ind": "Masakan ikan berkuah kuning khas Manado yang dimasak dalam belangga tanah liat dengan bumbu rempah pedas, serai, daun jeruk, dan wangi daun kemangi.",
-                "ingredients_eng": ["Fresh Fish","Turmeric","Lemongrass","Lemon Basil","Tomato","Chili","Lime"],
-                "ingredients_ind": ["Ikan Segar","Kunyit","Serai","Daun Kemangi","Tomat","Cabai Rawit","Jeruk Nipis"],
-                "flavor_profile": ["Spicy", "Sour", "Aromatic"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["ikan woku belanga","ikan woku","manado","pedas woku","kemangi"],
-                "search_keywords_eng": ["ikan woku belanga","woku fish","manado dish","spicy yellow fish","basil fish"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kakap%20Woku.JPG?width=800"
-                },
-                {
-                "id": "sl-003",
-                "name": "Binte Biluhuta",
-                "origin": "Gorontalo",
-                "category": "Main Dish",
-                "description_eng": "Refreshing Gorontalo corn soup simmered with sweet corn, fresh shrimp, grated coconut, basil, and a generous squeeze of calamansi lime.",
-                "description_ind": "Sup jagung manis berkuah bening segar khas Gorontalo yang berpadu dengan udang segar, parutan kelapa, daun kemangi, dan kucuran jeruk nipis asam pedas.",
-                "ingredients_eng": ["Sweet Corn","Shrimp","Grated Coconut","Basil","Lime Juice","Chili"],
-                "ingredients_ind": ["Jagung Manis","Udang Segar","Kelapa Parut","Kemangi","Jeruk Nipis","Cabai"],
-                "flavor_profile": ["Sour", "Savory", "Fresh"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["binte biluhuta","milu siram","sup jagung gorontalo","gorontalo","udang jagung"],
-                "search_keywords_eng": ["binte biluhuta","corn soup","gorontalo","shrimp corn soup","milu siram"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Binte%20Biluhuta.jpg?width=800"
-                },
-                {
-                "id": "sl-004",
-                "name": "Tinutuan",
-                "origin": "Manado",
-                "category": "Main Dish",
-                "description_eng": "Nourishing Manado vegetable porridge made with rice, pumpkin, sweet corn, cassava, and wild greens, served with smoked fish and sambal roa.",
-                "description_ind": "Bubur sayuran kaya gizi khas Manado berbahan dasar beras, labu kuning, jagung manis, kangkung, dan bayam, disajikan dengan sambal roa dan ikan asin.",
-                "ingredients_eng": ["Rice","Yellow Pumpkin","Sweet Corn","Spinach","Water Spinach","Basil"],
-                "ingredients_ind": ["Beras","Labu Kuning","Jagung Manis","Bayam","Kangkung","Kemangi"],
-                "flavor_profile": ["Savory", "Fresh", "Mild"],
-                "is_halal": true,
-                "is_vegetarian": true,
-                "search_keywords_ind": ["tinutuan","bubur manado","bubur sayur","manado","kuliner sehat"],
-                "search_keywords_eng": ["tinutuan","bubur manado","vegetable porridge","manado porridge","pumpkin rice"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tinutuan%20bubur%20Manado.JPG?width=800"
-                },
-                {
-                "id": "sl-005",
-                "name": "Kapurung",
-                "origin": "Palopo",
-                "category": "Main Dish",
-                "description_eng": "Traditional Luwu sago dumpling soup cooked with shredded fish, prawns, tropical vegetables, and a sour-tangy chili broth.",
-                "description_ind": "Hidangan khas Palopo (Luwu) berupa bola-bola sagu kenyal di dalam kuah ikan asam segar berpadu dengan udang, aneka sayuran hijau, dan sambal cabai.",
-                "ingredients_eng": ["Sago Starch","Fish","Shrimp","Mixed Vegetables","Lime","Bird's Eye Chili"],
-                "ingredients_ind": ["Tepung Sagu","Ikan","Udang","Sayur Bayam/Jantung Pisang","Jeruk Nipis","Cabai Rawit"],
-                "flavor_profile": ["Sour", "Savory", "Fresh"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["kapurung","sagu palopo","luwu","makanan sagu sulawesi","sup asam sagu"],
-                "search_keywords_eng": ["kapurung","sago dumplings","palopo","luwu","sulawesi sago soup"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kapurung%20Luwu.jpg?width=800"
-                }
-            ]
+                "total": 50,
+                "data": [
+                    {
+                        "id": "sl-001",
+                        "name": "Coto Makassar",
+                        "origin": "Makassar",
+                        "category": "Main Dish",
+                        "description_eng": "Rich beef and offal stew simmered with freshly roasted ground peanuts and spices, customarily accompanied by ketupat rice cakes.",
+                        "description_ind": "Soto daging dan jeroan sapi khas Makassar berkuah kental gurih dari racikan kacang tanah sangrai dan rempah, disantap bersama ketupat.",
+                        "ingredients_eng": [
+                            "Beef",
+                            "Beef Offal",
+                            "Roasted Peanuts",
+                            "Lemongrass",
+                            "Coriander",
+                            "Ketupat"
+                        ],
+                        "ingredients_ind": [
+                            "Daging Sapi",
+                            "Jeroan Sapi",
+                            "Kacang Tanah Sangrai",
+                            "Serai",
+                            "Ketumbar",
+                            "Ketupat"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Rich",
+                            "Nutty"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "coto makassar",
+                            "coto",
+                            "makassar",
+                            "daging sapi",
+                            "kuliner sulsel"
+                        ],
+                        "search_keywords_eng": [
+                            "coto makassar",
+                            "beef stew",
+                            "peanut soup",
+                            "makassar",
+                            "sulawesi"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coto%20makassar.jpg?width=800"
+                    },
+                    {
+                        "id": "sl-002",
+                        "name": "Ikan Woku Belanga",
+                        "origin": "Manado",
+                        "category": "Main Dish",
+                        "description_eng": "Fish simmered in an aromatic yellow herbal sauce with fresh turmeric, crushed chili, lemongrass, lime leaves, and wild basil.",
+                        "description_ind": "Masakan ikan berkuah kuning khas Manado yang dimasak dalam belangga tanah liat dengan bumbu rempah pedas, serai, daun jeruk, dan wangi daun kemangi.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Turmeric",
+                            "Lemongrass",
+                            "Lemon Basil",
+                            "Tomato",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Ikan Segar",
+                            "Kunyit",
+                            "Serai",
+                            "Daun Kemangi",
+                            "Tomat",
+                            "Cabai Rawit",
+                            "Jeruk Nipis"
+                        ],
+                        "flavor_profile": [
+                            "Spicy",
+                            "Sour",
+                            "Aromatic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan woku belanga",
+                            "ikan woku",
+                            "manado",
+                            "pedas woku",
+                            "kemangi"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan woku belanga",
+                            "woku fish",
+                            "manado dish",
+                            "spicy yellow fish",
+                            "basil fish"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kakap%20Woku.JPG?width=800"
+                    },
+                    {
+                        "id": "sl-003",
+                        "name": "Binte Biluhuta",
+                        "origin": "Gorontalo",
+                        "category": "Main Dish",
+                        "description_eng": "Refreshing Gorontalo corn soup simmered with sweet corn, fresh shrimp, grated coconut, basil, and a generous squeeze of calamansi lime.",
+                        "description_ind": "Sup jagung manis berkuah bening segar khas Gorontalo yang berpadu dengan udang segar, parutan kelapa, daun kemangi, dan kucuran jeruk nipis asam pedas.",
+                        "ingredients_eng": [
+                            "Sweet Corn",
+                            "Shrimp",
+                            "Grated Coconut",
+                            "Basil",
+                            "Lime Juice",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Jagung Manis",
+                            "Udang Segar",
+                            "Kelapa Parut",
+                            "Kemangi",
+                            "Jeruk Nipis",
+                            "Cabai"
+                        ],
+                        "flavor_profile": [
+                            "Sour",
+                            "Savory",
+                            "Fresh"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "binte biluhuta",
+                            "milu siram",
+                            "sup jagung gorontalo",
+                            "gorontalo",
+                            "udang jagung"
+                        ],
+                        "search_keywords_eng": [
+                            "binte biluhuta",
+                            "corn soup",
+                            "gorontalo",
+                            "shrimp corn soup",
+                            "milu siram"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Binte%20Biluhuta.jpg?width=800"
+                    },
+                    {
+                        "id": "sl-004",
+                        "name": "Tinutuan",
+                        "origin": "Manado",
+                        "category": "Main Dish",
+                        "description_eng": "Nourishing Manado vegetable porridge made with rice, pumpkin, sweet corn, cassava, and wild greens, served with smoked fish and sambal roa.",
+                        "description_ind": "Bubur sayuran kaya gizi khas Manado berbahan dasar beras, labu kuning, jagung manis, kangkung, dan bayam, disajikan dengan sambal roa dan ikan asin.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Yellow Pumpkin",
+                            "Sweet Corn",
+                            "Spinach",
+                            "Water Spinach",
+                            "Basil"
+                        ],
+                        "ingredients_ind": [
+                            "Beras",
+                            "Labu Kuning",
+                            "Jagung Manis",
+                            "Bayam",
+                            "Kangkung",
+                            "Kemangi"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Fresh",
+                            "Mild"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "tinutuan",
+                            "bubur manado",
+                            "bubur sayur",
+                            "manado",
+                            "kuliner sehat"
+                        ],
+                        "search_keywords_eng": [
+                            "tinutuan",
+                            "bubur manado",
+                            "vegetable porridge",
+                            "manado porridge",
+                            "pumpkin rice"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tinutuan%20bubur%20Manado.JPG?width=800"
+                    },
+                    {
+                        "id": "sl-005",
+                        "name": "Kapurung",
+                        "origin": "Palopo",
+                        "category": "Main Dish",
+                        "description_eng": "Traditional Luwu sago dumpling soup cooked with shredded fish, prawns, tropical vegetables, and a sour-tangy chili broth.",
+                        "description_ind": "Hidangan khas Palopo (Luwu) berupa bola-bola sagu kenyal di dalam kuah ikan asam segar berpadu dengan udang, aneka sayuran hijau, dan sambal cabai.",
+                        "ingredients_eng": [
+                            "Sago Starch",
+                            "Fish",
+                            "Shrimp",
+                            "Mixed Vegetables",
+                            "Lime",
+                            "Bird's Eye Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Tepung Sagu",
+                            "Ikan",
+                            "Udang",
+                            "Sayur Bayam/Jantung Pisang",
+                            "Jeruk Nipis",
+                            "Cabai Rawit"
+                        ],
+                        "flavor_profile": [
+                            "Sour",
+                            "Savory",
+                            "Fresh"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "kapurung",
+                            "sagu palopo",
+                            "luwu",
+                            "makanan sagu sulawesi",
+                            "sup asam sagu"
+                        ],
+                        "search_keywords_eng": [
+                            "kapurung",
+                            "sago dumplings",
+                            "palopo",
+                            "luwu",
+                            "sulawesi sago soup"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kapurung%20Luwu.jpg?width=800"
+                    },
+                    {
+                        "id": "sl-006",
+                        "name": "Sop Saudara",
+                        "origin": "Pangkep",
+                        "category": "Main Dish",
+                        "description_eng": "Beef soup with vermicelli and potato cakes",
+                        "description_ind": "Varian Sop Saudara otentik dari Pangkep.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sop saudara",
+                            "pangkep",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "sop saudara",
+                            "traditional",
+                            "pangkep"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-007",
+                        "name": "Pallubasa",
+                        "origin": "Makassar",
+                        "category": "Main Dish",
+                        "description_eng": "Rich beef offal soup with grated coconut",
+                        "description_ind": "Varian Pallubasa otentik dari Makassar.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "pallubasa",
+                            "makassar",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "pallubasa",
+                            "traditional",
+                            "makassar"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-008",
+                        "name": "Es Pisang Ijo",
+                        "origin": "Makassar",
+                        "category": "Dessert",
+                        "description_eng": "Green banana wrapped in dough with syrup",
+                        "description_ind": "Varian Es Pisang Ijo otentik dari Makassar.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es pisang ijo",
+                            "makassar",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "es pisang ijo",
+                            "traditional",
+                            "makassar"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-009",
+                        "name": "Mie Titi",
+                        "origin": "Makassar",
+                        "category": "Main Dish",
+                        "description_eng": "Crispy dry noodles with thick gravy",
+                        "description_ind": "Varian Mie Titi otentik dari Makassar.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie titi",
+                            "makassar",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "mie titi",
+                            "traditional",
+                            "makassar"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-010",
+                        "name": "Ayam Goreng Sulawesi",
+                        "origin": "Makassar",
+                        "category": "Main Dish",
+                        "description_eng": "Traditional fried chicken with soy sauce",
+                        "description_ind": "Varian Ayam Goreng Sulawesi otentik dari Makassar.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam goreng sulawesi",
+                            "makassar",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam goreng sulawesi",
+                            "traditional",
+                            "makassar"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-011",
+                        "name": "Jalangkote",
+                        "origin": "Makassar",
+                        "category": "Snack",
+                        "description_eng": "Pastry stuffed with carrots, potatoes and egg",
+                        "description_ind": "Varian Jalangkote otentik dari Makassar.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "jalangkote",
+                            "makassar",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "jalangkote",
+                            "traditional",
+                            "makassar"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-012",
+                        "name": "Ikan Bakar Rica",
+                        "origin": "Manado",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with super spicy chili",
+                        "description_ind": "Varian Ikan Bakar Rica otentik dari Manado.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar rica",
+                            "manado",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar rica",
+                            "traditional",
+                            "manado"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-013",
+                        "name": "Ayam Rica-Rica",
+                        "origin": "Manado",
+                        "category": "Main Dish",
+                        "description_eng": "Extremely spicy chicken dish",
+                        "description_ind": "Varian Ayam Rica-Rica otentik dari Manado.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam rica-rica",
+                            "manado",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam rica-rica",
+                            "traditional",
+                            "manado"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-014",
+                        "name": "Klappertaart",
+                        "origin": "Manado",
+                        "category": "Dessert",
+                        "description_eng": "Dutch-influenced coconut tart",
+                        "description_ind": "Varian Klappertaart otentik dari Manado.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "klappertaart",
+                            "manado",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "klappertaart",
+                            "traditional",
+                            "manado"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-015",
+                        "name": "Kaledo",
+                        "origin": "Donggala",
+                        "category": "Main Dish",
+                        "description_eng": "Cow trotter soup with sour broth",
+                        "description_ind": "Varian Kaledo otentik dari Donggala.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "kaledo",
+                            "donggala",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "kaledo",
+                            "traditional",
+                            "donggala"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-016",
+                        "name": "Kopi Khas Sulawesi Selatan",
+                        "origin": "Sulawesi Selatan",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Sulawesi Selatan.",
+                        "description_ind": "Hidangan Kopi Khas Sulawesi Selatan tradisional khas Sulawesi Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "sulawesi selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "sulawesi selatan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-017",
+                        "name": "Tumis Sayur Sulawesi Tengah",
+                        "origin": "Sulawesi Tengah",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Sulawesi Tengah.",
+                        "description_ind": "Hidangan Tumis Sayur Sulawesi Tengah tradisional khas Sulawesi Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "sulawesi tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "sulawesi tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-018",
+                        "name": "Kerupuk Sulawesi Tenggara",
+                        "origin": "Sulawesi Tenggara",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Sulawesi Tenggara.",
+                        "description_ind": "Hidangan Kerupuk Sulawesi Tenggara tradisional khas Sulawesi Tenggara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "sulawesi tenggara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "sulawesi tenggara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-019",
+                        "name": "Kue Basah Sulawesi Barat",
+                        "origin": "Sulawesi Barat",
+                        "category": "Snack",
+                        "description_eng": "Traditional sweet snack from Sulawesi Barat.",
+                        "description_ind": "Hidangan Kue Basah Sulawesi Barat tradisional khas Sulawesi Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Flour",
+                            "Coconut",
+                            "Sugar",
+                            "Pandan"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue basah",
+                            "sulawesi barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kue basah",
+                            "food",
+                            "sulawesi barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-020",
+                        "name": "Kopi Khas Sulawesi Tenggara",
+                        "origin": "Sulawesi Tenggara",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Sulawesi Tenggara.",
+                        "description_ind": "Hidangan Kopi Khas Sulawesi Tenggara tradisional khas Sulawesi Tenggara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "sulawesi tenggara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "sulawesi tenggara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-021",
+                        "name": "Kopi Khas Sulawesi Tengah",
+                        "origin": "Sulawesi Tengah",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Sulawesi Tengah.",
+                        "description_ind": "Hidangan Kopi Khas Sulawesi Tengah tradisional khas Sulawesi Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "sulawesi tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "sulawesi tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-022",
+                        "name": "Sambal Sulawesi Tengah",
+                        "origin": "Sulawesi Tengah",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Sulawesi Tengah.",
+                        "description_ind": "Hidangan Sambal Sulawesi Tengah tradisional khas Sulawesi Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "sulawesi tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "sulawesi tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-023",
+                        "name": "Kopi Khas Sulawesi Tengah",
+                        "origin": "Sulawesi Tengah",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Sulawesi Tengah.",
+                        "description_ind": "Hidangan Kopi Khas Sulawesi Tengah tradisional khas Sulawesi Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "sulawesi tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "sulawesi tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-024",
+                        "name": "Sambal Sulawesi Utara",
+                        "origin": "Sulawesi Utara",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Sulawesi Utara.",
+                        "description_ind": "Hidangan Sambal Sulawesi Utara tradisional khas Sulawesi Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "sulawesi utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "sulawesi utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-025",
+                        "name": "Ayam Bakar Gorontalo",
+                        "origin": "Gorontalo",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Gorontalo.",
+                        "description_ind": "Hidangan Ayam Bakar Gorontalo tradisional khas Gorontalo yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "gorontalo",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "gorontalo"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-026",
+                        "name": "Nasi Goreng Sulawesi Utara",
+                        "origin": "Sulawesi Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to Sulawesi Utara.",
+                        "description_ind": "Hidangan Nasi Goreng Sulawesi Utara tradisional khas Sulawesi Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "sulawesi utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "sulawesi utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-027",
+                        "name": "Tumis Sayur Sulawesi Utara",
+                        "origin": "Sulawesi Utara",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Sulawesi Utara.",
+                        "description_ind": "Hidangan Tumis Sayur Sulawesi Utara tradisional khas Sulawesi Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "sulawesi utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "sulawesi utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-028",
+                        "name": "Sate Gorontalo",
+                        "origin": "Gorontalo",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Gorontalo marinade.",
+                        "description_ind": "Hidangan Sate Gorontalo tradisional khas Gorontalo yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "gorontalo",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "gorontalo"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-029",
+                        "name": "Kerupuk Sulawesi Barat",
+                        "origin": "Sulawesi Barat",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Sulawesi Barat.",
+                        "description_ind": "Hidangan Kerupuk Sulawesi Barat tradisional khas Sulawesi Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "sulawesi barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "sulawesi barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-030",
+                        "name": "Sate Sulawesi Barat",
+                        "origin": "Sulawesi Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Sulawesi Barat marinade.",
+                        "description_ind": "Hidangan Sate Sulawesi Barat tradisional khas Sulawesi Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "sulawesi barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "sulawesi barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-031",
+                        "name": "Kue Basah Gorontalo",
+                        "origin": "Gorontalo",
+                        "category": "Snack",
+                        "description_eng": "Traditional sweet snack from Gorontalo.",
+                        "description_ind": "Hidangan Kue Basah Gorontalo tradisional khas Gorontalo yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Flour",
+                            "Coconut",
+                            "Sugar",
+                            "Pandan"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue basah",
+                            "gorontalo",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kue basah",
+                            "food",
+                            "gorontalo"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-032",
+                        "name": "Ikan Bakar Sulawesi Utara",
+                        "origin": "Sulawesi Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Sulawesi Utara signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Sulawesi Utara tradisional khas Sulawesi Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "sulawesi utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "sulawesi utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-033",
+                        "name": "Bubur Ayam Sulawesi Barat",
+                        "origin": "Sulawesi Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Sulawesi Barat.",
+                        "description_ind": "Hidangan Bubur Ayam Sulawesi Barat tradisional khas Sulawesi Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "sulawesi barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "sulawesi barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-034",
+                        "name": "Sate Sulawesi Tenggara",
+                        "origin": "Sulawesi Tenggara",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Sulawesi Tenggara marinade.",
+                        "description_ind": "Hidangan Sate Sulawesi Tenggara tradisional khas Sulawesi Tenggara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "sulawesi tenggara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "sulawesi tenggara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-035",
+                        "name": "Tumis Sayur Sulawesi Utara",
+                        "origin": "Sulawesi Utara",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Sulawesi Utara.",
+                        "description_ind": "Hidangan Tumis Sayur Sulawesi Utara tradisional khas Sulawesi Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "sulawesi utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "sulawesi utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-036",
+                        "name": "Ikan Bakar Sulawesi Barat",
+                        "origin": "Sulawesi Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Sulawesi Barat signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Sulawesi Barat tradisional khas Sulawesi Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "sulawesi barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "sulawesi barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-037",
+                        "name": "Ikan Bakar Sulawesi Barat",
+                        "origin": "Sulawesi Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Sulawesi Barat signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Sulawesi Barat tradisional khas Sulawesi Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "sulawesi barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "sulawesi barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-038",
+                        "name": "Tumis Sayur Sulawesi Utara",
+                        "origin": "Sulawesi Utara",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Sulawesi Utara.",
+                        "description_ind": "Hidangan Tumis Sayur Sulawesi Utara tradisional khas Sulawesi Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "sulawesi utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "sulawesi utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-039",
+                        "name": "Es Campur Sulawesi Utara",
+                        "origin": "Sulawesi Utara",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Sulawesi Utara.",
+                        "description_ind": "Hidangan Es Campur Sulawesi Utara tradisional khas Sulawesi Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "sulawesi utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "sulawesi utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-040",
+                        "name": "Bubur Ayam Sulawesi Utara",
+                        "origin": "Sulawesi Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Sulawesi Utara.",
+                        "description_ind": "Hidangan Bubur Ayam Sulawesi Utara tradisional khas Sulawesi Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "sulawesi utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "sulawesi utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-041",
+                        "name": "Es Campur Gorontalo",
+                        "origin": "Gorontalo",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Gorontalo.",
+                        "description_ind": "Hidangan Es Campur Gorontalo tradisional khas Gorontalo yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "gorontalo",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "gorontalo"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-042",
+                        "name": "Kopi Khas Sulawesi Tengah",
+                        "origin": "Sulawesi Tengah",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Sulawesi Tengah.",
+                        "description_ind": "Hidangan Kopi Khas Sulawesi Tengah tradisional khas Sulawesi Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "sulawesi tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "sulawesi tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-043",
+                        "name": "Mie Kuah Gorontalo",
+                        "origin": "Gorontalo",
+                        "category": "Main Dish",
+                        "description_eng": "Warm noodle soup native to Gorontalo.",
+                        "description_ind": "Hidangan Mie Kuah Gorontalo tradisional khas Gorontalo yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Noodles",
+                            "Broth",
+                            "Vegetables",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie kuah",
+                            "gorontalo",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "mie kuah",
+                            "food",
+                            "gorontalo"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-044",
+                        "name": "Es Campur Sulawesi Barat",
+                        "origin": "Sulawesi Barat",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Sulawesi Barat.",
+                        "description_ind": "Hidangan Es Campur Sulawesi Barat tradisional khas Sulawesi Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "sulawesi barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "sulawesi barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-045",
+                        "name": "Soto Sulawesi Tenggara",
+                        "origin": "Sulawesi Tenggara",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Sulawesi Tenggara.",
+                        "description_ind": "Hidangan Soto Sulawesi Tenggara tradisional khas Sulawesi Tenggara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "sulawesi tenggara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "sulawesi tenggara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-046",
+                        "name": "Nasi Goreng Sulawesi Barat",
+                        "origin": "Sulawesi Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to Sulawesi Barat.",
+                        "description_ind": "Hidangan Nasi Goreng Sulawesi Barat tradisional khas Sulawesi Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "sulawesi barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "sulawesi barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-047",
+                        "name": "Es Campur Sulawesi Tengah",
+                        "origin": "Sulawesi Tengah",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Sulawesi Tengah.",
+                        "description_ind": "Hidangan Es Campur Sulawesi Tengah tradisional khas Sulawesi Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "sulawesi tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "sulawesi tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-048",
+                        "name": "Nasi Goreng Gorontalo",
+                        "origin": "Gorontalo",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to Gorontalo.",
+                        "description_ind": "Hidangan Nasi Goreng Gorontalo tradisional khas Gorontalo yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "gorontalo",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "gorontalo"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-049",
+                        "name": "Es Campur Sulawesi Tenggara",
+                        "origin": "Sulawesi Tenggara",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Sulawesi Tenggara.",
+                        "description_ind": "Hidangan Es Campur Sulawesi Tenggara tradisional khas Sulawesi Tenggara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "sulawesi tenggara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "sulawesi tenggara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "sl-050",
+                        "name": "Bubur Ayam Sulawesi Selatan",
+                        "origin": "Sulawesi Selatan",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Sulawesi Selatan.",
+                        "description_ind": "Hidangan Bubur Ayam Sulawesi Selatan tradisional khas Sulawesi Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "sulawesi selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "sulawesi selatan"
+                        ],
+                        "image": null
+                    }
+                ]
             }
         ]
     },
     {
-        id: 5,
-        nama: "Papua",
-        ibukota: "Jayapura",
-        provinsi: [
+        "id": 5,
+        "nama": "Papua",
+        "ibukota": "Jayapura",
+        "bentuk_pulau": "https://commons.wikimedia.org/wiki/Special:FilePath/New%20Guinea%20Topography.png?width=400",
+        "provinsi": [
             "Papua",
             "Papua Barat",
             "Papua Selatan",
@@ -424,391 +7223,7193 @@ const DATA_PULAU = [
             "Papua Pegunungan",
             "Papua Barat Daya"
         ],
-        deskripsi: "Pulau terbesar di Indonesia dengan keanekaragaman hayati dan budaya yang luar biasa.",
-        menu: [
+        "deskripsi": "Pulau terbesar di Indonesia dengan keanekaragaman hayati dan budaya yang luar biasa.",
+        "menu": [
             {
-            "total": 5,
-            "data": [
-                {
-                "id": "pp-001",
-                "name": "Papeda Kuah Kuning",
-                "origin": "Papua",
-                "category": "Main Dish",
-                "description_eng": "Sticky sago porridge served with yellow turmeric fish soup made from tuna or snapper and lime.",
-                "description_ind": "Papeda kuah kuning adalah makanan khas Papua berupa bubur sagu kenyal yang disajikan dengan kuah kuning ikan tuna atau kakap beraroma kunyit dan jeruk nipis.",
-                "ingredients_eng": ["Sago Starch","Tuna","Turmeric","Lime","Lemongrass"],
-                "ingredients_ind": ["Tepung Sagu","Ikan Tuna","Kunyit","Jeruk Nipis","Serai"],
-                "flavor_profile": ["Sour", "Savory", "Fresh"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["papeda","sagu","kuah kuning","papua","ikan"],
-                "search_keywords_eng": ["papeda","sago","yellow soup","papua","fish"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papeda%20Kuah%20Kuning%20Ternate-1.jpg?width=800"
-                },
-                {
-                "id": "pp-002",
-                "name": "Kue Lontar",
-                "origin": "Papua",
-                "category": "Dessert",
-                "description_eng": "Soft, sweet custard milk pie baked in a traditional ceramic plate with a fragrant aroma and rich creamy texture.",
-                "description_ind": "Kue pai susu khas Papua yang lembut dan manis, dipanggang di piring keramik khusus dengan aroma harum dan tekstur creamy.",
-                "ingredients_eng": ["Wheat Flour","Egg","Condensed Milk","Sugar","Margarine"],
-                "ingredients_ind": ["Tepung Terigu","Telur","Susu Kental Manis","Gula","Margarin"],
-                "flavor_profile": ["Sweet", "Fragrant", "Soft"],
-                "is_halal": true,
-                "is_vegetarian": true,
-                "search_keywords_ind": ["kue lontar","pai susu","papua","kue manis","dessert"],
-                "search_keywords_eng": ["kue lontar","papua dessert","lontar cake","milk pie","custard tart"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20Pie%20Susu.jpg?width=800"
-                },
-                {
-                "id": "pp-003",
-                "name": "Ikan Bakar Manokwari",
-                "origin": "Manokwari",
-                "category": "Main Dish",
-                "description_eng": "Fresh grilled fish seasoned with special coarsely ground chili spices, offering a smoky, fiery, and savory taste.",
-                "description_ind": "Ikan bakar segar khas Manokwari yang dilumuri sambal cabai giling kasar khas Papua, memberikan sensasi rasa gurih, pedas, dan aroma bakaran asap yang nikmat.",
-                "ingredients_eng": ["Fresh Fish","Raw Red Chili","Shallots","Garlic","Lime","Salt"],
-                "ingredients_ind": ["Ikan Segar","Cabai Rawit Merah","Bawang Merah","Bawang Putih","Jeruk Nipis","Garam"],
-                "flavor_profile": ["Savory", "Spicy", "Smoky"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["ikan bakar manokwari","ikan bakar","manokwari","sambal manokwari","papua"],
-                "search_keywords_eng": ["ikan bakar","grilled fish","manokwari","papua","seafood"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jayapura%20grilled%20fish%20and%20shrimp.jpg?width=800"
-                },
-                {
-                "id": "pp-004",
-                "name": "Sagu Lempeng",
-                "origin": "Papua",
-                "category": "Snack",
-                "description_eng": "Hard, dry sago flatbread baked in a traditional clay mold, usually dipped in warm tea, coffee, or fish soup before eating.",
-                "description_ind": "Roti pipih sagu tradisional Papua yang dibakar dalam cetakan tanah liat, bertekstur padat dan renyah, nikmat dicelupkan ke teh manis, kopi, atau kuah ikan.",
-                "ingredients_eng": ["Sago Starch","Water","Salt"],
-                "ingredients_ind": ["Tepung Sagu","Air","Garam"],
-                "flavor_profile": ["Neutral", "Earthy"],
-                "is_halal": true,
-                "is_vegetarian": true,
-                "search_keywords_ind": ["sagu lempeng","roti sagu","papua","camilan sagu","kue kering papua"],
-                "search_keywords_eng": ["sagu lempeng","sago flatbread","papua sago","traditional bread","snack"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sago%20starch%20product%20sagu%20lempeng%20from%20Maluku,ID%20feb2002.jpg?width=800"
-                },
-                {
-                "id": "pp-005",
-                "name": "Sate Ulat Sagu",
-                "origin": "Papua",
-                "category": "Snack",
-                "description_eng": "Skewered sago palm grubs grilled over charcoal, rich in protein with a creamy, nutty taste and a crisp skin.",
-                "description_ind": "Sate ulat pohon sagu khas Papua yang dibakar di atas arang, kaya protein dengan rasa gurih manis berlemak dan kulit yang renyah.",
-                "ingredients_eng": ["Sago Palm Grubs","Salt","Lime Juice","Chili"],
-                "ingredients_ind": ["Ulat Sagu","Garam","Jeruk Nipis","Cabai Rawit"],
-                "flavor_profile": ["Savory", "Creamy", "Smoky"],
-                "is_halal": false,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["sate ulat sagu","ulat sagu","kuliner ekstrim papua","sate papua","protein tinggi"],
-                "search_keywords_eng": ["sate ulat sagu","sago grubs","papua satay","traditional snack","exotic food"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20ulat%20sagu.webp?width=800"
-                }
-            ]
+                "total": 50,
+                "data": [
+                    {
+                        "id": "pp-001",
+                        "name": "Papeda Kuah Kuning",
+                        "origin": "Papua",
+                        "category": "Main Dish",
+                        "description_eng": "Sticky sago porridge served with yellow turmeric fish soup made from tuna or snapper and lime.",
+                        "description_ind": "Papeda kuah kuning adalah makanan khas Papua berupa bubur sagu kenyal yang disajikan dengan kuah kuning ikan tuna atau kakap beraroma kunyit dan jeruk nipis.",
+                        "ingredients_eng": [
+                            "Sago Starch",
+                            "Tuna",
+                            "Turmeric",
+                            "Lime",
+                            "Lemongrass"
+                        ],
+                        "ingredients_ind": [
+                            "Tepung Sagu",
+                            "Ikan Tuna",
+                            "Kunyit",
+                            "Jeruk Nipis",
+                            "Serai"
+                        ],
+                        "flavor_profile": [
+                            "Sour",
+                            "Savory",
+                            "Fresh"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "papeda",
+                            "sagu",
+                            "kuah kuning",
+                            "papua",
+                            "ikan"
+                        ],
+                        "search_keywords_eng": [
+                            "papeda",
+                            "sago",
+                            "yellow soup",
+                            "papua",
+                            "fish"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papeda%20Kuah%20Kuning%20Ternate-1.jpg?width=800"
+                    },
+                    {
+                        "id": "pp-002",
+                        "name": "Kue Lontar",
+                        "origin": "Papua",
+                        "category": "Dessert",
+                        "description_eng": "Soft, sweet custard milk pie baked in a traditional ceramic plate with a fragrant aroma and rich creamy texture.",
+                        "description_ind": "Kue pai susu khas Papua yang lembut dan manis, dipanggang di piring keramik khusus dengan aroma harum dan tekstur creamy.",
+                        "ingredients_eng": [
+                            "Wheat Flour",
+                            "Egg",
+                            "Condensed Milk",
+                            "Sugar",
+                            "Margarine"
+                        ],
+                        "ingredients_ind": [
+                            "Tepung Terigu",
+                            "Telur",
+                            "Susu Kental Manis",
+                            "Gula",
+                            "Margarin"
+                        ],
+                        "flavor_profile": [
+                            "Sweet",
+                            "Fragrant",
+                            "Soft"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue lontar",
+                            "pai susu",
+                            "papua",
+                            "kue manis",
+                            "dessert"
+                        ],
+                        "search_keywords_eng": [
+                            "kue lontar",
+                            "papua dessert",
+                            "lontar cake",
+                            "milk pie",
+                            "custard tart"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20Pie%20Susu.jpg?width=800"
+                    },
+                    {
+                        "id": "pp-003",
+                        "name": "Ikan Bakar Manokwari",
+                        "origin": "Manokwari",
+                        "category": "Main Dish",
+                        "description_eng": "Fresh grilled fish seasoned with special coarsely ground chili spices, offering a smoky, fiery, and savory taste.",
+                        "description_ind": "Ikan bakar segar khas Manokwari yang dilumuri sambal cabai giling kasar khas Papua, memberikan sensasi rasa gurih, pedas, dan aroma bakaran asap yang nikmat.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Raw Red Chili",
+                            "Shallots",
+                            "Garlic",
+                            "Lime",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Ikan Segar",
+                            "Cabai Rawit Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Jeruk Nipis",
+                            "Garam"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Spicy",
+                            "Smoky"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar manokwari",
+                            "ikan bakar",
+                            "manokwari",
+                            "sambal manokwari",
+                            "papua"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "grilled fish",
+                            "manokwari",
+                            "papua",
+                            "seafood"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jayapura%20grilled%20fish%20and%20shrimp.jpg?width=800"
+                    },
+                    {
+                        "id": "pp-004",
+                        "name": "Sagu Lempeng",
+                        "origin": "Papua",
+                        "category": "Snack",
+                        "description_eng": "Hard, dry sago flatbread baked in a traditional clay mold, usually dipped in warm tea, coffee, or fish soup before eating.",
+                        "description_ind": "Roti pipih sagu tradisional Papua yang dibakar dalam cetakan tanah liat, bertekstur padat dan renyah, nikmat dicelupkan ke teh manis, kopi, atau kuah ikan.",
+                        "ingredients_eng": [
+                            "Sago Starch",
+                            "Water",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Tepung Sagu",
+                            "Air",
+                            "Garam"
+                        ],
+                        "flavor_profile": [
+                            "Neutral",
+                            "Earthy"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sagu lempeng",
+                            "roti sagu",
+                            "papua",
+                            "camilan sagu",
+                            "kue kering papua"
+                        ],
+                        "search_keywords_eng": [
+                            "sagu lempeng",
+                            "sago flatbread",
+                            "papua sago",
+                            "traditional bread",
+                            "snack"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sago%20starch%20product%20sagu%20lempeng%20from%20Maluku,ID%20feb2002.jpg?width=800"
+                    },
+                    {
+                        "id": "pp-005",
+                        "name": "Sate Ulat Sagu",
+                        "origin": "Papua",
+                        "category": "Snack",
+                        "description_eng": "Skewered sago palm grubs grilled over charcoal, rich in protein with a creamy, nutty taste and a crisp skin.",
+                        "description_ind": "Sate ulat pohon sagu khas Papua yang dibakar di atas arang, kaya protein dengan rasa gurih manis berlemak dan kulit yang renyah.",
+                        "ingredients_eng": [
+                            "Sago Palm Grubs",
+                            "Salt",
+                            "Lime Juice",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Ulat Sagu",
+                            "Garam",
+                            "Jeruk Nipis",
+                            "Cabai Rawit"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Creamy",
+                            "Smoky"
+                        ],
+                        "is_halal": false,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate ulat sagu",
+                            "ulat sagu",
+                            "kuliner ekstrim papua",
+                            "sate papua",
+                            "protein tinggi"
+                        ],
+                        "search_keywords_eng": [
+                            "sate ulat sagu",
+                            "sago grubs",
+                            "papua satay",
+                            "traditional snack",
+                            "exotic food"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20ulat%20sagu.webp?width=800"
+                    },
+                    {
+                        "id": "pp-006",
+                        "name": "Udang Selingkuh",
+                        "origin": "Wamena",
+                        "category": "Main Dish",
+                        "description_eng": "Crayfish cooked in sweet and sour sauce",
+                        "description_ind": "Varian Udang Selingkuh otentik dari Wamena.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "udang selingkuh",
+                            "wamena",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "udang selingkuh",
+                            "traditional",
+                            "wamena"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-007",
+                        "name": "Keladi Tumbuk",
+                        "origin": "Biak",
+                        "category": "Main Dish",
+                        "description_eng": "Mashed taro root dish",
+                        "description_ind": "Varian Keladi Tumbuk otentik dari Biak.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "keladi tumbuk",
+                            "biak",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "keladi tumbuk",
+                            "traditional",
+                            "biak"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-008",
+                        "name": "Ikan Kuah Hitam",
+                        "origin": "Papua",
+                        "category": "Main Dish",
+                        "description_eng": "Fish soup with black ink and spices",
+                        "description_ind": "Varian Ikan Kuah Hitam otentik dari Papua.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan kuah hitam",
+                            "papua",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan kuah hitam",
+                            "traditional",
+                            "papua"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-009",
+                        "name": "Aunu Senebre",
+                        "origin": "Papua",
+                        "category": "Main Dish",
+                        "description_eng": "Anchovies with taro leaves and coconut",
+                        "description_ind": "Varian Aunu Senebre otentik dari Papua.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "aunu senebre",
+                            "papua",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "aunu senebre",
+                            "traditional",
+                            "papua"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-010",
+                        "name": "Abon Gulung",
+                        "origin": "Manokwari",
+                        "category": "Snack",
+                        "description_eng": "Bread rolls filled with thick beef floss",
+                        "description_ind": "Varian Abon Gulung otentik dari Manokwari.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "abon gulung",
+                            "manokwari",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "abon gulung",
+                            "traditional",
+                            "manokwari"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-011",
+                        "name": "Es Kelapa Asam",
+                        "origin": "Papua",
+                        "category": "Beverage",
+                        "description_eng": "Coconut water with tamarind and sugar",
+                        "description_ind": "Varian Es Kelapa Asam otentik dari Papua.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es kelapa asam",
+                            "papua",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "es kelapa asam",
+                            "traditional",
+                            "papua"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-012",
+                        "name": "Sambal Colo-Colo Papua",
+                        "origin": "Papua",
+                        "category": "Condiment",
+                        "description_eng": "Spicy raw chili and tomato mix",
+                        "description_ind": "Varian Sambal Colo-Colo Papua otentik dari Papua.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sambal colo-colo papua",
+                            "papua",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal colo-colo papua",
+                            "traditional",
+                            "papua"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-013",
+                        "name": "Sate Kerang Papua",
+                        "origin": "Papua",
+                        "category": "Snack",
+                        "description_eng": "Spicy grilled clam skewers",
+                        "description_ind": "Varian Sate Kerang Papua otentik dari Papua.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate kerang papua",
+                            "papua",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "sate kerang papua",
+                            "traditional",
+                            "papua"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-014",
+                        "name": "Sup Ikan Red Snapper",
+                        "origin": "Jayapura",
+                        "category": "Main Dish",
+                        "description_eng": "Clear red snapper soup with basil",
+                        "description_ind": "Varian Sup Ikan Red Snapper otentik dari Jayapura.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sup ikan red snapper",
+                            "jayapura",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "sup ikan red snapper",
+                            "traditional",
+                            "jayapura"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-015",
+                        "name": "Ayam Goreng Mambri",
+                        "origin": "Papua",
+                        "category": "Main Dish",
+                        "description_eng": "Fried chicken marinated in local herbs",
+                        "description_ind": "Varian Ayam Goreng Mambri otentik dari Papua.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam goreng mambri",
+                            "papua",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam goreng mambri",
+                            "traditional",
+                            "papua"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-016",
+                        "name": "Kopi Khas Papua",
+                        "origin": "Papua",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Papua.",
+                        "description_ind": "Hidangan Kopi Khas Papua tradisional khas Papua yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "papua",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "papua"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-017",
+                        "name": "Nasi Goreng Papua Barat Daya",
+                        "origin": "Papua Barat Daya",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to Papua Barat Daya.",
+                        "description_ind": "Hidangan Nasi Goreng Papua Barat Daya tradisional khas Papua Barat Daya yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "papua barat daya",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "papua barat daya"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-018",
+                        "name": "Tumis Sayur Papua Selatan",
+                        "origin": "Papua Selatan",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Papua Selatan.",
+                        "description_ind": "Hidangan Tumis Sayur Papua Selatan tradisional khas Papua Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "papua selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "papua selatan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-019",
+                        "name": "Tumis Sayur Papua Tengah",
+                        "origin": "Papua Tengah",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Papua Tengah.",
+                        "description_ind": "Hidangan Tumis Sayur Papua Tengah tradisional khas Papua Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "papua tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "papua tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-020",
+                        "name": "Kopi Khas Papua Pegunungan",
+                        "origin": "Papua Pegunungan",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Papua Pegunungan.",
+                        "description_ind": "Hidangan Kopi Khas Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "papua pegunungan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "papua pegunungan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-021",
+                        "name": "Sate Papua Barat",
+                        "origin": "Papua Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Papua Barat marinade.",
+                        "description_ind": "Hidangan Sate Papua Barat tradisional khas Papua Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "papua barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "papua barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-022",
+                        "name": "Tumis Sayur Papua",
+                        "origin": "Papua",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Papua.",
+                        "description_ind": "Hidangan Tumis Sayur Papua tradisional khas Papua yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "papua",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "papua"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-023",
+                        "name": "Ayam Bakar Papua Pegunungan",
+                        "origin": "Papua Pegunungan",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Papua Pegunungan.",
+                        "description_ind": "Hidangan Ayam Bakar Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "papua pegunungan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "papua pegunungan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-024",
+                        "name": "Soto Papua Barat",
+                        "origin": "Papua Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Papua Barat.",
+                        "description_ind": "Hidangan Soto Papua Barat tradisional khas Papua Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "papua barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "papua barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-025",
+                        "name": "Mie Kuah Papua Barat",
+                        "origin": "Papua Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Warm noodle soup native to Papua Barat.",
+                        "description_ind": "Hidangan Mie Kuah Papua Barat tradisional khas Papua Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Noodles",
+                            "Broth",
+                            "Vegetables",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie kuah",
+                            "papua barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "mie kuah",
+                            "food",
+                            "papua barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-026",
+                        "name": "Sambal Papua Tengah",
+                        "origin": "Papua Tengah",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Papua Tengah.",
+                        "description_ind": "Hidangan Sambal Papua Tengah tradisional khas Papua Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "papua tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "papua tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-027",
+                        "name": "Bubur Ayam Papua",
+                        "origin": "Papua",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Papua.",
+                        "description_ind": "Hidangan Bubur Ayam Papua tradisional khas Papua yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "papua",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "papua"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-028",
+                        "name": "Kerupuk Papua Pegunungan",
+                        "origin": "Papua Pegunungan",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Papua Pegunungan.",
+                        "description_ind": "Hidangan Kerupuk Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "papua pegunungan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "papua pegunungan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-029",
+                        "name": "Soto Papua Pegunungan",
+                        "origin": "Papua Pegunungan",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Papua Pegunungan.",
+                        "description_ind": "Hidangan Soto Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "papua pegunungan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "papua pegunungan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-030",
+                        "name": "Sambal Papua Pegunungan",
+                        "origin": "Papua Pegunungan",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Papua Pegunungan.",
+                        "description_ind": "Hidangan Sambal Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "papua pegunungan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "papua pegunungan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-031",
+                        "name": "Bubur Ayam Papua",
+                        "origin": "Papua",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Papua.",
+                        "description_ind": "Hidangan Bubur Ayam Papua tradisional khas Papua yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "papua",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "papua"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-032",
+                        "name": "Sate Papua Selatan",
+                        "origin": "Papua Selatan",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Papua Selatan marinade.",
+                        "description_ind": "Hidangan Sate Papua Selatan tradisional khas Papua Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "papua selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "papua selatan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-033",
+                        "name": "Kue Basah Papua Barat Daya",
+                        "origin": "Papua Barat Daya",
+                        "category": "Snack",
+                        "description_eng": "Traditional sweet snack from Papua Barat Daya.",
+                        "description_ind": "Hidangan Kue Basah Papua Barat Daya tradisional khas Papua Barat Daya yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Flour",
+                            "Coconut",
+                            "Sugar",
+                            "Pandan"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue basah",
+                            "papua barat daya",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kue basah",
+                            "food",
+                            "papua barat daya"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-034",
+                        "name": "Kue Basah Papua Barat Daya",
+                        "origin": "Papua Barat Daya",
+                        "category": "Snack",
+                        "description_eng": "Traditional sweet snack from Papua Barat Daya.",
+                        "description_ind": "Hidangan Kue Basah Papua Barat Daya tradisional khas Papua Barat Daya yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Flour",
+                            "Coconut",
+                            "Sugar",
+                            "Pandan"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue basah",
+                            "papua barat daya",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kue basah",
+                            "food",
+                            "papua barat daya"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-035",
+                        "name": "Sambal Papua",
+                        "origin": "Papua",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Papua.",
+                        "description_ind": "Hidangan Sambal Papua tradisional khas Papua yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "papua",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "papua"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-036",
+                        "name": "Ayam Bakar Papua Selatan",
+                        "origin": "Papua Selatan",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Papua Selatan.",
+                        "description_ind": "Hidangan Ayam Bakar Papua Selatan tradisional khas Papua Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "papua selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "papua selatan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-037",
+                        "name": "Tumis Sayur Papua Selatan",
+                        "origin": "Papua Selatan",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Papua Selatan.",
+                        "description_ind": "Hidangan Tumis Sayur Papua Selatan tradisional khas Papua Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "papua selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "papua selatan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-038",
+                        "name": "Kerupuk Papua Tengah",
+                        "origin": "Papua Tengah",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Papua Tengah.",
+                        "description_ind": "Hidangan Kerupuk Papua Tengah tradisional khas Papua Tengah yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "papua tengah",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "papua tengah"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-039",
+                        "name": "Sate Papua Selatan",
+                        "origin": "Papua Selatan",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Papua Selatan marinade.",
+                        "description_ind": "Hidangan Sate Papua Selatan tradisional khas Papua Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "papua selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "papua selatan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-040",
+                        "name": "Sambal Papua Barat",
+                        "origin": "Papua Barat",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Papua Barat.",
+                        "description_ind": "Hidangan Sambal Papua Barat tradisional khas Papua Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "papua barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "papua barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-041",
+                        "name": "Soto Papua Selatan",
+                        "origin": "Papua Selatan",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Papua Selatan.",
+                        "description_ind": "Hidangan Soto Papua Selatan tradisional khas Papua Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "papua selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "papua selatan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-042",
+                        "name": "Sambal Papua",
+                        "origin": "Papua",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Papua.",
+                        "description_ind": "Hidangan Sambal Papua tradisional khas Papua yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "papua",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "papua"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-043",
+                        "name": "Mie Kuah Papua Selatan",
+                        "origin": "Papua Selatan",
+                        "category": "Main Dish",
+                        "description_eng": "Warm noodle soup native to Papua Selatan.",
+                        "description_ind": "Hidangan Mie Kuah Papua Selatan tradisional khas Papua Selatan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Noodles",
+                            "Broth",
+                            "Vegetables",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie kuah",
+                            "papua selatan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "mie kuah",
+                            "food",
+                            "papua selatan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-044",
+                        "name": "Sambal Papua Pegunungan",
+                        "origin": "Papua Pegunungan",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Papua Pegunungan.",
+                        "description_ind": "Hidangan Sambal Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "papua pegunungan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "papua pegunungan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-045",
+                        "name": "Mie Kuah Papua Pegunungan",
+                        "origin": "Papua Pegunungan",
+                        "category": "Main Dish",
+                        "description_eng": "Warm noodle soup native to Papua Pegunungan.",
+                        "description_ind": "Hidangan Mie Kuah Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Noodles",
+                            "Broth",
+                            "Vegetables",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie kuah",
+                            "papua pegunungan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "mie kuah",
+                            "food",
+                            "papua pegunungan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-046",
+                        "name": "Kue Basah Papua Barat",
+                        "origin": "Papua Barat",
+                        "category": "Snack",
+                        "description_eng": "Traditional sweet snack from Papua Barat.",
+                        "description_ind": "Hidangan Kue Basah Papua Barat tradisional khas Papua Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Flour",
+                            "Coconut",
+                            "Sugar",
+                            "Pandan"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue basah",
+                            "papua barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kue basah",
+                            "food",
+                            "papua barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-047",
+                        "name": "Kopi Khas Papua Pegunungan",
+                        "origin": "Papua Pegunungan",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Papua Pegunungan.",
+                        "description_ind": "Hidangan Kopi Khas Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "papua pegunungan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "papua pegunungan"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-048",
+                        "name": "Sate Papua",
+                        "origin": "Papua",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Papua marinade.",
+                        "description_ind": "Hidangan Sate Papua tradisional khas Papua yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "papua",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "papua"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-049",
+                        "name": "Kopi Khas Papua",
+                        "origin": "Papua",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Papua.",
+                        "description_ind": "Hidangan Kopi Khas Papua tradisional khas Papua yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "papua",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "papua"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "pp-050",
+                        "name": "Es Campur Papua Pegunungan",
+                        "origin": "Papua Pegunungan",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Papua Pegunungan.",
+                        "description_ind": "Hidangan Es Campur Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "papua pegunungan",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "papua pegunungan"
+                        ],
+                        "image": null
+                    }
+                ]
             }
         ]
     },
     {
-        id: 6,
-        nama: "Bali",
-        ibukota: "Denpasar",
-        provinsi: [
+        "id": 6,
+        "nama": "Bali",
+        "ibukota": "Denpasar",
+        "bentuk_pulau": "https://commons.wikimedia.org/wiki/Special:FilePath/Bali%20Locator%20Topography.png?width=400",
+        "provinsi": [
             "Bali"
         ],
-        deskripsi: "Pulau Dewata, pusat pariwisata internasional dengan budaya Hindu yang kental.",
-        menu: [
+        "deskripsi": "Pulau Dewata, pusat pariwisata internasional dengan budaya Hindu yang kental.",
+        "menu": [
             {
-            "total": 5,
-            "data": [
-                {
-                "id": "bl-001",
-                "name": "Ayam Betutu",
-                "origin": "Gilimanuk",
-                "category": "Main Dish",
-                "description_eng": "Slow-cooked whole chicken richly spiced with Balinese bumbu genep, wrapped in banana leaves and roasted until tender.",
-                "description_ind": "Ayam utuh khas Gilimanuk yang dibumbui rempah genep Bali yang pekat, dibungkus pelepah pinang atau daun pisang, lalu dipanggang hingga sangat empuk dan meresap.",
-                "ingredients_eng": ["Chicken","Bumbu Genep Spices","Lemongrass","Shallot","Garlic","Chili","Banana Leaf"],
-                "ingredients_ind": ["Ayam Utuh","Bumbu Genep Bali","Serai","Bawang Merah","Bawang Putih","Cabai","Daun Pisang"],
-                "flavor_profile": ["Spicy", "Savory", "Aromatic", "Rich"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["ayam betutu","betutu bali","ayam gilimanuk","pedas bali","kuliner bali"],
-                "search_keywords_eng": ["ayam betutu","betutu chicken","balinese chicken","gilimanuk","spicy roasted chicken"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20betutu%20khas%20Gilimanuk.jpg?width=800"
-                },
-                {
-                "id": "bl-002",
-                "name": "Sate Lilit",
-                "origin": "Klungkung",
-                "category": "Main Dish",
-                "description_eng": "Minced fish or chicken seasoned with grated coconut, coconut milk, and aromatic spices, wrapped around lemongrass stalks and grilled.",
-                "description_ind": "Sate khas Klungkung dari daging ikan tenggiri atau ayam cincang yang diaduk bersama kelapa parut dan santan bumbu Bali, dililitkan pada batang serai lalu dibakar.",
-                "ingredients_eng": ["Minced Fish","Minced Chicken","Grated Coconut","Coconut Milk","Lemongrass Stalks","Chili"],
-                "ingredients_ind": ["Daging Ikan Cincang","Daging Ayam Cincang","Kelapa Parut","Santan","Batang Serai","Cabai"],
-                "flavor_profile": ["Savory", "Sweet", "Aromatic", "Smoky"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["sate lilit","sate lilit bali","sate batang serai","klungkung","sate ikan"],
-                "search_keywords_eng": ["sate lilit","balinese satay","lemongrass skewers","minced satay","grilled fish satay"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Lilit.jpg?width=800"
-                },
-                {
-                "id": "bl-003",
-                "name": "Babi Guling",
-                "origin": "Gianyar",
-                "category": "Main Dish",
-                "description_eng": "Traditional roasted suckling pig seasoned with turmeric, coriander, and herbs, celebrated for its crackling crispy skin.",
-                "description_ind": "Babi panggang guling khas Gianyar berbalur bumbu rempah kunyit dan ketumbar dengan kulit luar yang super renyah dan daging yang gurih juicy.",
-                "ingredients_eng": ["Pork","Bumbu Genep","Turmeric","Coriander","Lemongrass","Cassava Leaves"],
-                "ingredients_ind": ["Daging Babi","Bumbu Genep","Kunyit","Ketumbar","Serai","Daun Singkong"],
-                "flavor_profile": ["Crispy", "Savory", "Spicy", "Rich"],
-                "is_halal": false,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["babi guling","kulit krispi","gianyar","babi panggang bali","kuliner bali"],
-                "search_keywords_eng": ["babi guling","suckling pig","crispy pork skin","gianyar","balinese pork"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Babi%20Guling.jpg?width=800"
-                },
-                {
-                "id": "bl-004",
-                "name": "Lawar",
-                "origin": "Bali",
-                "category": "Side Dish",
-                "description_eng": "Traditional Balinese mixture of finely chopped green vegetables, grated coconut, and spices seasoned with lime juice.",
-                "description_ind": "Sayuran khas Bali berupa cincangan kacang panjang, kelapa parut bakar, dan rempah harum yang diberi perasan jeruk limau segar.",
-                "ingredients_eng": ["Long Beans","Grated Coconut","Chicken","Shallot","Garlic","Chili","Lime"],
-                "ingredients_ind": ["Kacang Panjang","Kelapa Parut","Daging Ayam","Bawang Merah","Bawang Putih","Cabai","Jeruk Limau"],
-                "flavor_profile": ["Savory", "Fresh", "Spicy", "Herbal"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["lawar","lawar bali","lawar ayam","kacang panjang kelapa","sayur bali"],
-                "search_keywords_eng": ["lawar","balinese salad","long beans","bali side dish","traditional salad"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lawar.jpg?width=800"
-                },
-                {
-                "id": "bl-005",
-                "name": "Nasi Tepeng",
-                "origin": "Gianyar",
-                "category": "Main Dish",
-                "description_eng": "Soft spiced rice cooked with rich turmeric broth, topped with shredded chicken, jackfruit, beans, and fiery sambal.",
-                "description_ind": "Nasi lembek kuning gurih berempah khas Gianyar yang disajikan dengan suwiran ayam, lawar nangka, kacang panjang, dan sambal pedas menggigit.",
-                "ingredients_eng": ["Rice","Turmeric","Chicken","Long Beans","Young Jackfruit","Grated Coconut","Chili"],
-                "ingredients_ind": ["Beras","Kunyit","Daging Ayam","Kacang Panjang","Nangka Muda","Kelapa Parut","Cabai"],
-                "flavor_profile": ["Spicy", "Savory", "Soft", "Aromatic"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["nasi tepeng","nasi gianyar","nasi lembek kuning","sarapan bali","tepeng"],
-                "search_keywords_eng": ["nasi tepeng","spiced rice porridge","gianyar","bali breakfast","turmeric rice"],
-                // TODO: cari foto hidangan ini di Wikimedia Commons (belum ada yang akurat)
-                "image": null
-                }
-            ]
+                "total": 50,
+                "data": [
+                    {
+                        "id": "bl-001",
+                        "name": "Ayam Betutu",
+                        "origin": "Gilimanuk",
+                        "category": "Main Dish",
+                        "description_eng": "Slow-cooked whole chicken richly spiced with Balinese bumbu genep, wrapped in banana leaves and roasted until tender.",
+                        "description_ind": "Ayam utuh khas Gilimanuk yang dibumbui rempah genep Bali yang pekat, dibungkus pelepah pinang atau daun pisang, lalu dipanggang hingga sangat empuk dan meresap.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Bumbu Genep Spices",
+                            "Lemongrass",
+                            "Shallot",
+                            "Garlic",
+                            "Chili",
+                            "Banana Leaf"
+                        ],
+                        "ingredients_ind": [
+                            "Ayam Utuh",
+                            "Bumbu Genep Bali",
+                            "Serai",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Daun Pisang"
+                        ],
+                        "flavor_profile": [
+                            "Spicy",
+                            "Savory",
+                            "Aromatic",
+                            "Rich"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam betutu",
+                            "betutu bali",
+                            "ayam gilimanuk",
+                            "pedas bali",
+                            "kuliner bali"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam betutu",
+                            "betutu chicken",
+                            "balinese chicken",
+                            "gilimanuk",
+                            "spicy roasted chicken"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20betutu%20khas%20Gilimanuk.jpg?width=800"
+                    },
+                    {
+                        "id": "bl-002",
+                        "name": "Sate Lilit",
+                        "origin": "Klungkung",
+                        "category": "Main Dish",
+                        "description_eng": "Minced fish or chicken seasoned with grated coconut, coconut milk, and aromatic spices, wrapped around lemongrass stalks and grilled.",
+                        "description_ind": "Sate khas Klungkung dari daging ikan tenggiri atau ayam cincang yang diaduk bersama kelapa parut dan santan bumbu Bali, dililitkan pada batang serai lalu dibakar.",
+                        "ingredients_eng": [
+                            "Minced Fish",
+                            "Minced Chicken",
+                            "Grated Coconut",
+                            "Coconut Milk",
+                            "Lemongrass Stalks",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Daging Ikan Cincang",
+                            "Daging Ayam Cincang",
+                            "Kelapa Parut",
+                            "Santan",
+                            "Batang Serai",
+                            "Cabai"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Sweet",
+                            "Aromatic",
+                            "Smoky"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate lilit",
+                            "sate lilit bali",
+                            "sate batang serai",
+                            "klungkung",
+                            "sate ikan"
+                        ],
+                        "search_keywords_eng": [
+                            "sate lilit",
+                            "balinese satay",
+                            "lemongrass skewers",
+                            "minced satay",
+                            "grilled fish satay"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Lilit.jpg?width=800"
+                    },
+                    {
+                        "id": "bl-003",
+                        "name": "Babi Guling",
+                        "origin": "Gianyar",
+                        "category": "Main Dish",
+                        "description_eng": "Traditional roasted suckling pig seasoned with turmeric, coriander, and herbs, celebrated for its crackling crispy skin.",
+                        "description_ind": "Babi panggang guling khas Gianyar berbalur bumbu rempah kunyit dan ketumbar dengan kulit luar yang super renyah dan daging yang gurih juicy.",
+                        "ingredients_eng": [
+                            "Pork",
+                            "Bumbu Genep",
+                            "Turmeric",
+                            "Coriander",
+                            "Lemongrass",
+                            "Cassava Leaves"
+                        ],
+                        "ingredients_ind": [
+                            "Daging Babi",
+                            "Bumbu Genep",
+                            "Kunyit",
+                            "Ketumbar",
+                            "Serai",
+                            "Daun Singkong"
+                        ],
+                        "flavor_profile": [
+                            "Crispy",
+                            "Savory",
+                            "Spicy",
+                            "Rich"
+                        ],
+                        "is_halal": false,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "babi guling",
+                            "kulit krispi",
+                            "gianyar",
+                            "babi panggang bali",
+                            "kuliner bali"
+                        ],
+                        "search_keywords_eng": [
+                            "babi guling",
+                            "suckling pig",
+                            "crispy pork skin",
+                            "gianyar",
+                            "balinese pork"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Babi%20Guling.jpg?width=800"
+                    },
+                    {
+                        "id": "bl-004",
+                        "name": "Lawar",
+                        "origin": "Bali",
+                        "category": "Side Dish",
+                        "description_eng": "Traditional Balinese mixture of finely chopped green vegetables, grated coconut, and spices seasoned with lime juice.",
+                        "description_ind": "Sayuran khas Bali berupa cincangan kacang panjang, kelapa parut bakar, dan rempah harum yang diberi perasan jeruk limau segar.",
+                        "ingredients_eng": [
+                            "Long Beans",
+                            "Grated Coconut",
+                            "Chicken",
+                            "Shallot",
+                            "Garlic",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Kacang Panjang",
+                            "Kelapa Parut",
+                            "Daging Ayam",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Jeruk Limau"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Fresh",
+                            "Spicy",
+                            "Herbal"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "lawar",
+                            "lawar bali",
+                            "lawar ayam",
+                            "kacang panjang kelapa",
+                            "sayur bali"
+                        ],
+                        "search_keywords_eng": [
+                            "lawar",
+                            "balinese salad",
+                            "long beans",
+                            "bali side dish",
+                            "traditional salad"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lawar.jpg?width=800"
+                    },
+                    {
+                        "id": "bl-005",
+                        "name": "Nasi Tepeng",
+                        "origin": "Gianyar",
+                        "category": "Main Dish",
+                        "description_eng": "Soft spiced rice cooked with rich turmeric broth, topped with shredded chicken, jackfruit, beans, and fiery sambal.",
+                        "description_ind": "Nasi lembek kuning gurih berempah khas Gianyar yang disajikan dengan suwiran ayam, lawar nangka, kacang panjang, dan sambal pedas menggigit.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Turmeric",
+                            "Chicken",
+                            "Long Beans",
+                            "Young Jackfruit",
+                            "Grated Coconut",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Beras",
+                            "Kunyit",
+                            "Daging Ayam",
+                            "Kacang Panjang",
+                            "Nangka Muda",
+                            "Kelapa Parut",
+                            "Cabai"
+                        ],
+                        "flavor_profile": [
+                            "Spicy",
+                            "Savory",
+                            "Soft",
+                            "Aromatic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi tepeng",
+                            "nasi gianyar",
+                            "nasi lembek kuning",
+                            "sarapan bali",
+                            "tepeng"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi tepeng",
+                            "spiced rice porridge",
+                            "gianyar",
+                            "bali breakfast",
+                            "turmeric rice"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-006",
+                        "name": "Sate Plecing",
+                        "origin": "Singaraja",
+                        "category": "Main Dish",
+                        "description_eng": "Pork/beef satay with spicy chili sauce",
+                        "description_ind": "Varian Sate Plecing otentik dari Singaraja.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate plecing",
+                            "singaraja",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "sate plecing",
+                            "traditional",
+                            "singaraja"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-007",
+                        "name": "Nasi Campur Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Mixed rice with assorted Balinese sides",
+                        "description_ind": "Varian Nasi Campur Bali otentik dari Bali.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi campur bali",
+                            "bali",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi campur bali",
+                            "traditional",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-008",
+                        "name": "Tum Ayam",
+                        "origin": "Bali",
+                        "category": "Side Dish",
+                        "description_eng": "Minced chicken steamed in banana leaf",
+                        "description_ind": "Varian Tum Ayam otentik dari Bali.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tum ayam",
+                            "bali",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "tum ayam",
+                            "traditional",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-009",
+                        "name": "Rujak Bulung",
+                        "origin": "Bali",
+                        "category": "Snack",
+                        "description_eng": "Seaweed salad with fish broth and chili",
+                        "description_ind": "Varian Rujak Bulung otentik dari Bali.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "rujak bulung",
+                            "bali",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "rujak bulung",
+                            "traditional",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-010",
+                        "name": "Serombotan",
+                        "origin": "Klungkung",
+                        "category": "Side Dish",
+                        "description_eng": "Mixed vegetables with spicy coconut topping",
+                        "description_ind": "Varian Serombotan otentik dari Klungkung.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "serombotan",
+                            "klungkung",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "serombotan",
+                            "traditional",
+                            "klungkung"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-011",
+                        "name": "Bebek Bengil",
+                        "origin": "Ubud",
+                        "category": "Main Dish",
+                        "description_eng": "Crispy deep-fried half duck",
+                        "description_ind": "Varian Bebek Bengil otentik dari Ubud.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bebek bengil",
+                            "ubud",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "bebek bengil",
+                            "traditional",
+                            "ubud"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-012",
+                        "name": "Sate Kakul",
+                        "origin": "Ubud",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled snail skewers with sweet soy",
+                        "description_ind": "Varian Sate Kakul otentik dari Ubud.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate kakul",
+                            "ubud",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "sate kakul",
+                            "traditional",
+                            "ubud"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-013",
+                        "name": "Tipat Cantok",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Rice cake and vegetables in peanut sauce",
+                        "description_ind": "Varian Tipat Cantok otentik dari Bali.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tipat cantok",
+                            "bali",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "tipat cantok",
+                            "traditional",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-014",
+                        "name": "Jukut Undis",
+                        "origin": "Buleleng",
+                        "category": "Main Dish",
+                        "description_eng": "Black pigeon pea soup",
+                        "description_ind": "Varian Jukut Undis otentik dari Buleleng.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "jukut undis",
+                            "buleleng",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "jukut undis",
+                            "traditional",
+                            "buleleng"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-015",
+                        "name": "Sambal Matah",
+                        "origin": "Bali",
+                        "category": "Condiment",
+                        "description_eng": "Raw shallot, lemongrass, and chili relish",
+                        "description_ind": "Varian Sambal Matah otentik dari Bali.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sambal matah",
+                            "bali",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal matah",
+                            "traditional",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-016",
+                        "name": "Kerupuk Bali",
+                        "origin": "Bali",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Bali.",
+                        "description_ind": "Hidangan Kerupuk Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-017",
+                        "name": "Kopi Khas Bali",
+                        "origin": "Bali",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Bali.",
+                        "description_ind": "Hidangan Kopi Khas Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-018",
+                        "name": "Sambal Bali",
+                        "origin": "Bali",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Bali.",
+                        "description_ind": "Hidangan Sambal Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-019",
+                        "name": "Sate Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Bali marinade.",
+                        "description_ind": "Hidangan Sate Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-020",
+                        "name": "Ikan Bakar Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Bali signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-021",
+                        "name": "Soto Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Bali.",
+                        "description_ind": "Hidangan Soto Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-022",
+                        "name": "Ikan Bakar Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Bali signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-023",
+                        "name": "Ayam Bakar Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Bali.",
+                        "description_ind": "Hidangan Ayam Bakar Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-024",
+                        "name": "Bubur Ayam Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Bali.",
+                        "description_ind": "Hidangan Bubur Ayam Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-025",
+                        "name": "Ayam Bakar Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Bali.",
+                        "description_ind": "Hidangan Ayam Bakar Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-026",
+                        "name": "Bubur Ayam Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Bali.",
+                        "description_ind": "Hidangan Bubur Ayam Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-027",
+                        "name": "Bubur Ayam Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Bali.",
+                        "description_ind": "Hidangan Bubur Ayam Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-028",
+                        "name": "Ikan Bakar Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Bali signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-029",
+                        "name": "Kerupuk Bali",
+                        "origin": "Bali",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Bali.",
+                        "description_ind": "Hidangan Kerupuk Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-030",
+                        "name": "Sate Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Bali marinade.",
+                        "description_ind": "Hidangan Sate Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-031",
+                        "name": "Ikan Bakar Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Bali signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-032",
+                        "name": "Sate Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Bali marinade.",
+                        "description_ind": "Hidangan Sate Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-033",
+                        "name": "Es Campur Bali",
+                        "origin": "Bali",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Bali.",
+                        "description_ind": "Hidangan Es Campur Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-034",
+                        "name": "Kopi Khas Bali",
+                        "origin": "Bali",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Bali.",
+                        "description_ind": "Hidangan Kopi Khas Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-035",
+                        "name": "Kopi Khas Bali",
+                        "origin": "Bali",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Bali.",
+                        "description_ind": "Hidangan Kopi Khas Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-036",
+                        "name": "Kerupuk Bali",
+                        "origin": "Bali",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Bali.",
+                        "description_ind": "Hidangan Kerupuk Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-037",
+                        "name": "Ikan Bakar Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Bali signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-038",
+                        "name": "Kopi Khas Bali",
+                        "origin": "Bali",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Bali.",
+                        "description_ind": "Hidangan Kopi Khas Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-039",
+                        "name": "Ayam Bakar Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Bali.",
+                        "description_ind": "Hidangan Ayam Bakar Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-040",
+                        "name": "Bubur Ayam Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Bali.",
+                        "description_ind": "Hidangan Bubur Ayam Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-041",
+                        "name": "Ayam Bakar Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Bali.",
+                        "description_ind": "Hidangan Ayam Bakar Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-042",
+                        "name": "Tumis Sayur Bali",
+                        "origin": "Bali",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Bali.",
+                        "description_ind": "Hidangan Tumis Sayur Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-043",
+                        "name": "Mie Kuah Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Warm noodle soup native to Bali.",
+                        "description_ind": "Hidangan Mie Kuah Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Noodles",
+                            "Broth",
+                            "Vegetables",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie kuah",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "mie kuah",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-044",
+                        "name": "Soto Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Bali.",
+                        "description_ind": "Hidangan Soto Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-045",
+                        "name": "Sate Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Bali marinade.",
+                        "description_ind": "Hidangan Sate Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-046",
+                        "name": "Kue Basah Bali",
+                        "origin": "Bali",
+                        "category": "Snack",
+                        "description_eng": "Traditional sweet snack from Bali.",
+                        "description_ind": "Hidangan Kue Basah Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Flour",
+                            "Coconut",
+                            "Sugar",
+                            "Pandan"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue basah",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kue basah",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-047",
+                        "name": "Tumis Sayur Bali",
+                        "origin": "Bali",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Bali.",
+                        "description_ind": "Hidangan Tumis Sayur Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-048",
+                        "name": "Sambal Bali",
+                        "origin": "Bali",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Bali.",
+                        "description_ind": "Hidangan Sambal Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-049",
+                        "name": "Kerupuk Bali",
+                        "origin": "Bali",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Bali.",
+                        "description_ind": "Hidangan Kerupuk Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "bl-050",
+                        "name": "Ikan Bakar Bali",
+                        "origin": "Bali",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Bali signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Bali tradisional khas Bali yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "bali",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "bali"
+                        ],
+                        "image": null
+                    }
+                ]
             }
         ]
     },
     {
-        id: 7,
-        nama: "Nusa Tenggara",
-        ibukota: "Mataram",
-        provinsi: [
+        "id": 7,
+        "nama": "Nusa Tenggara",
+        "ibukota": "Mataram",
+        "bentuk_pulau": "https://commons.wikimedia.org/wiki/Special:FilePath/IndonesiaSundaKecil.png?width=400",
+        "provinsi": [
             "Nusa Tenggara Barat",
             "Nusa Tenggara Timur"
         ],
-        deskripsi: "Gugusan pulau di timur Bali, termasuk Lombok, Sumbawa, Flores, dan Komodo.",
-        menu: [
+        "deskripsi": "Gugusan pulau di timur Bali, termasuk Lombok, Sumbawa, Flores, dan Komodo.",
+        "menu": [
             {
-            "total": 5,
-            "data": [
-                {
-                "id": "nt-001",
-                "name": "Ayam Taliwang",
-                "origin": "Lombok",
-                "category": "Main Dish",
-                "description_eng": "Young spring chicken grilled or fried, seasoned with fiery red chili, shrimp paste, and fresh lime juice.",
-                "description_ind": "Ayam kampung muda khas Lombok yang dibakar atau digoreng, dilumuri sambal cabai merah bakar, terasi khas Lombok, dan perasan jeruk limau pedas gurih.",
-                "ingredients_eng": ["Young Chicken","Red Chili","Bird's Eye Chili","Lombok Shrimp Paste","Garlic","Shallot","Lime"],
-                "ingredients_ind": ["Ayam Kampung Muda","Cabai Merah","Cabai Rawit","Terasi Lombok","Bawang Putih","Bawang Merah","Jeruk Limau"],
-                "flavor_profile": ["Spicy", "Savory", "Smoky", "Tangy"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["ayam taliwang","taliwang lombok","ayam bakar pedas","kuliner lombok","ntb"],
-                "search_keywords_eng": ["ayam taliwang","taliwang chicken","lombok grilled chicken","spicy chicken","nusa tenggara"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Taliwang.jpg?width=800"
-                },
-                {
-                "id": "nt-002",
-                "name": "Se'i Sapi",
-                "origin": "Kupang",
-                "category": "Main Dish",
-                "description_eng": "Traditional cured beef slowly smoked over burning kosambi wood, served with fiery sambal lu'at.",
-                "description_ind": "Daging sapi asap khas Kupang yang diasap perlahan di atas bara kayu kosambi selama berjam-jam, menghasilkan aroma asap harum dan disajikan dengan sambal lu'at segar.",
-                "ingredients_eng": ["Beef","Kosambi Wood","Salt","Spices","Chili","Lime Leaves"],
-                "ingredients_ind": ["Daging Sapi","Kayu Kosambi","Garam","Rempah Asap","Cabai Rawit","Daun Jeruk"],
-                "flavor_profile": ["Smoky", "Savory", "Tender", "Aromatic"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["sei sapi","daging asap kupang","sambal luat","kuliner ntt","daging sei"],
-                "search_keywords_eng": ["sei sapi","smoked beef","kupang beef","sambal luat","kosambi wood smoked"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sei%20sapi%20Kupang.jpg?width=800"
-                },
-                {
-                "id": "nt-003",
-                "name": "Plecing Kangkung",
-                "origin": "Lombok",
-                "category": "Side Dish",
-                "description_eng": "Blanched crunchy water spinach served cold with a spicy tomato-shrimp paste sambal and fried peanuts.",
-                "description_ind": "Kangkung khas Lombok bertekstur renyah yang direbus sebentar, disiram sambal tomat terasi pedas segar, serta ditaburi kacang tanah dan kedelai goreng.",
-                "ingredients_eng": ["Lombok Water Spinach","Tomato","Chili","Shrimp Paste","Fried Peanuts","Soybeans","Lime"],
-                "ingredients_ind": ["Kangkung Lombok","Tomat","Cabai","Terasi","Kacang Tanah Goreng","Kedelai Goreng","Jeruk Limau"],
-                "flavor_profile": ["Spicy", "Fresh", "Savory", "Tangy"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["plecing kangkung","plecing lombok","sayur kangkung pedas","sambal plecing","lombok"],
-                "search_keywords_eng": ["plecing kangkung","water spinach","lombok salad","spicy sambal salad","nusa tenggara"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pelecing%20kangkung.JPG?width=800"
-                },
-                {
-                "id": "nt-004",
-                "name": "Catemak Jagung",
-                "origin": "East Nusa Tenggara",
-                "category": "Dessert",
-                "description_eng": "Hearty, comforting dish made from sweet corn, kidney beans, green beans, and pumpkin cooked until tender.",
-                "description_ind": "Masakan berkuah khas Nusa Tenggara Timur dari jagung manis, kacang merah, kacang hijau, dan labu kuning yang dimasak empuk dengan rasa gurih alami.",
-                "ingredients_eng": ["Sweet Corn","Kidney Beans","Mung Beans","Pumpkin","Salt","Water"],
-                "ingredients_ind": ["Jagung Manis","Kacang Merah","Kacang Hijau","Labu Kuning","Garam","Air"],
-                "flavor_profile": ["Savory", "Mildly Sweet", "Earthy"],
-                "is_halal": true,
-                "is_vegetarian": true,
-                "search_keywords_ind": ["catemak jagung","jagung ntt","bubur jagung kacang","kuliner sehat ntt","catemak"],
-                "search_keywords_eng": ["catemak jagung","corn stew","ntt traditional","sweet corn soup","savory porridge"],
-                // TODO: cari foto hidangan ini di Wikimedia Commons (belum ada yang akurat)
-                "image": null
-                },
-                {
-                "id": "nt-005",
-                "name": "Kolo (Nasi Bakar Bambu)",
-                "origin": "Manggarai",
-                "category": "Main Dish",
-                "description_eng": "Seasoned rice stuffed into green bamboo stalks lined with banana leaves and roasted over an open flame.",
-                "description_ind": "Nasi gurih berempah khas Manggarai (Flores) yang dimasak di dalam bilah bambu beralaskan daun pisang dan dibakar perlahan di atas bara api.",
-                "ingredients_eng": ["Rice","Coconut Milk","Shallot","Garlic","Salt","Green Bamboo","Banana Leaf"],
-                "ingredients_ind": ["Beras","Santan","Bawang Merah","Bawang Putih","Garam","Bambu Hijau","Daun Pisang"],
-                "flavor_profile": ["Savory", "Aromatic", "Smoky"],
-                "is_halal": true,
-                "is_vegetarian": true,
-                "search_keywords_ind": ["kolo","nasi bakar bambu","nasi kolo flores","manggarai","kuliner adat flores"],
-                "search_keywords_eng": ["kolo","bamboo roasted rice","flores rice","manggarai","traditional bamboo rice"],
-                // TODO: cari foto hidangan ini di Wikimedia Commons (belum ada yang akurat)
-                "image": null
-                }
-            ]
+                "total": 50,
+                "data": [
+                    {
+                        "id": "nt-001",
+                        "name": "Ayam Taliwang",
+                        "origin": "Lombok",
+                        "category": "Main Dish",
+                        "description_eng": "Young spring chicken grilled or fried, seasoned with fiery red chili, shrimp paste, and fresh lime juice.",
+                        "description_ind": "Ayam kampung muda khas Lombok yang dibakar atau digoreng, dilumuri sambal cabai merah bakar, terasi khas Lombok, dan perasan jeruk limau pedas gurih.",
+                        "ingredients_eng": [
+                            "Young Chicken",
+                            "Red Chili",
+                            "Bird's Eye Chili",
+                            "Lombok Shrimp Paste",
+                            "Garlic",
+                            "Shallot",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Ayam Kampung Muda",
+                            "Cabai Merah",
+                            "Cabai Rawit",
+                            "Terasi Lombok",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Jeruk Limau"
+                        ],
+                        "flavor_profile": [
+                            "Spicy",
+                            "Savory",
+                            "Smoky",
+                            "Tangy"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam taliwang",
+                            "taliwang lombok",
+                            "ayam bakar pedas",
+                            "kuliner lombok",
+                            "ntb"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam taliwang",
+                            "taliwang chicken",
+                            "lombok grilled chicken",
+                            "spicy chicken",
+                            "nusa tenggara"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Taliwang.jpg?width=800"
+                    },
+                    {
+                        "id": "nt-002",
+                        "name": "Se'i Sapi",
+                        "origin": "Kupang",
+                        "category": "Main Dish",
+                        "description_eng": "Traditional cured beef slowly smoked over burning kosambi wood, served with fiery sambal lu'at.",
+                        "description_ind": "Daging sapi asap khas Kupang yang diasap perlahan di atas bara kayu kosambi selama berjam-jam, menghasilkan aroma asap harum dan disajikan dengan sambal lu'at segar.",
+                        "ingredients_eng": [
+                            "Beef",
+                            "Kosambi Wood",
+                            "Salt",
+                            "Spices",
+                            "Chili",
+                            "Lime Leaves"
+                        ],
+                        "ingredients_ind": [
+                            "Daging Sapi",
+                            "Kayu Kosambi",
+                            "Garam",
+                            "Rempah Asap",
+                            "Cabai Rawit",
+                            "Daun Jeruk"
+                        ],
+                        "flavor_profile": [
+                            "Smoky",
+                            "Savory",
+                            "Tender",
+                            "Aromatic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sei sapi",
+                            "daging asap kupang",
+                            "sambal luat",
+                            "kuliner ntt",
+                            "daging sei"
+                        ],
+                        "search_keywords_eng": [
+                            "sei sapi",
+                            "smoked beef",
+                            "kupang beef",
+                            "sambal luat",
+                            "kosambi wood smoked"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sei%20sapi%20Kupang.jpg?width=800"
+                    },
+                    {
+                        "id": "nt-003",
+                        "name": "Plecing Kangkung",
+                        "origin": "Lombok",
+                        "category": "Side Dish",
+                        "description_eng": "Blanched crunchy water spinach served cold with a spicy tomato-shrimp paste sambal and fried peanuts.",
+                        "description_ind": "Kangkung khas Lombok bertekstur renyah yang direbus sebentar, disiram sambal tomat terasi pedas segar, serta ditaburi kacang tanah dan kedelai goreng.",
+                        "ingredients_eng": [
+                            "Lombok Water Spinach",
+                            "Tomato",
+                            "Chili",
+                            "Shrimp Paste",
+                            "Fried Peanuts",
+                            "Soybeans",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Kangkung Lombok",
+                            "Tomat",
+                            "Cabai",
+                            "Terasi",
+                            "Kacang Tanah Goreng",
+                            "Kedelai Goreng",
+                            "Jeruk Limau"
+                        ],
+                        "flavor_profile": [
+                            "Spicy",
+                            "Fresh",
+                            "Savory",
+                            "Tangy"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "plecing kangkung",
+                            "plecing lombok",
+                            "sayur kangkung pedas",
+                            "sambal plecing",
+                            "lombok"
+                        ],
+                        "search_keywords_eng": [
+                            "plecing kangkung",
+                            "water spinach",
+                            "lombok salad",
+                            "spicy sambal salad",
+                            "nusa tenggara"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pelecing%20kangkung.JPG?width=800"
+                    },
+                    {
+                        "id": "nt-004",
+                        "name": "Catemak Jagung",
+                        "origin": "East Nusa Tenggara",
+                        "category": "Dessert",
+                        "description_eng": "Hearty, comforting dish made from sweet corn, kidney beans, green beans, and pumpkin cooked until tender.",
+                        "description_ind": "Masakan berkuah khas Nusa Tenggara Timur dari jagung manis, kacang merah, kacang hijau, dan labu kuning yang dimasak empuk dengan rasa gurih alami.",
+                        "ingredients_eng": [
+                            "Sweet Corn",
+                            "Kidney Beans",
+                            "Mung Beans",
+                            "Pumpkin",
+                            "Salt",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Jagung Manis",
+                            "Kacang Merah",
+                            "Kacang Hijau",
+                            "Labu Kuning",
+                            "Garam",
+                            "Air"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Mildly Sweet",
+                            "Earthy"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "catemak jagung",
+                            "jagung ntt",
+                            "bubur jagung kacang",
+                            "kuliner sehat ntt",
+                            "catemak"
+                        ],
+                        "search_keywords_eng": [
+                            "catemak jagung",
+                            "corn stew",
+                            "ntt traditional",
+                            "sweet corn soup",
+                            "savory porridge"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-005",
+                        "name": "Kolo (Nasi Bakar Bambu)",
+                        "origin": "Manggarai",
+                        "category": "Main Dish",
+                        "description_eng": "Seasoned rice stuffed into green bamboo stalks lined with banana leaves and roasted over an open flame.",
+                        "description_ind": "Nasi gurih berempah khas Manggarai (Flores) yang dimasak di dalam bilah bambu beralaskan daun pisang dan dibakar perlahan di atas bara api.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Coconut Milk",
+                            "Shallot",
+                            "Garlic",
+                            "Salt",
+                            "Green Bamboo",
+                            "Banana Leaf"
+                        ],
+                        "ingredients_ind": [
+                            "Beras",
+                            "Santan",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Garam",
+                            "Bambu Hijau",
+                            "Daun Pisang"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Aromatic",
+                            "Smoky"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kolo",
+                            "nasi bakar bambu",
+                            "nasi kolo flores",
+                            "manggarai",
+                            "kuliner adat flores"
+                        ],
+                        "search_keywords_eng": [
+                            "kolo",
+                            "bamboo roasted rice",
+                            "flores rice",
+                            "manggarai",
+                            "traditional bamboo rice"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-006",
+                        "name": "Jagung Bose",
+                        "origin": "Timor",
+                        "category": "Main Dish",
+                        "description_eng": "Corn porridge with kidney beans and coconut milk",
+                        "description_ind": "Varian Jagung Bose otentik dari Timor.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "jagung bose",
+                            "timor",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "jagung bose",
+                            "traditional",
+                            "timor"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-007",
+                        "name": "Rumpu Rampe",
+                        "origin": "Flores",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried papaya leaves and flowers",
+                        "description_ind": "Varian Rumpu Rampe otentik dari Flores.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "rumpu rampe",
+                            "flores",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "rumpu rampe",
+                            "traditional",
+                            "flores"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-008",
+                        "name": "Ikan Kuah Asam",
+                        "origin": "Kupang",
+                        "category": "Main Dish",
+                        "description_eng": "Sour and spicy fish soup",
+                        "description_ind": "Varian Ikan Kuah Asam otentik dari Kupang.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan kuah asam",
+                            "kupang",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan kuah asam",
+                            "traditional",
+                            "kupang"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-009",
+                        "name": "Sate Bulayak",
+                        "origin": "Lombok",
+                        "category": "Main Dish",
+                        "description_eng": "Beef satay with unique spiral rice cake",
+                        "description_ind": "Varian Sate Bulayak otentik dari Lombok.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate bulayak",
+                            "lombok",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "sate bulayak",
+                            "traditional",
+                            "lombok"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-010",
+                        "name": "Nasi Puyung",
+                        "origin": "Lombok",
+                        "category": "Main Dish",
+                        "description_eng": "Spicy shredded chicken rice wrapped in banana leaf",
+                        "description_ind": "Varian Nasi Puyung otentik dari Lombok.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi puyung",
+                            "lombok",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi puyung",
+                            "traditional",
+                            "lombok"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-011",
+                        "name": "Bebalung",
+                        "origin": "Lombok",
+                        "category": "Main Dish",
+                        "description_eng": "Beef or buffalo rib soup",
+                        "description_ind": "Varian Bebalung otentik dari Lombok.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bebalung",
+                            "lombok",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "bebalung",
+                            "traditional",
+                            "lombok"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-012",
+                        "name": "Beberuk Terong",
+                        "origin": "Lombok",
+                        "category": "Side Dish",
+                        "description_eng": "Raw eggplant salad with spicy tomato sambal",
+                        "description_ind": "Varian Beberuk Terong otentik dari Lombok.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "beberuk terong",
+                            "lombok",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "beberuk terong",
+                            "traditional",
+                            "lombok"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-013",
+                        "name": "Jawada",
+                        "origin": "Flores",
+                        "category": "Snack",
+                        "description_eng": "Hair-like crispy sweet snack made of palm sugar",
+                        "description_ind": "Varian Jawada otentik dari Flores.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "jawada",
+                            "flores",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "jawada",
+                            "traditional",
+                            "flores"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-014",
+                        "name": "Daging Se'i Babi",
+                        "origin": "Kupang",
+                        "category": "Main Dish",
+                        "description_eng": "Smoked pork with local spices (Non-halal)",
+                        "description_ind": "Varian Daging Se'i Babi otentik dari Kupang.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": false,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "daging se'i babi",
+                            "kupang",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "daging se'i babi",
+                            "traditional",
+                            "kupang"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-015",
+                        "name": "Sate Susu",
+                        "origin": "Lombok",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled cow udder with spicy sauce",
+                        "description_ind": "Varian Sate Susu otentik dari Lombok.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate susu",
+                            "lombok",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "sate susu",
+                            "traditional",
+                            "lombok"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-016",
+                        "name": "Mie Kuah Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Main Dish",
+                        "description_eng": "Warm noodle soup native to Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Mie Kuah Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Noodles",
+                            "Broth",
+                            "Vegetables",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie kuah",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "mie kuah",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-017",
+                        "name": "Ayam Bakar Nusa Tenggara Barat",
+                        "origin": "Nusa Tenggara Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Nusa Tenggara Barat.",
+                        "description_ind": "Hidangan Ayam Bakar Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "nusa tenggara barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "nusa tenggara barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-018",
+                        "name": "Es Campur Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Es Campur Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-019",
+                        "name": "Ikan Bakar Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Nusa Tenggara Timur signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-020",
+                        "name": "Kue Basah Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Snack",
+                        "description_eng": "Traditional sweet snack from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Kue Basah Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Flour",
+                            "Coconut",
+                            "Sugar",
+                            "Pandan"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue basah",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kue basah",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-021",
+                        "name": "Tumis Sayur Nusa Tenggara Barat",
+                        "origin": "Nusa Tenggara Barat",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Nusa Tenggara Barat.",
+                        "description_ind": "Hidangan Tumis Sayur Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "nusa tenggara barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "nusa tenggara barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-022",
+                        "name": "Es Campur Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Es Campur Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-023",
+                        "name": "Tumis Sayur Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Tumis Sayur Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-024",
+                        "name": "Ayam Bakar Nusa Tenggara Barat",
+                        "origin": "Nusa Tenggara Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Nusa Tenggara Barat.",
+                        "description_ind": "Hidangan Ayam Bakar Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "nusa tenggara barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "nusa tenggara barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-025",
+                        "name": "Es Campur Nusa Tenggara Barat",
+                        "origin": "Nusa Tenggara Barat",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Nusa Tenggara Barat.",
+                        "description_ind": "Hidangan Es Campur Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "nusa tenggara barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "nusa tenggara barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-026",
+                        "name": "Bubur Ayam Nusa Tenggara Barat",
+                        "origin": "Nusa Tenggara Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Nusa Tenggara Barat.",
+                        "description_ind": "Hidangan Bubur Ayam Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "nusa tenggara barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "nusa tenggara barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-027",
+                        "name": "Es Campur Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Es Campur Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-028",
+                        "name": "Sambal Nusa Tenggara Barat",
+                        "origin": "Nusa Tenggara Barat",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Nusa Tenggara Barat.",
+                        "description_ind": "Hidangan Sambal Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "nusa tenggara barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "nusa tenggara barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-029",
+                        "name": "Sambal Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Sambal Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-030",
+                        "name": "Tumis Sayur Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Tumis Sayur Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-031",
+                        "name": "Mie Kuah Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Main Dish",
+                        "description_eng": "Warm noodle soup native to Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Mie Kuah Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Noodles",
+                            "Broth",
+                            "Vegetables",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie kuah",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "mie kuah",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-032",
+                        "name": "Nasi Goreng Nusa Tenggara Barat",
+                        "origin": "Nusa Tenggara Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to Nusa Tenggara Barat.",
+                        "description_ind": "Hidangan Nasi Goreng Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "nusa tenggara barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "nusa tenggara barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-033",
+                        "name": "Es Campur Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Es Campur Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-034",
+                        "name": "Mie Kuah Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Main Dish",
+                        "description_eng": "Warm noodle soup native to Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Mie Kuah Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Noodles",
+                            "Broth",
+                            "Vegetables",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie kuah",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "mie kuah",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-035",
+                        "name": "Es Campur Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Es Campur Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-036",
+                        "name": "Es Campur Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Es Campur Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-037",
+                        "name": "Sambal Nusa Tenggara Barat",
+                        "origin": "Nusa Tenggara Barat",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Nusa Tenggara Barat.",
+                        "description_ind": "Hidangan Sambal Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "nusa tenggara barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "nusa tenggara barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-038",
+                        "name": "Sate Nusa Tenggara Barat",
+                        "origin": "Nusa Tenggara Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Nusa Tenggara Barat marinade.",
+                        "description_ind": "Hidangan Sate Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "nusa tenggara barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "nusa tenggara barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-039",
+                        "name": "Sambal Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Sambal Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-040",
+                        "name": "Ayam Bakar Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Ayam Bakar Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-041",
+                        "name": "Nasi Goreng Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Nasi Goreng Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-042",
+                        "name": "Sambal Nusa Tenggara Barat",
+                        "origin": "Nusa Tenggara Barat",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Nusa Tenggara Barat.",
+                        "description_ind": "Hidangan Sambal Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "nusa tenggara barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "nusa tenggara barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-043",
+                        "name": "Nasi Goreng Nusa Tenggara Barat",
+                        "origin": "Nusa Tenggara Barat",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to Nusa Tenggara Barat.",
+                        "description_ind": "Hidangan Nasi Goreng Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "nusa tenggara barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "nusa tenggara barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-044",
+                        "name": "Kopi Khas Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Kopi Khas Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-045",
+                        "name": "Sambal Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Sambal Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-046",
+                        "name": "Es Campur Nusa Tenggara Barat",
+                        "origin": "Nusa Tenggara Barat",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Nusa Tenggara Barat.",
+                        "description_ind": "Hidangan Es Campur Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "nusa tenggara barat",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "nusa tenggara barat"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-047",
+                        "name": "Ikan Bakar Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Nusa Tenggara Timur signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-048",
+                        "name": "Nasi Goreng Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Main Dish",
+                        "description_eng": "Savory fried rice unique to Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Nasi Goreng Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Soy Sauce",
+                            "Spices",
+                            "Chili"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "nasi goreng",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi goreng",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-049",
+                        "name": "Kue Basah Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Snack",
+                        "description_eng": "Traditional sweet snack from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Kue Basah Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Flour",
+                            "Coconut",
+                            "Sugar",
+                            "Pandan"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue basah",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kue basah",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "nt-050",
+                        "name": "Sambal Nusa Tenggara Timur",
+                        "origin": "Nusa Tenggara Timur",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Nusa Tenggara Timur.",
+                        "description_ind": "Hidangan Sambal Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "nusa tenggara timur",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "nusa tenggara timur"
+                        ],
+                        "image": null
+                    }
+                ]
             }
         ]
     },
     {
-        id: 8,
-        nama: "Maluku",
-        ibukota: "Ambon",
-        provinsi: [
+        "id": 8,
+        "nama": "Maluku",
+        "ibukota": "Ambon",
+        "bentuk_pulau": "https://commons.wikimedia.org/wiki/Special:FilePath/Maluku%20Islands%20en.png?width=400",
+        "provinsi": [
             "Maluku",
             "Maluku Utara"
         ],
-        deskripsi: "Kepulauan Rempah legendaris, kaya akan cengkeh, pala, dan budaya bahari.",
-        menu: [
+        "deskripsi": "Kepulauan Rempah legendaris, kaya akan cengkeh, pala, dan budaya bahari.",
+        "menu": [
             {
-            "total": 5,
-            "data": [
-                {
-                "id": "ml-001",
-                "name": "Ikan Kuah Pala Banda",
-                "origin": "Banda Neira",
-                "category": "Main Dish",
-                "description_eng": "Historic Spice Islands fish soup simmered with fresh local nutmeg, turmeric, basil, and chilies.",
-                "description_ind": "Sup ikan rempah legendaris dari Banda Neira yang dimasak dengan buah pala segar Maluku, kunyit, daun kemangi, dan cabai dengan kuah asam pedas harum.",
-                "ingredients_eng": ["Fresh Fish","Fresh Nutmeg","Turmeric","Lemon Basil","Lime","Chili","Lemongrass"],
-                "ingredients_ind": ["Ikan Segar","Buah Pala Segar","Kunyit","Daun Kemangi","Jeruk Nipis","Cabai","Serai"],
-                "flavor_profile": ["Tangy", "Spicy", "Aromatic", "Fresh"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["ikan kuah pala","pala banda","banda neira","sup ikan maluku","kepulauan rempah"],
-                "search_keywords_eng": ["ikan kuah pala","nutmeg fish soup","banda neira","spice islands soup","maluku fish"],
-                // TODO: cari foto hidangan ini di Wikimedia Commons (belum ada yang akurat)
-                "image": null
-                },
-                {
-                "id": "ml-002",
-                "name": "Gohu Ikan",
-                "origin": "Ternate",
-                "category": "Main Dish",
-                "description_eng": "Ternate-style sashimi featuring fresh yellowfin tuna tossed with lime, chilies, basil, and hot coconut oil with pili nuts.",
-                "description_ind": "Sashimi khas Ternate dari potongan ikan tuna sirip kuning segar yang dicampur perasan jeruk nipis, cabai rawit, daun kemangi, disiram minyak kelapa panas dan taburan kacang kenari.",
-                "ingredients_eng": ["Yellowfin Tuna","Calamansi Lime","Bird's Eye Chili","Shallots","Basil","Hot Coconut Oil","Kenari Nuts"],
-                "ingredients_ind": ["Ikan Tuna Sirip Kuning","Jeruk Nipis/Cui","Cabai Rawit","Bawang Merah","Kemangi","Minyak Kelapa Panas","Kacang Kenari"],
-                "flavor_profile": ["Fresh", "Tangy", "Spicy", "Nutty"],
-                "is_halal": true,
-                "is_vegetarian": false,
-                "search_keywords_ind": ["gohu ikan","sashimi ternate","tuna ternate","gohu maluku utara","ikan mentah segar"],
-                "search_keywords_eng": ["gohu ikan","ternate sashimi","raw yellowfin tuna","maluku ceviche","kenari nut tuna"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gohu%20Ikan%20in%20Ternate.jpg?width=800"
-                },
-                {
-                "id": "ml-003",
-                "name": "Nasi Lapola",
-                "origin": "Ambon",
-                "category": "Main Dish",
-                "description_eng": "Aromatic steamed rice mixed with red tolo beans, grated coconut, and fragrant pandan leaves.",
-                "description_ind": "Nasi gurih khas Ambon yang dimasak bersama kacang tolo merah, parutan kelapa muda, dan daun pandan wangi, biasa disantap dengan ikan asar dan sambal colo-colo.",
-                "ingredients_eng": ["Rice","Red Tolo Beans","Grated Coconut","Pandan Leaves","Salt"],
-                "ingredients_ind": ["Beras","Kacang Tolo Merah","Kelapa Parut Muda","Daun Pandan","Garam"],
-                "flavor_profile": ["Savory", "Nutty", "Fragrant"],
-                "is_halal": true,
-                "is_vegetarian": true,
-                "search_keywords_ind": ["nasi lapola","nasi kacang tolo","nasi gurih ambon","kuliner ambon","makanan pokok maluku"],
-                "search_keywords_eng": ["nasi lapola","red bean coconut rice","ambon rice","maluku traditional rice","fragrant rice"],
-                // TODO: cari foto hidangan ini di Wikimedia Commons (belum ada yang akurat)
-                "image": null
-                },
-                {
-                "id": "ml-004",
-                "name": "Sambal Colo-Colo",
-                "origin": "Ambon",
-                "category": "Condiment",
-                "description_eng": "Signature raw relish made from diced fresh tomatoes, shallots, bird's eye chilies, sweet soy sauce, and calamansi lime.",
-                "description_ind": "Sambal iris mentah segar khas Ambon yang terbuat dari potongan tomat segar, bawang merah, cabai rawit pedas, kecap manis gurih, dan perasan jeruk cui/nipis.",
-                "ingredients_eng": ["Fresh Tomato","Shallots","Bird's Eye Chili","Sweet Soy Sauce","Calamansi Lime Juice","Basil"],
-                "ingredients_ind": ["Tomat Segar","Bawang Merah","Cabai Rawit","Kecap Manis","Jeruk Cui/Nipis","Kemangi"],
-                "flavor_profile": ["Sweet", "Spicy", "Tangy", "Fresh"],
-                "is_halal": true,
-                "is_vegetarian": true,
-                "search_keywords_ind": ["sambal colo-colo","colo-colo","sambal kecap ambon","sambal mentah maluku","cocolan ikan bakar"],
-                "search_keywords_eng": ["sambal colo-colo","colo-colo relish","ambon dipping sauce","fresh spicy dip","maluku condiment"],
-                // TODO: cari foto hidangan ini di Wikimedia Commons (belum ada yang akurat)
-                "image": null
-                },
-                {
-                "id": "ml-005",
-                "name": "Bagea Kenari",
-                "origin": "Maluku",
-                "category": "Snack",
-                "description_eng": "Traditional crispy sago cookies spiced with cinnamon and nutmeg, studded with crunchy native pili nuts (kenari).",
-                "description_ind": "Kue kering tradisional khas Maluku dari tepung sagu dengan perpaduan rempah kayu manis dan pala, ditaburi renyahnya kacang kenari asli Maluku.",
-                "ingredients_eng": ["Sago Flour","Kenari (Pili) Nuts","Palm Sugar","Cinnamon","Nutmeg","Egg"],
-                "ingredients_ind": ["Tepung Sagu","Kacang Kenari","Gula Merah","Kayu Manis","Pala","Telur"],
-                "flavor_profile": ["Sweet", "Nutty", "Spiced", "Crunchy"],
-                "is_halal": true,
-                "is_vegetarian": true,
-                "search_keywords_ind": ["bagea kenari","kue bagea","kue sagu maluku","kacang kenari","oleh-oleh ambon"],
-                "search_keywords_eng": ["bagea kenari","sago cookies","nutmeg cinnamon cookie","kenari biscuits","maluku snack"],
-                "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bagea%20kenari.JPG?width=800"
-                }
-            ]
+                "total": 50,
+                "data": [
+                    {
+                        "id": "ml-001",
+                        "name": "Ikan Kuah Pala Banda",
+                        "origin": "Banda Neira",
+                        "category": "Main Dish",
+                        "description_eng": "Historic Spice Islands fish soup simmered with fresh local nutmeg, turmeric, basil, and chilies.",
+                        "description_ind": "Sup ikan rempah legendaris dari Banda Neira yang dimasak dengan buah pala segar Maluku, kunyit, daun kemangi, dan cabai dengan kuah asam pedas harum.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Fresh Nutmeg",
+                            "Turmeric",
+                            "Lemon Basil",
+                            "Lime",
+                            "Chili",
+                            "Lemongrass"
+                        ],
+                        "ingredients_ind": [
+                            "Ikan Segar",
+                            "Buah Pala Segar",
+                            "Kunyit",
+                            "Daun Kemangi",
+                            "Jeruk Nipis",
+                            "Cabai",
+                            "Serai"
+                        ],
+                        "flavor_profile": [
+                            "Tangy",
+                            "Spicy",
+                            "Aromatic",
+                            "Fresh"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan kuah pala",
+                            "pala banda",
+                            "banda neira",
+                            "sup ikan maluku",
+                            "kepulauan rempah"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan kuah pala",
+                            "nutmeg fish soup",
+                            "banda neira",
+                            "spice islands soup",
+                            "maluku fish"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-002",
+                        "name": "Gohu Ikan",
+                        "origin": "Ternate",
+                        "category": "Main Dish",
+                        "description_eng": "Ternate-style sashimi featuring fresh yellowfin tuna tossed with lime, chilies, basil, and hot coconut oil with pili nuts.",
+                        "description_ind": "Sashimi khas Ternate dari potongan ikan tuna sirip kuning segar yang dicampur perasan jeruk nipis, cabai rawit, daun kemangi, disiram minyak kelapa panas dan taburan kacang kenari.",
+                        "ingredients_eng": [
+                            "Yellowfin Tuna",
+                            "Calamansi Lime",
+                            "Bird's Eye Chili",
+                            "Shallots",
+                            "Basil",
+                            "Hot Coconut Oil",
+                            "Kenari Nuts"
+                        ],
+                        "ingredients_ind": [
+                            "Ikan Tuna Sirip Kuning",
+                            "Jeruk Nipis/Cui",
+                            "Cabai Rawit",
+                            "Bawang Merah",
+                            "Kemangi",
+                            "Minyak Kelapa Panas",
+                            "Kacang Kenari"
+                        ],
+                        "flavor_profile": [
+                            "Fresh",
+                            "Tangy",
+                            "Spicy",
+                            "Nutty"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "gohu ikan",
+                            "sashimi ternate",
+                            "tuna ternate",
+                            "gohu maluku utara",
+                            "ikan mentah segar"
+                        ],
+                        "search_keywords_eng": [
+                            "gohu ikan",
+                            "ternate sashimi",
+                            "raw yellowfin tuna",
+                            "maluku ceviche",
+                            "kenari nut tuna"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gohu%20Ikan%20in%20Ternate.jpg?width=800"
+                    },
+                    {
+                        "id": "ml-003",
+                        "name": "Nasi Lapola",
+                        "origin": "Ambon",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic steamed rice mixed with red tolo beans, grated coconut, and fragrant pandan leaves.",
+                        "description_ind": "Nasi gurih khas Ambon yang dimasak bersama kacang tolo merah, parutan kelapa muda, dan daun pandan wangi, biasa disantap dengan ikan asar dan sambal colo-colo.",
+                        "ingredients_eng": [
+                            "Rice",
+                            "Red Tolo Beans",
+                            "Grated Coconut",
+                            "Pandan Leaves",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Beras",
+                            "Kacang Tolo Merah",
+                            "Kelapa Parut Muda",
+                            "Daun Pandan",
+                            "Garam"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Nutty",
+                            "Fragrant"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "nasi lapola",
+                            "nasi kacang tolo",
+                            "nasi gurih ambon",
+                            "kuliner ambon",
+                            "makanan pokok maluku"
+                        ],
+                        "search_keywords_eng": [
+                            "nasi lapola",
+                            "red bean coconut rice",
+                            "ambon rice",
+                            "maluku traditional rice",
+                            "fragrant rice"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-004",
+                        "name": "Sambal Colo-Colo",
+                        "origin": "Ambon",
+                        "category": "Condiment",
+                        "description_eng": "Signature raw relish made from diced fresh tomatoes, shallots, bird's eye chilies, sweet soy sauce, and calamansi lime.",
+                        "description_ind": "Sambal iris mentah segar khas Ambon yang terbuat dari potongan tomat segar, bawang merah, cabai rawit pedas, kecap manis gurih, dan perasan jeruk cui/nipis.",
+                        "ingredients_eng": [
+                            "Fresh Tomato",
+                            "Shallots",
+                            "Bird's Eye Chili",
+                            "Sweet Soy Sauce",
+                            "Calamansi Lime Juice",
+                            "Basil"
+                        ],
+                        "ingredients_ind": [
+                            "Tomat Segar",
+                            "Bawang Merah",
+                            "Cabai Rawit",
+                            "Kecap Manis",
+                            "Jeruk Cui/Nipis",
+                            "Kemangi"
+                        ],
+                        "flavor_profile": [
+                            "Sweet",
+                            "Spicy",
+                            "Tangy",
+                            "Fresh"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal colo-colo",
+                            "colo-colo",
+                            "sambal kecap ambon",
+                            "sambal mentah maluku",
+                            "cocolan ikan bakar"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal colo-colo",
+                            "colo-colo relish",
+                            "ambon dipping sauce",
+                            "fresh spicy dip",
+                            "maluku condiment"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-005",
+                        "name": "Bagea Kenari",
+                        "origin": "Maluku",
+                        "category": "Snack",
+                        "description_eng": "Traditional crispy sago cookies spiced with cinnamon and nutmeg, studded with crunchy native pili nuts (kenari).",
+                        "description_ind": "Kue kering tradisional khas Maluku dari tepung sagu dengan perpaduan rempah kayu manis dan pala, ditaburi renyahnya kacang kenari asli Maluku.",
+                        "ingredients_eng": [
+                            "Sago Flour",
+                            "Kenari (Pili) Nuts",
+                            "Palm Sugar",
+                            "Cinnamon",
+                            "Nutmeg",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Tepung Sagu",
+                            "Kacang Kenari",
+                            "Gula Merah",
+                            "Kayu Manis",
+                            "Pala",
+                            "Telur"
+                        ],
+                        "flavor_profile": [
+                            "Sweet",
+                            "Nutty",
+                            "Spiced",
+                            "Crunchy"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "bagea kenari",
+                            "kue bagea",
+                            "kue sagu maluku",
+                            "kacang kenari",
+                            "oleh-oleh ambon"
+                        ],
+                        "search_keywords_eng": [
+                            "bagea kenari",
+                            "sago cookies",
+                            "nutmeg cinnamon cookie",
+                            "kenari biscuits",
+                            "maluku snack"
+                        ],
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bagea%20kenari.JPG?width=800"
+                    },
+                    {
+                        "id": "ml-006",
+                        "name": "Ikan Asar",
+                        "origin": "Ambon",
+                        "category": "Main Dish",
+                        "description_eng": "Smoked skipjack tuna with spices",
+                        "description_ind": "Varian Ikan Asar otentik dari Ambon.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan asar",
+                            "ambon",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan asar",
+                            "traditional",
+                            "ambon"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-007",
+                        "name": "Kasbi Kompa",
+                        "origin": "Maluku",
+                        "category": "Snack",
+                        "description_eng": "Cassava cake steamed with coconut",
+                        "description_ind": "Varian Kasbi Kompa otentik dari Maluku.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "kasbi kompa",
+                            "maluku",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "kasbi kompa",
+                            "traditional",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-008",
+                        "name": "Kohu-Kohu",
+                        "origin": "Ambon",
+                        "category": "Side Dish",
+                        "description_eng": "Cassava and fish salad with grated coconut",
+                        "description_ind": "Varian Kohu-Kohu otentik dari Ambon.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "kohu-kohu",
+                            "ambon",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "kohu-kohu",
+                            "traditional",
+                            "ambon"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-009",
+                        "name": "Roti Kenari",
+                        "origin": "Ambon",
+                        "category": "Snack",
+                        "description_eng": "Sweet bread topped with local pili nuts",
+                        "description_ind": "Varian Roti Kenari otentik dari Ambon.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "roti kenari",
+                            "ambon",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "roti kenari",
+                            "traditional",
+                            "ambon"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-010",
+                        "name": "Es Kacang Merah Ambon",
+                        "origin": "Ambon",
+                        "category": "Dessert",
+                        "description_eng": "Red bean shaved ice with syrup and milk",
+                        "description_ind": "Varian Es Kacang Merah Ambon otentik dari Ambon.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es kacang merah ambon",
+                            "ambon",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "es kacang merah ambon",
+                            "traditional",
+                            "ambon"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-011",
+                        "name": "Halua Kenari",
+                        "origin": "Maluku",
+                        "category": "Snack",
+                        "description_eng": "Caramelized kenari nut brittle",
+                        "description_ind": "Varian Halua Kenari otentik dari Maluku.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "halua kenari",
+                            "maluku",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "halua kenari",
+                            "traditional",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-012",
+                        "name": "Ikan Bakar Dabu-dabu",
+                        "origin": "Ambon",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with fresh raw sambal",
+                        "description_ind": "Varian Ikan Bakar Dabu-dabu otentik dari Ambon.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar dabu-dabu",
+                            "ambon",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar dabu-dabu",
+                            "traditional",
+                            "ambon"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-013",
+                        "name": "Sagu Gula",
+                        "origin": "Maluku",
+                        "category": "Snack",
+                        "description_eng": "Sago baked with melted palm sugar",
+                        "description_ind": "Varian Sagu Gula otentik dari Maluku.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sagu gula",
+                            "maluku",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "sagu gula",
+                            "traditional",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-014",
+                        "name": "Pisang Asar",
+                        "origin": "Ambon",
+                        "category": "Snack",
+                        "description_eng": "Baked plantains mixed with nuts and cinnamon",
+                        "description_ind": "Varian Pisang Asar otentik dari Ambon.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "pisang asar",
+                            "ambon",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "pisang asar",
+                            "traditional",
+                            "ambon"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-015",
+                        "name": "Sayur Lilin",
+                        "origin": "Ternate",
+                        "category": "Side Dish",
+                        "description_eng": "Sugar cane flower cooked in coconut milk",
+                        "description_ind": "Varian Sayur Lilin otentik dari Ternate.",
+                        "ingredients_eng": [
+                            "Local Ingredients",
+                            "Spices"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah-rempah"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sayur lilin",
+                            "ternate",
+                            "kuliner"
+                        ],
+                        "search_keywords_eng": [
+                            "sayur lilin",
+                            "traditional",
+                            "ternate"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-016",
+                        "name": "Ayam Bakar Maluku Utara",
+                        "origin": "Maluku Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Maluku Utara.",
+                        "description_ind": "Hidangan Ayam Bakar Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "maluku utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "maluku utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-017",
+                        "name": "Sambal Maluku",
+                        "origin": "Maluku",
+                        "category": "Condiment",
+                        "description_eng": "Spicy signature chili paste from Maluku.",
+                        "description_ind": "Hidangan Sambal Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chili",
+                            "Shallots",
+                            "Shrimp Paste",
+                            "Tomato"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "sambal",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sambal",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-018",
+                        "name": "Es Campur Maluku Utara",
+                        "origin": "Maluku Utara",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Maluku Utara.",
+                        "description_ind": "Hidangan Es Campur Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "maluku utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "maluku utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-019",
+                        "name": "Mie Kuah Maluku",
+                        "origin": "Maluku",
+                        "category": "Main Dish",
+                        "description_eng": "Warm noodle soup native to Maluku.",
+                        "description_ind": "Hidangan Mie Kuah Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Noodles",
+                            "Broth",
+                            "Vegetables",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie kuah",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "mie kuah",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-020",
+                        "name": "Bubur Ayam Maluku",
+                        "origin": "Maluku",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Maluku.",
+                        "description_ind": "Hidangan Bubur Ayam Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-021",
+                        "name": "Sate Maluku Utara",
+                        "origin": "Maluku Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Maluku Utara marinade.",
+                        "description_ind": "Hidangan Sate Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "maluku utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "maluku utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-022",
+                        "name": "Tumis Sayur Maluku",
+                        "origin": "Maluku",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Maluku.",
+                        "description_ind": "Hidangan Tumis Sayur Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-023",
+                        "name": "Es Campur Maluku Utara",
+                        "origin": "Maluku Utara",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Maluku Utara.",
+                        "description_ind": "Hidangan Es Campur Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "maluku utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "maluku utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-024",
+                        "name": "Kerupuk Maluku Utara",
+                        "origin": "Maluku Utara",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Maluku Utara.",
+                        "description_ind": "Hidangan Kerupuk Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "maluku utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "maluku utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-025",
+                        "name": "Kue Basah Maluku",
+                        "origin": "Maluku",
+                        "category": "Snack",
+                        "description_eng": "Traditional sweet snack from Maluku.",
+                        "description_ind": "Hidangan Kue Basah Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Flour",
+                            "Coconut",
+                            "Sugar",
+                            "Pandan"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue basah",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kue basah",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-026",
+                        "name": "Ikan Bakar Maluku Utara",
+                        "origin": "Maluku Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Maluku Utara signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "maluku utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "maluku utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-027",
+                        "name": "Kopi Khas Maluku",
+                        "origin": "Maluku",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Maluku.",
+                        "description_ind": "Hidangan Kopi Khas Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-028",
+                        "name": "Soto Maluku",
+                        "origin": "Maluku",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Maluku.",
+                        "description_ind": "Hidangan Soto Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-029",
+                        "name": "Sate Maluku",
+                        "origin": "Maluku",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled skewers with local Maluku marinade.",
+                        "description_ind": "Hidangan Sate Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Meat",
+                            "Skewers",
+                            "Peanut/Soy Sauce",
+                            "Shallots"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "sate",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "sate",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-030",
+                        "name": "Tumis Sayur Maluku",
+                        "origin": "Maluku",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Maluku.",
+                        "description_ind": "Hidangan Tumis Sayur Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-031",
+                        "name": "Es Campur Maluku",
+                        "origin": "Maluku",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Maluku.",
+                        "description_ind": "Hidangan Es Campur Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-032",
+                        "name": "Tumis Sayur Maluku",
+                        "origin": "Maluku",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Maluku.",
+                        "description_ind": "Hidangan Tumis Sayur Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-033",
+                        "name": "Kopi Khas Maluku",
+                        "origin": "Maluku",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Maluku.",
+                        "description_ind": "Hidangan Kopi Khas Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-034",
+                        "name": "Mie Kuah Maluku",
+                        "origin": "Maluku",
+                        "category": "Main Dish",
+                        "description_eng": "Warm noodle soup native to Maluku.",
+                        "description_ind": "Hidangan Mie Kuah Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Noodles",
+                            "Broth",
+                            "Vegetables",
+                            "Egg"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "mie kuah",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "mie kuah",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-035",
+                        "name": "Kopi Khas Maluku Utara",
+                        "origin": "Maluku Utara",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Maluku Utara.",
+                        "description_ind": "Hidangan Kopi Khas Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "maluku utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "maluku utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-036",
+                        "name": "Ayam Bakar Maluku Utara",
+                        "origin": "Maluku Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Maluku Utara.",
+                        "description_ind": "Hidangan Ayam Bakar Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "maluku utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "maluku utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-037",
+                        "name": "Bubur Ayam Maluku",
+                        "origin": "Maluku",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Maluku.",
+                        "description_ind": "Hidangan Bubur Ayam Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-038",
+                        "name": "Soto Maluku",
+                        "origin": "Maluku",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Maluku.",
+                        "description_ind": "Hidangan Soto Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-039",
+                        "name": "Kerupuk Maluku Utara",
+                        "origin": "Maluku Utara",
+                        "category": "Snack",
+                        "description_eng": "Crispy traditional crackers from Maluku Utara.",
+                        "description_ind": "Hidangan Kerupuk Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Tapioca",
+                            "Fish/Shrimp",
+                            "Garlic",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kerupuk",
+                            "maluku utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kerupuk",
+                            "food",
+                            "maluku utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-040",
+                        "name": "Kue Basah Maluku Utara",
+                        "origin": "Maluku Utara",
+                        "category": "Snack",
+                        "description_eng": "Traditional sweet snack from Maluku Utara.",
+                        "description_ind": "Hidangan Kue Basah Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Flour",
+                            "Coconut",
+                            "Sugar",
+                            "Pandan"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kue basah",
+                            "maluku utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kue basah",
+                            "food",
+                            "maluku utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-041",
+                        "name": "Soto Maluku Utara",
+                        "origin": "Maluku Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Aromatic traditional soup from Maluku Utara.",
+                        "description_ind": "Hidangan Soto Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Broth",
+                            "Meat",
+                            "Turmeric",
+                            "Garlic"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "soto",
+                            "maluku utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "soto",
+                            "food",
+                            "maluku utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-042",
+                        "name": "Ikan Bakar Maluku Utara",
+                        "origin": "Maluku Utara",
+                        "category": "Main Dish",
+                        "description_eng": "Grilled fish with Maluku Utara signature spices.",
+                        "description_ind": "Hidangan Ikan Bakar Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Fresh Fish",
+                            "Spices",
+                            "Chili",
+                            "Lime"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ikan bakar",
+                            "maluku utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ikan bakar",
+                            "food",
+                            "maluku utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-043",
+                        "name": "Es Campur Maluku",
+                        "origin": "Maluku",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Maluku.",
+                        "description_ind": "Hidangan Es Campur Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-044",
+                        "name": "Es Campur Maluku Utara",
+                        "origin": "Maluku Utara",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Maluku Utara.",
+                        "description_ind": "Hidangan Es Campur Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "maluku utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "maluku utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-045",
+                        "name": "Es Campur Maluku Utara",
+                        "origin": "Maluku Utara",
+                        "category": "Dessert",
+                        "description_eng": "Refreshing mixed ice dessert from Maluku Utara.",
+                        "description_ind": "Hidangan Es Campur Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Shaved Ice",
+                            "Syrup",
+                            "Fruits",
+                            "Milk"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "es campur",
+                            "maluku utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "es campur",
+                            "food",
+                            "maluku utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-046",
+                        "name": "Kopi Khas Maluku Utara",
+                        "origin": "Maluku Utara",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Maluku Utara.",
+                        "description_ind": "Hidangan Kopi Khas Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "maluku utara",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "maluku utara"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-047",
+                        "name": "Tumis Sayur Maluku",
+                        "origin": "Maluku",
+                        "category": "Side Dish",
+                        "description_eng": "Stir-fried local vegetables from Maluku.",
+                        "description_ind": "Hidangan Tumis Sayur Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Vegetables",
+                            "Garlic",
+                            "Chili",
+                            "Salt"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "tumis sayur",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "tumis sayur",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-048",
+                        "name": "Ayam Bakar Maluku",
+                        "origin": "Maluku",
+                        "category": "Main Dish",
+                        "description_eng": "Sweet and savory grilled chicken from Maluku.",
+                        "description_ind": "Hidangan Ayam Bakar Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Coriander"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "ayam bakar",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "ayam bakar",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-049",
+                        "name": "Bubur Ayam Maluku",
+                        "origin": "Maluku",
+                        "category": "Main Dish",
+                        "description_eng": "Comforting chicken congee from Maluku.",
+                        "description_ind": "Hidangan Bubur Ayam Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Rice Porridge",
+                            "Chicken",
+                            "Soy Sauce",
+                            "Crackers"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": false,
+                        "search_keywords_ind": [
+                            "bubur ayam",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "bubur ayam",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    },
+                    {
+                        "id": "ml-050",
+                        "name": "Kopi Khas Maluku",
+                        "origin": "Maluku",
+                        "category": "Beverage",
+                        "description_eng": "Traditional brewed coffee from Maluku.",
+                        "description_ind": "Hidangan Kopi Khas Maluku tradisional khas Maluku yang sangat digemari.",
+                        "ingredients_eng": [
+                            "Coffee Beans",
+                            "Sugar",
+                            "Water"
+                        ],
+                        "ingredients_ind": [
+                            "Bahan Lokal",
+                            "Rempah Rahasia"
+                        ],
+                        "flavor_profile": [
+                            "Savory",
+                            "Authentic"
+                        ],
+                        "is_halal": true,
+                        "is_vegetarian": true,
+                        "search_keywords_ind": [
+                            "kopi khas",
+                            "maluku",
+                            "indonesia"
+                        ],
+                        "search_keywords_eng": [
+                            "kopi khas",
+                            "food",
+                            "maluku"
+                        ],
+                        "image": null
+                    }
+                ]
             }
         ]
-    },
+    }
 ]
 
 export default DATA_PULAU

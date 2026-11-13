@@ -122,6 +122,24 @@ body {
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+
+scrollbar::--webkit-scrollbar {
+  height: 5px;
+}
+
+.scrollbar-custom::-webkit.scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-custom::-webkit.scrollbar-thumb {
+  background: #c2410c;
+  border-radius: 999px;
+}
+.scrollbar-custom {
+  scrollbar-width: thin;
+  scrollbar-color: #c2410c transparent;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
