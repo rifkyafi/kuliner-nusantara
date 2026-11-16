@@ -2,7 +2,7 @@
 // Peta bentuk pulau: seri "Locator Topography" dari data SRTM (PD); Sulawesi berlisensi CC BY-SA
 const DATA_PULAU = [
     {
-        "id": 1,
+        "id": 1,    
         "nama": "Sumatera",
         "ibukota": "Medan",
         "bentuk_pulau": "https://commons.wikimedia.org/wiki/Special:FilePath/Sumatra%20Locator%20Topography.png?width=400",
@@ -67,7 +67,7 @@ const DATA_PULAU = [
                             "west sumatera",
                             "slow cooked beef"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beef%20Rendang..JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rendang%20daging%20sapi%20asli%20Padang.JPG?width=800"
                     },
                     {
                         "id": "sm-002",
@@ -113,7 +113,7 @@ const DATA_PULAU = [
                             "thick gravy satay",
                             "west sumatera"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20padang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Padang%20Mak%20Syukur.jpg?width=800"
                     },
                     {
                         "id": "sm-003",
@@ -203,7 +203,7 @@ const DATA_PULAU = [
                             "north sumatera",
                             "pandan cake"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20bika%20ambon.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bika%20ambon%20pandan.jpg?width=800"
                     },
                     {
                         "id": "sm-005",
@@ -249,7 +249,7 @@ const DATA_PULAU = [
                             "spicy fried noodles",
                             "acehnese cuisine"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20Aceh.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MIE%202024%20P2.jpg?width=800"
                     },
                     {
                         "id": "sm-006",
@@ -282,7 +282,7 @@ const DATA_PULAU = [
                             "traditional",
                             "padang"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dendeng%20balado.JPG?width=800"
                     },
                     {
                         "id": "sm-007",
@@ -315,7 +315,7 @@ const DATA_PULAU = [
                             "traditional",
                             "bukittinggi"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Pop%201.jpg?width=800"
                     },
                     {
                         "id": "sm-008",
@@ -348,7 +348,7 @@ const DATA_PULAU = [
                             "traditional",
                             "padang"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "sm-009",
@@ -381,7 +381,7 @@ const DATA_PULAU = [
                             "traditional",
                             "palembang"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20Celor%20Palembang.jpg?width=800"
                     },
                     {
                         "id": "sm-010",
@@ -414,7 +414,7 @@ const DATA_PULAU = [
                             "traditional",
                             "bangka"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lempah%20kuning%20stew.JPG?width=800"
                     },
                     {
                         "id": "sm-011",
@@ -447,7 +447,7 @@ const DATA_PULAU = [
                             "traditional",
                             "aceh"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Masakan%20Khas%20Kota%20Aceh%20Ayam%20Tangkap.jpg?width=800"
                     },
                     {
                         "id": "sm-012",
@@ -480,7 +480,7 @@ const DATA_PULAU = [
                             "traditional",
                             "padang"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gulai%20tunjang.JPG?width=800"
                     },
                     {
                         "id": "sm-013",
@@ -513,7 +513,7 @@ const DATA_PULAU = [
                             "traditional",
                             "pariaman"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "sm-014",
@@ -546,7 +546,7 @@ const DATA_PULAU = [
                             "traditional",
                             "karo"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Se'i%20Babi%203.JPG?width=800"
                     },
                     {
                         "id": "sm-015",
@@ -579,7 +579,7 @@ const DATA_PULAU = [
                             "traditional",
                             "palembang"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tekwan%20Palembang.jpg?width=800"
                     },
                     {
                         "id": "sm-016",
@@ -614,7 +614,7 @@ const DATA_PULAU = [
                             "food",
                             "lampung"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "sm-017",
@@ -648,7 +648,7 @@ const DATA_PULAU = [
                             "food",
                             "bengkulu"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "sm-018",
@@ -683,7 +683,7 @@ const DATA_PULAU = [
                             "food",
                             "riau"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "sm-019",
@@ -718,7 +718,7 @@ const DATA_PULAU = [
                             "food",
                             "sumatera barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "sm-020",
@@ -753,7 +753,7 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
                     },
                     {
                         "id": "sm-021",
@@ -788,7 +788,7 @@ const DATA_PULAU = [
                             "food",
                             "sumatera utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
                     },
                     {
                         "id": "sm-022",
@@ -823,7 +823,7 @@ const DATA_PULAU = [
                             "food",
                             "kepulauan bangka belitung"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "sm-023",
@@ -858,7 +858,7 @@ const DATA_PULAU = [
                             "food",
                             "jambi"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "sm-024",
@@ -893,7 +893,7 @@ const DATA_PULAU = [
                             "food",
                             "kepulauan riau"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "sm-025",
@@ -928,7 +928,7 @@ const DATA_PULAU = [
                             "food",
                             "kepulauan bangka belitung"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
                     },
                     {
                         "id": "sm-026",
@@ -963,7 +963,7 @@ const DATA_PULAU = [
                             "food",
                             "sumatera barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "sm-027",
@@ -998,7 +998,7 @@ const DATA_PULAU = [
                             "food",
                             "sumatera selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
                     },
                     {
                         "id": "sm-028",
@@ -1033,7 +1033,7 @@ const DATA_PULAU = [
                             "food",
                             "bengkulu"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "sm-029",
@@ -1068,7 +1068,7 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "sm-030",
@@ -1103,7 +1103,7 @@ const DATA_PULAU = [
                             "food",
                             "kepulauan bangka belitung"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
                     },
                     {
                         "id": "sm-031",
@@ -1138,7 +1138,7 @@ const DATA_PULAU = [
                             "food",
                             "bengkulu"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "sm-032",
@@ -1173,7 +1173,7 @@ const DATA_PULAU = [
                             "food",
                             "jambi"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "sm-033",
@@ -1208,7 +1208,7 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "sm-034",
@@ -1243,7 +1243,7 @@ const DATA_PULAU = [
                             "food",
                             "kepulauan bangka belitung"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "sm-035",
@@ -1278,7 +1278,7 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "sm-036",
@@ -1313,7 +1313,7 @@ const DATA_PULAU = [
                             "food",
                             "sumatera utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "sm-037",
@@ -1348,7 +1348,7 @@ const DATA_PULAU = [
                             "food",
                             "kepulauan riau"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "sm-038",
@@ -1383,7 +1383,7 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "sm-039",
@@ -1418,7 +1418,7 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "sm-040",
@@ -1453,7 +1453,7 @@ const DATA_PULAU = [
                             "food",
                             "lampung"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "sm-041",
@@ -1488,7 +1488,7 @@ const DATA_PULAU = [
                             "food",
                             "jambi"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "sm-042",
@@ -1523,7 +1523,7 @@ const DATA_PULAU = [
                             "food",
                             "bengkulu"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "sm-043",
@@ -1558,7 +1558,7 @@ const DATA_PULAU = [
                             "food",
                             "sumatera utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "sm-044",
@@ -1593,7 +1593,7 @@ const DATA_PULAU = [
                             "food",
                             "lampung"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "sm-045",
@@ -1627,7 +1627,7 @@ const DATA_PULAU = [
                             "food",
                             "jambi"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "sm-046",
@@ -1662,7 +1662,7 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "sm-047",
@@ -1697,7 +1697,7 @@ const DATA_PULAU = [
                             "food",
                             "kepulauan riau"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "sm-048",
@@ -1732,7 +1732,7 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "sm-049",
@@ -1767,7 +1767,7 @@ const DATA_PULAU = [
                             "food",
                             "sumatera barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "sm-050",
@@ -1802,7 +1802,7 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     }
                 ]
             }
@@ -1867,7 +1867,7 @@ const DATA_PULAU = [
                             "lumpia",
                             "snack"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lumpia%20Semarang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Makanan%20Lumpia%20Rebung%20Khas%20Semarang%20Jateng%20Indonesia.jpg?width=800"
                     },
                     {
                         "id": "jw-002",
@@ -1959,7 +1959,7 @@ const DATA_PULAU = [
                             "jogja",
                             "traditional stew"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gudeg%20Ayam.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gudeg%20Sagan%20Yogyakarta.jpg?width=800"
                     },
                     {
                         "id": "jw-004",
@@ -2005,7 +2005,7 @@ const DATA_PULAU = [
                             "surabaya",
                             "east java"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rawon%20Setan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bumbu%20Rawon.jpg?width=800"
                     },
                     {
                         "id": "jw-005",
@@ -2051,7 +2051,7 @@ const DATA_PULAU = [
                             "lamongan",
                             "yellow soup"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20Lamongan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mangrove%2C%20Lamongan%20Regency%2C%20East%20Java%2C%20Indonesia%202.jpg?width=800"
                     },
                     {
                         "id": "jw-006",
@@ -2084,7 +2084,7 @@ const DATA_PULAU = [
                             "traditional",
                             "surabaya"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tahu%20Th%C3%A8g%20Tahu%20Bumbu%20Lonthong%20Bumbu%20atau%20Tahu%20Tek%20Tahu%20Telor.jpg?width=800"
                     },
                     {
                         "id": "jw-007",
@@ -2117,7 +2117,7 @@ const DATA_PULAU = [
                             "traditional",
                             "surabaya"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rujak%20Cingur%20khas%20Jawa%20Timur%2CIndonesia%20dengan%20kombinasi%20sayuran%20dan%20kerupuk%20sebagai%20pelengkap.jpg?width=800"
                     },
                     {
                         "id": "jw-008",
@@ -2150,7 +2150,7 @@ const DATA_PULAU = [
                             "traditional",
                             "solo"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tongseng%20Sapi.jpg?width=800"
                     },
                     {
                         "id": "jw-009",
@@ -2183,7 +2183,7 @@ const DATA_PULAU = [
                             "traditional",
                             "bantul"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20klatak%2020170818%20Yogyakarta.jpg?width=800"
                     },
                     {
                         "id": "jw-010",
@@ -2216,7 +2216,7 @@ const DATA_PULAU = [
                             "traditional",
                             "yogyakarta"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/9.%20Mangut%20Lele%201.jpg?width=800"
                     },
                     {
                         "id": "jw-011",
@@ -2249,7 +2249,7 @@ const DATA_PULAU = [
                             "traditional",
                             "kudus"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Garang%20asem%20Pj.JPG?width=800"
                     },
                     {
                         "id": "jw-012",
@@ -2282,7 +2282,7 @@ const DATA_PULAU = [
                             "traditional",
                             "cirebon"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Arya%22%20%EA%A6%B2%EA%A6%BC%EA%A6%A9%EA%A7%80%EA%A6%A5%EA%A6%AD%EA%A7%80%EA%A6%92%EA%A6%BC%EA%A6%A4%EA%A7%80%EA%A6%9B%EA%A6%BA%EA%A6%B4%EA%A6%81%20Indonesian%20soup%20empal%20gentong.jpg?width=800"
                     },
                     {
                         "id": "jw-013",
@@ -2315,7 +2315,7 @@ const DATA_PULAU = [
                             "traditional",
                             "bandung"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Batagor%20dan%20Bumbu%20Kacang.jpg?width=800"
                     },
                     {
                         "id": "jw-014",
@@ -2348,7 +2348,7 @@ const DATA_PULAU = [
                             "traditional",
                             "bandung"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Seblak%202.jpg?width=800"
                     },
                     {
                         "id": "jw-015",
@@ -2381,7 +2381,7 @@ const DATA_PULAU = [
                             "traditional",
                             "jakarta"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerak%20Telor.jpg?width=800"
                     },
                     {
                         "id": "jw-016",
@@ -2416,7 +2416,7 @@ const DATA_PULAU = [
                             "food",
                             "dki jakarta"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "jw-017",
@@ -2451,7 +2451,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "jw-018",
@@ -2486,7 +2486,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "jw-019",
@@ -2521,7 +2521,7 @@ const DATA_PULAU = [
                             "food",
                             "di yogyakarta"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "jw-020",
@@ -2556,7 +2556,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "jw-021",
@@ -2591,7 +2591,7 @@ const DATA_PULAU = [
                             "food",
                             "di yogyakarta"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "jw-022",
@@ -2626,7 +2626,7 @@ const DATA_PULAU = [
                             "food",
                             "di yogyakarta"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "jw-023",
@@ -2661,7 +2661,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
                     },
                     {
                         "id": "jw-024",
@@ -2695,7 +2695,7 @@ const DATA_PULAU = [
                             "food",
                             "di yogyakarta"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800"
                     },
                     {
                         "id": "jw-025",
@@ -2730,7 +2730,7 @@ const DATA_PULAU = [
                             "food",
                             "banten"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "jw-026",
@@ -2765,7 +2765,7 @@ const DATA_PULAU = [
                             "food",
                             "dki jakarta"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "jw-027",
@@ -2800,7 +2800,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "jw-028",
@@ -2835,7 +2835,7 @@ const DATA_PULAU = [
                             "food",
                             "banten"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "jw-029",
@@ -2870,7 +2870,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "jw-030",
@@ -2905,7 +2905,7 @@ const DATA_PULAU = [
                             "food",
                             "dki jakarta"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "jw-031",
@@ -2940,7 +2940,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "jw-032",
@@ -2975,7 +2975,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
                     },
                     {
                         "id": "jw-033",
@@ -3010,7 +3010,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "jw-034",
@@ -3045,7 +3045,7 @@ const DATA_PULAU = [
                             "food",
                             "banten"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "jw-035",
@@ -3080,7 +3080,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "jw-036",
@@ -3115,7 +3115,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "jw-037",
@@ -3150,7 +3150,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "jw-038",
@@ -3185,7 +3185,7 @@ const DATA_PULAU = [
                             "food",
                             "dki jakarta"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "jw-039",
@@ -3219,7 +3219,7 @@ const DATA_PULAU = [
                             "food",
                             "banten"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800"
                     },
                     {
                         "id": "jw-040",
@@ -3254,7 +3254,7 @@ const DATA_PULAU = [
                             "food",
                             "banten"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
                     },
                     {
                         "id": "jw-041",
@@ -3289,7 +3289,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "jw-042",
@@ -3324,7 +3324,7 @@ const DATA_PULAU = [
                             "food",
                             "banten"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "jw-043",
@@ -3358,7 +3358,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "jw-044",
@@ -3393,7 +3393,7 @@ const DATA_PULAU = [
                             "food",
                             "banten"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "jw-045",
@@ -3428,7 +3428,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
                     },
                     {
                         "id": "jw-046",
@@ -3463,7 +3463,7 @@ const DATA_PULAU = [
                             "food",
                             "di yogyakarta"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "jw-047",
@@ -3498,7 +3498,7 @@ const DATA_PULAU = [
                             "food",
                             "dki jakarta"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "jw-048",
@@ -3532,7 +3532,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "jw-049",
@@ -3567,7 +3567,7 @@ const DATA_PULAU = [
                             "food",
                             "dki jakarta"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "jw-050",
@@ -3602,7 +3602,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     }
                 ]
             }
@@ -3669,7 +3669,7 @@ const DATA_PULAU = [
                             "south kalimantan",
                             "cempedak"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800"
                     },
                     {
                         "id": "kl-002",
@@ -3715,7 +3715,7 @@ const DATA_PULAU = [
                             "kalimantan",
                             "sweet savory chicken"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800"
                     },
                     {
                         "id": "kl-003",
@@ -3805,7 +3805,7 @@ const DATA_PULAU = [
                             "kalimantan snack",
                             "crispy snack"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Amplang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Amplang%20Kuku%20Macan%20Khas%20Samarinda.jpg?width=800"
                     },
                     {
                         "id": "kl-005",
@@ -3882,7 +3882,7 @@ const DATA_PULAU = [
                             "traditional",
                             "banjarmasin"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "kl-007",
@@ -3915,7 +3915,7 @@ const DATA_PULAU = [
                             "traditional",
                             "kandangan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ketupat%20Kandangan%20Haruan.jpg?width=800"
                     },
                     {
                         "id": "kl-008",
@@ -3948,7 +3948,7 @@ const DATA_PULAU = [
                             "traditional",
                             "banjarmasin"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "kl-009",
@@ -4014,7 +4014,7 @@ const DATA_PULAU = [
                             "traditional",
                             "pontianak"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pengkang.jpg?width=800"
                     },
                     {
                         "id": "kl-011",
@@ -4047,7 +4047,7 @@ const DATA_PULAU = [
                             "traditional",
                             "singkawang"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Choi%20Pan.jpg?width=800"
                     },
                     {
                         "id": "kl-012",
@@ -4080,7 +4080,7 @@ const DATA_PULAU = [
                             "traditional",
                             "sambas"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "kl-013",
@@ -4113,7 +4113,7 @@ const DATA_PULAU = [
                             "traditional",
                             "samarinda"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam-cincane.jpg?width=800"
                     },
                     {
                         "id": "kl-014",
@@ -4146,7 +4146,7 @@ const DATA_PULAU = [
                             "traditional",
                             "kutai"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gence%20Ruan.JPG?width=800"
                     },
                     {
                         "id": "kl-015",
@@ -4179,7 +4179,7 @@ const DATA_PULAU = [
                             "traditional",
                             "palangkaraya"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "kl-016",
@@ -4214,7 +4214,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "kl-017",
@@ -4248,7 +4248,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "kl-018",
@@ -4283,7 +4283,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "kl-019",
@@ -4318,7 +4318,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "kl-020",
@@ -4352,7 +4352,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800"
                     },
                     {
                         "id": "kl-021",
@@ -4387,7 +4387,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "kl-022",
@@ -4422,7 +4422,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "kl-023",
@@ -4457,7 +4457,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "kl-024",
@@ -4491,7 +4491,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800"
                     },
                     {
                         "id": "kl-025",
@@ -4526,7 +4526,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "kl-026",
@@ -4561,7 +4561,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "kl-027",
@@ -4596,7 +4596,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
                     },
                     {
                         "id": "kl-028",
@@ -4631,7 +4631,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "kl-029",
@@ -4666,7 +4666,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "kl-030",
@@ -4701,7 +4701,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "kl-031",
@@ -4736,7 +4736,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "kl-032",
@@ -4771,7 +4771,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
                     },
                     {
                         "id": "kl-033",
@@ -4806,7 +4806,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "kl-034",
@@ -4841,7 +4841,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "kl-035",
@@ -4876,7 +4876,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "kl-036",
@@ -4911,7 +4911,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "kl-037",
@@ -4946,7 +4946,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "kl-038",
@@ -4981,7 +4981,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "kl-039",
@@ -5016,7 +5016,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "kl-040",
@@ -5051,7 +5051,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "kl-041",
@@ -5086,7 +5086,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "kl-042",
@@ -5121,7 +5121,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "kl-043",
@@ -5156,7 +5156,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "kl-044",
@@ -5191,7 +5191,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "kl-045",
@@ -5226,7 +5226,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "kl-046",
@@ -5261,7 +5261,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
                     },
                     {
                         "id": "kl-047",
@@ -5296,7 +5296,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
                     },
                     {
                         "id": "kl-048",
@@ -5331,7 +5331,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "kl-049",
@@ -5366,7 +5366,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "kl-050",
@@ -5401,7 +5401,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     }
                 ]
             }
@@ -5469,7 +5469,7 @@ const DATA_PULAU = [
                             "makassar",
                             "sulawesi"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coto%20makassar.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coto%20Makassar%20dish.JPG?width=800"
                     },
                     {
                         "id": "sl-002",
@@ -5517,7 +5517,7 @@ const DATA_PULAU = [
                             "spicy yellow fish",
                             "basil fish"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kakap%20Woku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "sl-003",
@@ -5609,7 +5609,7 @@ const DATA_PULAU = [
                             "manado porridge",
                             "pumpkin rice"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tinutuan%20bubur%20Manado.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20Khas%20Manado%20(Tinutuan).jpg?width=800"
                     },
                     {
                         "id": "sl-005",
@@ -5688,7 +5688,7 @@ const DATA_PULAU = [
                             "traditional",
                             "pangkep"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20campur%20sop%20saudara%20warung%20Pangkep.JPG?width=800"
                     },
                     {
                         "id": "sl-007",
@@ -5721,7 +5721,7 @@ const DATA_PULAU = [
                             "traditional",
                             "makassar"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pallubasa.jpg?width=800"
                     },
                     {
                         "id": "sl-008",
@@ -5754,7 +5754,7 @@ const DATA_PULAU = [
                             "traditional",
                             "makassar"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20pisang%20ijo%20otentik%20Makassar-1.jpg?width=800"
                     },
                     {
                         "id": "sl-009",
@@ -5787,7 +5787,7 @@ const DATA_PULAU = [
                             "traditional",
                             "makassar"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MIE%20KERING%20MAKASSAR.jpg?width=800"
                     },
                     {
                         "id": "sl-010",
@@ -5820,7 +5820,7 @@ const DATA_PULAU = [
                             "traditional",
                             "makassar"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
                     },
                     {
                         "id": "sl-011",
@@ -5853,7 +5853,7 @@ const DATA_PULAU = [
                             "traditional",
                             "makassar"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jalangkote%20dari%20Makassar.jpg?width=800"
                     },
                     {
                         "id": "sl-012",
@@ -5886,7 +5886,7 @@ const DATA_PULAU = [
                             "traditional",
                             "manado"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "sl-013",
@@ -5919,7 +5919,7 @@ const DATA_PULAU = [
                             "traditional",
                             "manado"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Rica-rica.JPG?width=800"
                     },
                     {
                         "id": "sl-014",
@@ -5952,7 +5952,7 @@ const DATA_PULAU = [
                             "traditional",
                             "manado"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Klappertaart%20Khas%20Manado.jpg?width=800"
                     },
                     {
                         "id": "sl-015",
@@ -5985,7 +5985,7 @@ const DATA_PULAU = [
                             "traditional",
                             "donggala"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaledo%20soup%2C%20Central%20Sulawesi%2C%202018-09-16.jpg?width=800"
                     },
                     {
                         "id": "sl-016",
@@ -6019,7 +6019,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "sl-017",
@@ -6054,7 +6054,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "sl-018",
@@ -6089,7 +6089,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "sl-019",
@@ -6124,7 +6124,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
                     },
                     {
                         "id": "sl-020",
@@ -6158,7 +6158,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "sl-021",
@@ -6192,7 +6192,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "sl-022",
@@ -6227,7 +6227,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "sl-023",
@@ -6261,7 +6261,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "sl-024",
@@ -6296,7 +6296,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
                     },
                     {
                         "id": "sl-025",
@@ -6330,7 +6330,7 @@ const DATA_PULAU = [
                             "food",
                             "gorontalo"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800"
                     },
                     {
                         "id": "sl-026",
@@ -6365,7 +6365,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "sl-027",
@@ -6400,7 +6400,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "sl-028",
@@ -6435,7 +6435,7 @@ const DATA_PULAU = [
                             "food",
                             "gorontalo"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "sl-029",
@@ -6470,7 +6470,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "sl-030",
@@ -6505,7 +6505,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "sl-031",
@@ -6540,7 +6540,7 @@ const DATA_PULAU = [
                             "food",
                             "gorontalo"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
                     },
                     {
                         "id": "sl-032",
@@ -6575,7 +6575,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "sl-033",
@@ -6610,7 +6610,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "sl-034",
@@ -6645,7 +6645,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "sl-035",
@@ -6680,7 +6680,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "sl-036",
@@ -6715,7 +6715,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "sl-037",
@@ -6750,7 +6750,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "sl-038",
@@ -6785,7 +6785,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "sl-039",
@@ -6820,7 +6820,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "sl-040",
@@ -6855,7 +6855,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "sl-041",
@@ -6890,7 +6890,7 @@ const DATA_PULAU = [
                             "food",
                             "gorontalo"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "sl-042",
@@ -6924,7 +6924,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "sl-043",
@@ -6959,7 +6959,7 @@ const DATA_PULAU = [
                             "food",
                             "gorontalo"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
                     },
                     {
                         "id": "sl-044",
@@ -6994,7 +6994,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "sl-045",
@@ -7029,7 +7029,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "sl-046",
@@ -7064,7 +7064,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "sl-047",
@@ -7099,7 +7099,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "sl-048",
@@ -7134,7 +7134,7 @@ const DATA_PULAU = [
                             "food",
                             "gorontalo"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "sl-049",
@@ -7169,7 +7169,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "sl-050",
@@ -7204,7 +7204,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     }
                 ]
             }
@@ -7270,7 +7270,7 @@ const DATA_PULAU = [
                             "papua",
                             "fish"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papeda%20Kuah%20Kuning%20Ternate-1.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papeda%20Kuah%20Kuning%20Ternate-3.jpg?width=800"
                     },
                     {
                         "id": "pp-002",
@@ -7314,7 +7314,7 @@ const DATA_PULAU = [
                             "milk pie",
                             "custard tart"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20Pie%20Susu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20gapit%2C%202015-06-16.jpg?width=800"
                     },
                     {
                         "id": "pp-003",
@@ -7360,7 +7360,7 @@ const DATA_PULAU = [
                             "papua",
                             "seafood"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jayapura%20grilled%20fish%20and%20shrimp.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "pp-004",
@@ -7399,7 +7399,7 @@ const DATA_PULAU = [
                             "traditional bread",
                             "snack"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sago%20starch%20product%20sagu%20lempeng%20from%20Maluku,ID%20feb2002.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sago%20starch%20product%20sagu%20lempeng%20from%20Maluku%2CID%20feb2002.jpg?width=800"
                     },
                     {
                         "id": "pp-005",
@@ -7474,7 +7474,7 @@ const DATA_PULAU = [
                             "traditional",
                             "wamena"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Danau%20Paniai.%20Danau%20Paniai%20adalah%20danau%20yang%20berada%20di%20kabupaten%20Paniai.%20Danau%20ini%20memiliki%20banyak%20keanekaragaman%20hayati%20yang%20sangat%20banyak.%20Salah%20satu%20spesies%20endemiknya%20adalah%20udang%20selingkuh.jpg?width=800"
                     },
                     {
                         "id": "pp-007",
@@ -7540,7 +7540,7 @@ const DATA_PULAU = [
                             "traditional",
                             "papua"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "pp-009",
@@ -7639,7 +7639,7 @@ const DATA_PULAU = [
                             "traditional",
                             "papua"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "pp-012",
@@ -7672,7 +7672,7 @@ const DATA_PULAU = [
                             "traditional",
                             "papua"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
                     },
                     {
                         "id": "pp-013",
@@ -7705,7 +7705,7 @@ const DATA_PULAU = [
                             "traditional",
                             "papua"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Kerang%20Tampak%20Atas.jpg?width=800"
                     },
                     {
                         "id": "pp-014",
@@ -7738,7 +7738,7 @@ const DATA_PULAU = [
                             "traditional",
                             "jayapura"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "pp-015",
@@ -7771,7 +7771,7 @@ const DATA_PULAU = [
                             "traditional",
                             "papua"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800"
                     },
                     {
                         "id": "pp-016",
@@ -7805,7 +7805,7 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "pp-017",
@@ -7840,7 +7840,7 @@ const DATA_PULAU = [
                             "food",
                             "papua barat daya"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "pp-018",
@@ -7875,7 +7875,7 @@ const DATA_PULAU = [
                             "food",
                             "papua selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "pp-019",
@@ -7910,7 +7910,7 @@ const DATA_PULAU = [
                             "food",
                             "papua tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "pp-020",
@@ -7944,7 +7944,7 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "pp-021",
@@ -7979,7 +7979,7 @@ const DATA_PULAU = [
                             "food",
                             "papua barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "pp-022",
@@ -8014,7 +8014,7 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "pp-023",
@@ -8048,7 +8048,7 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
                     },
                     {
                         "id": "pp-024",
@@ -8083,7 +8083,7 @@ const DATA_PULAU = [
                             "food",
                             "papua barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "pp-025",
@@ -8118,7 +8118,7 @@ const DATA_PULAU = [
                             "food",
                             "papua barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
                     },
                     {
                         "id": "pp-026",
@@ -8153,7 +8153,7 @@ const DATA_PULAU = [
                             "food",
                             "papua tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "pp-027",
@@ -8188,7 +8188,7 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "pp-028",
@@ -8223,7 +8223,7 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "pp-029",
@@ -8258,7 +8258,7 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "pp-030",
@@ -8293,7 +8293,7 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
                     },
                     {
                         "id": "pp-031",
@@ -8328,7 +8328,7 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "pp-032",
@@ -8363,7 +8363,7 @@ const DATA_PULAU = [
                             "food",
                             "papua selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "pp-033",
@@ -8398,7 +8398,7 @@ const DATA_PULAU = [
                             "food",
                             "papua barat daya"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
                     },
                     {
                         "id": "pp-034",
@@ -8433,7 +8433,7 @@ const DATA_PULAU = [
                             "food",
                             "papua barat daya"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
                     },
                     {
                         "id": "pp-035",
@@ -8468,7 +8468,7 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
                     },
                     {
                         "id": "pp-036",
@@ -8502,7 +8502,7 @@ const DATA_PULAU = [
                             "food",
                             "papua selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
                     },
                     {
                         "id": "pp-037",
@@ -8537,7 +8537,7 @@ const DATA_PULAU = [
                             "food",
                             "papua selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "pp-038",
@@ -8572,7 +8572,7 @@ const DATA_PULAU = [
                             "food",
                             "papua tengah"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "pp-039",
@@ -8607,7 +8607,7 @@ const DATA_PULAU = [
                             "food",
                             "papua selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "pp-040",
@@ -8642,7 +8642,7 @@ const DATA_PULAU = [
                             "food",
                             "papua barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "pp-041",
@@ -8677,7 +8677,7 @@ const DATA_PULAU = [
                             "food",
                             "papua selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "pp-042",
@@ -8712,7 +8712,7 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
                     },
                     {
                         "id": "pp-043",
@@ -8747,7 +8747,7 @@ const DATA_PULAU = [
                             "food",
                             "papua selatan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
                     },
                     {
                         "id": "pp-044",
@@ -8782,7 +8782,7 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
                     },
                     {
                         "id": "pp-045",
@@ -8817,7 +8817,7 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
                     },
                     {
                         "id": "pp-046",
@@ -8852,7 +8852,7 @@ const DATA_PULAU = [
                             "food",
                             "papua barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
                     },
                     {
                         "id": "pp-047",
@@ -8886,7 +8886,7 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "pp-048",
@@ -8921,7 +8921,7 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "pp-049",
@@ -8955,7 +8955,7 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "pp-050",
@@ -8990,7 +8990,7 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     }
                 ]
             }
@@ -9199,7 +9199,7 @@ const DATA_PULAU = [
                             "bali side dish",
                             "traditional salad"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lawar.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lawar%20getih(balinese%20culture%20food)%20.jpg?width=800"
                     },
                     {
                         "id": "bl-005",
@@ -9248,7 +9248,7 @@ const DATA_PULAU = [
                             "bali breakfast",
                             "turmeric rice"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "bl-006",
@@ -9281,7 +9281,7 @@ const DATA_PULAU = [
                             "traditional",
                             "singaraja"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Plecing.jpg?width=800"
                     },
                     {
                         "id": "bl-007",
@@ -9314,7 +9314,7 @@ const DATA_PULAU = [
                             "traditional",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "bl-008",
@@ -9347,7 +9347,7 @@ const DATA_PULAU = [
                             "traditional",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800"
                     },
                     {
                         "id": "bl-009",
@@ -9380,7 +9380,7 @@ const DATA_PULAU = [
                             "traditional",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rujak%20Bulung%20Buni.jpg?width=800"
                     },
                     {
                         "id": "bl-010",
@@ -9413,7 +9413,7 @@ const DATA_PULAU = [
                             "traditional",
                             "klungkung"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Serombotan.jpg?width=800"
                     },
                     {
                         "id": "bl-011",
@@ -9446,7 +9446,7 @@ const DATA_PULAU = [
                             "traditional",
                             "ubud"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bebek%20bengil%2C%20Ubud%2C%20Bali.JPG?width=800"
                     },
                     {
                         "id": "bl-012",
@@ -9479,7 +9479,7 @@ const DATA_PULAU = [
                             "traditional",
                             "ubud"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "bl-013",
@@ -9512,7 +9512,7 @@ const DATA_PULAU = [
                             "traditional",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tipat%20Cantok%20Khas%20Bali.jpg?width=800"
                     },
                     {
                         "id": "bl-014",
@@ -9578,7 +9578,7 @@ const DATA_PULAU = [
                             "traditional",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sambal%20Matah%20Bali.jpg?width=800"
                     },
                     {
                         "id": "bl-016",
@@ -9613,7 +9613,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "bl-017",
@@ -9647,7 +9647,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "bl-018",
@@ -9682,7 +9682,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "bl-019",
@@ -9717,7 +9717,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "bl-020",
@@ -9752,7 +9752,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "bl-021",
@@ -9787,7 +9787,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "bl-022",
@@ -9822,7 +9822,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "bl-023",
@@ -9856,7 +9856,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
                     },
                     {
                         "id": "bl-024",
@@ -9891,7 +9891,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "bl-025",
@@ -9925,7 +9925,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
                     },
                     {
                         "id": "bl-026",
@@ -9960,7 +9960,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "bl-027",
@@ -9995,7 +9995,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "bl-028",
@@ -10030,7 +10030,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "bl-029",
@@ -10065,7 +10065,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "bl-030",
@@ -10100,7 +10100,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "bl-031",
@@ -10135,7 +10135,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "bl-032",
@@ -10170,7 +10170,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "bl-033",
@@ -10205,7 +10205,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "bl-034",
@@ -10239,7 +10239,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "bl-035",
@@ -10273,7 +10273,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "bl-036",
@@ -10308,7 +10308,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "bl-037",
@@ -10343,7 +10343,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "bl-038",
@@ -10377,7 +10377,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "bl-039",
@@ -10411,7 +10411,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
                     },
                     {
                         "id": "bl-040",
@@ -10446,7 +10446,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "bl-041",
@@ -10480,7 +10480,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
                     },
                     {
                         "id": "bl-042",
@@ -10515,7 +10515,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "bl-043",
@@ -10550,7 +10550,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
                     },
                     {
                         "id": "bl-044",
@@ -10585,7 +10585,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "bl-045",
@@ -10620,7 +10620,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "bl-046",
@@ -10655,7 +10655,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
                     },
                     {
                         "id": "bl-047",
@@ -10690,7 +10690,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "bl-048",
@@ -10725,7 +10725,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "bl-049",
@@ -10760,7 +10760,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "bl-050",
@@ -10795,7 +10795,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     }
                 ]
             }
@@ -10862,7 +10862,7 @@ const DATA_PULAU = [
                             "spicy chicken",
                             "nusa tenggara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Taliwang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar%20khas%20Taliwang%202.JPG?width=800"
                     },
                     {
                         "id": "nt-002",
@@ -10909,7 +10909,7 @@ const DATA_PULAU = [
                             "sambal luat",
                             "kosambi wood smoked"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sei%20sapi%20Kupang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sei%20sapi%20Pj%20DSC%202925.jpg?width=800"
                     },
                     {
                         "id": "nt-003",
@@ -10958,7 +10958,7 @@ const DATA_PULAU = [
                             "spicy sambal salad",
                             "nusa tenggara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pelecing%20kangkung.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pelecing%20kangkung%20Lombok.JPG?width=800"
                     },
                     {
                         "id": "nt-004",
@@ -11052,7 +11052,7 @@ const DATA_PULAU = [
                             "manggarai",
                             "traditional bamboo rice"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ensemble%20%22Kolo%22%20dancing%20folk%20dance%20of%20Gnjilane.jpg?width=800"
                     },
                     {
                         "id": "nt-006",
@@ -11085,7 +11085,7 @@ const DATA_PULAU = [
                             "traditional",
                             "timor"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jagung%20Bose.jpg?width=800"
                     },
                     {
                         "id": "nt-007",
@@ -11151,7 +11151,7 @@ const DATA_PULAU = [
                             "traditional",
                             "kupang"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20Kuah%20Asam%20Ternate.jpg?width=800"
                     },
                     {
                         "id": "nt-009",
@@ -11184,7 +11184,7 @@ const DATA_PULAU = [
                             "traditional",
                             "lombok"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Bulayak.jpg?width=800"
                     },
                     {
                         "id": "nt-010",
@@ -11217,7 +11217,7 @@ const DATA_PULAU = [
                             "traditional",
                             "lombok"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "nt-011",
@@ -11250,7 +11250,7 @@ const DATA_PULAU = [
                             "traditional",
                             "lombok"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bebalung%20Lombok.jpg?width=800"
                     },
                     {
                         "id": "nt-012",
@@ -11349,7 +11349,7 @@ const DATA_PULAU = [
                             "traditional",
                             "kupang"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Se'i%20Babi%203.JPG?width=800"
                     },
                     {
                         "id": "nt-015",
@@ -11382,7 +11382,7 @@ const DATA_PULAU = [
                             "traditional",
                             "lombok"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "nt-016",
@@ -11417,7 +11417,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
                     },
                     {
                         "id": "nt-017",
@@ -11451,7 +11451,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
                     },
                     {
                         "id": "nt-018",
@@ -11486,7 +11486,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "nt-019",
@@ -11521,7 +11521,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "nt-020",
@@ -11556,7 +11556,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
                     },
                     {
                         "id": "nt-021",
@@ -11591,7 +11591,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "nt-022",
@@ -11626,7 +11626,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "nt-023",
@@ -11661,7 +11661,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "nt-024",
@@ -11695,7 +11695,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
                     },
                     {
                         "id": "nt-025",
@@ -11730,7 +11730,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "nt-026",
@@ -11765,7 +11765,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "nt-027",
@@ -11800,7 +11800,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "nt-028",
@@ -11835,7 +11835,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "nt-029",
@@ -11870,7 +11870,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "nt-030",
@@ -11905,7 +11905,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "nt-031",
@@ -11940,7 +11940,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
                     },
                     {
                         "id": "nt-032",
@@ -11975,7 +11975,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "nt-033",
@@ -12010,7 +12010,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "nt-034",
@@ -12045,7 +12045,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
                     },
                     {
                         "id": "nt-035",
@@ -12080,7 +12080,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "nt-036",
@@ -12115,7 +12115,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "nt-037",
@@ -12150,7 +12150,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "nt-038",
@@ -12185,7 +12185,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "nt-039",
@@ -12220,7 +12220,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "nt-040",
@@ -12254,7 +12254,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
                     },
                     {
                         "id": "nt-041",
@@ -12289,7 +12289,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "nt-042",
@@ -12324,7 +12324,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "nt-043",
@@ -12359,7 +12359,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "nt-044",
@@ -12393,7 +12393,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "nt-045",
@@ -12428,7 +12428,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "nt-046",
@@ -12463,7 +12463,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "nt-047",
@@ -12498,7 +12498,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "nt-048",
@@ -12533,7 +12533,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "nt-049",
@@ -12568,7 +12568,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
                     },
                     {
                         "id": "nt-050",
@@ -12603,7 +12603,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     }
                 ]
             }
@@ -12670,7 +12670,7 @@ const DATA_PULAU = [
                             "spice islands soup",
                             "maluku fish"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "ml-002",
@@ -12763,7 +12763,7 @@ const DATA_PULAU = [
                             "maluku traditional rice",
                             "fragrant rice"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
                     },
                     {
                         "id": "ml-004",
@@ -12810,7 +12810,7 @@ const DATA_PULAU = [
                             "fresh spicy dip",
                             "maluku condiment"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "ml-005",
@@ -12857,7 +12857,7 @@ const DATA_PULAU = [
                             "kenari biscuits",
                             "maluku snack"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bagea%20kenari.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bagea%20Kenari%20Manado.jpg?width=800"
                     },
                     {
                         "id": "ml-006",
@@ -12890,7 +12890,7 @@ const DATA_PULAU = [
                             "traditional",
                             "ambon"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "ml-007",
@@ -12989,7 +12989,7 @@ const DATA_PULAU = [
                             "traditional",
                             "ambon"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roti%20Kenari%20(top%20view).jpg?width=800"
                     },
                     {
                         "id": "ml-010",
@@ -13022,7 +13022,7 @@ const DATA_PULAU = [
                             "traditional",
                             "ambon"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "ml-011",
@@ -13055,7 +13055,7 @@ const DATA_PULAU = [
                             "traditional",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Halua%20Kenari.jpg?width=800"
                     },
                     {
                         "id": "ml-012",
@@ -13088,7 +13088,7 @@ const DATA_PULAU = [
                             "traditional",
                             "ambon"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20Bakar%20Dabu-dabu%20Ternate%203.jpg?width=800"
                     },
                     {
                         "id": "ml-013",
@@ -13121,7 +13121,7 @@ const DATA_PULAU = [
                             "traditional",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sagu%20gula%20melaka.jpg?width=800"
                     },
                     {
                         "id": "ml-014",
@@ -13221,7 +13221,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
                     },
                     {
                         "id": "ml-017",
@@ -13256,7 +13256,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "ml-018",
@@ -13291,7 +13291,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "ml-019",
@@ -13326,7 +13326,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
                     },
                     {
                         "id": "ml-020",
@@ -13361,7 +13361,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "ml-021",
@@ -13396,7 +13396,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "ml-022",
@@ -13431,7 +13431,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "ml-023",
@@ -13466,7 +13466,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "ml-024",
@@ -13501,7 +13501,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "ml-025",
@@ -13536,7 +13536,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
                     },
                     {
                         "id": "ml-026",
@@ -13571,7 +13571,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "ml-027",
@@ -13605,7 +13605,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "ml-028",
@@ -13640,7 +13640,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "ml-029",
@@ -13675,7 +13675,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
                     },
                     {
                         "id": "ml-030",
@@ -13710,7 +13710,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "ml-031",
@@ -13745,7 +13745,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "ml-032",
@@ -13780,7 +13780,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "ml-033",
@@ -13814,7 +13814,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "ml-034",
@@ -13849,7 +13849,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
                     },
                     {
                         "id": "ml-035",
@@ -13883,7 +13883,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "ml-036",
@@ -13917,7 +13917,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
                     },
                     {
                         "id": "ml-037",
@@ -13952,7 +13952,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "ml-038",
@@ -13987,7 +13987,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "ml-039",
@@ -14022,7 +14022,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
                     },
                     {
                         "id": "ml-040",
@@ -14057,7 +14057,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
                     },
                     {
                         "id": "ml-041",
@@ -14092,7 +14092,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
                     },
                     {
                         "id": "ml-042",
@@ -14127,7 +14127,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
                     },
                     {
                         "id": "ml-043",
@@ -14162,7 +14162,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
                     },
                     {
                         "id": "ml-044",
@@ -14197,7 +14197,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "ml-045",
@@ -14232,7 +14232,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
                     },
                     {
                         "id": "ml-046",
@@ -14266,7 +14266,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     },
                     {
                         "id": "ml-047",
@@ -14301,7 +14301,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
                     },
                     {
                         "id": "ml-048",
@@ -14335,7 +14335,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
                     },
                     {
                         "id": "ml-049",
@@ -14370,7 +14370,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
                     },
                     {
                         "id": "ml-050",
@@ -14404,7 +14404,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": null
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
                     }
                 ]
             }

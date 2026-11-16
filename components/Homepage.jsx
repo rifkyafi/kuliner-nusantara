@@ -62,7 +62,7 @@ export default function Homepage(){
                                 </div>
                                 <div className="flex w-145 pt-5">
                                     <ul className="flex gap-3 font-[Montserrat]">
-                                        <p className="flex h-full items-center">
+                                        <p className="flex h-full pt-1">
                                             Populer:
                                         </p>
                                             <ul className="flex text-sm gap-2 flex-wrap">
@@ -70,7 +70,7 @@ export default function Homepage(){
                                                     <li key={makanan.id}>
                                                         <button
                                                         type="button"
-                                                        className="bg-[#eaeaea] rounded-full py-2 px-1 text-nowrap outline-1">
+                                                        className="bg-[#eaeaea] rounded-full p-2 text-nowrap outline-1">
                                                             {makanan.name}
                                                         </button>
                                                     </li>

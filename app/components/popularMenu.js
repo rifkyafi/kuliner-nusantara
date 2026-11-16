@@ -12,7 +12,21 @@ export function getPopularMenu(jumlah = 4) {
     return randomMenu.slice(0, jumlah)
 }
 
+const RECOM_MENU = DATA_PULAU.flatMap((recom) => 
+    recom.menu[0].data.map((item) => ({
+        id: item.id,
+        name: item.name,
+        origin: item.origin,
+        image: item.image,
+        category: item.category,
+        pulau: recom.nama
+    }))
+)
 
+export function getRecomendationMenu(jumlah = 5) {
+    const recomMenu = [...RECOM_MENU].sort(() => 0.5 - Math.random());
+    return recomMenu.slice(0, jumlah)
+}
 
 const ALL_IMAGE = ALL_MENU.filter((item) => 
     Boolean(item.image)
