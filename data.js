@@ -67,7 +67,13 @@ const DATA_PULAU = [
                             "west sumatera",
                             "slow cooked beef"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rendang%20daging%20sapi%20asli%20Padang.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rendang%20daging%20sapi%20asli%20Padang.JPG?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://travel.kompas.com/read/2019/09/18/141826127/daripada-rebutan-rendang-datangi-3-rumah-makan-dengan-rendang-paling-enak-di",
+                    "rating": 4.1,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297726-d5532355-Reviews-RM_Lamun_Ombak-Padang_West_Sumatra_Sumatra.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-002",
@@ -113,7 +119,13 @@ const DATA_PULAU = [
                             "thick gravy satay",
                             "west sumatera"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Padang%20Mak%20Syukur.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Padang%20Mak%20Syukur.jpg?width=800",
+                    "price_range_ind": "Rp17.000 - Rp40.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/3967713/kuliner-malam-jumat-daging-empuk-dan-bumbu-khas-jadi-andalan-sate-padang-takana-juo",
+                    "rating": 4.4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g294229-d3964025-Reviews-Sate_Padang_Ajo_Ramon-Jakarta_Java.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-003",
@@ -159,7 +171,13 @@ const DATA_PULAU = [
                             "south sumatera",
                             "cuko sauce"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pempek%20Palembang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pempek%20Palembang.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp25.000",
+                    "price_source": "https://www.detik.com/sumbagsel/kuliner/d-7122988/heboh-pempek-5-biji-rp-119-ribu-berapa-harga-standar-di-palembang",
+                    "rating": 4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g608501-d7053623-Reviews-Pempek_Candy-Palembang_South_Sumatra_Sumatra.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-004",
@@ -203,7 +221,13 @@ const DATA_PULAU = [
                             "north sumatera",
                             "pandan cake"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bika%20ambon%20pandan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bika%20ambon%20pandan.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": 3.9,
+                    "rating_platform": "Foodeist (Google reviews)",
+                    "rating_source": "https://foodeist.com/place/zulaikha-bika-ambon",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-005",
@@ -249,7 +273,13 @@ const DATA_PULAU = [
                             "spicy fried noodles",
                             "acehnese cuisine"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MIE%202024%20P2.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MIE%202024%20P2.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": 4.6,
+                    "rating_platform": "Restaurant Guru (Google reviews)",
+                    "rating_source": "https://restaurantguru.com/Mie-Aceh-Seulawah-Jakarta",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-006",
@@ -282,7 +312,13 @@ const DATA_PULAU = [
                             "traditional",
                             "padang"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dendeng%20balado.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dendeng%20balado.JPG?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://www.kompas.com/food/read/2026/05/21/123100175/7-rumah-makan-padang-enak-di-jakarta-yang-belum-banyak-orang-tau",
+                    "rating": 3.9,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.co.uk/Restaurant_Review-g294229-d816623-Reviews-Restaurant_Garuda_Padang-Jakarta_Java.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-007",
@@ -315,7 +351,13 @@ const DATA_PULAU = [
                             "traditional",
                             "bukittinggi"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Pop%201.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Pop%201.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp35.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/4021731/kuliner-malam-jumat-rahasia-kelezatan-ayam-pop-di-family-benteng-bukittinggi",
+                    "rating": 4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297723-d5010644-Reviews-Family_Benteng_Indah-Bukittinggi_West_Sumatra_Sumatra.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-008",
@@ -348,7 +390,13 @@ const DATA_PULAU = [
                             "traditional",
                             "padang"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp25.000 - Rp35.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/3967713/kuliner-malam-jumat-daging-empuk-dan-bumbu-khas-jadi-andalan-sate-padang-takana-juo",
+                    "rating": 4.4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.co.uk/Restaurant_Review-g294229-d4234137-Reviews-Soto_Padang_H_St_Mangkuto-Jakarta_Java.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-009",
@@ -381,7 +429,13 @@ const DATA_PULAU = [
                             "traditional",
                             "palembang"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20Celor%20Palembang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20Celor%20Palembang.jpg?width=800",
+                    "price_range_ind": "Rp40.000 - Rp60.000",
+                    "price_source": "https://superapps.kompas.com/read/2951277/warung-mi-celor-dengan-cita-rasa-autentik-di-palembang-seporsinya-rp-50-ribu",
+                    "rating": 4.2,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g608501-d6415203-Reviews-Mie_Celor_26_Ilir_H_Syafe_i-Palembang_South_Sumatra_Sumatra.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-010",
@@ -414,7 +468,13 @@ const DATA_PULAU = [
                             "traditional",
                             "bangka"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lempah%20kuning%20stew.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lempah%20kuning%20stew.JPG?width=800",
+                    "price_range_ind": "Rp35.000 - Rp65.000",
+                    "price_source": "https://bangka.tribunnews.com/2023/06/08/ingin-nikmati-makanan-lempah-kuning-khas-bangka-harga-mulai-dari-rp35-ribu-ini-rekomendasinya",
+                    "rating": 4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g1234796-d26813456-Reviews-Lempah_Kuning_Muara-Pangkal_Pinang_Bangka_Island_Bangka_Belitung_Islands_Sumatr.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-011",
@@ -447,7 +507,13 @@ const DATA_PULAU = [
                             "traditional",
                             "aceh"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Masakan%20Khas%20Kota%20Aceh%20Ayam%20Tangkap.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Masakan%20Khas%20Kota%20Aceh%20Ayam%20Tangkap.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": 4.4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g317109-d12083660-Reviews-Ayam_Pramugari-Banda_Aceh_Aceh_Sumatra.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-012",
@@ -480,7 +546,13 @@ const DATA_PULAU = [
                             "traditional",
                             "padang"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gulai%20tunjang.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gulai%20tunjang.JPG?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-013",
@@ -513,7 +585,13 @@ const DATA_PULAU = [
                             "traditional",
                             "pariaman"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp17.000 - Rp40.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/3967713/kuliner-malam-jumat-daging-empuk-dan-bumbu-khas-jadi-andalan-sate-padang-takana-juo",
+                    "rating": 4.4,
+                    "rating_platform": "Google Maps (via Wanderlog)",
+                    "rating_source": "https://wanderlog.com/place/details/2813979/sate-mak-syukur",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-014",
@@ -546,7 +624,13 @@ const DATA_PULAU = [
                             "traditional",
                             "karo"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Se'i%20Babi%203.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Se'i%20Babi%203.JPG?width=800",
+                    "price_range_ind": "Rp25.000 - Rp50.000",
+                    "price_source": "https://www.detik.com/sumut/kuliner/d-8486761/7-rekomendasi-bpk-paling-populer-di-medan-kuliner-non-halal-wajib-dicoba",
+                    "rating": 4.2,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297725-d4755600-Reviews-RM_OnDo_Batak_Grill-Medan_North_Sumatra_Sumatra.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-015",
@@ -579,7 +663,13 @@ const DATA_PULAU = [
                             "traditional",
                             "palembang"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tekwan%20Palembang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tekwan%20Palembang.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": 3.5,
+                    "rating_platform": "Restaurant Guru (Google reviews)",
+                    "rating_source": "https://restaurantguru.com/Tekwan-Model-Kak-Man-Palembang",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-016",
@@ -614,7 +704,13 @@ const DATA_PULAU = [
                             "food",
                             "lampung"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp15.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/7891206/7-rekomendasi-kuliner-es-campur-di-jogja-enak-dan-legendaris",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-017",
@@ -648,7 +744,13 @@ const DATA_PULAU = [
                             "food",
                             "bengkulu"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://www.idntimes.com/business/economy/kenapa-kopi-rp18-ribu-dan-rp50-ribu-sama-sama-laku-c1c2-01-3lbgd-kll3qt",
+                    "rating": 4.7,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.co.id/Restaurant_Review-g1472388-d8492326-Reviews-Bencoolen_Coffee_House-Bengkulu_Bengkulu_Province_Sumatra.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-018",
@@ -683,7 +785,13 @@ const DATA_PULAU = [
                             "food",
                             "riau"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp7.000",
+                    "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-019",
@@ -718,7 +826,13 @@ const DATA_PULAU = [
                             "food",
                             "sumatera barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp25.000 - Rp35.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/3967713/kuliner-malam-jumat-daging-empuk-dan-bumbu-khas-jadi-andalan-sate-padang-takana-juo",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-020",
@@ -753,7 +867,13 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "price_range_ind": "Rp7.500 - Rp15.000",
+                    "price_source": "https://megapolitan.kompas.com/read/2026/10/07/15152621/ketika-lemper-bertemu-dubai-chewy-cookie-di-pasar-kue-subuh-senen",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-021",
@@ -788,7 +908,13 @@ const DATA_PULAU = [
                             "food",
                             "sumatera utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-022",
@@ -823,7 +949,13 @@ const DATA_PULAU = [
                             "food",
                             "kepulauan bangka belitung"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp10.000 - Rp30.000",
+                    "price_source": "https://www.detik.com/sumut/kuliner/d-7221858/rekomendasi-warung-ikan-bakar-populer-di-medan-banyak-jenis-menu-ikannya",
+                    "rating": 4.3,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.in/Restaurant_Review-g3737841-d10524908-Reviews-Raja_Seafood_Belitung-Tanjung_Pandan_Belitung_Island_Bangka_Belitung_Islands_Su.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-023",
@@ -858,7 +990,13 @@ const DATA_PULAU = [
                             "food",
                             "jambi"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-024",
@@ -893,7 +1031,13 @@ const DATA_PULAU = [
                             "food",
                             "kepulauan riau"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp7.000",
+                    "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-025",
@@ -928,7 +1072,13 @@ const DATA_PULAU = [
                             "food",
                             "kepulauan bangka belitung"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://www.ayosemarang.com/wisata/779324805/7-warung-mie-ayam-enak-di-semarang-selalu-ramai-poll-lengkap-harga-semangkok-dan-jam-buka?page=4",
+                    "rating": 3.9,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g1234796-d4358446-Reviews-Mie_Koba_Iskandar-Pangkal_Pinang_Bangka_Island_Bangka_Belitung_Islands_Sumatra.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-026",
@@ -963,7 +1113,13 @@ const DATA_PULAU = [
                             "food",
                             "sumatera barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp7.000",
+                    "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-027",
@@ -998,7 +1154,13 @@ const DATA_PULAU = [
                             "food",
                             "sumatera selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "price_range_ind": "Rp40.000 - Rp60.000",
+                    "price_source": "https://superapps.kompas.com/read/2951277/warung-mi-celor-dengan-cita-rasa-autentik-di-palembang-seporsinya-rp-50-ribu",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-028",
@@ -1033,7 +1195,13 @@ const DATA_PULAU = [
                             "food",
                             "bengkulu"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-029",
@@ -1068,7 +1236,13 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp10.000 - Rp30.000",
+                    "price_source": "https://www.detik.com/sumut/kuliner/d-7221858/rekomendasi-warung-ikan-bakar-populer-di-medan-banyak-jenis-menu-ikannya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-030",
@@ -1103,7 +1277,13 @@ const DATA_PULAU = [
                             "food",
                             "kepulauan bangka belitung"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-031",
@@ -1138,7 +1318,13 @@ const DATA_PULAU = [
                             "food",
                             "bengkulu"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-032",
@@ -1173,7 +1359,13 @@ const DATA_PULAU = [
                             "food",
                             "jambi"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp7.000",
+                    "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-033",
@@ -1208,7 +1400,13 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp7.000",
+                    "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-034",
@@ -1243,7 +1441,13 @@ const DATA_PULAU = [
                             "food",
                             "kepulauan bangka belitung"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-035",
@@ -1278,7 +1482,13 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp10.000 - Rp30.000",
+                    "price_source": "https://www.detik.com/sumut/kuliner/d-7221858/rekomendasi-warung-ikan-bakar-populer-di-medan-banyak-jenis-menu-ikannya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-036",
@@ -1313,7 +1523,13 @@ const DATA_PULAU = [
                             "food",
                             "sumatera utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp15.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/7891206/7-rekomendasi-kuliner-es-campur-di-jogja-enak-dan-legendaris",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-037",
@@ -1348,7 +1564,13 @@ const DATA_PULAU = [
                             "food",
                             "kepulauan riau"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp7.000",
+                    "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-038",
@@ -1383,7 +1605,13 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-039",
@@ -1418,7 +1646,13 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
+                    "rating": 4.4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g317109-d8800771-Reviews-Sate_Matang_D_Wan-Banda_Aceh_Aceh_Sumatra.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-040",
@@ -1453,7 +1687,13 @@ const DATA_PULAU = [
                             "food",
                             "lampung"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-041",
@@ -1488,7 +1728,13 @@ const DATA_PULAU = [
                             "food",
                             "jambi"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp32.000",
+                    "price_source": "https://jatim.idntimes.com/food/dining-guide/tempat-makan-nasi-goreng-kaki-lima-enak-di-sidoarjo-c1c2-00-5ynwf-k1z699",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-042",
@@ -1523,7 +1769,13 @@ const DATA_PULAU = [
                             "food",
                             "bengkulu"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-043",
@@ -1558,7 +1810,13 @@ const DATA_PULAU = [
                             "food",
                             "sumatera utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp32.000",
+                    "price_source": "https://jatim.idntimes.com/food/dining-guide/tempat-makan-nasi-goreng-kaki-lima-enak-di-sidoarjo-c1c2-00-5ynwf-k1z699",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-044",
@@ -1593,7 +1851,13 @@ const DATA_PULAU = [
                             "food",
                             "lampung"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6151993/jualan-sambil-sedekah-pedagang-ini-jual-bubur-ayam-seporsi-rp-6-ribu",
+                    "rating": 4.5,
+                    "rating_platform": "Google rating (via Restaurant Guru)",
+                    "rating_source": "https://restaurantguru.com/Bubur-Ayam-Acung-Jr-Bandar-Lampung",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-045",
@@ -1627,7 +1891,13 @@ const DATA_PULAU = [
                             "food",
                             "jambi"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://www.idntimes.com/business/economy/kenapa-kopi-rp18-ribu-dan-rp50-ribu-sama-sama-laku-c1c2-01-3lbgd-kll3qt",
+                    "rating": 4.8,
+                    "rating_platform": "Restaurant Guru (Google reviews)",
+                    "rating_source": "https://restaurantguru.com/Waroeng-kopi-Jambi",
+                    "rating_note": null
                     },
                     {
                         "id": "sm-046",
@@ -1662,7 +1932,13 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp15.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/7891206/7-rekomendasi-kuliner-es-campur-di-jogja-enak-dan-legendaris",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-047",
@@ -1697,7 +1973,13 @@ const DATA_PULAU = [
                             "food",
                             "kepulauan riau"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-048",
@@ -1732,7 +2014,13 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp7.000",
+                    "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-049",
@@ -1767,7 +2055,13 @@ const DATA_PULAU = [
                             "food",
                             "sumatera barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp7.000",
+                    "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sm-050",
@@ -1802,7 +2096,13 @@ const DATA_PULAU = [
                             "food",
                             "aceh"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp7.000",
+                    "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     }
                 ]
             }
@@ -1867,7 +2167,13 @@ const DATA_PULAU = [
                             "lumpia",
                             "snack"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Makanan%20Lumpia%20Rebung%20Khas%20Semarang%20Jateng%20Indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Makanan%20Lumpia%20Rebung%20Khas%20Semarang%20Jateng%20Indonesia.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-5936766/lumpia-semarang-harganya-rp-18-ribu-per-buah-netizen-sebut-mahal",
+                    "rating": 4.2,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.co.id/Restaurant_Review-g297712-d3155351-Reviews-Loenpia_Gang_Lombok-Semarang_Central_Java_Java.html",
+                    "rating_note": "Loenpia Gang Lombok, Semarang - 500 ulasan, peringkat 4.2/5"
                     },
                     {
                         "id": "jw-002",
@@ -1913,7 +2219,13 @@ const DATA_PULAU = [
                             "surakarta",
                             "nasi liwet"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20Liwet%20Solo.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20Liwet%20Solo.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp20.000",
+                    "price_source": "https://travel.tribunnews.com/kuliner/147131/5-nasi-liwet-di-solo-yang-buka-sore-sampai-malam-harga-mulai-rp-10000",
+                    "rating": 3.4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297713-d3252632-Reviews-Nasi_Liwet_Bu_Wongso_Lemu-Solo_Central_Java_Java.html",
+                    "rating_note": "Nasi Liwet Bu Wongso Lemu, Solo - 371 ulasan, peringkat 3.4/5"
                     },
                     {
                         "id": "jw-003",
@@ -1959,7 +2271,13 @@ const DATA_PULAU = [
                             "jogja",
                             "traditional stew"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gudeg%20Sagan%20Yogyakarta.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gudeg%20Sagan%20Yogyakarta.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp50.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-8290307/anti-getok-harga-ini-5-harga-nasi-gudeg-populer-di-jogja",
+                    "rating": 4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g13219594-d3156129-Reviews-Gudeg_Yu_Djum-Caturtunggal_Yogyakarta_Region_Java.html",
+                    "rating_note": "Gudeg Yu Djum, Caturtunggal Yogyakarta - 1.270 ulasan, peringkat 4.0/5"
                     },
                     {
                         "id": "jw-004",
@@ -2005,7 +2323,13 @@ const DATA_PULAU = [
                             "surabaya",
                             "east java"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bumbu%20Rawon.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bumbu%20Rawon.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp40.000",
+                    "price_source": "https://jatim.idntimes.com/food/dining-guide/jtm-6-kuliner-rawon-di-sekitar-terminal-bungurasih-kuahnya-mantap-c1c2-01-n55lj-hl1gz4",
+                    "rating": 4.2,
+                    "rating_platform": "Google Maps (agregasi via caribisnis.id)",
+                    "rating_source": "https://caribisnis.id/restoran/surabaya/genteng/rawon-setan-embong-malang-gent-imp1",
+                    "rating_note": "Rawon Setan Embong Malang, Surabaya - rating 4.2 (9.924 ulasan); URL Google Maps gerai: https://www.google.com/maps/search/Rawon+Setan+%28Embong+Malang%29%2C+Surabaya%2C+East+Java%2C+Indonesia"
                     },
                     {
                         "id": "jw-005",
@@ -2051,7 +2375,13 @@ const DATA_PULAU = [
                             "lamongan",
                             "yellow soup"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mangrove%2C%20Lamongan%20Regency%2C%20East%20Java%2C%20Indonesia%202.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mangrove%2C%20Lamongan%20Regency%2C%20East%20Java%2C%20Indonesia%202.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://style.tribunnews.com/life/376017/libur-sekolah-di-palembang-yuk-berburu-soto-lamongan-bude-yang-legendaris",
+                    "rating": 4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297715-d7041977-Reviews-Soto_Ayam_Lamongan_Cak_Har-Surabaya_East_Java_Java.html",
+                    "rating_note": "Soto Ayam Lamongan Cak Har, Surabaya - 289 ulasan, peringkat 4.0/5"
                     },
                     {
                         "id": "jw-006",
@@ -2084,7 +2414,13 @@ const DATA_PULAU = [
                             "traditional",
                             "surabaya"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tahu%20Th%C3%A8g%20Tahu%20Bumbu%20Lonthong%20Bumbu%20atau%20Tahu%20Tek%20Tahu%20Telor.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tahu%20Th%C3%A8g%20Tahu%20Bumbu%20Lonthong%20Bumbu%20atau%20Tahu%20Tek%20Tahu%20Telor.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp25.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-4833511/uenake-poll-5-tahu-tek-legendaris-ini-wajib-dicicipi-saat-ke-surabaya",
+                    "rating": 3.9,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297715-d8758332-Reviews-Tahu_Telur_Pak_Jayen-Surabaya_East_Java_Java.html",
+                    "rating_note": "Tahu Telur Pak Jayen, Surabaya - 60 ulasan, peringkat 3.9/5"
                     },
                     {
                         "id": "jw-007",
@@ -2117,7 +2453,13 @@ const DATA_PULAU = [
                             "traditional",
                             "surabaya"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rujak%20Cingur%20khas%20Jawa%20Timur%2CIndonesia%20dengan%20kombinasi%20sayuran%20dan%20kerupuk%20sebagai%20pelengkap.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rujak%20Cingur%20khas%20Jawa%20Timur%2CIndonesia%20dengan%20kombinasi%20sayuran%20dan%20kerupuk%20sebagai%20pelengkap.jpg?width=800",
+                    "price_range_ind": "Rp25.000 - Rp50.000",
+                    "price_source": "https://www.kompas.com/food/read/2026/01/30/073100375/rekomendasi-rujak-cingur-legendaris-surabaya-yang-wajib-dicoba",
+                    "rating": 3.6,
+                    "rating_platform": "Restaurant Guru",
+                    "rating_source": "https://restaurantguru.com/Rujak-Cingur-Ahmad-Jais-Surabaya",
+                    "rating_note": "Rujak Cingur Ahmad Jais, Surabaya - 480 ulasan, rating 3.6/5"
                     },
                     {
                         "id": "jw-008",
@@ -2150,7 +2492,13 @@ const DATA_PULAU = [
                             "traditional",
                             "solo"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tongseng%20Sapi.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tongseng%20Sapi.jpg?width=800",
+                    "price_range_ind": "Rp23.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-8673689/5-tongseng-ayam-yang-mlekoh-sedap-di-jakarta-mulai-rp23-ribuan",
+                    "rating": 4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297713-d7814985-Reviews-Sate_Kambing_ASLI_Tambak_Segaran-Solo_Central_Java_Java.html",
+                    "rating_note": "Sate Kambing & Asli Tambak Segaran, Solo (gerai terkenal tongseng kambing) - 47 ulasan, peringkat 4.0/5"
                     },
                     {
                         "id": "jw-009",
@@ -2183,7 +2531,13 @@ const DATA_PULAU = [
                             "traditional",
                             "bantul"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20klatak%2020170818%20Yogyakarta.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20klatak%2020170818%20Yogyakarta.jpg?width=800",
+                    "price_range_ind": "Rp30.000 - Rp35.000",
+                    "price_source": "https://jogja.tribunnews.com/diy/1222434/4-rekomendasi-sate-klatak-favorit-di-bantul-yogyakarta",
+                    "rating": 3.8,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g2304084-d17451037-Reviews-Sate_Klathak_Pak_Pong-Bantul_Yogyakarta_Region_Java.html",
+                    "rating_note": "Sate Klathak Pak Pong, Bantul - 24 ulasan, peringkat 3.8/5"
                     },
                     {
                         "id": "jw-010",
@@ -2216,7 +2570,13 @@ const DATA_PULAU = [
                             "traditional",
                             "yogyakarta"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/9.%20Mangut%20Lele%201.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/9.%20Mangut%20Lele%201.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://www.idntimes.com/food/dining-guide/fatiya-1/11-warung-mangut-lele-terenak-di-jogja-exp-c1c2",
+                    "rating": 4.3,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g2304084-d7790777-Reviews-Gudeg_Pawon_Mangut_Lele_Mbah_Marto-Bantul_Yogyakarta_Region_Java.html",
+                    "rating_note": "Gudeg Pawon & Mangut Lele Mbah Marto, Bantul - 83 ulasan, peringkat 4.3/5"
                     },
                     {
                         "id": "jw-011",
@@ -2249,7 +2609,13 @@ const DATA_PULAU = [
                             "traditional",
                             "kudus"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Garang%20asem%20Pj.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Garang%20asem%20Pj.JPG?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": 4.2,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g1966182-d3853333-Reviews-Rm_Sari_Rasa-Kudus_Central_Java_Java.html",
+                    "rating_note": "RM. Sari Rasa, Kudus (dikenal untuk garang asem) - 66 ulasan, peringkat 4.2/5"
                     },
                     {
                         "id": "jw-012",
@@ -2282,7 +2648,13 @@ const DATA_PULAU = [
                             "traditional",
                             "cirebon"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Arya%22%20%EA%A6%B2%EA%A6%BC%EA%A6%A9%EA%A7%80%EA%A6%A5%EA%A6%AD%EA%A7%80%EA%A6%92%EA%A6%BC%EA%A6%A4%EA%A7%80%EA%A6%9B%EA%A6%BA%EA%A6%B4%EA%A6%81%20Indonesian%20soup%20empal%20gentong.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Arya%22%20%EA%A6%B2%EA%A6%BC%EA%A6%A9%EA%A7%80%EA%A6%A5%EA%A6%AD%EA%A7%80%EA%A6%92%EA%A6%BC%EA%A6%A4%EA%A7%80%EA%A6%9B%EA%A6%BA%EA%A6%B4%EA%A6%81%20Indonesian%20soup%20empal%20gentong.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-7880057/gurih-berempah-empal-gentong-dudu-musuh-rp-15-ribu-seporsi",
+                    "rating": 4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297707-d6365993-Reviews-Empal_Gentong_Haji_Apud-Cirebon_West_Java_Java.html",
+                    "rating_note": "Empal Gentong Haji Apud, Cirebon - 529 ulasan, peringkat 4.0/5"
                     },
                     {
                         "id": "jw-013",
@@ -2315,7 +2687,13 @@ const DATA_PULAU = [
                             "traditional",
                             "bandung"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Batagor%20dan%20Bumbu%20Kacang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Batagor%20dan%20Bumbu%20Kacang.jpg?width=800",
+                    "price_range_ind": "Rp6.000 - Rp15.000",
+                    "price_source": "https://travel.tribunnews.com/kuliner/145004/harga-batagor-kahuripan-bandung-2026-menu-mulai-rp-6000",
+                    "rating": 3.7,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297704-d2452361-Reviews-Batagor_Kingsley-Bandung_West_Java_Java.html",
+                    "rating_note": "Batagor Kingsley, Bandung - 320 ulasan, peringkat 3.7/5"
                     },
                     {
                         "id": "jw-014",
@@ -2348,7 +2726,13 @@ const DATA_PULAU = [
                             "traditional",
                             "bandung"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Seblak%202.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Seblak%202.jpg?width=800",
+                    "price_range_ind": "Rp7.000 - Rp15.000",
+                    "price_source": "https://lampung.tribunnews.com/2021/03/03/kuliner-bandung-5-rekomendasi-tempat-makan-seblak-yang-wajib-kamu-coba-harga-mulai-rp-7-ribu",
+                    "rating": 4.7,
+                    "rating_platform": "Restaurant Guru",
+                    "rating_source": "https://es.restaurantguru.com/Seblak-SR-Bandung",
+                    "rating_note": "Seblak SR, Bandung - 34 ulasan, rating 4.7/5"
                     },
                     {
                         "id": "jw-015",
@@ -2381,7 +2765,13 @@ const DATA_PULAU = [
                             "traditional",
                             "jakarta"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerak%20Telor.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerak%20Telor.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": 4.2,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g294229-d8609124-Reviews-Kerak_Telor_Menteng_Bpk_Abdurrachman-Jakarta_Java.html",
+                    "rating_note": "Kerak Telor Menteng Bpk. Abdurrachman, Jakarta - 5 ulasan, peringkat 4.2/5"
                     },
                     {
                         "id": "jw-016",
@@ -2416,7 +2806,13 @@ const DATA_PULAU = [
                             "food",
                             "dki jakarta"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-017",
@@ -2451,7 +2847,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8520340/dolar-as-sentuh-rp-18-000-netizen-spill-5-jajanan-enak-dengan-harga-setara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-018",
@@ -2486,7 +2888,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8520340/dolar-as-sentuh-rp-18-000-netizen-spill-5-jajanan-enak-dengan-harga-setara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-019",
@@ -2521,7 +2929,13 @@ const DATA_PULAU = [
                             "food",
                             "di yogyakarta"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://www.idntimes.com/food/dining-guide/5-kuliner-sate-ayam-endes-di-yogyakarta-seporsi-gak-sampai-rp-30-000-01-1hkcy-my3mwn",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-020",
@@ -2556,7 +2970,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-021",
@@ -2591,7 +3011,13 @@ const DATA_PULAU = [
                             "food",
                             "di yogyakarta"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-022",
@@ -2626,7 +3052,13 @@ const DATA_PULAU = [
                             "food",
                             "di yogyakarta"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp20.000",
+                    "price_source": "https://superapps.kompas.com/read/3014009/eks-chef-restoran-mewah-jualan-nasi-goreng-pakai-gerobak-harga-seporsi-cuma-rp-15-ribu",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-023",
@@ -2661,7 +3093,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "price_range_ind": "Rp1.000 - Rp5.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-5957317/4-tempat-beli-kue-subuh-di-jakarta-harga-mulai-rp-1-000",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-024",
@@ -2695,7 +3133,13 @@ const DATA_PULAU = [
                             "food",
                             "di yogyakarta"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-025",
@@ -2730,7 +3174,13 @@ const DATA_PULAU = [
                             "food",
                             "banten"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-026",
@@ -2765,7 +3215,13 @@ const DATA_PULAU = [
                             "food",
                             "dki jakarta"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6967038/slurpp-5-es-campur-di-jakarta-ini-kelezatannya-melegenda",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-027",
@@ -2800,7 +3256,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://www.idntimes.com/food/dining-guide/5-kuliner-sate-ayam-endes-di-yogyakarta-seporsi-gak-sampai-rp-30-000-01-1hkcy-my3mwn",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-028",
@@ -2835,7 +3297,13 @@ const DATA_PULAU = [
                             "food",
                             "banten"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8520340/dolar-as-sentuh-rp-18-000-netizen-spill-5-jajanan-enak-dengan-harga-setara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-029",
@@ -2870,7 +3338,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-030",
@@ -2905,7 +3379,13 @@ const DATA_PULAU = [
                             "food",
                             "dki jakarta"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-031",
@@ -2940,7 +3420,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8520340/dolar-as-sentuh-rp-18-000-netizen-spill-5-jajanan-enak-dengan-harga-setara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-032",
@@ -2975,7 +3461,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp20.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-7996459/nikmatnya-mie-ayam-pak-loso-di-menteng-harga-hanya-rp-15-ribu",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-033",
@@ -3010,7 +3502,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-034",
@@ -3045,7 +3543,13 @@ const DATA_PULAU = [
                             "food",
                             "banten"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp20.000",
+                    "price_source": "https://superapps.kompas.com/read/3014009/eks-chef-restoran-mewah-jualan-nasi-goreng-pakai-gerobak-harga-seporsi-cuma-rp-15-ribu",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-035",
@@ -3080,7 +3584,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp20.000",
+                    "price_source": "https://superapps.kompas.com/read/3014009/eks-chef-restoran-mewah-jualan-nasi-goreng-pakai-gerobak-harga-seporsi-cuma-rp-15-ribu",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-036",
@@ -3115,7 +3625,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-037",
@@ -3150,7 +3666,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-038",
@@ -3185,7 +3707,13 @@ const DATA_PULAU = [
                             "food",
                             "dki jakarta"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-039",
@@ -3219,7 +3747,13 @@ const DATA_PULAU = [
                             "food",
                             "banten"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-040",
@@ -3254,7 +3788,13 @@ const DATA_PULAU = [
                             "food",
                             "banten"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "price_range_ind": "Rp1.000 - Rp5.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-5957317/4-tempat-beli-kue-subuh-di-jakarta-harga-mulai-rp-1-000",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-041",
@@ -3289,7 +3829,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-042",
@@ -3324,7 +3870,13 @@ const DATA_PULAU = [
                             "food",
                             "banten"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-043",
@@ -3358,7 +3910,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-044",
@@ -3393,7 +3951,13 @@ const DATA_PULAU = [
                             "food",
                             "banten"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-045",
@@ -3428,7 +3992,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-046",
@@ -3463,7 +4033,13 @@ const DATA_PULAU = [
                             "food",
                             "di yogyakarta"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://www.idntimes.com/food/dining-guide/5-kuliner-sate-ayam-endes-di-yogyakarta-seporsi-gak-sampai-rp-30-000-01-1hkcy-my3mwn",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-047",
@@ -3498,7 +4074,13 @@ const DATA_PULAU = [
                             "food",
                             "dki jakarta"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp50.000 - Rp100.000",
+                    "price_source": "https://food.detik.com/tempat-makan/d-8721617/cocok-buat-makan-bareng-ini-7-ikan-bakar-paling-favorit-di-jakarta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-048",
@@ -3532,7 +4114,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-049",
@@ -3567,7 +4155,13 @@ const DATA_PULAU = [
                             "food",
                             "dki jakarta"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "jw-050",
@@ -3602,7 +4196,13 @@ const DATA_PULAU = [
                             "food",
                             "jawa tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     }
                 ]
             }
@@ -3669,7 +4269,13 @@ const DATA_PULAU = [
                             "south kalimantan",
                             "cempedak"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800",
+                    "price_range_ind": "Rp23.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-002",
@@ -3715,7 +4321,13 @@ const DATA_PULAU = [
                             "kalimantan",
                             "sweet savory chicken"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-003",
@@ -3761,7 +4373,13 @@ const DATA_PULAU = [
                             "central kalimantan",
                             "exotic soup"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Juhu%20Umbut%20Rotan%20Ikan%20Nila.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Juhu%20Umbut%20Rotan%20Ikan%20Nila.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-004",
@@ -3805,7 +4423,13 @@ const DATA_PULAU = [
                             "kalimantan snack",
                             "crispy snack"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Amplang%20Kuku%20Macan%20Khas%20Samarinda.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Amplang%20Kuku%20Macan%20Khas%20Samarinda.jpg?width=800",
+                    "price_range_ind": "Rp150.000 - Rp160.000",
+                    "price_source": "https://pontianak.tribunnews.com/kalbar/1170406/usaha-amplang-suka-rasa-jadi-andalan-ekonomi-keluarga-sejak-era-90-an",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-005",
@@ -3849,7 +4473,13 @@ const DATA_PULAU = [
                             "kalimantan seafood",
                             "crispy crab"
                         ],
-                        "image": null
+                        "image": null,
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://travel.kompas.com/read/2019/09/18/141826127/daripada-rebutan-rendang-datangi-3-rumah-makan-dengan-rendang-paling-enak-di",
+                    "rating": 4.1,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g317100-d3656677-Reviews-Dandito-Balikpapan_East_Kalimantan_Kalimantan.html",
+                    "rating_note": null
                     },
                     {
                         "id": "kl-006",
@@ -3882,7 +4512,13 @@ const DATA_PULAU = [
                             "traditional",
                             "banjarmasin"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp100.000 - Rp300.000",
+                    "price_source": "https://www.idntimes.com/food/dining-guide/5-restoran-kepiting-enak-populer-di-balikpapan-wajib-dicoba-01-zydpl-9pfq65",
+                    "rating": 4.1,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g303950-d6963490-Reviews-Soto_Banjar_Bang_Amat-Banjarmasin_South_Kalimantan_Kalimantan.html",
+                    "rating_note": null
                     },
                     {
                         "id": "kl-007",
@@ -3915,7 +4551,13 @@ const DATA_PULAU = [
                             "traditional",
                             "kandangan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ketupat%20Kandangan%20Haruan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ketupat%20Kandangan%20Haruan.jpg?width=800",
+                    "price_range_ind": "Rp18.000 - Rp25.000",
+                    "price_source": "https://www.liputan6.com/regional/read/5083929/ketupat-kandangan-kuliner-simbol-kedekatan-masyarakat-kalsel-dengan-alam",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-008",
@@ -3948,7 +4590,13 @@ const DATA_PULAU = [
                             "traditional",
                             "banjarmasin"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://superapps.kompas.com/read/3000923/cobain-nasi-kuning-sambal-kecombrang-di-warung-ngawi-denpasar-harga-rp-10-ribuan-porsinya-mantap",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-009",
@@ -3981,7 +4629,13 @@ const DATA_PULAU = [
                             "traditional",
                             "banjar"
                         ],
-                        "image": null
+                        "image": null,
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-5829507/gurih-nikmat-soto-banjar-racikan-orang-banjar-asli",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-010",
@@ -4014,7 +4668,13 @@ const DATA_PULAU = [
                             "traditional",
                             "pontianak"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pengkang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pengkang.jpg?width=800",
+                    "price_range_ind": "Rp2.000 - Rp3.000",
+                    "price_source": "https://banjarmasin.tribunnews.com/kalsel/1355722/umkm-kalsel-legit-dan-lembut-bingka-kentang-khas-banjar-dijual-arbani-di-banjarbaru-dua-ribuan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-011",
@@ -4047,7 +4707,13 @@ const DATA_PULAU = [
                             "traditional",
                             "singkawang"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Choi%20Pan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Choi%20Pan.jpg?width=800",
+                    "price_range_ind": "Rp1.000 - Rp2.000",
+                    "price_source": "https://pontianak.tribunnews.com/kalbar/1181017/daftar-10-choipan-terenak-rating-tinggi-di-singkawang-harga-mulai-rp1200-per-pcs",
+                    "rating": 4.7,
+                    "rating_platform": "Google Maps",
+                    "rating_source": "https://pontianak.tribunnews.com/kalbar/1181017/daftar-10-choipan-terenak-rating-tinggi-di-singkawang-harga-mulai-rp1200-per-pcs",
+                    "rating_note": null
                     },
                     {
                         "id": "kl-012",
@@ -4080,7 +4746,13 @@ const DATA_PULAU = [
                             "traditional",
                             "sambas"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": 4.4,
+                    "rating_platform": "Google Maps",
+                    "rating_source": "https://www.detik.com/kalimantan/berita/d-8007038/bubbor-paddas-sambas-sejarah-resep-dan-tempat-makan-rekomendasi",
+                    "rating_note": null
                     },
                     {
                         "id": "kl-013",
@@ -4113,7 +4785,13 @@ const DATA_PULAU = [
                             "traditional",
                             "samarinda"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam-cincane.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam-cincane.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://www.idntimes.com/food/dining-guide/kuliner-khas-samarinda-c1c2-01-1qxbn-942c9c",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-014",
@@ -4146,7 +4824,13 @@ const DATA_PULAU = [
                             "traditional",
                             "kutai"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gence%20Ruan.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gence%20Ruan.JPG?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-015",
@@ -4179,7 +4863,13 @@ const DATA_PULAU = [
                             "traditional",
                             "palangkaraya"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-5934482/tumis-kangkung-sultan-di-4-restoran-mewah-ini-harganya-selangit",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-016",
@@ -4214,7 +4904,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp14.000 - Rp20.000",
+                    "price_source": "https://www.detik.com/bali/kuliner/d-6732474/5-tempat-makan-seafood-di-jimbaran-yang-enak-ada-pelopor-ikan-bakar",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-017",
@@ -4248,7 +4944,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp5.000",
+                    "price_source": "https://surabaya.kompas.com/read/2026/06/09/111500778/siasat-pedagang-warkop-di-lumajang-hadapi-kenaikan-harga-kulakan--naik",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-018",
@@ -4283,7 +4985,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://jatim.idntimes.com/food/dining-guide/rekomendasi-es-campur-di-surabaya-c1c2-01-zv1tf-qkzvw5",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-019",
@@ -4318,7 +5026,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-7802109/gurih-segar-10-soto-ayam-rp-15-ribuan-ada-di-sini",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-020",
@@ -4352,7 +5066,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
+                    "price_range_ind": "Rp23.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-021",
@@ -4387,7 +5107,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://jatim.idntimes.com/food/dining-guide/rekomendasi-es-campur-di-surabaya-c1c2-01-zv1tf-qkzvw5",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-022",
@@ -4422,7 +5148,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp13.000 - Rp30.000",
+                    "price_source": "https://www.kompas.com/food/read/2026/01/06/083722075/10-bubur-ayam-di-jakarta-dari-legendaris-hingga-favorit",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-023",
@@ -4457,7 +5189,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-7802109/gurih-segar-10-soto-ayam-rp-15-ribuan-ada-di-sini",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-024",
@@ -4491,7 +5229,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
+                    "price_range_ind": "Rp23.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-025",
@@ -4526,7 +5270,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-026",
@@ -4561,7 +5311,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-7802109/gurih-segar-10-soto-ayam-rp-15-ribuan-ada-di-sini",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-027",
@@ -4596,7 +5352,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-028",
@@ -4631,7 +5393,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp13.000 - Rp30.000",
+                    "price_source": "https://www.kompas.com/food/read/2026/01/06/083722075/10-bubur-ayam-di-jakarta-dari-legendaris-hingga-favorit",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-029",
@@ -4666,7 +5434,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp14.000 - Rp20.000",
+                    "price_source": "https://www.detik.com/bali/kuliner/d-6732474/5-tempat-makan-seafood-di-jimbaran-yang-enak-ada-pelopor-ikan-bakar",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-030",
@@ -4701,7 +5475,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://jatim.idntimes.com/food/dining-guide/rekomendasi-es-campur-di-surabaya-c1c2-01-zv1tf-qkzvw5",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-031",
@@ -4736,7 +5516,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp4.000 - Rp7.000",
+                    "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-032",
@@ -4771,7 +5557,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp18.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-7996459/nikmatnya-mie-ayam-pak-loso-di-menteng-harga-hanya-rp-15-ribu",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-033",
@@ -4806,7 +5598,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-7802109/gurih-segar-10-soto-ayam-rp-15-ribuan-ada-di-sini",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-034",
@@ -4841,7 +5639,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp20.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-7048540/buset-5-nasi-goreng-di-sini-porsinya-super-jumbo",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-035",
@@ -4876,7 +5680,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp4.000 - Rp7.000",
+                    "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-036",
@@ -4911,7 +5721,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp4.000 - Rp7.000",
+                    "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-037",
@@ -4946,7 +5762,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp4.000 - Rp7.000",
+                    "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-038",
@@ -4981,7 +5803,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp13.000 - Rp30.000",
+                    "price_source": "https://www.kompas.com/food/read/2026/01/06/083722075/10-bubur-ayam-di-jakarta-dari-legendaris-hingga-favorit",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-039",
@@ -5016,7 +5844,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-7802109/gurih-segar-10-soto-ayam-rp-15-ribuan-ada-di-sini",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-040",
@@ -5051,7 +5885,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp14.000 - Rp20.000",
+                    "price_source": "https://www.detik.com/bali/kuliner/d-6732474/5-tempat-makan-seafood-di-jimbaran-yang-enak-ada-pelopor-ikan-bakar",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-041",
@@ -5086,7 +5926,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-7802109/gurih-segar-10-soto-ayam-rp-15-ribuan-ada-di-sini",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-042",
@@ -5121,7 +5967,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp13.000 - Rp30.000",
+                    "price_source": "https://www.kompas.com/food/read/2026/01/06/083722075/10-bubur-ayam-di-jakarta-dari-legendaris-hingga-favorit",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-043",
@@ -5156,7 +6008,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp20.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-7048540/buset-5-nasi-goreng-di-sini-porsinya-super-jumbo",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-044",
@@ -5191,7 +6049,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-5934482/tumis-kangkung-sultan-di-4-restoran-mewah-ini-harganya-selangit",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-045",
@@ -5226,7 +6090,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://jatim.idntimes.com/food/dining-guide/rekomendasi-es-campur-di-surabaya-c1c2-01-zv1tf-qkzvw5",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-046",
@@ -5261,7 +6131,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-047",
@@ -5296,7 +6172,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp18.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-7996459/nikmatnya-mie-ayam-pak-loso-di-menteng-harga-hanya-rp-15-ribu",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-048",
@@ -5331,7 +6213,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-7802109/gurih-segar-10-soto-ayam-rp-15-ribuan-ada-di-sini",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-049",
@@ -5366,7 +6254,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp20.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-7048540/buset-5-nasi-goreng-di-sini-porsinya-super-jumbo",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "kl-050",
@@ -5401,7 +6295,13 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp14.000 - Rp20.000",
+                    "price_source": "https://www.detik.com/bali/kuliner/d-6732474/5-tempat-makan-seafood-di-jimbaran-yang-enak-ada-pelopor-ikan-bakar",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     }
                 ]
             }
@@ -5469,7 +6369,13 @@ const DATA_PULAU = [
                             "makassar",
                             "sulawesi"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coto%20Makassar%20dish.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coto%20Makassar%20dish.JPG?width=800",
+                    "price_range_ind": "Rp15.000 - Rp35.000",
+                    "price_source": "https://www.detik.com/sulsel/kuliner/d-7020223/9-rekomendasi-coto-makassar-populer-wajib-dicoba-berikut-harga-lokasinya",
+                    "rating": 4.3,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297720-d6415175-Reviews-Coto_Nusantara-Makassar_South_Sulawesi_Sulawesi.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sl-002",
@@ -5517,7 +6423,13 @@ const DATA_PULAU = [
                             "spicy yellow fish",
                             "basil fish"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp45.000 - Rp65.000",
+                    "price_source": "https://makassar.tribunnews.com/2015/07/07/woku-ratulangi-di-hotel-sahid-rp-55-ribu",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-003",
@@ -5563,7 +6475,13 @@ const DATA_PULAU = [
                             "shrimp corn soup",
                             "milu siram"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Binte%20Biluhuta.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Binte%20Biluhuta.jpg?width=800",
+                    "price_range_ind": "Rp7.000 - Rp15.000",
+                    "price_source": "https://geopark.gorontaloprov.go.id/view/binte-biluhuta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-004",
@@ -5609,7 +6527,13 @@ const DATA_PULAU = [
                             "manado porridge",
                             "pumpkin rice"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20Khas%20Manado%20(Tinutuan).jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20Khas%20Manado%20(Tinutuan).jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp8.000",
+                    "price_source": "https://manado.tribunnews.com/2024/04/13/nikmatnya-bubur-manado-hanya-rp6-ribu-di-reko-bawah-minahasa-utara-sulawesi-utara",
+                    "rating": 4.1,
+                    "rating_platform": "Restaurant Guru",
+                    "rating_source": "https://es.restaurantguru.com/RM-Wakeke-Tinutuan-Manado-2",
+                    "rating_note": null
                     },
                     {
                         "id": "sl-005",
@@ -5655,7 +6579,13 @@ const DATA_PULAU = [
                             "luwu",
                             "sulawesi sago soup"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kapurung%20Luwu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kapurung%20Luwu.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": 4.7,
+                    "rating_platform": "Grab Dine Out",
+                    "rating_source": "https://dineout.grab.com/id/id/restaurants/rm-kapurung-khas-palopo-pondambea--6-C2LUFBJJL7VVWE",
+                    "rating_note": null
                     },
                     {
                         "id": "sl-006",
@@ -5688,7 +6618,13 @@ const DATA_PULAU = [
                             "traditional",
                             "pangkep"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20campur%20sop%20saudara%20warung%20Pangkep.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20campur%20sop%20saudara%20warung%20Pangkep.JPG?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://makassar.tribunnews.com/2023/01/29/sop-saudara-dan-ikan-bakar-kuliner-khas-pangkep-sulsel-bikin-ketagihan-harga-mai-rp-25-ribu",
+                    "rating": 4.1,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297720-d1098552-Reviews-Warung_Pangkep_Sop_Saudara-Makassar_South_Sulawesi_Sulawesi.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sl-007",
@@ -5721,7 +6657,13 @@ const DATA_PULAU = [
                             "traditional",
                             "makassar"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pallubasa.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pallubasa.jpg?width=800",
+                    "price_range_ind": "Rp14.000 - Rp20.000",
+                    "price_source": "https://www.kompas.com/food/read/2022/11/13/131700975/6-tempat-makan-pallubasa-di-makassar-harga-mulai-dari-rp-14.000",
+                    "rating": 4.4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297720-d7347714-Reviews-Pallu_Basa_Serigala-Makassar_South_Sulawesi_Sulawesi.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sl-008",
@@ -5754,7 +6696,13 @@ const DATA_PULAU = [
                             "traditional",
                             "makassar"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20pisang%20ijo%20otentik%20Makassar-1.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20pisang%20ijo%20otentik%20Makassar-1.jpg?width=800",
+                    "price_range_ind": "Rp25.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-7897406/es-pisang-ijo-sultan-setampah-harganya-rp-1-jutaan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-009",
@@ -5787,7 +6735,13 @@ const DATA_PULAU = [
                             "traditional",
                             "makassar"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MIE%20KERING%20MAKASSAR.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MIE%20KERING%20MAKASSAR.jpg?width=800",
+                    "price_range_ind": "Rp25.000 - Rp57.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-7846195/10-mie-titi-khas-makassar-yang-lezat-dan-legendaris",
+                    "rating": 3.7,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297720-d6780873-Reviews-Mie_Titi_Panakkukang-Makassar_South_Sulawesi_Sulawesi.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sl-010",
@@ -5820,7 +6774,13 @@ const DATA_PULAU = [
                             "traditional",
                             "makassar"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp35.000",
+                    "price_source": "https://www.kompas.id/artikel/ayam-goreng-kupang-tiga-kali-lebih-mahal-dari-jakarta-hl1",
+                    "rating": 4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297720-d6581983-Reviews-Ayam_Goreng_Sulawesi-Makassar_South_Sulawesi_Sulawesi.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sl-011",
@@ -5853,7 +6813,13 @@ const DATA_PULAU = [
                             "traditional",
                             "makassar"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jalangkote%20dari%20Makassar.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jalangkote%20dari%20Makassar.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://style.tribunnews.com/life/379622/gurih-renyah-4-rekomendasi-jalangkote-enak-di-makassar-bahkan-ada-yang-berdiri-sejak-1985",
+                    "rating": 3.9,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297720-d7261579-Reviews-Jalangkote_Lasinrang-Makassar_South_Sulawesi_Sulawesi.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sl-012",
@@ -5886,7 +6852,13 @@ const DATA_PULAU = [
                             "traditional",
                             "manado"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp30.000 - Rp85.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-5965169/5-warung-seafood-enak-di-jakarta-favorit-netizen-tiktok-mampir-yuk",
+                    "rating": 4.3,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297721-d13833359-Reviews-RM_Bakar_Rica-Manado_North_Sulawesi_Sulawesi.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sl-013",
@@ -5919,7 +6891,13 @@ const DATA_PULAU = [
                             "traditional",
                             "manado"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Rica-rica.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Rica-rica.JPG?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-014",
@@ -5952,7 +6930,13 @@ const DATA_PULAU = [
                             "traditional",
                             "manado"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Klappertaart%20Khas%20Manado.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Klappertaart%20Khas%20Manado.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://www.kompas.com/food/read/2021/09/16/101029475/4-tempat-beli-klappertaart-di-manado-harga-menu-mulai-rp-20000",
+                    "rating": 4.2,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297721-d11615136-Reviews-Christine_Klappertaart-Manado_North_Sulawesi_Sulawesi.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sl-015",
@@ -5985,7 +6969,13 @@ const DATA_PULAU = [
                             "traditional",
                             "donggala"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaledo%20soup%2C%20Central%20Sulawesi%2C%202018-09-16.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaledo%20soup%2C%20Central%20Sulawesi%2C%202018-09-16.jpg?width=800",
+                    "price_range_ind": "Rp40.000 - Rp60.000",
+                    "price_source": "https://www.suara.com/lifestyle/2019/07/04/125610/cocok-disantap-saat-cuaca-dingin-menyeruput-seporsi-sop-donggala-khas-palu",
+                    "rating": 4.7,
+                    "rating_platform": "GoFood",
+                    "rating_source": "https://gofood.co.id/en/jakarta/restaurant/kaledo-narassa-duren-sawit-01590381-a1db-4221-83c1-fa3f86954078",
+                    "rating_note": null
                     },
                     {
                         "id": "sl-016",
@@ -6019,7 +7009,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp5.000",
+                    "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-017",
@@ -6054,7 +7050,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-018",
@@ -6089,7 +7091,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-019",
@@ -6124,7 +7132,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-020",
@@ -6158,7 +7172,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp5.000",
+                    "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-021",
@@ -6192,7 +7212,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp5.000",
+                    "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-022",
@@ -6227,7 +7253,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-023",
@@ -6261,7 +7293,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp5.000",
+                    "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-024",
@@ -6296,7 +7334,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-025",
@@ -6330,7 +7374,13 @@ const DATA_PULAU = [
                             "food",
                             "gorontalo"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-026",
@@ -6365,7 +7415,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://food.detik.com/online-food/d-6086724/nasi-goreng-rp-18-000-vs-rp-140-000-mana-yang-lebih-enak",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-027",
@@ -6400,7 +7456,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-028",
@@ -6435,7 +7497,13 @@ const DATA_PULAU = [
                             "food",
                             "gorontalo"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-029",
@@ -6470,7 +7538,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-030",
@@ -6505,7 +7579,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-031",
@@ -6540,7 +7620,13 @@ const DATA_PULAU = [
                             "food",
                             "gorontalo"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-032",
@@ -6575,7 +7661,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp30.000 - Rp85.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-5965169/5-warung-seafood-enak-di-jakarta-favorit-netizen-tiktok-mampir-yuk",
+                    "rating": 3.9,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297721-d10297294-Reviews-Ikan_Bakar_Kinamang-Manado_North_Sulawesi_Sulawesi.html",
+                    "rating_note": null
                     },
                     {
                         "id": "sl-033",
@@ -6610,7 +7702,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp8.000 - Rp12.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6599561/5-tempat-makan-bubur-ayam-sultan-harganya-sampai-rp-100-ribu-seporsi",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-034",
@@ -6645,7 +7743,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://jadesta.kemenpar.go.id/paket/sate_pokea_dan_gogos",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-035",
@@ -6680,7 +7784,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-036",
@@ -6715,7 +7825,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp30.000 - Rp85.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-5965169/5-warung-seafood-enak-di-jakarta-favorit-netizen-tiktok-mampir-yuk",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-037",
@@ -6750,7 +7866,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp30.000 - Rp85.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-5965169/5-warung-seafood-enak-di-jakarta-favorit-netizen-tiktok-mampir-yuk",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-038",
@@ -6785,7 +7907,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-039",
@@ -6820,7 +7948,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://video.tribunnews.com/news/957435/jual-es-campur-rp12-ribu-pasangan-ini-berhasil-sekolahkan-anak-hingga-lulus-pkn-stan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-040",
@@ -6855,7 +7989,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp8.000 - Rp12.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6599561/5-tempat-makan-bubur-ayam-sultan-harganya-sampai-rp-100-ribu-seporsi",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-041",
@@ -6890,7 +8030,13 @@ const DATA_PULAU = [
                             "food",
                             "gorontalo"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://video.tribunnews.com/news/957435/jual-es-campur-rp12-ribu-pasangan-ini-berhasil-sekolahkan-anak-hingga-lulus-pkn-stan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-042",
@@ -6924,7 +8070,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp5.000",
+                    "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-043",
@@ -6959,7 +8111,13 @@ const DATA_PULAU = [
                             "food",
                             "gorontalo"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "price_range_ind": "Rp8.000 - Rp12.000",
+                    "price_source": "https://finance.detik.com/berita-ekonomi-bisnis/d-6230809/heboh-harga-mi-instan-naik-indomie-di-warkop-tembus-rp-12-000-porsi",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-044",
@@ -6994,7 +8152,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://video.tribunnews.com/news/957435/jual-es-campur-rp12-ribu-pasangan-ini-berhasil-sekolahkan-anak-hingga-lulus-pkn-stan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-045",
@@ -7029,7 +8193,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp6.000 - Rp15.000",
+                    "price_source": "https://jatim.idntimes.com/food/dining-guide/warung-soto-ayam-termurah-di-probolinggo-c1c2-01-n55lj-gj4wfx",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-046",
@@ -7064,7 +8234,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://food.detik.com/online-food/d-6086724/nasi-goreng-rp-18-000-vs-rp-140-000-mana-yang-lebih-enak",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-047",
@@ -7099,7 +8275,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://video.tribunnews.com/news/957435/jual-es-campur-rp12-ribu-pasangan-ini-berhasil-sekolahkan-anak-hingga-lulus-pkn-stan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-048",
@@ -7134,7 +8316,13 @@ const DATA_PULAU = [
                             "food",
                             "gorontalo"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://food.detik.com/online-food/d-6086724/nasi-goreng-rp-18-000-vs-rp-140-000-mana-yang-lebih-enak",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-049",
@@ -7169,7 +8357,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://video.tribunnews.com/news/957435/jual-es-campur-rp12-ribu-pasangan-ini-berhasil-sekolahkan-anak-hingga-lulus-pkn-stan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "sl-050",
@@ -7204,7 +8398,13 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp8.000 - Rp12.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6599561/5-tempat-makan-bubur-ayam-sultan-harganya-sampai-rp-100-ribu-seporsi",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     }
                 ]
             }
@@ -7270,7 +8470,13 @@ const DATA_PULAU = [
                             "papua",
                             "fish"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papeda%20Kuah%20Kuning%20Ternate-3.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papeda%20Kuah%20Kuning%20Ternate-3.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp20.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/6155625/10-makanan-khas-manokwari-yang-wajib-dicoba-pencinta-kuliner-nusantara",
+                    "rating": 3.9,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g680181-d7974155-Reviews-Yougwa_Restaurant-Jayapura_Papua.html",
+                    "rating_note": null
                     },
                     {
                         "id": "pp-002",
@@ -7314,7 +8520,13 @@ const DATA_PULAU = [
                             "milk pie",
                             "custard tart"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20gapit%2C%202015-06-16.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20gapit%2C%202015-06-16.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/6155625/10-makanan-khas-manokwari-yang-wajib-dicoba-pencinta-kuliner-nusantara",
+                    "rating": 5,
+                    "rating_platform": "Tokopedia",
+                    "rating_source": "https://www.tokopedia.com/ale-shanum/kue-lontar-susu-khas-papua-kue-lontar-papua-tart-susu-original/review",
+                    "rating_note": null
                     },
                     {
                         "id": "pp-003",
@@ -7360,7 +8572,13 @@ const DATA_PULAU = [
                             "papua",
                             "seafood"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp40.000 - Rp60.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/6155625/10-makanan-khas-manokwari-yang-wajib-dicoba-pencinta-kuliner-nusantara",
+                    "rating": 4.5,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g680178-d10031736-Reviews-Warung_Lamongan_ikan_Bakar-Manokwari_West_Papua.html",
+                    "rating_note": null
                     },
                     {
                         "id": "pp-004",
@@ -7399,7 +8617,13 @@ const DATA_PULAU = [
                             "traditional bread",
                             "snack"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sago%20starch%20product%20sagu%20lempeng%20from%20Maluku%2CID%20feb2002.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sago%20starch%20product%20sagu%20lempeng%20from%20Maluku%2CID%20feb2002.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp20.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/6155625/10-makanan-khas-manokwari-yang-wajib-dicoba-pencinta-kuliner-nusantara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-005",
@@ -7441,7 +8665,13 @@ const DATA_PULAU = [
                             "traditional snack",
                             "exotic food"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20ulat%20sagu.webp?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20ulat%20sagu.webp?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/6155625/10-makanan-khas-manokwari-yang-wajib-dicoba-pencinta-kuliner-nusantara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-006",
@@ -7474,7 +8704,13 @@ const DATA_PULAU = [
                             "traditional",
                             "wamena"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Danau%20Paniai.%20Danau%20Paniai%20adalah%20danau%20yang%20berada%20di%20kabupaten%20Paniai.%20Danau%20ini%20memiliki%20banyak%20keanekaragaman%20hayati%20yang%20sangat%20banyak.%20Salah%20satu%20spesies%20endemiknya%20adalah%20udang%20selingkuh.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Danau%20Paniai.%20Danau%20Paniai%20adalah%20danau%20yang%20berada%20di%20kabupaten%20Paniai.%20Danau%20ini%20memiliki%20banyak%20keanekaragaman%20hayati%20yang%20sangat%20banyak.%20Salah%20satu%20spesies%20endemiknya%20adalah%20udang%20selingkuh.jpg?width=800",
+                    "price_range_ind": "Rp100.000 - Rp250.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/6155625/10-makanan-khas-manokwari-yang-wajib-dicoba-pencinta-kuliner-nusantara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-007",
@@ -7507,7 +8743,13 @@ const DATA_PULAU = [
                             "traditional",
                             "biak"
                         ],
-                        "image": null
+                        "image": null,
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-008",
@@ -7540,7 +8782,13 @@ const DATA_PULAU = [
                             "traditional",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://travel.kompas.com/read/2019/12/03/170200627/icip-icip-makanan-khas-papua-keladi-tumbuk",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-009",
@@ -7573,7 +8821,13 @@ const DATA_PULAU = [
                             "traditional",
                             "papua"
                         ],
-                        "image": null
+                        "image": null,
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-010",
@@ -7606,7 +8860,13 @@ const DATA_PULAU = [
                             "traditional",
                             "manokwari"
                         ],
-                        "image": null
+                        "image": null,
+                    "price_range_ind": "Rp80.000 - Rp100.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/6155625/10-makanan-khas-manokwari-yang-wajib-dicoba-pencinta-kuliner-nusantara",
+                    "rating": 3.9,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.co.id/Restaurant_Review-g680178-d7983075-Reviews-Hawai_Bakery_Coffee_Shop-Manokwari_West_Papua.html",
+                    "rating_note": null
                     },
                     {
                         "id": "pp-011",
@@ -7639,7 +8899,13 @@ const DATA_PULAU = [
                             "traditional",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-012",
@@ -7672,7 +8938,13 @@ const DATA_PULAU = [
                             "traditional",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/6155625/10-makanan-khas-manokwari-yang-wajib-dicoba-pencinta-kuliner-nusantara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-013",
@@ -7705,7 +8977,13 @@ const DATA_PULAU = [
                             "traditional",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Kerang%20Tampak%20Atas.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Kerang%20Tampak%20Atas.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-014",
@@ -7738,7 +9016,13 @@ const DATA_PULAU = [
                             "traditional",
                             "jayapura"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp55.000 - Rp70.000",
+                    "price_source": "https://www.detik.com/bali/kuliner/d-8693243/kabar-baru-dari-warung-mak-beng-harga-berubah-buka-cabang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-015",
@@ -7771,7 +9055,13 @@ const DATA_PULAU = [
                             "traditional",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800",
+                    "price_range_ind": "Rp25.000 - Rp35.000",
+                    "price_source": "https://kupang.tribunnews.com/editorial/983528/opini-seporsi-ayam-dua-jam-kerja",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-016",
@@ -7805,7 +9095,13 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp5.000",
+                    "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-017",
@@ -7840,7 +9136,13 @@ const DATA_PULAU = [
                             "food",
                             "papua barat daya"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp20.000",
+                    "price_source": "https://travel.tribunnews.com/2021/07/14/nasi-goreng-murah-meriah-di-pati-harganya-cuma-rp-3000-per-porsi",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-018",
@@ -7875,7 +9177,13 @@ const DATA_PULAU = [
                             "food",
                             "papua selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-019",
@@ -7910,7 +9218,13 @@ const DATA_PULAU = [
                             "food",
                             "papua tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-020",
@@ -7944,7 +9258,13 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp5.000",
+                    "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-021",
@@ -7979,7 +9299,13 @@ const DATA_PULAU = [
                             "food",
                             "papua barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-022",
@@ -8014,7 +9340,13 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-023",
@@ -8048,7 +9380,13 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-024",
@@ -8083,7 +9421,13 @@ const DATA_PULAU = [
                             "food",
                             "papua barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp5.000 - Rp15.000",
+                    "price_source": "https://travel.tribunnews.com/2021/06/08/viral-soto-murah-rp-1000-di-sragen-tiap-jumat-tak-perlu-bayar",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-025",
@@ -8118,7 +9462,13 @@ const DATA_PULAU = [
                             "food",
                             "papua barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp25.000",
+                    "price_source": "https://www.suara.com/lifestyle/2020/08/06/090056/mie-ayam-cuma-lima-ribu-porsi-bikin-kenyang-ini-ada-di-yogya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-026",
@@ -8153,7 +9503,13 @@ const DATA_PULAU = [
                             "food",
                             "papua tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-027",
@@ -8188,7 +9544,13 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp18.000 - Rp26.000",
+                    "price_source": "https://jogja.tribunnews.com/2025/04/08/7-warung-bubur-lezat-di-jogja-cocok-untuk-sarapan-atau-kuliner-malam",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-028",
@@ -8223,7 +9585,13 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp1.000 - Rp2.000",
+                    "price_source": "https://food.detik.com/berita-boga/d-6039515/sah-harga-kerupuk-warung-naik-jadi-rp-2-000-setelah-lebaran",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-029",
@@ -8258,7 +9626,13 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp5.000 - Rp15.000",
+                    "price_source": "https://travel.tribunnews.com/2021/06/08/viral-soto-murah-rp-1000-di-sragen-tiap-jumat-tak-perlu-bayar",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-030",
@@ -8293,7 +9667,13 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-031",
@@ -8328,7 +9708,13 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp18.000 - Rp26.000",
+                    "price_source": "https://jogja.tribunnews.com/2025/04/08/7-warung-bubur-lezat-di-jogja-cocok-untuk-sarapan-atau-kuliner-malam",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-032",
@@ -8363,7 +9749,13 @@ const DATA_PULAU = [
                             "food",
                             "papua selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-033",
@@ -8398,7 +9790,13 @@ const DATA_PULAU = [
                             "food",
                             "papua barat daya"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "price_range_ind": "Rp1.000 - Rp5.000",
+                    "price_source": "https://aceh.tribunnews.com/video/1054409/video-harga-tepung-kanji-melonjak-pengusaha-penggilingan-bakso-di-aceh-tamiang-menjerit",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-034",
@@ -8433,7 +9831,13 @@ const DATA_PULAU = [
                             "food",
                             "papua barat daya"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "price_range_ind": "Rp1.000 - Rp5.000",
+                    "price_source": "https://aceh.tribunnews.com/video/1054409/video-harga-tepung-kanji-melonjak-pengusaha-penggilingan-bakso-di-aceh-tamiang-menjerit",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-035",
@@ -8468,7 +9872,13 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-036",
@@ -8502,7 +9912,13 @@ const DATA_PULAU = [
                             "food",
                             "papua selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-037",
@@ -8537,7 +9953,13 @@ const DATA_PULAU = [
                             "food",
                             "papua selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-038",
@@ -8572,7 +9994,13 @@ const DATA_PULAU = [
                             "food",
                             "papua tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp1.000 - Rp2.000",
+                    "price_source": "https://food.detik.com/berita-boga/d-6039515/sah-harga-kerupuk-warung-naik-jadi-rp-2-000-setelah-lebaran",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-039",
@@ -8607,7 +10035,13 @@ const DATA_PULAU = [
                             "food",
                             "papua selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-040",
@@ -8642,7 +10076,13 @@ const DATA_PULAU = [
                             "food",
                             "papua barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-041",
@@ -8677,7 +10117,13 @@ const DATA_PULAU = [
                             "food",
                             "papua selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp5.000 - Rp15.000",
+                    "price_source": "https://travel.tribunnews.com/2021/06/08/viral-soto-murah-rp-1000-di-sragen-tiap-jumat-tak-perlu-bayar",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-042",
@@ -8712,7 +10158,13 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-043",
@@ -8747,7 +10199,13 @@ const DATA_PULAU = [
                             "food",
                             "papua selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp25.000",
+                    "price_source": "https://www.suara.com/lifestyle/2020/08/06/090056/mie-ayam-cuma-lima-ribu-porsi-bikin-kenyang-ini-ada-di-yogya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-044",
@@ -8782,7 +10240,13 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-045",
@@ -8817,7 +10281,13 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp25.000",
+                    "price_source": "https://www.suara.com/lifestyle/2020/08/06/090056/mie-ayam-cuma-lima-ribu-porsi-bikin-kenyang-ini-ada-di-yogya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-046",
@@ -8852,7 +10322,13 @@ const DATA_PULAU = [
                             "food",
                             "papua barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "price_range_ind": "Rp1.000 - Rp5.000",
+                    "price_source": "https://aceh.tribunnews.com/video/1054409/video-harga-tepung-kanji-melonjak-pengusaha-penggilingan-bakso-di-aceh-tamiang-menjerit",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-047",
@@ -8886,7 +10362,13 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp5.000",
+                    "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-048",
@@ -8921,7 +10403,13 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-049",
@@ -8955,7 +10443,13 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp3.000 - Rp5.000",
+                    "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "pp-050",
@@ -8990,7 +10484,13 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://video.tribunnews.com/news/957435/jual-es-campur-rp12-ribu-pasangan-ini-berhasil-sekolahkan-anak-hingga-lulus-pkn-stan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     }
                 ]
             }
@@ -9056,7 +10556,13 @@ const DATA_PULAU = [
                             "gilimanuk",
                             "spicy roasted chicken"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20betutu%20khas%20Gilimanuk.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20betutu%20khas%20Gilimanuk.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp50.000",
+                    "price_source": "https://www.detik.com/bali/kuliner/d-7355730/5-rekomendasi-warung-ayam-betutu-di-denpasar-harganya-mulai-rp-25-ribuan",
+                    "rating": 4.3,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g1592983-d4799827-Reviews-Ayam_Betutu_Men_Tempeh-Gilimanuk_Bali.html",
+                    "rating_note": null
                     },
                     {
                         "id": "bl-002",
@@ -9103,7 +10609,13 @@ const DATA_PULAU = [
                             "minced satay",
                             "grilled fish satay"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Lilit.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Lilit.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp30.000",
+                    "price_source": "https://travel.tribunnews.com/kuliner/145825/5-sate-lilit-enak-di-denpasar-bali-harga-mulai-rp-15000",
+                    "rating": 4.5,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g1953908-d3191633-Reviews-Warung_Lesehan_Merta_Sari-Klungkung_Bali.html",
+                    "rating_note": null
                     },
                     {
                         "id": "bl-003",
@@ -9150,7 +10662,13 @@ const DATA_PULAU = [
                             "gianyar",
                             "balinese pork"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Babi%20Guling.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Babi%20Guling.jpg?width=800",
+                    "price_range_ind": "Rp25.000 - Rp40.000",
+                    "price_source": "https://food.detik.com/tempat-makan/d-8553950/5-warung-babi-guling-legendaris-bali-rasanya-autentik-dan-selalu-ramai",
+                    "rating": 3.5,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297701-d3680515-Reviews-Warung_Babi_Guling_Ibu_Oka_3-Ubud_Gianyar_Regency_Bali.html",
+                    "rating_note": null
                     },
                     {
                         "id": "bl-004",
@@ -9199,7 +10717,13 @@ const DATA_PULAU = [
                             "bali side dish",
                             "traditional salad"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lawar%20getih(balinese%20culture%20food)%20.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lawar%20getih(balinese%20culture%20food)%20.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp40.000",
+                    "price_source": "https://kumparan.com/seputar-bali/4-nasi-lawar-di-bali-yang-enak-beserta-kisaran-harga-menunya-21pwSanO7xG",
+                    "rating": 4.1,
+                    "rating_platform": "Restaurant Guru",
+                    "rating_source": "https://restaurantguru.com/Warung-Men-Rangeng-Gianyar",
+                    "rating_note": null
                     },
                     {
                         "id": "bl-005",
@@ -9248,7 +10772,13 @@ const DATA_PULAU = [
                             "bali breakfast",
                             "turmeric rice"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-006",
@@ -9281,7 +10811,13 @@ const DATA_PULAU = [
                             "traditional",
                             "singaraja"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Plecing.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Plecing.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": 4.3,
+                    "rating_platform": "LokasiBali (agregat Google)",
+                    "rating_source": "https://lokasibali.com/lokasi/sate-plecing-siobak-singaraja-warung-dharmasanti",
+                    "rating_note": null
                     },
                     {
                         "id": "bl-007",
@@ -9314,7 +10850,13 @@ const DATA_PULAU = [
                             "traditional",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp30.000",
+                    "price_source": "https://www.detik.com/bali/kuliner/d-6738434/5-rekomendasi-nasi-campur-terpopuler-di-bali",
+                    "rating": 4.2,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.co.uk/Restaurant_Review-g297700-d9718254-Reviews-Warung_KKN_Nasi_Campur-Sanur_Denpasar_Bali.html",
+                    "rating_note": null
                     },
                     {
                         "id": "bl-008",
@@ -9347,7 +10889,13 @@ const DATA_PULAU = [
                             "traditional",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-009",
@@ -9380,7 +10928,13 @@ const DATA_PULAU = [
                             "traditional",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rujak%20Bulung%20Buni.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rujak%20Bulung%20Buni.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://bali.tribunnews.com/2022/08/23/kuliner-bali-rujak-bulung-perpaduan-kenyal-dan-segar-yang-istimewa-harga-mulai-rp-10-ribuan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-010",
@@ -9413,7 +10967,13 @@ const DATA_PULAU = [
                             "traditional",
                             "klungkung"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Serombotan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Serombotan.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://bali.suara.com/read/2025/04/16/170627/di-balik-nama-serombotan-kuliner-khas-bali-hidangan-para-raja-yang-kini-dijual-rp-5-ribuan",
+                    "rating": 4.6,
+                    "rating_platform": "Cybo",
+                    "rating_source": "https://www.cybo.com/ID-biz/warung-serombotan-bu-awi",
+                    "rating_note": null
                     },
                     {
                         "id": "bl-011",
@@ -9446,7 +11006,13 @@ const DATA_PULAU = [
                             "traditional",
                             "ubud"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bebek%20bengil%2C%20Ubud%2C%20Bali.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bebek%20bengil%2C%20Ubud%2C%20Bali.JPG?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": 3.5,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297701-d991554-Reviews-Bebek_Bengil_Ubud-Ubud_Gianyar_Regency_Bali.html",
+                    "rating_note": null
                     },
                     {
                         "id": "bl-012",
@@ -9479,7 +11045,13 @@ const DATA_PULAU = [
                             "traditional",
                             "ubud"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": 4.4,
+                    "rating_platform": "Restaurant Guru",
+                    "rating_source": "https://restaurantguru.com/Warung-Sate-Kakul-Singakerta",
+                    "rating_note": null
                     },
                     {
                         "id": "bl-013",
@@ -9512,7 +11084,13 @@ const DATA_PULAU = [
                             "traditional",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tipat%20Cantok%20Khas%20Bali.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tipat%20Cantok%20Khas%20Bali.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://bali.tribunnews.com/2022/01/13/warung-tipat-cantok-ibu-dayu-denpasar-seporsi-hanya-rp-7-ribu-dengan-proses-pembuatan-tradisional",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-014",
@@ -9545,7 +11123,13 @@ const DATA_PULAU = [
                             "traditional",
                             "buleleng"
                         ],
-                        "image": null
+                        "image": null,
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": 3.5,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com.au/Restaurant_Review-g297700-d7930396-Reviews-Warung_Jukut_Undis-Sanur_Denpasar_Bali.html",
+                    "rating_note": null
                     },
                     {
                         "id": "bl-015",
@@ -9578,7 +11162,13 @@ const DATA_PULAU = [
                             "traditional",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sambal%20Matah%20Bali.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sambal%20Matah%20Bali.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-016",
@@ -9613,7 +11203,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp1.000 - Rp2.000",
+                    "price_source": "https://food.detik.com/berita-boga/d-6039515/sah-harga-kerupuk-warung-naik-jadi-rp-2-000-setelah-lebaran",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-017",
@@ -9647,7 +11243,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-018",
@@ -9682,7 +11284,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-019",
@@ -9717,7 +11325,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-020",
@@ -9752,7 +11366,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp15.000 - Rp40.000",
+                    "price_source": "https://www.detik.com/jateng/kuliner/d-8093019/8-tempat-makan-ikan-bakar-di-semarang-terenak-dan-murah-menu-dan-harganya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-021",
@@ -9787,7 +11407,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp5.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6629724/murah-meriah-di-5-warung-soto-ini-bisa-jajan-soto-mulai-rp-1-000-per-porsi",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-022",
@@ -9822,7 +11448,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp15.000 - Rp40.000",
+                    "price_source": "https://www.detik.com/jateng/kuliner/d-8093019/8-tempat-makan-ikan-bakar-di-semarang-terenak-dan-murah-menu-dan-harganya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-023",
@@ -9856,7 +11488,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "price_range_ind": "Rp23.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-024",
@@ -9891,7 +11529,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6599561/5-tempat-makan-bubur-ayam-sultan-harganya-sampai-rp-100-ribu-seporsi",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-025",
@@ -9925,7 +11569,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "price_range_ind": "Rp23.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-026",
@@ -9960,7 +11610,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6599561/5-tempat-makan-bubur-ayam-sultan-harganya-sampai-rp-100-ribu-seporsi",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-027",
@@ -9995,7 +11651,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6599561/5-tempat-makan-bubur-ayam-sultan-harganya-sampai-rp-100-ribu-seporsi",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-028",
@@ -10030,7 +11692,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp15.000 - Rp40.000",
+                    "price_source": "https://www.detik.com/jateng/kuliner/d-8093019/8-tempat-makan-ikan-bakar-di-semarang-terenak-dan-murah-menu-dan-harganya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-029",
@@ -10065,7 +11733,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp1.000 - Rp2.000",
+                    "price_source": "https://food.detik.com/berita-boga/d-6039515/sah-harga-kerupuk-warung-naik-jadi-rp-2-000-setelah-lebaran",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-030",
@@ -10100,7 +11774,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-031",
@@ -10135,7 +11815,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp15.000 - Rp40.000",
+                    "price_source": "https://www.detik.com/jateng/kuliner/d-8093019/8-tempat-makan-ikan-bakar-di-semarang-terenak-dan-murah-menu-dan-harganya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-032",
@@ -10170,7 +11856,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-033",
@@ -10205,7 +11897,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6967038/slurpp-5-es-campur-di-jakarta-ini-kelezatannya-melegenda",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-034",
@@ -10239,7 +11937,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-035",
@@ -10273,7 +11977,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-036",
@@ -10308,7 +12018,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp1.000 - Rp2.000",
+                    "price_source": "https://food.detik.com/berita-boga/d-6039515/sah-harga-kerupuk-warung-naik-jadi-rp-2-000-setelah-lebaran",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-037",
@@ -10343,7 +12059,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp15.000 - Rp40.000",
+                    "price_source": "https://www.detik.com/jateng/kuliner/d-8093019/8-tempat-makan-ikan-bakar-di-semarang-terenak-dan-murah-menu-dan-harganya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-038",
@@ -10377,7 +12099,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-039",
@@ -10411,7 +12139,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "price_range_ind": "Rp23.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-040",
@@ -10446,7 +12180,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6599561/5-tempat-makan-bubur-ayam-sultan-harganya-sampai-rp-100-ribu-seporsi",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-041",
@@ -10480,7 +12220,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "price_range_ind": "Rp23.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-042",
@@ -10515,7 +12261,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-043",
@@ -10550,7 +12302,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://jakarta.tribunnews.com/2024/11/25/kesulitan-ekonomi-bikin-atik-jual-mi-ayam-rp-2-ribu-perporsi-keuntungan-bersih-perhari-rp-200-ribu",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-044",
@@ -10585,7 +12343,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp5.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6629724/murah-meriah-di-5-warung-soto-ini-bisa-jajan-soto-mulai-rp-1-000-per-porsi",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-045",
@@ -10620,7 +12384,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-046",
@@ -10655,7 +12425,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "price_range_ind": "Rp1.000 - Rp5.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-5957317/4-tempat-beli-kue-subuh-di-jakarta-harga-mulai-rp-1-000",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-047",
@@ -10690,7 +12466,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-048",
@@ -10725,7 +12507,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-049",
@@ -10760,7 +12548,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp1.000 - Rp2.000",
+                    "price_source": "https://food.detik.com/berita-boga/d-6039515/sah-harga-kerupuk-warung-naik-jadi-rp-2-000-setelah-lebaran",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "bl-050",
@@ -10795,7 +12589,13 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp15.000 - Rp40.000",
+                    "price_source": "https://www.detik.com/jateng/kuliner/d-8093019/8-tempat-makan-ikan-bakar-di-semarang-terenak-dan-murah-menu-dan-harganya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     }
                 ]
             }
@@ -10862,7 +12662,13 @@ const DATA_PULAU = [
                             "spicy chicken",
                             "nusa tenggara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar%20khas%20Taliwang%202.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar%20khas%20Taliwang%202.JPG?width=800",
+                    "price_range_ind": "Rp15.000 - Rp50.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6578194/siang-ini-bisa-makan-ayam-taliwang-rp-15-ribuan-di-5-tempat-ini",
+                    "rating": 4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297734-d7972161-Reviews-Ayam_Taliwang_Raya-Mataram_Lombok_West_Nusa_Tenggara.html",
+                    "rating_note": null
                     },
                     {
                         "id": "nt-002",
@@ -10909,7 +12715,13 @@ const DATA_PULAU = [
                             "sambal luat",
                             "kosambi wood smoked"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sei%20sapi%20Pj%20DSC%202925.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sei%20sapi%20Pj%20DSC%202925.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp30.000",
+                    "price_source": "https://www.tribunnews.com/travel/2020/09/14/nikmatnya-sei-sapi-daging-asap-cita-rasa-tradisional-ala-sei-sapiku",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-003",
@@ -10958,7 +12770,13 @@ const DATA_PULAU = [
                             "spicy sambal salad",
                             "nusa tenggara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pelecing%20kangkung%20Lombok.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pelecing%20kangkung%20Lombok.JPG?width=800",
+                    "price_range_ind": "Rp5.000 - Rp15.000",
+                    "price_source": "https://www.kompas.com/food/read/2022/10/30/210600175/7-tempat-makan-plecing-kangkung-enak-di-lombok-harga-mulai-rp-5.000",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-004",
@@ -11004,7 +12822,13 @@ const DATA_PULAU = [
                             "sweet corn soup",
                             "savory porridge"
                         ],
-                        "image": null
+                        "image": null,
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-005",
@@ -11052,7 +12876,13 @@ const DATA_PULAU = [
                             "manggarai",
                             "traditional bamboo rice"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ensemble%20%22Kolo%22%20dancing%20folk%20dance%20of%20Gnjilane.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ensemble%20%22Kolo%22%20dancing%20folk%20dance%20of%20Gnjilane.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-006",
@@ -11085,7 +12915,13 @@ const DATA_PULAU = [
                             "traditional",
                             "timor"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jagung%20Bose.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jagung%20Bose.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-007",
@@ -11118,7 +12954,13 @@ const DATA_PULAU = [
                             "traditional",
                             "flores"
                         ],
-                        "image": null
+                        "image": null,
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-008",
@@ -11151,7 +12993,13 @@ const DATA_PULAU = [
                             "traditional",
                             "kupang"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20Kuah%20Asam%20Ternate.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20Kuah%20Asam%20Ternate.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": 4.2,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g679582-d12856111-Reviews-RM_Ikan_Kuah_Asam_Tenau-Kupang_West_Timor_East_Nusa_Tenggara.html",
+                    "rating_note": null
                     },
                     {
                         "id": "nt-009",
@@ -11184,7 +13032,13 @@ const DATA_PULAU = [
                             "traditional",
                             "lombok"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Bulayak.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Bulayak.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://superapps.kompas.com/read/1527996/travel-update-berburu-sate-bulayak-kuliner-khas-lombok-seporsi-cuma-rp-20-ribu",
+                    "rating": 3.9,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g17632799-d6739621-Reviews-Sate_Bulayak_Suranadi-Suranadi_Lombok_West_Nusa_Tenggara.html",
+                    "rating_note": null
                     },
                     {
                         "id": "nt-010",
@@ -11217,7 +13071,13 @@ const DATA_PULAU = [
                             "traditional",
                             "lombok"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://www.detik.com/bali/kuliner/d-8311448/nasi-puyung-rp-10-ribu-di-lombok-barat-warga-antre-meski-penjual-belum-buka",
+                    "rating": 3.6,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297733-d13485128-Reviews-Nasi_Balap_Puyung_Inaq_Esun-Lombok_West_Nusa_Tenggara.html",
+                    "rating_note": null
                     },
                     {
                         "id": "nt-011",
@@ -11250,7 +13110,13 @@ const DATA_PULAU = [
                             "traditional",
                             "lombok"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bebalung%20Lombok.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bebalung%20Lombok.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://ntb.idntimes.com/food/recipe/kuliner-legendaris-di-lombok-01-twm5y-hy3y9d",
+                    "rating": 4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g297733-d10137323-Reviews-RM_Sukma_Rasa-Lombok_West_Nusa_Tenggara.html",
+                    "rating_note": null
                     },
                     {
                         "id": "nt-012",
@@ -11283,7 +13149,13 @@ const DATA_PULAU = [
                             "traditional",
                             "lombok"
                         ],
-                        "image": null
+                        "image": null,
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://flores.tribunnews.com/manggarai-barat/58794/wisata-kuliner-labuan-bajo-ikan-kuah-asam-lapak-mama-mawar-jadi-primadona",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-013",
@@ -11316,7 +13188,13 @@ const DATA_PULAU = [
                             "traditional",
                             "flores"
                         ],
-                        "image": null
+                        "image": null,
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-014",
@@ -11349,7 +13227,13 @@ const DATA_PULAU = [
                             "traditional",
                             "kupang"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Se'i%20Babi%203.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Se'i%20Babi%203.JPG?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": 4,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g679582-d8468010-Reviews-Sei_Babi_Om_Bai_Baun-Kupang_West_Timor_East_Nusa_Tenggara.html",
+                    "rating_note": null
                     },
                     {
                         "id": "nt-015",
@@ -11382,7 +13266,13 @@ const DATA_PULAU = [
                             "traditional",
                             "lombok"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-016",
@@ -11417,7 +13307,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://jateng.tribunnews.com/travel/1230098/viral-mi-ayam-rasa-premium-cuma-rp5000-seporsi-solusi-jajan-ekonomis-di-pati",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-017",
@@ -11451,7 +13347,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-8668273/sinar-surya-laris-manis-ikan-bakar-padang-tendaan-rp33-ribu-di-benhil",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-018",
@@ -11486,7 +13388,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-019",
@@ -11521,7 +13429,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp25.000 - Rp40.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-8668273/sinar-surya-laris-manis-ikan-bakar-padang-tendaan-rp33-ribu-di-benhil",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-020",
@@ -11556,7 +13470,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-021",
@@ -11591,7 +13511,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Rp2.000 - Rp5.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-5591618/7-menu-warteg-favorit-dengan-harga-murah-cuma-rp-2-ribuan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-022",
@@ -11626,7 +13552,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-023",
@@ -11661,7 +13593,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Rp2.000 - Rp5.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-5591618/7-menu-warteg-favorit-dengan-harga-murah-cuma-rp-2-ribuan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-024",
@@ -11695,7 +13633,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-8668273/sinar-surya-laris-manis-ikan-bakar-padang-tendaan-rp33-ribu-di-benhil",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-025",
@@ -11730,7 +13674,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-026",
@@ -11765,7 +13715,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp20.000",
+                    "price_source": "https://superapps.kompas.com/read/2446601/bubur-ayam-murah-dengan-topping-melimpah-di-jakarta-utara-seporsi-cuma-rp-15-ribu",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-027",
@@ -11800,7 +13756,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-028",
@@ -11835,7 +13797,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-7568097/warung-sambal-atom-pedas-nendang-8-jenis-sambal-yang-sedap-di-warung-makan-24-jam",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-029",
@@ -11870,7 +13838,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-7568097/warung-sambal-atom-pedas-nendang-8-jenis-sambal-yang-sedap-di-warung-makan-24-jam",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-030",
@@ -11905,7 +13879,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Rp2.000 - Rp5.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-5591618/7-menu-warteg-favorit-dengan-harga-murah-cuma-rp-2-ribuan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-031",
@@ -11940,7 +13920,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://jateng.tribunnews.com/travel/1230098/viral-mi-ayam-rasa-premium-cuma-rp5000-seporsi-solusi-jajan-ekonomis-di-pati",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-032",
@@ -11975,7 +13961,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://food.detik.com/online-food/d-6086724/nasi-goreng-rp-18-000-vs-rp-140-000-mana-yang-lebih-enak",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-033",
@@ -12010,7 +14002,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-034",
@@ -12045,7 +14043,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://jateng.tribunnews.com/travel/1230098/viral-mi-ayam-rasa-premium-cuma-rp5000-seporsi-solusi-jajan-ekonomis-di-pati",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-035",
@@ -12080,7 +14084,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-036",
@@ -12115,7 +14125,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-037",
@@ -12150,7 +14166,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-7568097/warung-sambal-atom-pedas-nendang-8-jenis-sambal-yang-sedap-di-warung-makan-24-jam",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-038",
@@ -12185,7 +14207,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://ntb.idntimes.com/food/recipe/kuliner-legendaris-di-lombok-01-twm5y-hy3y9d",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-039",
@@ -12220,7 +14248,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-7568097/warung-sambal-atom-pedas-nendang-8-jenis-sambal-yang-sedap-di-warung-makan-24-jam",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-040",
@@ -12254,7 +14288,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-8668273/sinar-surya-laris-manis-ikan-bakar-padang-tendaan-rp33-ribu-di-benhil",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-041",
@@ -12289,7 +14329,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://food.detik.com/online-food/d-6086724/nasi-goreng-rp-18-000-vs-rp-140-000-mana-yang-lebih-enak",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-042",
@@ -12324,7 +14370,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-7568097/warung-sambal-atom-pedas-nendang-8-jenis-sambal-yang-sedap-di-warung-makan-24-jam",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-043",
@@ -12359,7 +14411,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://food.detik.com/online-food/d-6086724/nasi-goreng-rp-18-000-vs-rp-140-000-mana-yang-lebih-enak",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-044",
@@ -12393,7 +14451,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://jakarta.suara.com/read/2026/04/26/175417/7-kopi-susu-gula-aren-murah-di-jakarta-yang-masih-ramah-di-kantong-ada-yang-cuma-rp15-ribuan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-045",
@@ -12428,7 +14492,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-7568097/warung-sambal-atom-pedas-nendang-8-jenis-sambal-yang-sedap-di-warung-makan-24-jam",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-046",
@@ -12463,7 +14533,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-047",
@@ -12498,7 +14574,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp25.000 - Rp40.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-8668273/sinar-surya-laris-manis-ikan-bakar-padang-tendaan-rp33-ribu-di-benhil",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-048",
@@ -12533,7 +14615,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://food.detik.com/online-food/d-6086724/nasi-goreng-rp-18-000-vs-rp-140-000-mana-yang-lebih-enak",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-049",
@@ -12568,7 +14656,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "nt-050",
@@ -12603,7 +14697,13 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://food.detik.com/warung-makan/d-7568097/warung-sambal-atom-pedas-nendang-8-jenis-sambal-yang-sedap-di-warung-makan-24-jam",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     }
                 ]
             }
@@ -12670,7 +14770,13 @@ const DATA_PULAU = [
                             "spice islands soup",
                             "maluku fish"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp25.000 - Rp50.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/6177151/4-kuliner-khas-ternate-berbahan-dasar-seafood-dan-rempah-lokal-yang-menggoda-selera",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-002",
@@ -12719,7 +14825,13 @@ const DATA_PULAU = [
                             "maluku ceviche",
                             "kenari nut tuna"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gohu%20Ikan%20in%20Ternate.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gohu%20Ikan%20in%20Ternate.jpg?width=800",
+                    "price_range_ind": "Rp25.000 - Rp35.000",
+                    "price_source": "https://travel.tribunnews.com/2016/08/12/kuliner-ternate-maluku-nikmatnya-gohu-ikan-khas-pulau-rempah-rempah",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-003",
@@ -12763,7 +14875,13 @@ const DATA_PULAU = [
                             "maluku traditional rice",
                             "fragrant rice"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-004",
@@ -12810,7 +14928,13 @@ const DATA_PULAU = [
                             "fresh spicy dip",
                             "maluku condiment"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp50.000 - Rp85.000",
+                    "price_source": "https://www.indonesia.travel/id/id/travel-ideas/gastronomy/colo-colo",
+                    "rating": 4.1,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g608477-d10062497-Reviews-RM_Ikan_Bakar_Rasa_Gurih-Ambon_Maluku_Islands.html",
+                    "rating_note": null
                     },
                     {
                         "id": "ml-005",
@@ -12857,7 +14981,13 @@ const DATA_PULAU = [
                             "kenari biscuits",
                             "maluku snack"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bagea%20Kenari%20Manado.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bagea%20Kenari%20Manado.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-006",
@@ -12890,7 +15020,13 @@ const DATA_PULAU = [
                             "traditional",
                             "ambon"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://ambon.tribunnews.com/2023/04/25/ikan-asar-di-batu-meja-harga-mulai-rp-15-ribuan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-007",
@@ -12923,7 +15059,13 @@ const DATA_PULAU = [
                             "traditional",
                             "maluku"
                         ],
-                        "image": null
+                        "image": null,
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-008",
@@ -12956,7 +15098,13 @@ const DATA_PULAU = [
                             "traditional",
                             "ambon"
                         ],
-                        "image": null
+                        "image": null,
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-009",
@@ -12989,7 +15137,13 @@ const DATA_PULAU = [
                             "traditional",
                             "ambon"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roti%20Kenari%20(top%20view).jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roti%20Kenari%20(top%20view).jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-010",
@@ -13022,7 +15176,13 @@ const DATA_PULAU = [
                             "traditional",
                             "ambon"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://ambon.tribunnews.com/2022/04/20/resep-es-kacang-merah-minuman-segar-untuk-buka-puasa-yang-sering-ditemukan-di-ambon",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-011",
@@ -13055,7 +15215,13 @@ const DATA_PULAU = [
                             "traditional",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Halua%20Kenari.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Halua%20Kenari.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-012",
@@ -13088,7 +15254,13 @@ const DATA_PULAU = [
                             "traditional",
                             "ambon"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20Bakar%20Dabu-dabu%20Ternate%203.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20Bakar%20Dabu-dabu%20Ternate%203.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://ambon.antaranews.com/berita/169632/nikmatnya-ikan-bakar-sambal-colo-colo-khas-maluku",
+                    "rating": 4.1,
+                    "rating_platform": "TripAdvisor",
+                    "rating_source": "https://www.tripadvisor.com/Restaurant_Review-g608477-d7396514-Reviews-Dua_Ikan-Ambon_Maluku_Islands.html",
+                    "rating_note": null
                     },
                     {
                         "id": "ml-013",
@@ -13121,7 +15293,13 @@ const DATA_PULAU = [
                             "traditional",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sagu%20gula%20melaka.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sagu%20gula%20melaka.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://www.antarafoto.com/id/view/1468630/sagu-gula-makanan-khas-maluku",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-014",
@@ -13154,7 +15332,13 @@ const DATA_PULAU = [
                             "traditional",
                             "ambon"
                         ],
-                        "image": null
+                        "image": null,
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-015",
@@ -13187,7 +15371,13 @@ const DATA_PULAU = [
                             "traditional",
                             "ternate"
                         ],
-                        "image": null
+                        "image": null,
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-016",
@@ -13221,7 +15411,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "price_range_ind": "Rp2.000 - Rp5.000",
+                    "price_source": "https://ambon.tribunnews.com/2022/04/06/nikmatnya-berbuka-puasa-dengan-pisang-asar-khas-ambon",
+                    "rating": 4.4,
+                    "rating_platform": "Google Maps (via Restaurant Guru)",
+                    "rating_source": "https://restaurantguru.com/Ayam-Bakar-Pak-RT-Ternate",
+                    "rating_note": null
                     },
                     {
                         "id": "ml-017",
@@ -13256,7 +15452,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-018",
@@ -13291,7 +15493,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-019",
@@ -13326,7 +15534,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8731384/7-mie-ayam-legendaris-di-jakarta-barat-harganya-mulai-rp15-ribuan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-020",
@@ -13361,7 +15575,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/pengalaman-bersantap/d-6574135/bubur-ayam-rp-95-000-vs-rp-15-000-enak-yang-mana",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-021",
@@ -13396,7 +15616,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp40.000",
+                    "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-022",
@@ -13431,7 +15657,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-023",
@@ -13466,7 +15698,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-024",
@@ -13501,7 +15739,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp4.000 - Rp6.000",
+                    "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-025",
@@ -13536,7 +15780,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "price_range_ind": "Rp1.000 - Rp25.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/6287517/12-rekomendasi-tempat-beli-kue-basah-di-jakarta-dari-pasar-subuh-hingga-toko-premium",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-026",
@@ -13571,7 +15821,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://ambon.antaranews.com/berita/169632/nikmatnya-ikan-bakar-sambal-colo-colo-khas-maluku",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-027",
@@ -13605,7 +15861,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-028",
@@ -13640,7 +15902,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6629724/murah-meriah-di-5-warung-soto-ini-bisa-jajan-soto-mulai-rp-1-000-per-porsi",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-029",
@@ -13675,7 +15943,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp40.000",
+                    "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-030",
@@ -13710,7 +15984,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-031",
@@ -13745,7 +16025,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-032",
@@ -13780,7 +16066,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-033",
@@ -13814,7 +16106,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-034",
@@ -13849,7 +16147,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "price_range_ind": "Rp15.000 - Rp20.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8731384/7-mie-ayam-legendaris-di-jakarta-barat-harganya-mulai-rp15-ribuan",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-035",
@@ -13883,7 +16187,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-036",
@@ -13917,7 +16227,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
+                    "rating": 4.4,
+                    "rating_platform": "Google Maps (via Restaurant Guru)",
+                    "rating_source": "https://restaurantguru.com/Ayam-Bakar-Pak-RT-Ternate",
+                    "rating_note": null
                     },
                     {
                         "id": "ml-037",
@@ -13952,7 +16268,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/pengalaman-bersantap/d-6574135/bubur-ayam-rp-95-000-vs-rp-15-000-enak-yang-mana",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-038",
@@ -13987,7 +16309,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6629724/murah-meriah-di-5-warung-soto-ini-bisa-jajan-soto-mulai-rp-1-000-per-porsi",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-039",
@@ -14022,7 +16350,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "price_range_ind": "Rp4.000 - Rp6.000",
+                    "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-040",
@@ -14057,7 +16391,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "price_range_ind": "Rp1.000 - Rp25.000",
+                    "price_source": "https://www.liputan6.com/lifestyle/read/6287517/12-rekomendasi-tempat-beli-kue-basah-di-jakarta-dari-pasar-subuh-hingga-toko-premium",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-041",
@@ -14092,7 +16432,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-6629724/murah-meriah-di-5-warung-soto-ini-bisa-jajan-soto-mulai-rp-1-000-per-porsi",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-042",
@@ -14127,7 +16473,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "price_range_ind": "Rp15.000 - Rp25.000",
+                    "price_source": "https://ambon.antaranews.com/berita/169632/nikmatnya-ikan-bakar-sambal-colo-colo-khas-maluku",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-043",
@@ -14162,7 +16514,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-044",
@@ -14197,7 +16555,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-045",
@@ -14232,7 +16596,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "price_range_ind": "Rp12.000 - Rp30.000",
+                    "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-046",
@@ -14266,7 +16636,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-047",
@@ -14301,7 +16677,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "price_range_ind": "Harga bervariasi",
+                    "price_source": null,
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-048",
@@ -14335,7 +16717,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "price_range_ind": "Rp20.000 - Rp35.000",
+                    "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-049",
@@ -14370,7 +16758,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "price_range_ind": "Rp10.000 - Rp15.000",
+                    "price_source": "https://food.detik.com/pengalaman-bersantap/d-6574135/bubur-ayam-rp-95-000-vs-rp-15-000-enak-yang-mana",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     },
                     {
                         "id": "ml-050",
@@ -14404,7 +16798,13 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800"
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "price_range_ind": "Rp5.000 - Rp10.000",
+                    "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
+                    "rating": null,
+                    "rating_platform": null,
+                    "rating_source": null,
+                    "rating_note": null
                     }
                 ]
             }

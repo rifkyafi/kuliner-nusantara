@@ -1,4 +1,4 @@
-import DATA_PULAU from "./data";
+import DATA_PULAU from "../../data";
 
 const ALL_MENU =  DATA_PULAU.flatMap((pulau) =>
     pulau.menu[0].data.map((item) => ({
@@ -19,7 +19,11 @@ const RECOM_MENU = DATA_PULAU.flatMap((recom) =>
         origin: item.origin,
         image: item.image,
         category: item.category,
-        pulau: recom.nama
+        price_range_ind: item.price_range_ind,
+        price_source: item.price_source,
+        pulau: recom.nama,
+        price: item.price_range_ind,
+        rating: item.rating
     }))
 )
 

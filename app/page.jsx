@@ -1,11 +1,10 @@
-import Homepage from "@/components/Homepage";
-import ChoiceIsland from "@/components/ChoiceIsland";
+
+import Page1 from "./pages/Page1";
 
 export default function Home() {
   return (
     <div className="flex flex-col">
-    <Homepage/>
-    <ChoiceIsland/>
+      <Page1/>
     </div>
   );
 }

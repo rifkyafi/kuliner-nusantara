@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { getPopularMenu, getImagePopularMenu } from "@/app/components/popularMenu";
 import { FaMagnifyingGlass } from "react-icons/fa6";
-import DriftWall from "@/app/components/DriftWall";
+import DriftWall from "@/lib/DriftWall";
 
 
 export default function Homepage(){
