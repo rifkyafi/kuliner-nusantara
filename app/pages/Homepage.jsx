@@ -1,23 +1,129 @@
-"use client"
-
-import Link from "next/link";
+'use client'
 import { useState, useEffect } from "react";
-import { getIsland,getRecomendationMenu } from "@/app/components/popularMenu";
-import { FaArrowRight, FaStar } from "react-icons/fa6";
+import Footer from "@/components/Footer";
+import { getPopularMenu, getImagePopularMenu, getIsland, getRecomendationMenu } from "@/app/components/popularMenu";
+import { FaMagnifyingGlass, FaArrowRight, FaStar } from "react-icons/fa6";
+import DriftWall from "@/lib/DriftWall";
+import Link from "next/link";
 
-export default function ChoiceIsland(){
+
+export default function Homepage(){
+    // popular menu
+    const[popularMenu, setPopularMenu] = useState([]);
+    const [imagePopularMenu, setImagePopularMenu] = useState([])
     const[Island, setIsland] = useState([]) 
     const[recomMenu, setRecomMenu] = useState([])
+
+    useEffect(() => {
+        setPopularMenu(getPopularMenu(4))
+    }, [])
+
+    useEffect(() => {
+        setImagePopularMenu(getImagePopularMenu(15))
+    },[])
 
     useEffect(() =>{
         setIsland(getIsland(8))
     } ,[])
 
-useEffect(() => {
+    useEffect(() => {
         setRecomMenu(getRecomendationMenu(5))
     }, [])
 
+    const IMAGES_ITEMS = imagePopularMenu.map((makanan) => ({
+        image: makanan.image,
+        title: makanan.name,
+        href: makanan.name   
+    }))
+
+
     return(
+        <>
+        {/* ==================== HERO SECTION ==================== */}
+        <div className="flex w-full min-h-screen bg-[#f5ebdd] ">
+            <div className="flex w-full h-auto items-center">
+                <ul className="flex w-full h-full items-center  justify-center">
+                    <li className="sm:w-1/2 w-full flex  h-auto justify-center ">
+                        <div className="flex flex-col  w-[90%] h-auto ">
+                            
+                                { /* sub title */}
+                                <h2 className="flex text-black bg-linear-to-r from-rose-400 via-orange-400 to-amber-300 w-56 h-10 items-center justify-center rounded-full shadow-xs shadow-orange-400 font-[Montserrat] text-sm font-bold">
+                                    Eksplorasi Kuliner Indonesia
+                                </h2>
+
+                                {/* title */}
+                                <h1 className="sm:text-8xl text-6xl text-black font-[Playfair_Display] font-bold pt-9 ">
+                                    Jelajahi Rasa Khas Nusantara
+                                </h1>
+
+                                {/* text */}
+                                <p className="text-black font-[Montserrat] py-3 sm:text-lg text-sm">
+                                    Temukan makanan khas dari Sumatera, Jawa, Kalimantan, Sulawesi, hingga Papua. Lengkap dengan restoran, harga, jam buka, dan ulasan.
+                                </p>
+                                {/* search bar */}
+                                <div className="flex sm:w-145  sm:h-16 h-10 bg-[#eaeaeaea] items-center sm:px-4 px-1 text-black sm:mt-4 mt-1 rounded-full outline-1 justify-between">
+                                    <FaMagnifyingGlass
+                                    className="sm:h-8 w-auto ml-3"/>
+                                    <p>
+                                        <input type="text" placeholder="Cari makanan atau lainnya"
+                                        className="outline-none sm:text-lg text-sm pl-3"/>     
+                                </p>
+                                <div className="flex lg:w-full h-full items-center justify-end sm:py-3">
+                                    <p className="w-24 sm:h-12 h-8 flex items-center justify-center bg-black hover:bg-radial from-[#eaeaea] to-white  text-white  hover:text-black  transitionduration-300 rounded-full sm:py-2 py-0.5">
+                                        Cari
+                                    </p>
+                                </div>
+                                </div>
+                                <div className="flex w-145 pt-5">
+                                    <ul className="flex flex-col gap-3 font-[Montserrat]">
+                                        <p className="flex h-full pt-1 sm:text-md text-sm">
+                                            Populer:
+                                        </p>
+                                            <ul className="flex text-sm gap-2 flex-wrap sm:flex-row flex-col">
+                                                {popularMenu.map((makanan) => (
+                                                    <li key={makanan.id}>
+                                                        <button
+                                                        type="button"
+                                                        className="bg-[#eaeaea] rounded-full p-2 text-nowrap outline-1 sm:text-md text-xs">
+                                                            {makanan.name}
+                                                        </button>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                    </ul>
+                                </div>
+                        </div>
+                    </li>
+                    <li className="flex w-1/2 h-screen relative justify-end target">
+                     <DriftWall
+                        items={IMAGES_ITEMS.length > 0? IMAGES_ITEMS : undefined}
+                        columns={5}
+                        tileWidth={150}
+                        tileHeight={100}
+                        gap={18}
+                        tilt={16}
+                        turn={-14}
+                        perspective={1200}
+                        depth={120}
+                        speed={42}
+                        direction="up"
+                        variance={0.45}
+                        parallax={0.6}
+                        lift={64}
+                        fade={0.6}
+                        dim={0.55}
+                        overlayColor="#060010"
+                        radius={14}
+                        roll={0}
+                        pauseOnHover={false}
+                        grayscale={false}
+                    />
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        {/* ==================== CHOICE ISLAND & REKOMENDASI ==================== */}
         <div className="h-auto flex flex-col w-full flex-wrap px-8 py-10">
             <div  className="flex min-h-screen w-full items-center">
                 <div className="flex w-full h-auto items-center">
@@ -33,7 +139,7 @@ useEffect(() => {
                                     <li key={pulau.id}
                                 className="w-56 h-65.5 flex-col bg-[#eaeaea] outline-1 rounded-b-lg">
                                         <img
-                                        src={pulau.bentuk_pulau} 
+                                        src={pulau.gambar_pulau} 
                                         alt={pulau.nama}
                                         className="w-full h-40 object-cover" 
                                         />
@@ -68,7 +174,7 @@ useEffect(() => {
                                 </p>
                             </div>
                             <div>
-                                <Link href="/kuliner" className="flex items-center gap-2 font-[Montserrat] ">
+                                <Link href="/kuliner" className="sm:flex hidden tems-center gap-2 font-[Montserrat] ">
                                     Lihat semua <FaArrowRight/>
                                 </Link>
                             </div>
@@ -106,6 +212,11 @@ useEffect(() => {
                                 ) )}
                                 </ul>
                             </div>
+                                <div>
+                                <Link href="/kuliner" className="sm:hidden flex items-center gap-2 font-[Montserrat]">
+                                    Lihat semua <FaArrowRight/>
+                                </Link>
+                            </div>
                             <li  className="flex flex-col w-full gap-5">
                                 <span className="flex flex-col pl-3">
                                     <h1 className="text-4xl font-[Playfair_Display] font-bold">
@@ -116,8 +227,8 @@ useEffect(() => {
                                     </p>
                                 </span>
                             </li>
-                            <ul className="flex flex-wrap w-full h-auto justify-around font-[Montserrat]">
-                                <li className="flex  flex-col w-[30%] h-32.5 border rounded-2xl justify-center px-2 gap-1">
+                            <ul className="flex flex-wrap w-full h-auto justify-around font-[Montserrat] gap-2">
+                                <li className="flex  flex-col sm:w-[30%] w-full h-32.5 border rounded-2xl justify-center px-2 gap-1">
                                     <span className="flex gap-2 text-md font-bold">
                                         <h1 className="rounded-full p w-6 h-6 flex justify-center bg-[#f5ebdd] border">
                                             1
@@ -130,8 +241,8 @@ useEffect(() => {
                                         Ketik nama makanan atau pilih salah satu pulau
                                     </p>
                                 </li>
-                                <li className="flex  flex-col w-[30%] h-32.5 border rounded-2xl justify-center px-2 gap-1">
-                                    <span className="flex gap-2 text-md font-bold">
+                                <li className="flex  flex-col sm:w-[30%] w-full h-32.5 border rounded-2xl justify-center px-2 gap-1">
+                                    <span className="flex  gap-2 text-md font-bold">
                                         <h1 className="rounded-full p w-6 h-6 flex justify-center bg-[#f5ebdd] border">
                                             2
                                         </h1>
@@ -143,7 +254,7 @@ useEffect(() => {
                                         Baca asal daerah, deskripsi, dan restoran yang menyediakan.
                                     </p>
                                 </li>
-                                <li className="flex  flex-col w-[30%] h-32.5 border rounded-2xl justify-center px-2 gap-1">
+                                <li className="flex  flex-col sm:w-[30%] w-full h-32.5 border rounded-2xl justify-center px-2 gap-1">
                                     <span className="flex gap-2 text-md font-bold">
                                         <h1 className="rounded-full p w-6 h-6 flex justify-center bg-[#f5ebdd] border">
                                             3
@@ -161,5 +272,9 @@ useEffect(() => {
                 </div>
             </div>
         </div>
+
+        {/* ==================== FOOTER ==================== */}
+       <Footer/>
+        </>
     )
 }

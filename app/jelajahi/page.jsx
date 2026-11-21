@@ -1,7 +1,11 @@
-export default function jelajahi() {
+"use client"
+
+import Jelajahi from "../pages/Jelajahi"
+
+export default function Page() {
     return (
-        <div className="flex w-full h-screen bg-red-600">
-            hai
-        </div>
+    <>
+        <Jelajahi/>
+    </>
     )
 }

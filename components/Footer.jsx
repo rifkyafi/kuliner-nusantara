@@ -3,10 +3,10 @@
 
 export default function Footer(){
     return(
-        <div  className="flex w-full min-h-85 bg-[#221f1e] items-center px-4">
-            <div className="flex w-full h-auto">
-                <ul className="flex w-full h-full items-center">
-                    <li className=" flex flex-col h-full w-1/4">
+        <div  className="flex w-full min-h-85 bg-[#221f1e] items-center py-4 px-4">
+            <div className="flex w-full hyphens-auto">
+                <ul className="flex w-full h-full items-center flex-wrap sm:gap-0 gap-4">
+                    <li className=" flex flex-col h-full sm:w-1/4 w-full">
                         <h1 className="text-[#f5ebdd] font-[Playfair_Display] text-4xl">
                             Ragam Sajian Nusantara
                         </h1>
@@ -14,11 +14,11 @@ export default function Footer(){
                             Website eksplorasi kuliner khas Indonesia dari Sumatera, Jawa, Kalimantan, Sulawesi, hingga Papua.
                         </p>
                         <p className="text-[#c7b299] font-[Montserrat] text-sm pt-2">
-                        © 2026     PT. Hihu Media Kretif 
+                        © 2026     PT. Hihu Media Kreatif 
                         </p>
                     </li>
                     <li className="flex flex-col h-full w-3/4 font-[Montserrat] ">
-                        <ul className="flex w-full h-full gap-6 justify-around">
+                        <ul className="flex w-full h-full gap-6 sm:justify-around justify-start flex-wrap">
                             <li>
                                 <h3 className="text-[#f5ebdd] text-md font-bold pb-2">
                                     Jelajahi

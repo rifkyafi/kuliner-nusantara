@@ -1,9 +1,22 @@
 import DATA_PULAU from "../../data";
 
+export function getMenuById(id) {
+    for (const pulau of DATA_PULAU) {
+        const item = pulau.menu[0].data.find((m) => m.id === id);
+        if (item) {
+            return {
+                ...item,
+                pulau : pulau.nama
+            }
+        }
+    }
+    return null;
+}
+
 const ALL_MENU =  DATA_PULAU.flatMap((pulau) =>
     pulau.menu[0].data.map((item) => ({
         ...item,
-        pulau: pulau.nama
+        pulau: pulau.nama,
     }))
 )
 
@@ -45,8 +58,10 @@ export function getImagePopularMenu(jumlah = 15) {
 const ALL_ISLAND = DATA_PULAU.map((pulau) => ({
     id: pulau.id,
     nama:pulau.nama,
-    bentuk_pulau: pulau.bentuk_pulau,
+    desc: pulau.deskripsi,
+    gambar_pulau: pulau.bentuk_pulau,
     total_kuliner: pulau.menu[0].total,
+    makanan: pulau.menu[0].data,
     preview_menu: pulau.menu[0].data.slice(0,2)
 }));
 
