@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Footer from "@/components/Footer";
 import { getPopularMenu, getImagePopularMenu, getIsland, getRecomendationMenu } from "@/app/components/popularMenu";
-import { FaMagnifyingGlass, FaArrowRight, FaStar } from "react-icons/fa6";
+import { FaMagnifyingGlass, FaArrowRight, FaStar, FaMapPin } from "react-icons/fa6";
 import DriftWall from "@/lib/DriftWall";
 import Link from "next/link";
 
@@ -82,11 +82,11 @@ export default function Homepage(){
                                             <ul className="flex text-sm gap-2 flex-wrap sm:flex-row flex-col">
                                                 {popularMenu.map((makanan) => (
                                                     <li key={makanan.id}>
-                                                        <button
-                                                        type="button"
-                                                        className="bg-[#eaeaea] rounded-full p-2 text-nowrap outline-1 sm:text-md text-xs">
+                                                        <Link
+                                                        href={`/jelajahi/${makanan.id}`}
+                                                        className="bg-[#eaeaea] rounded-full p-2 text-nowrap outline-1 sm:text-md text-xs cursor-pointer">
                                                             {makanan.name}
-                                                        </button>
+                                                        </Link>
                                                     </li>
                                                 ))}
                                             </ul>
@@ -133,31 +133,35 @@ export default function Homepage(){
                             <h1 className="text-4xl font-[Playfair_Display] font-bold pl-3 pb-3">
                                 Pilih Pulau 
                             </h1>
-                            <div className="flex w-full h-72 overflow-x-scroll overflow-y-hidden scrollbar-custom">
+                            <div className="flex w-full h-74 overflow-x-scroll overflow-y-hidden scrollbar-custom items-center">
                                 <ul className="flex gap-4 text-xl px-3 font-[Montserrat]"> 
                                     {Island.map((pulau) => (
                                     <li key={pulau.id}
-                                className="w-56 h-65.5 flex-col bg-[#eaeaea] outline-1 rounded-b-lg">
+                                    className="w-56 h-65.5 flex-col rounded-2xl bg-linear-to-b from-white/95 via-white/80 to-white/50 backdrop-blur-md border border-white shadow-lg shadow-stone-900/5 hover:border-amber-400/60 hover:shadow-xl hover:shadow-amber-500/10 hover:-translate-y-1.5 transition-all duration-300 text-stone-800">
+                                    <Link
+                                    href={`/jelajahi?id=${pulau.id}`}
+                                    className="cursor-pointer">
                                         <img
                                         src={pulau.gambar_pulau} 
                                         alt={pulau.nama}
-                                        className="w-full h-40 object-cover" 
+                                        className="w-full h-40 object-cover rounded-xl p-1" 
                                         />
-                                        <span className="flex flex-col pt-5 px-2">
-                                            <h3 className="text-lg font-bold">
-                                                {pulau.nama}
-                                            </h3>
-                                            <p className="text-sm">
-                                                Jumlah kuliner: {pulau.total_kuliner} ++
-                                            </p>
-                                            <ul className="text-xs w-full flex flex-nowrap flex-row gap-1 truncate text-gray-500">
-                                                {pulau.preview_menu.map((menu) =>(
-                                                    <li key={menu.id}>
-                                                        {menu.name},
-                                                    </li>
-                                                ))}
-                                            </ul>
-                                        </span> 
+                                            <span className="flex flex-col pt-2 px-2">
+                                                <h3 className="text-lg font-bold">
+                                                    {pulau.nama}
+                                                </h3>
+                                                <p className="text-sm">
+                                                    Jumlah kuliner: {pulau.total_kuliner} ++
+                                                </p>
+                                                <ul className="text-xs w-full flex flex-nowrap flex-row gap-1 truncate text-gray-500">
+                                                    {pulau.preview_menu.map((menu) =>(
+                                                        <li key={menu.id}>
+                                                            {menu.name},
+                                                        </li>
+                                                    ))}
+                                                </ul>
+                                            </span> 
+                                        </Link>
                                     </li>
 
                                 ) )}
@@ -183,31 +187,31 @@ export default function Homepage(){
                                 <ul className="flex flex-wrap gap-4 text-xl px-3 font-[Montserrat] justify-center"> 
                                     {recomMenu.map((recom) => (
                                     <li key={recom.id}
-                                className="w-68 h-65 flex-col bg-[#eaeaea] outline-1 rounded-b-lg">
-                                        <img
-                                        src={recom.image} 
-                                        alt={recom.name}
-                                        className="w-full h-40 object-cover" 
-                                        />
-                                        <span className="flex flex-col py-2 mx-2 border-b border-gray-400">
-                                            <p className="text-sm text-gray-500 truncate flex">
-                                                {recom.pulau}
-                                            </p>
-                                            <h3 className="text-lg font-bold font-[Playfair_Displays] truncate">
-                                                {recom.name}
-                                            </h3>
-                                            <p className="text-xs text-gray-500">
-                                                {recom.origin}, {recom.pulau}
-                                            </p>
-                                        </span>
-                                        <span className="flex mx-2 mt-1 items-center gap-1">
-                                            <p className="text-[9px] flex">
-                                                Kisaran harga: {recom.price_range_ind} .
-                                            </p>
-                                            <p className="text-[9px] items-center flex gap-1">
-                                                 <FaStar/> {recom.rating || "Tidak ada"}
-                                            </p>
-                                        </span>
+                                className="sm:w-68 w-full h-70 flex-col rounded-2xl bg-linear-to-br from-white via-[#fffaf2] to-[#faeedb] border border-amber-200/70 shadow-lg shadow-amber-900/5 hover:border-amber-400 hover:shadow-xl hover:shadow-amber-500/15 hover:-translate-y-1.5 transition-all duration-300 text-stone-800">
+                                     <Link href={`/jelajahi/${recom.id}`}>
+                                            <img
+                                            src={recom.image} 
+                                            alt={recom.name}
+                                            className="w-full h-40 object-cover rounded-xl  p-2" 
+                                            />
+                                            <span className="flex flex-col py-2 mx-2">
+                                                <p className="text-xs text-black truncate flex bg-amber-500 w-fit px-2 py-0.5 rounded-full">
+                                                    {recom.pulau}
+                                                </p>
+                                                <h3 className="text-lg font-bold font-[Playfair_Displays] truncate">
+                                                    {recom.name}
+                                                </h3>
+                                                <p className="text-xs flex items-center gap-1 text-gray-500">
+                                              <FaMapPin className="text-black"/>       {recom.origin}, {recom.pulau}
+                                                </p>
+                                                <p className="text-xs flex pt-0.5 gap-1">
+                                                    Kisaran harga: <span>{recom.price_range_ind}</span>
+                                                </p>
+                                                <p className="text-xs items-center flex gap-1 pt-1">
+                                                    <FaStar/> {recom.rating || "Tidak ada"}
+                                                </p>
+                                            </span>
+                                        </Link>
                                     </li>
                                 ) )}
                                 </ul>

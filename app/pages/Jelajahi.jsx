@@ -2,21 +2,33 @@
 
 import { getIsland } from "../components/popularMenu"
 import { useState, useEffect } from "react"
+import { useSearchParams } from "next/navigation"
 import Link from "next/link"
+import { FaMapPin, FaStar } from "react-icons/fa"
 
 export default function Jelajahi() {
     const [Island, setIsland] = useState([])
     const [selectedIsland, setSelectedIsland] = useState(null)
+    const searchParams = useSearchParams();
+    const queryId = searchParams.get("id")
 
     useEffect(() =>{
         const dataPulau = getIsland(8);
         setIsland(dataPulau);
+        
         if(dataPulau.length > 0) {
-            setSelectedIsland(dataPulau[0]);
+            if (queryId) {
+                const pulauDipilih = dataPulau.find((parameter) => 
+                String(parameter.id) === String(queryId));
+    
+                setSelectedIsland(pulauDipilih || dataPulau[0]);
+            } else {
+                setSelectedIsland(dataPulau[0])
+            }
         }
-    },[])
+    },[queryId])
 
-   
+
 
     return (
         <div className="flex flex-col w-full min-h-screen">
@@ -31,14 +43,16 @@ export default function Jelajahi() {
                                 <ul className="flex text-sm gap-2 flex-wrap sm:flex-row pt-3 font-[Montserrat]">
                                     {Island.map((pulau) => (
                                         <li key={pulau.id}>
-                                            <button
-                                            type="button"
-                                            onClick={() => setSelectedIsland(pulau)}
-                                            className={`bg-[#eaeaea] rounded-full p-2 text-nowrap outline-1 sm:text-md text-xs cursor-pointer transition-colors ${
-                                            selectedIsland?.id === pulau.id
-                                            ? "bg-linear-to-br from-gray-800/85 to-gray-500/85 border border-white/30 shadow-lg shadow-black/5 text-white" : "bg-linear-to-br from-[#eaeaea]/30 to-gray-50/5 border border-black/30 shadow-lg shadow-white/5 text-black"}`}>
+                                            <Link
+                                                href={`/jelajahi?id=${pulau.id}`}
+                                                className={`rounded-full p-2 text-nowrap outline-1 sm:text-md text-xs cursor-pointer transition-colors ${
+                                                    selectedIsland?.id === pulau.id
+                                                        ? "bg-linear-to-br from-gray-800/85 to-gray-500/85 border border-white/30 shadow-lg shadow-black/5 text-white" 
+                                                        : "bg-linear-to-br from-[#eaeaea]/30 to-gray-50/5 border border-black/30 shadow-lg shadow-white/5 text-black"
+                                                }`}
+                                            >
                                                 {pulau.nama}
-                                            </button>
+                                            </Link>
                                         </li>
                                     ))}
                                 </ul>
@@ -79,35 +93,38 @@ export default function Jelajahi() {
                 <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 font-[Montserrat]">
                     {selectedIsland?.makanan?.map((item) => (
                         <li 
-                        key={item.id} 
-                        className="bg-[#eaeaea] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col"
+                            key={item.id} 
+                            className="flex flex-col rounded-2xl bg-linear-to-br from-white via-[#fffaf2] to-[#faeedb] border border-amber-200/70 shadow-lg shadow-amber-900/5 hover:border-amber-400 hover:shadow-xl hover:shadow-amber-500/15 hover:-translate-y-1.5 transition-all duration-300 text-stone-800"
                         >
-                        <Link
-                        href={`/jelajahi/${item.id}`}>
-                            <img 
-                                src={item.image} 
-                                alt={item.name} 
-                                className="w-full h-44 object-cover"
+                            <Link href={`/jelajahi/${item.id}`} className="flex flex-col h-full">
+                                <img 
+                                    src={item.image} 
+                                    alt={item.name} 
+                                    className="w-full h-40 object-cover rounded-2xl p-2"
                                 />
-                            <div className="p-4 flex flex-col justify-between flex-1">
-                                <div>
-                                    <h3 className="font-bold font-[Playfair_Display] text-lg line-clamp-1">
-                                        {item.name}
-                                    </h3>
-                                    <p className="text-xs text-gray-500 mt-1">
-                                        Asal: {item.origin}
-                                    </p>
-                                </div>
 
-                                <div className="flex justify-between items-center mt-4 pt-3 border-t border-gray-300 text-xs">
-                                    <span className="text-gray-700 font-medium">
-                                        {item.price_range_ind}
-                                    </span>
-                                    <span className="text-amber-600 font-bold">
-                                        ★ {item.rating || "4.5"}
-                                    </span>
-                                </div>
-                            </div>
+                                <span className="flex flex-col py-2 px-3 flex-1 justify-between">
+                                    <div>
+                                        <p className="text-xs text-black truncate flex bg-amber-500 w-fit px-2.5 py-0.5 rounded-full font-medium">
+                                            {selectedIsland?.nama}
+                                        </p>
+                                        <h3 className="text-lg font-bold font-[Playfair_Display] truncate mt-1.5">
+                                            {item.name}
+                                        </h3>
+                                        <p className="text-xs flex items-center gap-1 text-gray-500 mt-1">
+                                            <FaMapPin className="text-amber-600 shrink-0"/> {item.origin}
+                                        </p>
+                                    </div>
+
+                                    <div className="pt-2">
+                                        <p className="text-xs flex gap-1 text-stone-600">
+                                            Kisaran: <span className="font-semibold text-stone-800">{item.price_range_ind}</span>
+                                        </p>
+                                        <p className="text-xs items-center flex gap-1 pt-1 font-semibold text-amber-600">
+                                            <FaStar className="text-amber-500"/> {item.rating || "4.5"}
+                                        </p>
+                                    </div>
+                                </span>
                             </Link>
                         </li>
                     ))}

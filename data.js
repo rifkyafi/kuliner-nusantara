@@ -36,7 +36,8 @@ const DATA_PULAU = [
                             "Toasted Coconut",
                             "Galangal",
                             "Chili",
-                            "Spices"
+                            "Lemongrass",
+                            "Turmeric Leaves"
                         ],
                         "ingredients_ind": [
                             "Daging Sapi",
@@ -44,7 +45,8 @@ const DATA_PULAU = [
                             "Kelapa Sangrai",
                             "Lengkuas",
                             "Cabai",
-                            "Rempah"
+                            "Serai",
+                            "Daun Kunyit"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -68,6 +70,8 @@ const DATA_PULAU = [
                             "slow cooked beef"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rendang%20daging%20sapi%20asli%20Padang.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Rendang",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://travel.kompas.com/read/2019/09/18/141826127/daripada-rebutan-rendang-datangi-3-rumah-makan-dengan-rendang-paling-enak-di",
                     "rating": 4.1,
@@ -286,15 +290,23 @@ const DATA_PULAU = [
                         "name": "Dendeng Balado",
                         "origin": "Padang",
                         "category": "Main Dish",
-                        "description_eng": "Spicy crisp beef with red chili",
-                        "description_ind": "Varian Dendeng Balado otentik dari Padang.",
+                        "description_eng": "Thin slices of beef fried until crisp and coated in balado sambal made of red chilies, shallots, and palm sugar, a spicy-sweet Padang favorite.",
+                        "description_ind": "Irisan daging sapi tipis yang digoreng kering lalu disiram sambal balado dari cabai merah, bawang merah, dan gula merah, hidangan Padang yang pedas, manis, dan renyah.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Beef",
+                            "Red Chili",
+                            "Shallots",
+                            "Garlic",
+                            "Lime Leaves",
+                            "Palm Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Daging Sapi",
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Daun Jeruk",
+                            "Gula Merah"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -313,6 +325,8 @@ const DATA_PULAU = [
                             "padang"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dendeng%20balado.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Dendeng_balado",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://www.kompas.com/food/read/2026/05/21/123100175/7-rumah-makan-padang-enak-di-jakarta-yang-belum-banyak-orang-tau",
                     "rating": 3.9,
@@ -325,15 +339,23 @@ const DATA_PULAU = [
                         "name": "Ayam Pop",
                         "origin": "Bukittinggi",
                         "category": "Main Dish",
-                        "description_eng": "Pale fried chicken with tangy sambal",
-                        "description_ind": "Varian Ayam Pop otentik dari Bukittinggi.",
+                        "description_eng": "Chicken simmered in spiced coconut milk with garlic and turmeric until tender and pale, briefly fried and served with Bukittinggi-style sambal.",
+                        "description_ind": "Ayam yang direbus dalam santan berbumbu bawang putih dan kunyit hingga empuk berwarna pucat, lalu digoreng sebentar dan disajikan dengan sambal khas Bukittinggi.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Chicken",
+                            "Coconut Milk",
+                            "Garlic",
+                            "Turmeric",
+                            "Ginger",
+                            "Lime Juice"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ayam",
+                            "Santan",
+                            "Bawang Putih",
+                            "Kunyit",
+                            "Jahe",
+                            "Air Jeruk Nipis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -352,6 +374,8 @@ const DATA_PULAU = [
                             "bukittinggi"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Pop%201.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_pop",
+
                     "price_range_ind": "Rp10.000 - Rp35.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/4021731/kuliner-malam-jumat-rahasia-kelezatan-ayam-pop-di-family-benteng-bukittinggi",
                     "rating": 4,
@@ -364,15 +388,23 @@ const DATA_PULAU = [
                         "name": "Soto Padang",
                         "origin": "Padang",
                         "category": "Main Dish",
-                        "description_eng": "Crispy beef soto",
-                        "description_ind": "Varian Soto Padang otentik dari Padang.",
+                        "description_eng": "A clear golden beef broth spiced with turmeric and ginger, served with rice vermicelli, sliced beef, and crispy fried potato, a Padang classic.",
+                        "description_ind": "Soto berkuah kaldu daging pedas bening kekuningan dari kunyit, disajikan dengan bihun, irisan daging, dan kentang goreng renyah khas Padang.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Beef Shank",
+                            "Rice Vermicelli",
+                            "Fried Potato",
+                            "Turmeric",
+                            "Ginger",
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Daging Sandung Lamur",
+                            "Bihun",
+                            "Kentang Goreng",
+                            "Kunyit",
+                            "Jahe",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -391,6 +423,8 @@ const DATA_PULAU = [
                             "padang"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto_Padang",
+
                     "price_range_ind": "Rp25.000 - Rp35.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/3967713/kuliner-malam-jumat-daging-empuk-dan-bumbu-khas-jadi-andalan-sate-padang-takana-juo",
                     "rating": 4.4,
@@ -403,15 +437,23 @@ const DATA_PULAU = [
                         "name": "Mie Celor",
                         "origin": "Palembang",
                         "category": "Main Dish",
-                        "description_eng": "Noodles in thick shrimp broth",
-                        "description_ind": "Varian Mie Celor otentik dari Palembang.",
+                        "description_eng": "Thick Palembang-style noodles in a rich shrimp-and-garlic coconut milk gravy, served with bean sprouts, boiled egg, and celery.",
+                        "description_ind": "Mie tebal khas Palembang disiram kuah santan kental berisi udang dan bawang putih, disajikan dengan tauge, telur rebus, dan seledri.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Egg Noodles",
+                            "Shrimp",
+                            "Coconut Milk",
+                            "Bean Sprouts",
+                            "Boiled Egg",
+                            "Garlic"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Mie Telur",
+                            "Udang",
+                            "Santan",
+                            "Tauge",
+                            "Telur Rebus",
+                            "Bawang Putih"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -430,6 +472,8 @@ const DATA_PULAU = [
                             "palembang"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20Celor%20Palembang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie_celor",
+
                     "price_range_ind": "Rp40.000 - Rp60.000",
                     "price_source": "https://superapps.kompas.com/read/2951277/warung-mi-celor-dengan-cita-rasa-autentik-di-palembang-seporsinya-rp-50-ribu",
                     "rating": 4.2,
@@ -442,15 +486,23 @@ const DATA_PULAU = [
                         "name": "Lempah Kuning",
                         "origin": "Bangka",
                         "category": "Main Dish",
-                        "description_eng": "Yellow fish soup with pineapple",
-                        "description_ind": "Varian Lempah Kuning otentik dari Bangka.",
+                        "description_eng": "A hot-and-sour Bangka fish soup with golden turmeric broth, kandis tamarind, and fresh pineapple chunks.",
+                        "description_ind": "Sup ikan asam pedas khas Bangka dengan kuah kuning dari kunyit, asam kandis, dan potongan nanas yang menyegarkan.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Spanish Mackerel",
+                            "Turmeric",
+                            "Kandis Tamarind",
+                            "Pineapple",
+                            "Galangal",
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ikan Tenggiri",
+                            "Kunyit",
+                            "Asam Kandis",
+                            "Nanas",
+                            "Lengkuas",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -469,6 +521,8 @@ const DATA_PULAU = [
                             "bangka"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lempah%20kuning%20stew.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Lempah_kuning",
+
                     "price_range_ind": "Rp35.000 - Rp65.000",
                     "price_source": "https://bangka.tribunnews.com/2023/06/08/ingin-nikmati-makanan-lempah-kuning-khas-bangka-harga-mulai-dari-rp35-ribu-ini-rekomendasinya",
                     "rating": 4,
@@ -481,15 +535,23 @@ const DATA_PULAU = [
                         "name": "Ayam Tangkap",
                         "origin": "Aceh",
                         "category": "Main Dish",
-                        "description_eng": "Fried chicken with aromatic curry leaves",
-                        "description_ind": "Varian Ayam Tangkap otentik dari Aceh.",
+                        "description_eng": "Aceh-style fried chicken pieces tossed with fragrant ruku-ruku, temurui, and pandan leaves until crisp and aromatic.",
+                        "description_ind": "Potongan ayam khas Aceh yang digoreng bersama daun ruku-ruku, temurui, dan pandan hingga renyah dan sangat aromatik.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Chicken",
+                            "Ruku-ruku Leaves",
+                            "Temurui Leaves",
+                            "Chili",
+                            "Garlic",
+                            "Ginger"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ayam",
+                            "Daun Ruku-ruku",
+                            "Daun Temurui",
+                            "Cabai",
+                            "Bawang Putih",
+                            "Jahe"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -508,6 +570,8 @@ const DATA_PULAU = [
                             "aceh"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Masakan%20Khas%20Kota%20Aceh%20Ayam%20Tangkap.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_tangkap",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": 4.4,
@@ -520,15 +584,23 @@ const DATA_PULAU = [
                         "name": "Gulai Tunjang",
                         "origin": "Padang",
                         "category": "Main Dish",
-                        "description_eng": "Beef tendon curry",
-                        "description_ind": "Varian Gulai Tunjang otentik dari Padang.",
+                        "description_eng": "A thick Padang gulai of beef tendon and meat slow-cooked in coconut milk and spices, served with cassava leaves.",
+                        "description_ind": "Gulai khas Padang dari tendon dan daging sapi yang dimasak berjam-jam dengan santan dan rempah, disajikan dengan daun singkong.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Beef Tendon",
+                            "Beef",
+                            "Coconut Milk",
+                            "Turmeric Leaf",
+                            "Cassava Leaves",
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Tendon Sapi",
+                            "Daging Sapi",
+                            "Santan",
+                            "Daun Kunyit",
+                            "Daun Singkong",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -547,6 +619,8 @@ const DATA_PULAU = [
                             "padang"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gulai%20tunjang.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Gulai",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -559,15 +633,23 @@ const DATA_PULAU = [
                         "name": "Sate Padang Pariaman",
                         "origin": "Pariaman",
                         "category": "Main Dish",
-                        "description_eng": "Beef satay with red spicy gravy",
-                        "description_ind": "Varian Sate Padang Pariaman otentik dari Pariaman.",
+                        "description_eng": "Beef and offal satay from Pariaman with a thick yellow gravy of rice flour, turmeric, and chili, served with crackers.",
+                        "description_ind": "Sate daging dan jeroan khas Pariaman dengan kuah kental kuning dari tepung beras, kunyit, dan cabai, disajikan dengan kerupuk.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Beef",
+                            "Offal",
+                            "Rice Flour Gravy",
+                            "Turmeric",
+                            "Galangal",
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Daging Sapi",
+                            "Jeroan",
+                            "Kuah Tepung Beras",
+                            "Kunyit",
+                            "Lengkuas",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -586,6 +668,8 @@ const DATA_PULAU = [
                             "pariaman"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate_Padang",
+
                     "price_range_ind": "Rp17.000 - Rp40.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/3967713/kuliner-malam-jumat-daging-empuk-dan-bumbu-khas-jadi-andalan-sate-padang-takana-juo",
                     "rating": 4.4,
@@ -598,15 +682,23 @@ const DATA_PULAU = [
                         "name": "Babi Panggang Karo",
                         "origin": "Karo",
                         "category": "Main Dish",
-                        "description_eng": "Roasted pork belly with blood sauce (Non-halal)",
-                        "description_ind": "Varian Babi Panggang Karo otentik dari Karo.",
+                        "description_eng": "Roasted pork in the style of Karo, served with a blood gravy and a fiery andaliman pepper sambal from North Tapanuli.",
+                        "description_ind": "Daging babi bakar khas Karo yang disajikan dengan kuah darah dan sambal andaliman pedas khas Tapanuli Utara.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Pork",
+                            "Andaliman Pepper",
+                            "Garlic",
+                            "Galangal",
+                            "Chili",
+                            "Blood Gravy"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Daging Babi",
+                            "Andaliman",
+                            "Bawang Putih",
+                            "Lengkuas",
+                            "Cabai",
+                            "Kuah Darah"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -625,6 +717,8 @@ const DATA_PULAU = [
                             "karo"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Se'i%20Babi%203.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Babi_panggang_karo",
+
                     "price_range_ind": "Rp25.000 - Rp50.000",
                     "price_source": "https://www.detik.com/sumut/kuliner/d-8486761/7-rekomendasi-bpk-paling-populer-di-medan-kuliner-non-halal-wajib-dicoba",
                     "rating": 4.2,
@@ -637,15 +731,23 @@ const DATA_PULAU = [
                         "name": "Tekwan",
                         "origin": "Palembang",
                         "category": "Snack",
-                        "description_eng": "Fish soup with yam bean and mushrooms",
-                        "description_ind": "Varian Tekwan otentik dari Palembang.",
+                        "description_eng": "Palembang fish dumplings served in a shrimp broth with mushrooms, jicama, and glass noodles.",
+                        "description_ind": "Bola-bola adonan ikan khas Palembang yang disajikan dalam kuah kaldu udang berisi jamur, bengkuang, dan soun.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Fish Balls",
+                            "Tapioca Flour",
+                            "Mushrooms",
+                            "Jicama",
+                            "Shrimp Broth",
+                            "Glass Noodles"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Bakso Ikan",
+                            "Tepung Tapioka",
+                            "Jamur",
+                            "Bengkuang",
+                            "Kaldu Udang",
+                            "Soun"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -664,6 +766,8 @@ const DATA_PULAU = [
                             "palembang"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tekwan%20Palembang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tekwan",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": 3.5,
@@ -680,13 +784,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Lampung tradisional khas Lampung yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -705,6 +815,8 @@ const DATA_PULAU = [
                             "lampung"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp5.000 - Rp15.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/7891206/7-rekomendasi-kuliner-es-campur-di-jogja-enak-dan-legendaris",
                     "rating": null,
@@ -720,13 +832,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Bengkulu.",
                         "description_ind": "Hidangan Kopi Khas Bengkulu tradisional khas Bengkulu yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -745,6 +858,8 @@ const DATA_PULAU = [
                             "bengkulu"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://www.idntimes.com/business/economy/kenapa-kopi-rp18-ribu-dan-rp50-ribu-sama-sama-laku-c1c2-01-3lbgd-kll3qt",
                     "rating": 4.7,
@@ -760,14 +875,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Riau.",
                         "description_ind": "Hidangan Kerupuk Riau tradisional khas Riau yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -786,6 +903,8 @@ const DATA_PULAU = [
                             "riau"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp3.000 - Rp7.000",
                     "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
                     "rating": null,
@@ -801,14 +920,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Sumatera Barat.",
                         "description_ind": "Hidangan Soto Sumatera Barat tradisional khas Sumatera Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -827,6 +952,8 @@ const DATA_PULAU = [
                             "sumatera barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp25.000 - Rp35.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/3967713/kuliner-malam-jumat-daging-empuk-dan-bumbu-khas-jadi-andalan-sate-padang-takana-juo",
                     "rating": null,
@@ -843,13 +970,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Kue Basah Aceh tradisional khas Aceh yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice Flour",
-                            "Coconut",
-                            "Sugar",
-                            "Pandan"
+                            "Coconut Milk",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Beras",
+                            "Santan",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -868,6 +1001,8 @@ const DATA_PULAU = [
                             "aceh"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
+
                     "price_range_ind": "Rp7.500 - Rp15.000",
                     "price_source": "https://megapolitan.kompas.com/read/2026/10/07/15152621/ketika-lemper-bertemu-dubai-chewy-cookie-di-pasar-kue-subuh-senen",
                     "rating": null,
@@ -883,14 +1018,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Sumatera Utara.",
                         "description_ind": "Hidangan Sambal Sumatera Utara tradisional khas Sumatera Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -909,6 +1050,8 @@ const DATA_PULAU = [
                             "sumatera utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -924,14 +1067,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Kepulauan Bangka Belitung signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Kepulauan Bangka Belitung tradisional khas Kepulauan Bangka Belitung yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -950,6 +1099,8 @@ const DATA_PULAU = [
                             "kepulauan bangka belitung"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp10.000 - Rp30.000",
                     "price_source": "https://www.detik.com/sumut/kuliner/d-7221858/rekomendasi-warung-ikan-bakar-populer-di-medan-banyak-jenis-menu-ikannya",
                     "rating": 4.3,
@@ -965,14 +1116,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Jambi marinade.",
                         "description_ind": "Hidangan Sate Jambi tradisional khas Jambi yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -991,6 +1148,8 @@ const DATA_PULAU = [
                             "jambi"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
                     "rating": null,
@@ -1006,14 +1165,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Kepulauan Riau.",
                         "description_ind": "Hidangan Kerupuk Kepulauan Riau tradisional khas Kepulauan Riau yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1032,6 +1193,8 @@ const DATA_PULAU = [
                             "kepulauan riau"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp3.000 - Rp7.000",
                     "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
                     "rating": null,
@@ -1048,13 +1211,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Mie Kuah Kepulauan Bangka Belitung tradisional khas Kepulauan Bangka Belitung yang sangat digemari.",
                         "ingredients_eng": [
                             "Noodles",
-                            "Broth",
+                            "Chicken Broth",
+                            "Garlic",
+                            "Spring Onion",
                             "Vegetables",
-                            "Egg"
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Mie",
+                            "Kaldu Ayam",
+                            "Bawang Putih",
+                            "Daun Bawang",
+                            "Sayuran",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1073,6 +1242,8 @@ const DATA_PULAU = [
                             "kepulauan bangka belitung"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://www.ayosemarang.com/wisata/779324805/7-warung-mie-ayam-enak-di-semarang-selalu-ramai-poll-lengkap-harga-semangkok-dan-jam-buka?page=4",
                     "rating": 3.9,
@@ -1088,14 +1259,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Sumatera Barat.",
                         "description_ind": "Hidangan Kerupuk Sumatera Barat tradisional khas Sumatera Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1114,6 +1287,8 @@ const DATA_PULAU = [
                             "sumatera barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp3.000 - Rp7.000",
                     "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
                     "rating": null,
@@ -1130,13 +1305,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Mie Kuah Sumatera Selatan tradisional khas Sumatera Selatan yang sangat digemari.",
                         "ingredients_eng": [
                             "Noodles",
-                            "Broth",
+                            "Chicken Broth",
+                            "Garlic",
+                            "Spring Onion",
                             "Vegetables",
-                            "Egg"
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Mie",
+                            "Kaldu Ayam",
+                            "Bawang Putih",
+                            "Daun Bawang",
+                            "Sayuran",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1155,6 +1336,8 @@ const DATA_PULAU = [
                             "sumatera selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
+
                     "price_range_ind": "Rp40.000 - Rp60.000",
                     "price_source": "https://superapps.kompas.com/read/2951277/warung-mi-celor-dengan-cita-rasa-autentik-di-palembang-seporsinya-rp-50-ribu",
                     "rating": null,
@@ -1172,12 +1355,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1196,6 +1385,8 @@ const DATA_PULAU = [
                             "bengkulu"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -1211,14 +1402,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Aceh signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Aceh tradisional khas Aceh yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1237,6 +1434,8 @@ const DATA_PULAU = [
                             "aceh"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp10.000 - Rp30.000",
                     "price_source": "https://www.detik.com/sumut/kuliner/d-7221858/rekomendasi-warung-ikan-bakar-populer-di-medan-banyak-jenis-menu-ikannya",
                     "rating": null,
@@ -1252,14 +1451,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Kepulauan Bangka Belitung.",
                         "description_ind": "Hidangan Sambal Kepulauan Bangka Belitung tradisional khas Kepulauan Bangka Belitung yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1278,6 +1483,8 @@ const DATA_PULAU = [
                             "kepulauan bangka belitung"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -1295,12 +1502,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1319,6 +1532,8 @@ const DATA_PULAU = [
                             "bengkulu"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -1334,14 +1549,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Jambi.",
                         "description_ind": "Hidangan Kerupuk Jambi tradisional khas Jambi yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1360,6 +1577,8 @@ const DATA_PULAU = [
                             "jambi"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp3.000 - Rp7.000",
                     "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
                     "rating": null,
@@ -1375,14 +1594,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Aceh.",
                         "description_ind": "Hidangan Kerupuk Aceh tradisional khas Aceh yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1401,6 +1622,8 @@ const DATA_PULAU = [
                             "aceh"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp3.000 - Rp7.000",
                     "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
                     "rating": null,
@@ -1416,14 +1639,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Kepulauan Bangka Belitung marinade.",
                         "description_ind": "Hidangan Sate Kepulauan Bangka Belitung tradisional khas Kepulauan Bangka Belitung yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1442,6 +1671,8 @@ const DATA_PULAU = [
                             "kepulauan bangka belitung"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
                     "rating": null,
@@ -1457,14 +1688,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Aceh signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Aceh tradisional khas Aceh yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1483,6 +1720,8 @@ const DATA_PULAU = [
                             "aceh"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp10.000 - Rp30.000",
                     "price_source": "https://www.detik.com/sumut/kuliner/d-7221858/rekomendasi-warung-ikan-bakar-populer-di-medan-banyak-jenis-menu-ikannya",
                     "rating": null,
@@ -1499,13 +1738,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Sumatera Utara tradisional khas Sumatera Utara yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1524,6 +1769,8 @@ const DATA_PULAU = [
                             "sumatera utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp5.000 - Rp15.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/7891206/7-rekomendasi-kuliner-es-campur-di-jogja-enak-dan-legendaris",
                     "rating": null,
@@ -1539,14 +1786,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Kepulauan Riau.",
                         "description_ind": "Hidangan Kerupuk Kepulauan Riau tradisional khas Kepulauan Riau yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1565,6 +1814,8 @@ const DATA_PULAU = [
                             "kepulauan riau"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp3.000 - Rp7.000",
                     "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
                     "rating": null,
@@ -1580,14 +1831,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Aceh.",
                         "description_ind": "Hidangan Sambal Aceh tradisional khas Aceh yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1606,6 +1863,8 @@ const DATA_PULAU = [
                             "aceh"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -1621,14 +1880,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Aceh marinade.",
                         "description_ind": "Hidangan Sate Aceh tradisional khas Aceh yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1647,6 +1912,8 @@ const DATA_PULAU = [
                             "aceh"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
                     "rating": 4.4,
@@ -1664,12 +1931,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1688,6 +1961,8 @@ const DATA_PULAU = [
                             "lampung"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -1704,13 +1979,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng Jambi tradisional khas Jambi yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1729,6 +2010,8 @@ const DATA_PULAU = [
                             "jambi"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp12.000 - Rp32.000",
                     "price_source": "https://jatim.idntimes.com/food/dining-guide/tempat-makan-nasi-goreng-kaki-lima-enak-di-sidoarjo-c1c2-00-5ynwf-k1z699",
                     "rating": null,
@@ -1746,12 +2029,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1770,6 +2059,8 @@ const DATA_PULAU = [
                             "bengkulu"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -1786,13 +2077,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng Sumatera Utara tradisional khas Sumatera Utara yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1811,6 +2108,8 @@ const DATA_PULAU = [
                             "sumatera utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp12.000 - Rp32.000",
                     "price_source": "https://jatim.idntimes.com/food/dining-guide/tempat-makan-nasi-goreng-kaki-lima-enak-di-sidoarjo-c1c2-00-5ynwf-k1z699",
                     "rating": null,
@@ -1828,12 +2127,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1852,6 +2157,8 @@ const DATA_PULAU = [
                             "lampung"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-6151993/jualan-sambil-sedekah-pedagang-ini-jual-bubur-ayam-seporsi-rp-6-ribu",
                     "rating": 4.5,
@@ -1867,13 +2174,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Jambi.",
                         "description_ind": "Hidangan Kopi Khas Jambi tradisional khas Jambi yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1892,6 +2200,8 @@ const DATA_PULAU = [
                             "jambi"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://www.idntimes.com/business/economy/kenapa-kopi-rp18-ribu-dan-rp50-ribu-sama-sama-laku-c1c2-01-3lbgd-kll3qt",
                     "rating": 4.8,
@@ -1908,13 +2218,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Aceh tradisional khas Aceh yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1933,6 +2249,8 @@ const DATA_PULAU = [
                             "aceh"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp5.000 - Rp15.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/7891206/7-rekomendasi-kuliner-es-campur-di-jogja-enak-dan-legendaris",
                     "rating": null,
@@ -1948,14 +2266,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Kepulauan Riau marinade.",
                         "description_ind": "Hidangan Sate Kepulauan Riau tradisional khas Kepulauan Riau yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -1974,6 +2298,8 @@ const DATA_PULAU = [
                             "kepulauan riau"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
                     "rating": null,
@@ -1989,14 +2315,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Aceh.",
                         "description_ind": "Hidangan Kerupuk Aceh tradisional khas Aceh yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2015,6 +2343,8 @@ const DATA_PULAU = [
                             "aceh"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp3.000 - Rp7.000",
                     "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
                     "rating": null,
@@ -2030,14 +2360,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Sumatera Barat.",
                         "description_ind": "Hidangan Kerupuk Sumatera Barat tradisional khas Sumatera Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2056,6 +2388,8 @@ const DATA_PULAU = [
                             "sumatera barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp3.000 - Rp7.000",
                     "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
                     "rating": null,
@@ -2071,14 +2405,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Aceh.",
                         "description_ind": "Hidangan Kerupuk Aceh tradisional khas Aceh yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2097,6 +2433,8 @@ const DATA_PULAU = [
                             "aceh"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp3.000 - Rp7.000",
                     "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
                     "rating": null,
@@ -2186,17 +2524,17 @@ const DATA_PULAU = [
                             "Rice",
                             "Coconut Milk",
                             "Chicken",
-                            "Chayote",
-                            "Egg",
-                            "Spices"
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Beras",
+                            "Nasi Putih",
                             "Santan",
-                            "Daging Ayam",
-                            "Labu Siam",
-                            "Telur",
-                            "Rempah"
+                            "Ayam",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2220,6 +2558,8 @@ const DATA_PULAU = [
                             "nasi liwet"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20Liwet%20Solo.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_Liwet",
+
                     "price_range_ind": "Rp10.000 - Rp20.000",
                     "price_source": "https://travel.tribunnews.com/kuliner/147131/5-nasi-liwet-di-solo-yang-buka-sore-sampai-malam-harga-mulai-rp-10000",
                     "rating": 3.4,
@@ -2388,15 +2728,23 @@ const DATA_PULAU = [
                         "name": "Tahu Tek",
                         "origin": "Surabaya",
                         "category": "Main Dish",
-                        "description_eng": "Tofu and rice cake in petis sauce",
-                        "description_ind": "Varian Tahu Tek otentik dari Surabaya.",
+                        "description_eng": "Tofu, egg, potato, and bean sprouts drizzled with peanut sauce and sweet soy sauce, served with rice cake, a Surabaya street food.",
+                        "description_ind": "Tahu, telur, kentang, dan tauge yang dipotong lalu disiram bumbu kacang dan kecap manis khas Surabaya, disajikan dengan lontong.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Tofu",
+                            "Egg",
+                            "Potato",
+                            "Bean Sprouts",
+                            "Peanut Sauce",
+                            "Sweet Soy Sauce"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Tahu",
+                            "Telur",
+                            "Kentang",
+                            "Tauge",
+                            "Bumbu Kacang",
+                            "Kecap Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2415,6 +2763,8 @@ const DATA_PULAU = [
                             "surabaya"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tahu%20Th%C3%A8g%20Tahu%20Bumbu%20Lonthong%20Bumbu%20atau%20Tahu%20Tek%20Tahu%20Telor.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tahu_tek",
+
                     "price_range_ind": "Rp20.000 - Rp25.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-4833511/uenake-poll-5-tahu-tek-legendaris-ini-wajib-dicicipi-saat-ke-surabaya",
                     "rating": 3.9,
@@ -2427,15 +2777,23 @@ const DATA_PULAU = [
                         "name": "Rujak Cingur",
                         "origin": "Surabaya",
                         "category": "Main Dish",
-                        "description_eng": "Beef snout salad with petis",
-                        "description_ind": "Varian Rujak Cingur otentik dari Surabaya.",
+                        "description_eng": "A Surabaya salad of beef snout, rice cake, fruits, and vegetables dressed in a sweet-spicy petis peanut sauce.",
+                        "description_ind": "Salad khas Surabaya berisi cingur (moncong sapi), lontong, buah, dan sayuran yang disiram bumbu petis kacang pedas manis.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Beef Snout",
+                            "Rice Cake",
+                            "Vegetables",
+                            "Petis Sauce",
+                            "Peanut Sauce",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Cingur Sapi",
+                            "Lontong",
+                            "Sayuran",
+                            "Bumbu Petis",
+                            "Bumbu Kacang",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2454,6 +2812,8 @@ const DATA_PULAU = [
                             "surabaya"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rujak%20Cingur%20khas%20Jawa%20Timur%2CIndonesia%20dengan%20kombinasi%20sayuran%20dan%20kerupuk%20sebagai%20pelengkap.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Rujak_cingur",
+
                     "price_range_ind": "Rp25.000 - Rp50.000",
                     "price_source": "https://www.kompas.com/food/read/2026/01/30/073100375/rekomendasi-rujak-cingur-legendaris-surabaya-yang-wajib-dicoba",
                     "rating": 3.6,
@@ -2466,15 +2826,23 @@ const DATA_PULAU = [
                         "name": "Tongseng",
                         "origin": "Solo",
                         "category": "Main Dish",
-                        "description_eng": "Spicy mutton stew with cabbage",
-                        "description_ind": "Varian Tongseng otentik dari Solo.",
+                        "description_eng": "Mutton and offal with cabbage and tomato, simmered in spiced coconut milk and sweet soy sauce in the Solo style.",
+                        "description_ind": "Potongan kambing dengan jeroan, kol, dan tomat yang dimasak berempah dalam santan dan kecap manis khas Solo.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Mutton",
+                            "Cabbage",
+                            "Coconut Milk",
+                            "Sweet Soy Sauce",
+                            "Galangal",
+                            "Tomato"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Daging Kambing",
+                            "Kol",
+                            "Santan",
+                            "Kecap Manis",
+                            "Lengkuas",
+                            "Tomat"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2493,6 +2861,8 @@ const DATA_PULAU = [
                             "solo"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tongseng%20Sapi.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tongseng",
+
                     "price_range_ind": "Rp23.000 - Rp35.000",
                     "price_source": "https://food.detik.com/warung-makan/d-8673689/5-tongseng-ayam-yang-mlekoh-sedap-di-jakarta-mulai-rp23-ribuan",
                     "rating": 4,
@@ -2505,15 +2875,23 @@ const DATA_PULAU = [
                         "name": "Sate Klatak",
                         "origin": "Bantul",
                         "category": "Main Dish",
-                        "description_eng": "Mutton satay grilled on iron spokes",
-                        "description_ind": "Varian Sate Klatak otentik dari Bantul.",
+                        "description_eng": "Bantul-style goat satay on large skewers, grilled simply with soy sauce and garlic, served alongside a clear gulai broth.",
+                        "description_ind": "Sate kambing khas Bantul yang ditusuk besar dan dibakar sederhana hanya berbumbu kecap dan bawang putih, disajikan dengan gulai bening.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Goat Meat",
+                            "Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Sweet Soy Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Daging Kambing",
+                            "Kecap",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Kecap Manis",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2532,6 +2910,8 @@ const DATA_PULAU = [
                             "bantul"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20klatak%2020170818%20Yogyakarta.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate_klathak",
+
                     "price_range_ind": "Rp30.000 - Rp35.000",
                     "price_source": "https://jogja.tribunnews.com/diy/1222434/4-rekomendasi-sate-klatak-favorit-di-bantul-yogyakarta",
                     "rating": 3.8,
@@ -2544,15 +2924,23 @@ const DATA_PULAU = [
                         "name": "Mangut Lele",
                         "origin": "Yogyakarta",
                         "category": "Main Dish",
-                        "description_eng": "Smoked catfish in coconut curry",
-                        "description_ind": "Varian Mangut Lele otentik dari Yogyakarta.",
+                        "description_eng": "Catfish simmered in a spicy coconut milk gravy with candlenut and turmeric, topped with basil leaves, a Yogyakarta favorite.",
+                        "description_ind": "Lele yang dimasak dalam kuah santan pedas berrempah kemiri dan kunyit, disajikan dengan daun kemangi khas Yogyakarta.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Catfish",
+                            "Coconut Milk",
+                            "Candlenut",
+                            "Turmeric",
+                            "Chili",
+                            "Basil"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Lele",
+                            "Santan",
+                            "Kemiri",
+                            "Kunyit",
+                            "Cabai",
+                            "Kemangi"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2571,6 +2959,8 @@ const DATA_PULAU = [
                             "yogyakarta"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/9.%20Mangut%20Lele%201.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mangut_lele",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://www.idntimes.com/food/dining-guide/fatiya-1/11-warung-mangut-lele-terenak-di-jogja-exp-c1c2",
                     "rating": 4.3,
@@ -2583,15 +2973,23 @@ const DATA_PULAU = [
                         "name": "Garang Asem",
                         "origin": "Kudus",
                         "category": "Main Dish",
-                        "description_eng": "Chicken cooked in banana leaf with starfruit",
-                        "description_ind": "Varian Garang Asem otentik dari Kudus.",
+                        "description_eng": "Free-range chicken in a sour-spicy tamarind and turmeric broth, wrapped in banana leaf and steamed, a Kudus specialty.",
+                        "description_ind": "Ayam kampung khas Kudus berkuah asam pedas dari asam jawa dan kunyit, dibungkus daun pisang lalu dikukus.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Free-range Chicken",
+                            "Tamarind",
+                            "Turmeric",
+                            "Banana Leaf",
+                            "Basil",
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ayam Kampung",
+                            "Asam Jawa",
+                            "Kunyit",
+                            "Daun Pisang",
+                            "Kemangi",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2610,6 +3008,8 @@ const DATA_PULAU = [
                             "kudus"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Garang%20asem%20Pj.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Garang_asem",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": 4.2,
@@ -2622,15 +3022,23 @@ const DATA_PULAU = [
                         "name": "Empal Gentong",
                         "origin": "Cirebon",
                         "category": "Main Dish",
-                        "description_eng": "Beef soup cooked in clay pot",
-                        "description_ind": "Varian Empal Gentong otentik dari Cirebon.",
+                        "description_eng": "A Cirebon beef and offal gulai cooked in a clay pot (gentong) with coconut milk and fiery turmeric spices.",
+                        "description_ind": "Gulai daging dan jeroan khas Cirebon yang dimasak dalam gentong tanah liat dengan santan dan rempah kunyit pedas.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Beef",
+                            "Offal",
+                            "Coconut Milk",
+                            "Turmeric",
+                            "Chili",
+                            "Chives"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Daging Sapi",
+                            "Jeroan",
+                            "Santan",
+                            "Kunyit",
+                            "Cabai",
+                            "Kucai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2649,6 +3057,8 @@ const DATA_PULAU = [
                             "cirebon"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Arya%22%20%EA%A6%B2%EA%A6%BC%EA%A6%A9%EA%A7%80%EA%A6%A5%EA%A6%AD%EA%A7%80%EA%A6%92%EA%A6%BC%EA%A6%A4%EA%A7%80%EA%A6%9B%EA%A6%BA%EA%A6%B4%EA%A6%81%20Indonesian%20soup%20empal%20gentong.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Empal_gentong",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-7880057/gurih-berempah-empal-gentong-dudu-musuh-rp-15-ribu-seporsi",
                     "rating": 4,
@@ -2661,15 +3071,23 @@ const DATA_PULAU = [
                         "name": "Batagor",
                         "origin": "Bandung",
                         "category": "Snack",
-                        "description_eng": "Fried fish dumplings with peanut sauce",
-                        "description_ind": "Varian Batagor otentik dari Bandung.",
+                        "description_eng": "Bandung-style fried tofu and fish dumplings covered in a sweet-spicy peanut sauce, served with cucumber and soy sauce.",
+                        "description_ind": "Tahu dan bakso ikan goreng khas Bandung yang disiram bumbu kacang pedas manis, disajikan dengan timun dan kecap.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Tofu",
+                            "Fish Paste",
+                            "Potato",
+                            "Peanut Sauce",
+                            "Sweet Soy Sauce",
+                            "Cucumber"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Tahu",
+                            "Tenggiri",
+                            "Kentang",
+                            "Bumbu Kacang",
+                            "Kecap Manis",
+                            "Timun"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2688,6 +3106,8 @@ const DATA_PULAU = [
                             "bandung"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Batagor%20dan%20Bumbu%20Kacang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Batagor",
+
                     "price_range_ind": "Rp6.000 - Rp15.000",
                     "price_source": "https://travel.tribunnews.com/kuliner/145004/harga-batagor-kahuripan-bandung-2026-menu-mulai-rp-6000",
                     "rating": 3.7,
@@ -2700,15 +3120,23 @@ const DATA_PULAU = [
                         "name": "Seblak",
                         "origin": "Bandung",
                         "category": "Snack",
-                        "description_eng": "Spicy wet crackers with egg and chicken feet",
-                        "description_ind": "Varian Seblak otentik dari Bandung.",
+                        "description_eng": "A Bandung specialty of wet crackers cooked in a spicy kencur-fragrant sauce with egg and chicken feet.",
+                        "description_ind": "Masakan khas Bandung dari kerupuk mentarang yang dimasak pedas beraroma kencur bersama telur dan ceker ayam.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Wet Crackers",
+                            "Egg",
+                            "Chicken Feet",
+                            "Garlic",
+                            "Kencur",
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Kerupuk Mentarang",
+                            "Telur",
+                            "Ceker Ayam",
+                            "Bawang Putih",
+                            "Kencur",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2727,6 +3155,8 @@ const DATA_PULAU = [
                             "bandung"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Seblak%202.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Seblak",
+
                     "price_range_ind": "Rp7.000 - Rp15.000",
                     "price_source": "https://lampung.tribunnews.com/2021/03/03/kuliner-bandung-5-rekomendasi-tempat-makan-seblak-yang-wajib-kamu-coba-harga-mulai-rp-7-ribu",
                     "rating": 4.7,
@@ -2739,15 +3169,23 @@ const DATA_PULAU = [
                         "name": "Kerak Telor",
                         "origin": "Jakarta",
                         "category": "Snack",
-                        "description_eng": "Spicy omelette with glutinous rice and coconut",
-                        "description_ind": "Varian Kerak Telor otentik dari Jakarta.",
+                        "description_eng": "A Betawi glutinous rice omelet cooked over a clay griddle, topped with duck egg, dried shrimp, and serundeng coconut flakes.",
+                        "description_ind": "Omlet beras ketan khas Betawi yang dipanggang di atas wajan tanah liat, dilapisi telur bebek, ebi kering, dan serundeng.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Glutinous Rice",
+                            "Duck Egg",
+                            "Dried Shrimp (Ebi)",
+                            "Fried Shallots",
+                            "Serundeng",
+                            "Coconut"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Beras Ketan",
+                            "Telur Bebek",
+                            "Ebi",
+                            "Bawang Goreng",
+                            "Serundeng",
+                            "Kelapa"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2766,6 +3204,8 @@ const DATA_PULAU = [
                             "jakarta"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerak%20Telor.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerak_telor",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": 4.2,
@@ -2781,14 +3221,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from DKI Jakarta.",
                         "description_ind": "Hidangan Sambal DKI Jakarta tradisional khas DKI Jakarta yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2807,6 +3253,8 @@ const DATA_PULAU = [
                             "dki jakarta"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -2824,12 +3272,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2848,6 +3302,8 @@ const DATA_PULAU = [
                             "jawa barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8520340/dolar-as-sentuh-rp-18-000-netizen-spill-5-jajanan-enak-dengan-harga-setara",
                     "rating": null,
@@ -2865,12 +3321,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2889,6 +3351,8 @@ const DATA_PULAU = [
                             "jawa timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8520340/dolar-as-sentuh-rp-18-000-netizen-spill-5-jajanan-enak-dengan-harga-setara",
                     "rating": null,
@@ -2904,14 +3368,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local DI Yogyakarta marinade.",
                         "description_ind": "Hidangan Sate DI Yogyakarta tradisional khas DI Yogyakarta yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2930,6 +3400,8 @@ const DATA_PULAU = [
                             "di yogyakarta"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://www.idntimes.com/food/dining-guide/5-kuliner-sate-ayam-endes-di-yogyakarta-seporsi-gak-sampai-rp-30-000-01-1hkcy-my3mwn",
                     "rating": null,
@@ -2945,14 +3417,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Jawa Tengah.",
                         "description_ind": "Hidangan Sambal Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -2971,6 +3449,8 @@ const DATA_PULAU = [
                             "jawa tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -2988,12 +3468,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3012,6 +3498,8 @@ const DATA_PULAU = [
                             "di yogyakarta"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -3028,13 +3516,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng DI Yogyakarta tradisional khas DI Yogyakarta yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3053,6 +3547,8 @@ const DATA_PULAU = [
                             "di yogyakarta"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp10.000 - Rp20.000",
                     "price_source": "https://superapps.kompas.com/read/3014009/eks-chef-restoran-mewah-jualan-nasi-goreng-pakai-gerobak-harga-seporsi-cuma-rp-15-ribu",
                     "rating": null,
@@ -3069,13 +3565,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Kue Basah Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice Flour",
-                            "Coconut",
-                            "Sugar",
-                            "Pandan"
+                            "Coconut Milk",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Beras",
+                            "Santan",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3094,6 +3596,8 @@ const DATA_PULAU = [
                             "jawa tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
+
                     "price_range_ind": "Rp1.000 - Rp5.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-5957317/4-tempat-beli-kue-subuh-di-jakarta-harga-mulai-rp-1-000",
                     "rating": null,
@@ -3111,11 +3615,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3134,6 +3645,8 @@ const DATA_PULAU = [
                             "di yogyakarta"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
                     "rating": null,
@@ -3149,14 +3662,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Banten.",
                         "description_ind": "Hidangan Sambal Banten tradisional khas Banten yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3175,6 +3694,8 @@ const DATA_PULAU = [
                             "banten"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -3191,13 +3712,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur DKI Jakarta tradisional khas DKI Jakarta yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3216,6 +3743,8 @@ const DATA_PULAU = [
                             "dki jakarta"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp12.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-6967038/slurpp-5-es-campur-di-jakarta-ini-kelezatannya-melegenda",
                     "rating": null,
@@ -3231,14 +3760,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Jawa Barat marinade.",
                         "description_ind": "Hidangan Sate Jawa Barat tradisional khas Jawa Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3257,6 +3792,8 @@ const DATA_PULAU = [
                             "jawa barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://www.idntimes.com/food/dining-guide/5-kuliner-sate-ayam-endes-di-yogyakarta-seporsi-gak-sampai-rp-30-000-01-1hkcy-my3mwn",
                     "rating": null,
@@ -3274,12 +3811,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3298,6 +3841,8 @@ const DATA_PULAU = [
                             "banten"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8520340/dolar-as-sentuh-rp-18-000-netizen-spill-5-jajanan-enak-dengan-harga-setara",
                     "rating": null,
@@ -3313,14 +3858,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Jawa Tengah.",
                         "description_ind": "Hidangan Sambal Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3339,6 +3890,8 @@ const DATA_PULAU = [
                             "jawa tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -3354,14 +3907,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from DKI Jakarta.",
                         "description_ind": "Hidangan Kerupuk DKI Jakarta tradisional khas DKI Jakarta yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3380,6 +3935,8 @@ const DATA_PULAU = [
                             "dki jakarta"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -3397,12 +3954,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3421,6 +3984,8 @@ const DATA_PULAU = [
                             "jawa timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8520340/dolar-as-sentuh-rp-18-000-netizen-spill-5-jajanan-enak-dengan-harga-setara",
                     "rating": null,
@@ -3437,13 +4002,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Mie Kuah Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
                         "ingredients_eng": [
                             "Noodles",
-                            "Broth",
+                            "Chicken Broth",
+                            "Garlic",
+                            "Spring Onion",
                             "Vegetables",
-                            "Egg"
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Mie",
+                            "Kaldu Ayam",
+                            "Bawang Putih",
+                            "Daun Bawang",
+                            "Sayuran",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3462,6 +4033,8 @@ const DATA_PULAU = [
                             "jawa tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
+
                     "price_range_ind": "Rp10.000 - Rp20.000",
                     "price_source": "https://food.detik.com/warung-makan/d-7996459/nikmatnya-mie-ayam-pak-loso-di-menteng-harga-hanya-rp-15-ribu",
                     "rating": null,
@@ -3477,14 +4050,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Jawa Tengah.",
                         "description_ind": "Hidangan Sambal Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3503,6 +4082,8 @@ const DATA_PULAU = [
                             "jawa tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -3519,13 +4100,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng Banten tradisional khas Banten yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3544,6 +4131,8 @@ const DATA_PULAU = [
                             "banten"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp10.000 - Rp20.000",
                     "price_source": "https://superapps.kompas.com/read/3014009/eks-chef-restoran-mewah-jualan-nasi-goreng-pakai-gerobak-harga-seporsi-cuma-rp-15-ribu",
                     "rating": null,
@@ -3560,13 +4149,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng Jawa Timur tradisional khas Jawa Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3585,6 +4180,8 @@ const DATA_PULAU = [
                             "jawa timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp10.000 - Rp20.000",
                     "price_source": "https://superapps.kompas.com/read/3014009/eks-chef-restoran-mewah-jualan-nasi-goreng-pakai-gerobak-harga-seporsi-cuma-rp-15-ribu",
                     "rating": null,
@@ -3600,14 +4197,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Jawa Tengah.",
                         "description_ind": "Hidangan Sambal Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3626,6 +4229,8 @@ const DATA_PULAU = [
                             "jawa tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -3641,14 +4246,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Jawa Tengah.",
                         "description_ind": "Hidangan Sambal Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3667,6 +4278,8 @@ const DATA_PULAU = [
                             "jawa tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -3682,14 +4295,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from DKI Jakarta.",
                         "description_ind": "Hidangan Sambal DKI Jakarta tradisional khas DKI Jakarta yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3708,6 +4327,8 @@ const DATA_PULAU = [
                             "dki jakarta"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -3725,11 +4346,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3748,6 +4376,8 @@ const DATA_PULAU = [
                             "banten"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
                     "rating": null,
@@ -3764,13 +4394,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Kue Basah Banten tradisional khas Banten yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice Flour",
-                            "Coconut",
-                            "Sugar",
-                            "Pandan"
+                            "Coconut Milk",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Beras",
+                            "Santan",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3789,6 +4425,8 @@ const DATA_PULAU = [
                             "banten"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
+
                     "price_range_ind": "Rp1.000 - Rp5.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-5957317/4-tempat-beli-kue-subuh-di-jakarta-harga-mulai-rp-1-000",
                     "rating": null,
@@ -3804,14 +4442,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Jawa Timur.",
                         "description_ind": "Hidangan Kerupuk Jawa Timur tradisional khas Jawa Timur yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3830,6 +4470,8 @@ const DATA_PULAU = [
                             "jawa timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -3845,14 +4487,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Banten.",
                         "description_ind": "Hidangan Kerupuk Banten tradisional khas Banten yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3871,6 +4515,8 @@ const DATA_PULAU = [
                             "banten"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -3886,13 +4532,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Jawa Tengah.",
                         "description_ind": "Hidangan Kopi Khas Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3911,6 +4558,8 @@ const DATA_PULAU = [
                             "jawa tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
                     "rating": null,
@@ -3928,12 +4577,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3952,6 +4607,8 @@ const DATA_PULAU = [
                             "banten"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -3967,14 +4624,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Jawa Timur.",
                         "description_ind": "Hidangan Sambal Jawa Timur tradisional khas Jawa Timur yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -3993,6 +4656,8 @@ const DATA_PULAU = [
                             "jawa timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -4008,14 +4673,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local DI Yogyakarta marinade.",
                         "description_ind": "Hidangan Sate DI Yogyakarta tradisional khas DI Yogyakarta yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4034,6 +4705,8 @@ const DATA_PULAU = [
                             "di yogyakarta"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://www.idntimes.com/food/dining-guide/5-kuliner-sate-ayam-endes-di-yogyakarta-seporsi-gak-sampai-rp-30-000-01-1hkcy-my3mwn",
                     "rating": null,
@@ -4049,14 +4722,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with DKI Jakarta signature spices.",
                         "description_ind": "Hidangan Ikan Bakar DKI Jakarta tradisional khas DKI Jakarta yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4075,6 +4754,8 @@ const DATA_PULAU = [
                             "dki jakarta"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp50.000 - Rp100.000",
                     "price_source": "https://food.detik.com/tempat-makan/d-8721617/cocok-buat-makan-bareng-ini-7-ikan-bakar-paling-favorit-di-jakarta",
                     "rating": null,
@@ -4090,13 +4771,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Jawa Barat.",
                         "description_ind": "Hidangan Kopi Khas Jawa Barat tradisional khas Jawa Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4115,6 +4797,8 @@ const DATA_PULAU = [
                             "jawa barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
                     "rating": null,
@@ -4132,12 +4816,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4156,6 +4846,8 @@ const DATA_PULAU = [
                             "dki jakarta"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -4171,14 +4863,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Jawa Tengah.",
                         "description_ind": "Hidangan Sambal Jawa Tengah tradisional khas Jawa Tengah yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4197,6 +4895,8 @@ const DATA_PULAU = [
                             "jawa tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -4486,15 +5186,23 @@ const DATA_PULAU = [
                         "name": "Soto Banjar",
                         "origin": "Banjarmasin",
                         "category": "Main Dish",
-                        "description_eng": "Clear chicken soup with spices",
-                        "description_ind": "Varian Soto Banjar otentik dari Banjarmasin.",
+                        "description_eng": "A Banjarmasin chicken soup scented with cinnamon, nutmeg, and cloves, served with rice cakes and boiled egg.",
+                        "description_ind": "Soto khas Banjarmasin dengan kuah kaldu ayam beraroma kayu manis, pala, dan cengkih, disajikan dengan lontong dan telur rebus.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Chicken",
+                            "Rice Cakes",
+                            "Cinnamon",
+                            "Nutmeg",
+                            "Cloves",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ayam",
+                            "Lontong",
+                            "Kayu Manis",
+                            "Pala",
+                            "Cengkih",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4513,6 +5221,8 @@ const DATA_PULAU = [
                             "banjarmasin"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto_Banjar",
+
                     "price_range_ind": "Rp100.000 - Rp300.000",
                     "price_source": "https://www.idntimes.com/food/dining-guide/5-restoran-kepiting-enak-populer-di-balikpapan-wajib-dicoba-01-zydpl-9pfq65",
                     "rating": 4.1,
@@ -4525,15 +5235,23 @@ const DATA_PULAU = [
                         "name": "Ketupat Kandangan",
                         "origin": "Kandangan",
                         "category": "Main Dish",
-                        "description_eng": "Rice cakes with snakehead fish curry",
-                        "description_ind": "Varian Ketupat Kandangan otentik dari Kandangan.",
+                        "description_eng": "Kandangan-style ketupat rice cakes in a spicy coconut milk gravy of snakehead fish, a legendary dish of South Kalimantan.",
+                        "description_ind": "Ketupat khas Kandangan yang disiram kuah santan ikan gabus pedas, makanan legendaris Kalimantan Selatan.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Ketupat",
+                            "Snakehead Fish",
+                            "Coconut Milk",
+                            "Egg",
+                            "Chili",
+                            "Tamarind"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ketupat",
+                            "Ikan Gabus",
+                            "Santan",
+                            "Telur",
+                            "Cabai",
+                            "Asam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4552,6 +5270,8 @@ const DATA_PULAU = [
                             "kandangan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ketupat%20Kandangan%20Haruan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ketupat_Kandangan",
+
                     "price_range_ind": "Rp18.000 - Rp25.000",
                     "price_source": "https://www.liputan6.com/regional/read/5083929/ketupat-kandangan-kuliner-simbol-kedekatan-masyarakat-kalsel-dengan-alam",
                     "rating": null,
@@ -4564,15 +5284,23 @@ const DATA_PULAU = [
                         "name": "Nasi Kuning Banjar",
                         "origin": "Banjarmasin",
                         "category": "Main Dish",
-                        "description_eng": "Yellow rice with habang sauce",
-                        "description_ind": "Varian Nasi Kuning Banjar otentik dari Banjarmasin.",
+                        "description_eng": "Banjar-style turmeric rice cooked in coconut milk, served with fried chicken and vermicelli.",
+                        "description_ind": "Nasi kuning bergaya Banjar yang dimasak dengan santan dan kunyit, disajikan lengkap dengan ayam goreng dan bihun.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Rice",
+                            "Coconut Milk",
+                            "Turmeric",
+                            "Lemongrass",
+                            "Fried Chicken",
+                            "Vermicelli"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Nasi Putih",
+                            "Santan",
+                            "Kunyit",
+                            "Serai",
+                            "Ayam Goreng",
+                            "Bihun"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4591,6 +5319,8 @@ const DATA_PULAU = [
                             "banjarmasin"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_kuning",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://superapps.kompas.com/read/3000923/cobain-nasi-kuning-sambal-kecombrang-di-warung-ngawi-denpasar-harga-rp-10-ribuan-porsinya-mantap",
                     "rating": null,
@@ -4603,15 +5333,23 @@ const DATA_PULAU = [
                         "name": "Bingka Barantai",
                         "origin": "Banjar",
                         "category": "Dessert",
-                        "description_eng": "Sweet traditional flower-shaped cake",
-                        "description_ind": "Varian Bingka Barantai otentik dari Banjar.",
+                        "description_eng": "A South Kalimantan moist cake of yellow sweet potato and coconut milk, baked until golden and fragrant.",
+                        "description_ind": "Kue basah khas Kalimantan Selatan dari ubi kuning dan santan yang dipanggang hingga kecokelatan dan wangi.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Egg",
+                            "Wheat Flour",
+                            "Coconut Milk",
+                            "Yellow Sweet Potato",
+                            "Sugar",
+                            "Vanilla"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Telur",
+                            "Tepung Terigu",
+                            "Santan",
+                            "Ubi Kuning",
+                            "Gula",
+                            "Vanila"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4630,6 +5368,8 @@ const DATA_PULAU = [
                             "banjar"
                         ],
                         "image": null,
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bingka",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-5829507/gurih-nikmat-soto-banjar-racikan-orang-banjar-asli",
                     "rating": null,
@@ -4642,15 +5382,23 @@ const DATA_PULAU = [
                         "name": "Pengkang",
                         "origin": "Pontianak",
                         "category": "Snack",
-                        "description_eng": "Grilled sticky rice with dried shrimp",
-                        "description_ind": "Varian Pengkang otentik dari Pontianak.",
+                        "description_eng": "Pontianak shrimp sticky rice: glutinous rice stuffed with whole shrimp, wrapped in banana leaf and grilled.",
+                        "description_ind": "Lemper udang khas Pontianak: ketan berisi udang utuh yang dibungkus daun pisang lalu dipanggang.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Glutinous Rice",
+                            "Shrimp",
+                            "Coconut",
+                            "Banana Leaf",
+                            "Salt",
+                            "Coconut Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Beras Ketan",
+                            "Udang",
+                            "Kelapa",
+                            "Daun Pisang",
+                            "Garam",
+                            "Santan"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4669,6 +5417,8 @@ const DATA_PULAU = [
                             "pontianak"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pengkang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Pengkang",
+
                     "price_range_ind": "Rp2.000 - Rp3.000",
                     "price_source": "https://banjarmasin.tribunnews.com/kalsel/1355722/umkm-kalsel-legit-dan-lembut-bingka-kentang-khas-banjar-dijual-arbani-di-banjarbaru-dua-ribuan",
                     "rating": null,
@@ -4681,15 +5431,23 @@ const DATA_PULAU = [
                         "name": "Choi Pan",
                         "origin": "Singkawang",
                         "category": "Snack",
-                        "description_eng": "Steamed dumplings stuffed with jicama",
-                        "description_ind": "Varian Choi Pan otentik dari Singkawang.",
+                        "description_eng": "Steamed dumplings from Singkawang filled with chicken, bamboo shoots, and jicama, a Chinese-Kalimantan heritage dish.",
+                        "description_ind": "Dumpling kukus khas Singkawang berisi ayam, rebung, dan bengkuang, warisan kuliner Tionghoa-Kalimantan Barat.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Wheat Flour Wrappers",
+                            "Chicken",
+                            "Bamboo Shoots",
+                            "Jicama",
+                            "Garlic",
+                            "Chili Sauce"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Kulit Tepung Terigu",
+                            "Ayam",
+                            "Rebung",
+                            "Bengkuang",
+                            "Bawang Putih",
+                            "Saus Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4708,6 +5466,8 @@ const DATA_PULAU = [
                             "singkawang"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Choi%20Pan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Choi_pan",
+
                     "price_range_ind": "Rp1.000 - Rp2.000",
                     "price_source": "https://pontianak.tribunnews.com/kalbar/1181017/daftar-10-choipan-terenak-rating-tinggi-di-singkawang-harga-mulai-rp1200-per-pcs",
                     "rating": 4.7,
@@ -4720,15 +5480,23 @@ const DATA_PULAU = [
                         "name": "Bubur Pedas",
                         "origin": "Sambas",
                         "category": "Main Dish",
-                        "description_eng": "Spicy vegetable and rice porridge",
-                        "description_ind": "Varian Bubur Pedas otentik dari Sambas.",
+                        "description_eng": "A Sambas porridge of roasted rice flour and coconut milk cooked with moringa leaves, sweet potato, and fresh vegetables.",
+                        "description_ind": "Bubur khas Sambas dari tepung beras sangrai dan santan yang dimasak bersama daun kelor, ubi, dan sayuran segar.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Roasted Rice Flour",
+                            "Vegetables",
+                            "Moringa Leaves",
+                            "Sweet Potato",
+                            "Shrimp",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Tepung Beras Sangrai",
+                            "Sayuran",
+                            "Daun Kelor",
+                            "Ubi",
+                            "Udang",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4747,6 +5515,8 @@ const DATA_PULAU = [
                             "sambas"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_pedas",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": 4.4,
@@ -4759,15 +5529,23 @@ const DATA_PULAU = [
                         "name": "Ayam Cincane",
                         "origin": "Samarinda",
                         "category": "Main Dish",
-                        "description_eng": "Roasted chicken with red spices",
-                        "description_ind": "Varian Ayam Cincane otentik dari Samarinda.",
+                        "description_eng": "Samarinda grilled chicken glazed with a caramelized red chili and candlenut spice paste.",
+                        "description_ind": "Ayam bakar khas Samarinda dengan olesan bumbu cabai merah dan kemiri yang dimasak hingga karamel.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Chicken",
+                            "Red Chili",
+                            "Garlic",
+                            "Candlenut",
+                            "Coconut Milk",
+                            "Lime Leaves"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ayam",
+                            "Cabai Merah",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Santan",
+                            "Daun Jeruk"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4786,6 +5564,8 @@ const DATA_PULAU = [
                             "samarinda"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam-cincane.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_cincane",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://www.idntimes.com/food/dining-guide/kuliner-khas-samarinda-c1c2-01-1qxbn-942c9c",
                     "rating": null,
@@ -4798,15 +5578,23 @@ const DATA_PULAU = [
                         "name": "Gence Ruan",
                         "origin": "Kutai",
                         "category": "Main Dish",
-                        "description_eng": "Snakehead fish with coarse chili paste",
-                        "description_ind": "Varian Gence Ruan otentik dari Kutai.",
+                        "description_eng": "Kutai Kartanegara grilled snakehead fish coated in gence sambal — spicy, savory, with a hint of sourness.",
+                        "description_ind": "Ikan gabus (haruan) bakar khas Kutai Kartanegara yang disiram sambal gence pedas gurih dengan sentuhan asam.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Snakehead Fish",
+                            "Red Chili",
+                            "Shallots",
+                            "Garlic",
+                            "Tomato",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ikan Gabus",
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4825,6 +5613,8 @@ const DATA_PULAU = [
                             "kutai"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gence%20Ruan.JPG?width=800",
+                    "ingredients_source": "https://www.detik.com/kalimantan/kuliner/d-7994926/mengenal-gence-ruan-sajian-masakan-ikan-khas-kutai",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -4837,15 +5627,23 @@ const DATA_PULAU = [
                         "name": "Tumis Pakis",
                         "origin": "Palangkaraya",
                         "category": "Side Dish",
-                        "description_eng": "Stir-fried fern leaves with shrimp paste",
-                        "description_ind": "Varian Tumis Pakis otentik dari Palangkaraya.",
+                        "description_eng": "Fiddlehead fern shoots stir-fried with anchovies and aromatics, a simple Kalimantan side dish.",
+                        "description_ind": "Pucuk pakis yang ditumis bersama teri dan bumbu bawang, lauk sederhana khas Kalimantan.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Fiddlehead Ferns",
+                            "Garlic",
+                            "Shallots",
+                            "Chili",
+                            "Anchovies",
+                            "Coconut Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Pakis",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Teri",
+                            "Santan"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4864,6 +5662,8 @@ const DATA_PULAU = [
                             "palangkaraya"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://resepkoki.id/resep/resep-tumis-pakis/",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-5934482/tumis-kangkung-sultan-di-4-restoran-mewah-ini-harganya-selangit",
                     "rating": null,
@@ -4879,14 +5679,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Kalimantan Utara signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4905,6 +5711,8 @@ const DATA_PULAU = [
                             "kalimantan utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp14.000 - Rp20.000",
                     "price_source": "https://www.detik.com/bali/kuliner/d-6732474/5-tempat-makan-seafood-di-jimbaran-yang-enak-ada-pelopor-ikan-bakar",
                     "rating": null,
@@ -4920,13 +5728,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Kalimantan Timur.",
                         "description_ind": "Hidangan Kopi Khas Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4945,6 +5754,8 @@ const DATA_PULAU = [
                             "kalimantan timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp3.000 - Rp5.000",
                     "price_source": "https://surabaya.kompas.com/read/2026/06/09/111500778/siasat-pedagang-warkop-di-lumajang-hadapi-kenaikan-harga-kulakan--naik",
                     "rating": null,
@@ -4961,13 +5772,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -4986,6 +5803,8 @@ const DATA_PULAU = [
                             "kalimantan timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://jatim.idntimes.com/food/dining-guide/rekomendasi-es-campur-di-surabaya-c1c2-01-zv1tf-qkzvw5",
                     "rating": null,
@@ -5001,14 +5820,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Kalimantan Timur.",
                         "description_ind": "Hidangan Soto Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5027,6 +5852,8 @@ const DATA_PULAU = [
                             "kalimantan timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-7802109/gurih-segar-10-soto-ayam-rp-15-ribuan-ada-di-sini",
                     "rating": null,
@@ -5044,11 +5871,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5067,6 +5901,8 @@ const DATA_PULAU = [
                             "kalimantan utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp23.000 - Rp35.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
                     "rating": null,
@@ -5083,13 +5919,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Kalimantan Tengah tradisional khas Kalimantan Tengah yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5108,6 +5950,8 @@ const DATA_PULAU = [
                             "kalimantan tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://jatim.idntimes.com/food/dining-guide/rekomendasi-es-campur-di-surabaya-c1c2-01-zv1tf-qkzvw5",
                     "rating": null,
@@ -5125,12 +5969,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5149,6 +5999,8 @@ const DATA_PULAU = [
                             "kalimantan tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp13.000 - Rp30.000",
                     "price_source": "https://www.kompas.com/food/read/2026/01/06/083722075/10-bubur-ayam-di-jakarta-dari-legendaris-hingga-favorit",
                     "rating": null,
@@ -5164,14 +6016,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Kalimantan Barat.",
                         "description_ind": "Hidangan Soto Kalimantan Barat tradisional khas Kalimantan Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5190,6 +6048,8 @@ const DATA_PULAU = [
                             "kalimantan barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-7802109/gurih-segar-10-soto-ayam-rp-15-ribuan-ada-di-sini",
                     "rating": null,
@@ -5207,11 +6067,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5230,6 +6097,8 @@ const DATA_PULAU = [
                             "kalimantan utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp23.000 - Rp35.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
                     "rating": null,
@@ -5245,14 +6114,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Kalimantan Tengah.",
                         "description_ind": "Hidangan Sambal Kalimantan Tengah tradisional khas Kalimantan Tengah yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5271,6 +6146,8 @@ const DATA_PULAU = [
                             "kalimantan tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -5286,14 +6163,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Kalimantan Selatan.",
                         "description_ind": "Hidangan Soto Kalimantan Selatan tradisional khas Kalimantan Selatan yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5312,6 +6195,8 @@ const DATA_PULAU = [
                             "kalimantan selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-7802109/gurih-segar-10-soto-ayam-rp-15-ribuan-ada-di-sini",
                     "rating": null,
@@ -5328,13 +6213,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Kue Basah Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice Flour",
-                            "Coconut",
-                            "Sugar",
-                            "Pandan"
+                            "Coconut Milk",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Beras",
+                            "Santan",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5353,6 +6244,8 @@ const DATA_PULAU = [
                             "kalimantan utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -5370,12 +6263,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5394,6 +6293,8 @@ const DATA_PULAU = [
                             "kalimantan selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp13.000 - Rp30.000",
                     "price_source": "https://www.kompas.com/food/read/2026/01/06/083722075/10-bubur-ayam-di-jakarta-dari-legendaris-hingga-favorit",
                     "rating": null,
@@ -5409,14 +6310,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Kalimantan Utara signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5435,6 +6342,8 @@ const DATA_PULAU = [
                             "kalimantan utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp14.000 - Rp20.000",
                     "price_source": "https://www.detik.com/bali/kuliner/d-6732474/5-tempat-makan-seafood-di-jimbaran-yang-enak-ada-pelopor-ikan-bakar",
                     "rating": null,
@@ -5451,13 +6360,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Kalimantan Barat tradisional khas Kalimantan Barat yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5476,6 +6391,8 @@ const DATA_PULAU = [
                             "kalimantan barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://jatim.idntimes.com/food/dining-guide/rekomendasi-es-campur-di-surabaya-c1c2-01-zv1tf-qkzvw5",
                     "rating": null,
@@ -5491,14 +6408,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Kalimantan Selatan.",
                         "description_ind": "Hidangan Kerupuk Kalimantan Selatan tradisional khas Kalimantan Selatan yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5517,6 +6436,8 @@ const DATA_PULAU = [
                             "kalimantan selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp4.000 - Rp7.000",
                     "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
                     "rating": null,
@@ -5533,13 +6454,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Mie Kuah Kalimantan Selatan tradisional khas Kalimantan Selatan yang sangat digemari.",
                         "ingredients_eng": [
                             "Noodles",
-                            "Broth",
+                            "Chicken Broth",
+                            "Garlic",
+                            "Spring Onion",
                             "Vegetables",
-                            "Egg"
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Mie",
+                            "Kaldu Ayam",
+                            "Bawang Putih",
+                            "Daun Bawang",
+                            "Sayuran",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5558,6 +6485,8 @@ const DATA_PULAU = [
                             "kalimantan selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
+
                     "price_range_ind": "Rp15.000 - Rp18.000",
                     "price_source": "https://food.detik.com/warung-makan/d-7996459/nikmatnya-mie-ayam-pak-loso-di-menteng-harga-hanya-rp-15-ribu",
                     "rating": null,
@@ -5573,14 +6502,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Kalimantan Utara.",
                         "description_ind": "Hidangan Soto Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5599,6 +6534,8 @@ const DATA_PULAU = [
                             "kalimantan utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-7802109/gurih-segar-10-soto-ayam-rp-15-ribuan-ada-di-sini",
                     "rating": null,
@@ -5615,13 +6552,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5640,6 +6583,8 @@ const DATA_PULAU = [
                             "kalimantan utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp10.000 - Rp20.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-7048540/buset-5-nasi-goreng-di-sini-porsinya-super-jumbo",
                     "rating": null,
@@ -5655,14 +6600,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Kalimantan Tengah.",
                         "description_ind": "Hidangan Kerupuk Kalimantan Tengah tradisional khas Kalimantan Tengah yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5681,6 +6628,8 @@ const DATA_PULAU = [
                             "kalimantan tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp4.000 - Rp7.000",
                     "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
                     "rating": null,
@@ -5696,14 +6645,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Kalimantan Timur.",
                         "description_ind": "Hidangan Kerupuk Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5722,6 +6673,8 @@ const DATA_PULAU = [
                             "kalimantan timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp4.000 - Rp7.000",
                     "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
                     "rating": null,
@@ -5737,14 +6690,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Kalimantan Utara.",
                         "description_ind": "Hidangan Kerupuk Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5763,6 +6718,8 @@ const DATA_PULAU = [
                             "kalimantan utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp4.000 - Rp7.000",
                     "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
                     "rating": null,
@@ -5780,12 +6737,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5804,6 +6767,8 @@ const DATA_PULAU = [
                             "kalimantan selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp13.000 - Rp30.000",
                     "price_source": "https://www.kompas.com/food/read/2026/01/06/083722075/10-bubur-ayam-di-jakarta-dari-legendaris-hingga-favorit",
                     "rating": null,
@@ -5819,14 +6784,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Kalimantan Barat.",
                         "description_ind": "Hidangan Soto Kalimantan Barat tradisional khas Kalimantan Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5845,6 +6816,8 @@ const DATA_PULAU = [
                             "kalimantan barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-7802109/gurih-segar-10-soto-ayam-rp-15-ribuan-ada-di-sini",
                     "rating": null,
@@ -5860,14 +6833,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Kalimantan Timur signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5886,6 +6865,8 @@ const DATA_PULAU = [
                             "kalimantan timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp14.000 - Rp20.000",
                     "price_source": "https://www.detik.com/bali/kuliner/d-6732474/5-tempat-makan-seafood-di-jimbaran-yang-enak-ada-pelopor-ikan-bakar",
                     "rating": null,
@@ -5901,14 +6882,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Kalimantan Timur.",
                         "description_ind": "Hidangan Soto Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5927,6 +6914,8 @@ const DATA_PULAU = [
                             "kalimantan timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-7802109/gurih-segar-10-soto-ayam-rp-15-ribuan-ada-di-sini",
                     "rating": null,
@@ -5944,12 +6933,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -5968,6 +6963,8 @@ const DATA_PULAU = [
                             "kalimantan barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp13.000 - Rp30.000",
                     "price_source": "https://www.kompas.com/food/read/2026/01/06/083722075/10-bubur-ayam-di-jakarta-dari-legendaris-hingga-favorit",
                     "rating": null,
@@ -5984,13 +6981,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng Kalimantan Tengah tradisional khas Kalimantan Tengah yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6009,6 +7012,8 @@ const DATA_PULAU = [
                             "kalimantan tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp10.000 - Rp20.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-7048540/buset-5-nasi-goreng-di-sini-porsinya-super-jumbo",
                     "rating": null,
@@ -6026,12 +7031,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6050,6 +7061,8 @@ const DATA_PULAU = [
                             "kalimantan utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-5934482/tumis-kangkung-sultan-di-4-restoran-mewah-ini-harganya-selangit",
                     "rating": null,
@@ -6066,13 +7079,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6091,6 +7110,8 @@ const DATA_PULAU = [
                             "kalimantan timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://jatim.idntimes.com/food/dining-guide/rekomendasi-es-campur-di-surabaya-c1c2-01-zv1tf-qkzvw5",
                     "rating": null,
@@ -6107,13 +7128,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Kue Basah Kalimantan Timur tradisional khas Kalimantan Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice Flour",
-                            "Coconut",
-                            "Sugar",
-                            "Pandan"
+                            "Coconut Milk",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Beras",
+                            "Santan",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6132,6 +7159,8 @@ const DATA_PULAU = [
                             "kalimantan timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -6148,13 +7177,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Mie Kuah Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
                         "ingredients_eng": [
                             "Noodles",
-                            "Broth",
+                            "Chicken Broth",
+                            "Garlic",
+                            "Spring Onion",
                             "Vegetables",
-                            "Egg"
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Mie",
+                            "Kaldu Ayam",
+                            "Bawang Putih",
+                            "Daun Bawang",
+                            "Sayuran",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6173,6 +7208,8 @@ const DATA_PULAU = [
                             "kalimantan utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
+
                     "price_range_ind": "Rp15.000 - Rp18.000",
                     "price_source": "https://food.detik.com/warung-makan/d-7996459/nikmatnya-mie-ayam-pak-loso-di-menteng-harga-hanya-rp-15-ribu",
                     "rating": null,
@@ -6188,14 +7225,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Kalimantan Selatan.",
                         "description_ind": "Hidangan Soto Kalimantan Selatan tradisional khas Kalimantan Selatan yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6214,6 +7257,8 @@ const DATA_PULAU = [
                             "kalimantan selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-7802109/gurih-segar-10-soto-ayam-rp-15-ribuan-ada-di-sini",
                     "rating": null,
@@ -6230,13 +7275,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6255,6 +7306,8 @@ const DATA_PULAU = [
                             "kalimantan utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp10.000 - Rp20.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-7048540/buset-5-nasi-goreng-di-sini-porsinya-super-jumbo",
                     "rating": null,
@@ -6270,14 +7323,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Kalimantan Utara signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Kalimantan Utara tradisional khas Kalimantan Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6296,6 +7355,8 @@ const DATA_PULAU = [
                             "kalimantan utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp14.000 - Rp20.000",
                     "price_source": "https://www.detik.com/bali/kuliner/d-6732474/5-tempat-makan-seafood-di-jimbaran-yang-enak-ada-pelopor-ikan-bakar",
                     "rating": null,
@@ -6592,15 +7653,23 @@ const DATA_PULAU = [
                         "name": "Sop Saudara",
                         "origin": "Pangkep",
                         "category": "Main Dish",
-                        "description_eng": "Beef soup with vermicelli and potato cakes",
-                        "description_ind": "Varian Sop Saudara otentik dari Pangkep.",
+                        "description_eng": "A clear spicy offal soup from Pangkep scented with cinnamon and ginger, served with potato patties.",
+                        "description_ind": "Sup jeroan khas Pangkep berkuah bening pedas dengan rempah kayu manis dan jahe, disajikan dengan perkedel kentang.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Beef",
+                            "Offal",
+                            "Cinnamon",
+                            "Ginger",
+                            "Fried Shallots",
+                            "Potato Patty"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Daging Sapi",
+                            "Jeroan",
+                            "Kayu Manis",
+                            "Jahe",
+                            "Bawang Goreng",
+                            "Perkedel"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6619,6 +7688,8 @@ const DATA_PULAU = [
                             "pangkep"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20campur%20sop%20saudara%20warung%20Pangkep.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sop_saudara",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://makassar.tribunnews.com/2023/01/29/sop-saudara-dan-ikan-bakar-kuliner-khas-pangkep-sulsel-bikin-ketagihan-harga-mai-rp-25-ribu",
                     "rating": 4.1,
@@ -6631,15 +7702,23 @@ const DATA_PULAU = [
                         "name": "Pallubasa",
                         "origin": "Makassar",
                         "category": "Main Dish",
-                        "description_eng": "Rich beef offal soup with grated coconut",
-                        "description_ind": "Varian Pallubasa otentik dari Makassar.",
+                        "description_eng": "A Makassar offal gulai in rich coconut milk broth, topped with toasted coconut flakes (kurusa).",
+                        "description_ind": "Gulai jeroan khas Makassar berkuah santan kental dengan taburan kelapa sangrai (kurusa) di atasnya.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Beef",
+                            "Offal",
+                            "Coconut Milk",
+                            "Turmeric",
+                            "Candlenut",
+                            "Toasted Coconut"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Daging Sapi",
+                            "Jeroan",
+                            "Santan",
+                            "Kunyit",
+                            "Kemiri",
+                            "Kelapa Sangrai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6658,6 +7737,8 @@ const DATA_PULAU = [
                             "makassar"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pallubasa.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Pallubasa",
+
                     "price_range_ind": "Rp14.000 - Rp20.000",
                     "price_source": "https://www.kompas.com/food/read/2022/11/13/131700975/6-tempat-makan-pallubasa-di-makassar-harga-mulai-dari-rp-14.000",
                     "rating": 4.4,
@@ -6670,15 +7751,23 @@ const DATA_PULAU = [
                         "name": "Es Pisang Ijo",
                         "origin": "Makassar",
                         "category": "Dessert",
-                        "description_eng": "Green banana wrapped in dough with syrup",
-                        "description_ind": "Varian Es Pisang Ijo otentik dari Makassar.",
+                        "description_eng": "Makassar dessert of bananas wrapped in a signature green dough, served with shaved ice, coconut milk, and red syrup.",
+                        "description_ind": "Pisang yang dibungkus adonan hijau khas Makassar, disajikan dengan es serut, santan, dan sirup merah.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Banana",
+                            "Green Flour Dough",
+                            "Coconut Milk",
+                            "Syrup",
+                            "Shaved Ice",
+                            "Wheat Flour"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Pisang",
+                            "Adonan Tepung Hijau",
+                            "Santan",
+                            "Sirup",
+                            "Es Serut",
+                            "Tepung Terigu"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6697,6 +7786,8 @@ const DATA_PULAU = [
                             "makassar"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20pisang%20ijo%20otentik%20Makassar-1.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Pisang_ijo",
+
                     "price_range_ind": "Rp25.000 - Rp35.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-7897406/es-pisang-ijo-sultan-setampah-harganya-rp-1-jutaan",
                     "rating": null,
@@ -6709,15 +7800,23 @@ const DATA_PULAU = [
                         "name": "Mie Titi",
                         "origin": "Makassar",
                         "category": "Main Dish",
-                        "description_eng": "Crispy dry noodles with thick gravy",
-                        "description_ind": "Varian Mie Titi otentik dari Makassar.",
+                        "description_eng": "A Makassar dish of crispy fried noodles topped with a thick gravy of beef, seafood, and vegetables.",
+                        "description_ind": "Mie goreng khas Makassar dengan kuah kental berisi daging sapi, seafood, dan sayuran yang disajikan panas.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Fried Noodles",
+                            "Beef",
+                            "Seafood",
+                            "Vegetables",
+                            "Oyster Sauce",
+                            "Thick Gravy"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Mie Goreng",
+                            "Daging Sapi",
+                            "Seafood",
+                            "Sayuran",
+                            "Saus Tiram",
+                            "Kuah Kental"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6736,6 +7835,8 @@ const DATA_PULAU = [
                             "makassar"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MIE%20KERING%20MAKASSAR.jpg?width=800",
+                    "ingredients_source": "https://www.goodnewsfromindonesia.id/indonesiana/wisata/melacak-sejarah-mie-titi-legenda-mie-kering-khas-makassar",
+
                     "price_range_ind": "Rp25.000 - Rp57.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-7846195/10-mie-titi-khas-makassar-yang-lezat-dan-legendaris",
                     "rating": 3.7,
@@ -6748,15 +7849,23 @@ const DATA_PULAU = [
                         "name": "Ayam Goreng Sulawesi",
                         "origin": "Makassar",
                         "category": "Main Dish",
-                        "description_eng": "Traditional fried chicken with soy sauce",
-                        "description_ind": "Varian Ayam Goreng Sulawesi otentik dari Makassar.",
+                        "description_eng": "Turmeric and galangal spiced fried chicken from Makassar, served with sambal and fresh herbs.",
+                        "description_ind": "Ayam goreng berrempah kunyit dan lengkuas khas Makassar yang disajikan dengan sambal dan lalapan.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Chicken",
+                            "Turmeric",
+                            "Galangal",
+                            "Lemongrass",
+                            "Garlic",
+                            "Coconut Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ayam",
+                            "Kunyit",
+                            "Lengkuas",
+                            "Serai",
+                            "Bawang Putih",
+                            "Santan"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6775,6 +7884,8 @@ const DATA_PULAU = [
                             "makassar"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_goreng",
+
                     "price_range_ind": "Rp20.000 - Rp35.000",
                     "price_source": "https://www.kompas.id/artikel/ayam-goreng-kupang-tiga-kali-lebih-mahal-dari-jakarta-hl1",
                     "rating": 4,
@@ -6787,15 +7898,23 @@ const DATA_PULAU = [
                         "name": "Jalangkote",
                         "origin": "Makassar",
                         "category": "Snack",
-                        "description_eng": "Pastry stuffed with carrots, potatoes and egg",
-                        "description_ind": "Varian Jalangkote otentik dari Makassar.",
+                        "description_eng": "A Makassar fried pastry filled with vegetables, glass noodles, and egg, served with a tangy chili-vinegar sauce.",
+                        "description_ind": "Pastel goreng khas Makassar berisi sayuran, soun, dan telur, disajikan dengan saus cabai cuka pedas.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Pastry Wrapper",
+                            "Vegetables",
+                            "Glass Noodles",
+                            "Egg",
+                            "Chili Sauce",
+                            "Vinegar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Kulit Pastry",
+                            "Sayuran",
+                            "Soun",
+                            "Telur",
+                            "Saus Cabai",
+                            "Cuka"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6814,6 +7933,8 @@ const DATA_PULAU = [
                             "makassar"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jalangkote%20dari%20Makassar.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Jalangkote",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://style.tribunnews.com/life/379622/gurih-renyah-4-rekomendasi-jalangkote-enak-di-makassar-bahkan-ada-yang-berdiri-sejak-1985",
                     "rating": 3.9,
@@ -6826,15 +7947,23 @@ const DATA_PULAU = [
                         "name": "Ikan Bakar Rica",
                         "origin": "Manado",
                         "category": "Main Dish",
-                        "description_eng": "Grilled fish with super spicy chili",
-                        "description_ind": "Varian Ikan Bakar Rica otentik dari Manado.",
+                        "description_eng": "Manado grilled fish topped with a spicy rica sambal of chilies, tomato, and kemangi basil.",
+                        "description_ind": "Ikan bakar khas Manado yang disiram sambal rica pedas dari cabai, tomat, dan daun kemangi.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Fish",
+                            "Red Chili",
+                            "Shallots",
+                            "Tomato",
+                            "Lime Leaves",
+                            "Basil"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ikan",
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Tomat",
+                            "Daun Jeruk",
+                            "Kemangi"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6853,6 +7982,8 @@ const DATA_PULAU = [
                             "manado"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Rica-rica",
+
                     "price_range_ind": "Rp30.000 - Rp85.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-5965169/5-warung-seafood-enak-di-jakarta-favorit-netizen-tiktok-mampir-yuk",
                     "rating": 4.3,
@@ -6865,15 +7996,23 @@ const DATA_PULAU = [
                         "name": "Ayam Rica-Rica",
                         "origin": "Manado",
                         "category": "Main Dish",
-                        "description_eng": "Extremely spicy chicken dish",
-                        "description_ind": "Varian Ayam Rica-Rica otentik dari Manado.",
+                        "description_eng": "Manado chicken cooked rica-rica style with red chilies, ginger, and lime leaves for a fiery kick.",
+                        "description_ind": "Ayam khas Manado yang dimasak dengan rica-rica: cabai merah, jahe, dan daun jeruk yang pedas menyengat.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Chicken",
+                            "Red Chili",
+                            "Shallots",
+                            "Ginger",
+                            "Lime Leaves",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ayam",
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Jahe",
+                            "Daun Jeruk",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6892,6 +8031,8 @@ const DATA_PULAU = [
                             "manado"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Rica-rica.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Rica-rica",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -6904,15 +8045,23 @@ const DATA_PULAU = [
                         "name": "Klappertaart",
                         "origin": "Manado",
                         "category": "Dessert",
-                        "description_eng": "Dutch-influenced coconut tart",
-                        "description_ind": "Varian Klappertaart otentik dari Manado.",
+                        "description_eng": "A Manado young coconut custard tart of Dutch colonial heritage, baked with milk, eggs, and cinnamon.",
+                        "description_ind": "Puding kelapa muda khas Manado warisan kuliner Belanda yang dipanggang dengan susu, telur, dan kayu manis.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Young Coconut",
+                            "Milk",
+                            "Eggs",
+                            "Sugar",
+                            "Cinnamon",
+                            "Butter"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Kelapa Muda",
+                            "Susu",
+                            "Telur",
+                            "Gula",
+                            "Kayu Manis",
+                            "Mentega"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6931,6 +8080,8 @@ const DATA_PULAU = [
                             "manado"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Klappertaart%20Khas%20Manado.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Klappertaart",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://www.kompas.com/food/read/2021/09/16/101029475/4-tempat-beli-klappertaart-di-manado-harga-menu-mulai-rp-20000",
                     "rating": 4.2,
@@ -6943,15 +8094,23 @@ const DATA_PULAU = [
                         "name": "Kaledo",
                         "origin": "Donggala",
                         "category": "Main Dish",
-                        "description_eng": "Cow trotter soup with sour broth",
-                        "description_ind": "Varian Kaledo otentik dari Donggala.",
+                        "description_eng": "A Buton beef trotter soup in a clear savory broth, eaten with chilies and a squeeze of lime.",
+                        "description_ind": "Sup kaki sapi khas Buton dengan kuah bening gurih yang disantap dengan cabai dan perasan jeruk nipis.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Beef Trotters",
+                            "Broth",
+                            "Chili",
+                            "Nutmeg",
+                            "Lime",
+                            "Sweet Soy Sauce"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Kaki Sapi",
+                            "Kaldu",
+                            "Cabai",
+                            "Pala",
+                            "Jeruk Nipis",
+                            "Kecap Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -6970,6 +8129,8 @@ const DATA_PULAU = [
                             "donggala"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaledo%20soup%2C%20Central%20Sulawesi%2C%202018-09-16.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kaledo",
+
                     "price_range_ind": "Rp40.000 - Rp60.000",
                     "price_source": "https://www.suara.com/lifestyle/2019/07/04/125610/cocok-disantap-saat-cuaca-dingin-menyeruput-seporsi-sop-donggala-khas-palu",
                     "rating": 4.7,
@@ -6985,13 +8146,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Sulawesi Selatan.",
                         "description_ind": "Hidangan Kopi Khas Sulawesi Selatan tradisional khas Sulawesi Selatan yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7010,6 +8172,8 @@ const DATA_PULAU = [
                             "sulawesi selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp3.000 - Rp5.000",
                     "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
                     "rating": null,
@@ -7027,12 +8191,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7051,6 +8221,8 @@ const DATA_PULAU = [
                             "sulawesi tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -7066,14 +8238,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Sulawesi Tenggara.",
                         "description_ind": "Hidangan Kerupuk Sulawesi Tenggara tradisional khas Sulawesi Tenggara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7092,6 +8266,8 @@ const DATA_PULAU = [
                             "sulawesi tenggara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -7108,13 +8284,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Kue Basah Sulawesi Barat tradisional khas Sulawesi Barat yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice Flour",
-                            "Coconut",
-                            "Sugar",
-                            "Pandan"
+                            "Coconut Milk",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Beras",
+                            "Santan",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7133,6 +8315,8 @@ const DATA_PULAU = [
                             "sulawesi barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -7148,13 +8332,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Sulawesi Tenggara.",
                         "description_ind": "Hidangan Kopi Khas Sulawesi Tenggara tradisional khas Sulawesi Tenggara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7173,6 +8358,8 @@ const DATA_PULAU = [
                             "sulawesi tenggara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp3.000 - Rp5.000",
                     "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
                     "rating": null,
@@ -7188,13 +8375,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Sulawesi Tengah.",
                         "description_ind": "Hidangan Kopi Khas Sulawesi Tengah tradisional khas Sulawesi Tengah yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7213,6 +8401,8 @@ const DATA_PULAU = [
                             "sulawesi tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp3.000 - Rp5.000",
                     "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
                     "rating": null,
@@ -7228,14 +8418,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Sulawesi Tengah.",
                         "description_ind": "Hidangan Sambal Sulawesi Tengah tradisional khas Sulawesi Tengah yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7254,6 +8450,8 @@ const DATA_PULAU = [
                             "sulawesi tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -7269,13 +8467,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Sulawesi Tengah.",
                         "description_ind": "Hidangan Kopi Khas Sulawesi Tengah tradisional khas Sulawesi Tengah yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7294,6 +8493,8 @@ const DATA_PULAU = [
                             "sulawesi tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp3.000 - Rp5.000",
                     "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
                     "rating": null,
@@ -7309,14 +8510,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Sulawesi Utara.",
                         "description_ind": "Hidangan Sambal Sulawesi Utara tradisional khas Sulawesi Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7335,6 +8542,8 @@ const DATA_PULAU = [
                             "sulawesi utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -7352,11 +8561,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7375,6 +8591,8 @@ const DATA_PULAU = [
                             "gorontalo"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
                     "rating": null,
@@ -7391,13 +8609,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng Sulawesi Utara tradisional khas Sulawesi Utara yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7416,6 +8640,8 @@ const DATA_PULAU = [
                             "sulawesi utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://food.detik.com/online-food/d-6086724/nasi-goreng-rp-18-000-vs-rp-140-000-mana-yang-lebih-enak",
                     "rating": null,
@@ -7433,12 +8659,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7457,6 +8689,8 @@ const DATA_PULAU = [
                             "sulawesi utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -7472,14 +8706,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Gorontalo marinade.",
                         "description_ind": "Hidangan Sate Gorontalo tradisional khas Gorontalo yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7498,6 +8738,8 @@ const DATA_PULAU = [
                             "gorontalo"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp20.000 - Rp35.000",
                     "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
                     "rating": null,
@@ -7513,14 +8755,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Sulawesi Barat.",
                         "description_ind": "Hidangan Kerupuk Sulawesi Barat tradisional khas Sulawesi Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7539,6 +8783,8 @@ const DATA_PULAU = [
                             "sulawesi barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -7554,14 +8800,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Sulawesi Barat marinade.",
                         "description_ind": "Hidangan Sate Sulawesi Barat tradisional khas Sulawesi Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7580,6 +8832,8 @@ const DATA_PULAU = [
                             "sulawesi barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp20.000 - Rp35.000",
                     "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
                     "rating": null,
@@ -7596,13 +8850,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Kue Basah Gorontalo tradisional khas Gorontalo yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice Flour",
-                            "Coconut",
-                            "Sugar",
-                            "Pandan"
+                            "Coconut Milk",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Beras",
+                            "Santan",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7621,6 +8881,8 @@ const DATA_PULAU = [
                             "gorontalo"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -7636,14 +8898,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Sulawesi Utara signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Sulawesi Utara tradisional khas Sulawesi Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Red Chili",
+                            "Shallots",
+                            "Tomato",
+                            "Lime",
+                            "Basil"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Tomat",
+                            "Jeruk Nipis",
+                            "Kemangi"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7662,6 +8930,8 @@ const DATA_PULAU = [
                             "sulawesi utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Dabu-dabu",
+
                     "price_range_ind": "Rp30.000 - Rp85.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-5965169/5-warung-seafood-enak-di-jakarta-favorit-netizen-tiktok-mampir-yuk",
                     "rating": 3.9,
@@ -7679,12 +8949,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7703,6 +8979,8 @@ const DATA_PULAU = [
                             "sulawesi barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp8.000 - Rp12.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-6599561/5-tempat-makan-bubur-ayam-sultan-harganya-sampai-rp-100-ribu-seporsi",
                     "rating": null,
@@ -7718,14 +8996,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Sulawesi Tenggara marinade.",
                         "description_ind": "Hidangan Sate Sulawesi Tenggara tradisional khas Sulawesi Tenggara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7744,6 +9028,8 @@ const DATA_PULAU = [
                             "sulawesi tenggara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://jadesta.kemenpar.go.id/paket/sate_pokea_dan_gogos",
                     "rating": null,
@@ -7761,12 +9047,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7785,6 +9077,8 @@ const DATA_PULAU = [
                             "sulawesi utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -7800,14 +9094,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Sulawesi Barat signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Sulawesi Barat tradisional khas Sulawesi Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7826,6 +9126,8 @@ const DATA_PULAU = [
                             "sulawesi barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp30.000 - Rp85.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-5965169/5-warung-seafood-enak-di-jakarta-favorit-netizen-tiktok-mampir-yuk",
                     "rating": null,
@@ -7841,14 +9143,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Sulawesi Barat signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Sulawesi Barat tradisional khas Sulawesi Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7867,6 +9175,8 @@ const DATA_PULAU = [
                             "sulawesi barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp30.000 - Rp85.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-5965169/5-warung-seafood-enak-di-jakarta-favorit-netizen-tiktok-mampir-yuk",
                     "rating": null,
@@ -7884,12 +9194,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7908,6 +9224,8 @@ const DATA_PULAU = [
                             "sulawesi utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -7924,13 +9242,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Sulawesi Utara tradisional khas Sulawesi Utara yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7949,6 +9273,8 @@ const DATA_PULAU = [
                             "sulawesi utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://video.tribunnews.com/news/957435/jual-es-campur-rp12-ribu-pasangan-ini-berhasil-sekolahkan-anak-hingga-lulus-pkn-stan",
                     "rating": null,
@@ -7966,12 +9292,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -7990,6 +9322,8 @@ const DATA_PULAU = [
                             "sulawesi utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp8.000 - Rp12.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-6599561/5-tempat-makan-bubur-ayam-sultan-harganya-sampai-rp-100-ribu-seporsi",
                     "rating": null,
@@ -8006,13 +9340,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Gorontalo tradisional khas Gorontalo yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8031,6 +9371,8 @@ const DATA_PULAU = [
                             "gorontalo"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://video.tribunnews.com/news/957435/jual-es-campur-rp12-ribu-pasangan-ini-berhasil-sekolahkan-anak-hingga-lulus-pkn-stan",
                     "rating": null,
@@ -8046,13 +9388,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Sulawesi Tengah.",
                         "description_ind": "Hidangan Kopi Khas Sulawesi Tengah tradisional khas Sulawesi Tengah yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8071,6 +9414,8 @@ const DATA_PULAU = [
                             "sulawesi tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp3.000 - Rp5.000",
                     "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
                     "rating": null,
@@ -8087,13 +9432,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Mie Kuah Gorontalo tradisional khas Gorontalo yang sangat digemari.",
                         "ingredients_eng": [
                             "Noodles",
-                            "Broth",
+                            "Chicken Broth",
+                            "Garlic",
+                            "Spring Onion",
                             "Vegetables",
-                            "Egg"
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Mie",
+                            "Kaldu Ayam",
+                            "Bawang Putih",
+                            "Daun Bawang",
+                            "Sayuran",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8112,6 +9463,8 @@ const DATA_PULAU = [
                             "gorontalo"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
+
                     "price_range_ind": "Rp8.000 - Rp12.000",
                     "price_source": "https://finance.detik.com/berita-ekonomi-bisnis/d-6230809/heboh-harga-mi-instan-naik-indomie-di-warkop-tembus-rp-12-000-porsi",
                     "rating": null,
@@ -8128,13 +9481,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Sulawesi Barat tradisional khas Sulawesi Barat yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8153,6 +9512,8 @@ const DATA_PULAU = [
                             "sulawesi barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://video.tribunnews.com/news/957435/jual-es-campur-rp12-ribu-pasangan-ini-berhasil-sekolahkan-anak-hingga-lulus-pkn-stan",
                     "rating": null,
@@ -8168,14 +9529,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Sulawesi Tenggara.",
                         "description_ind": "Hidangan Soto Sulawesi Tenggara tradisional khas Sulawesi Tenggara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8194,6 +9561,8 @@ const DATA_PULAU = [
                             "sulawesi tenggara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp6.000 - Rp15.000",
                     "price_source": "https://jatim.idntimes.com/food/dining-guide/warung-soto-ayam-termurah-di-probolinggo-c1c2-01-n55lj-gj4wfx",
                     "rating": null,
@@ -8210,13 +9579,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng Sulawesi Barat tradisional khas Sulawesi Barat yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8235,6 +9610,8 @@ const DATA_PULAU = [
                             "sulawesi barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://food.detik.com/online-food/d-6086724/nasi-goreng-rp-18-000-vs-rp-140-000-mana-yang-lebih-enak",
                     "rating": null,
@@ -8251,13 +9628,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Sulawesi Tengah tradisional khas Sulawesi Tengah yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8276,6 +9659,8 @@ const DATA_PULAU = [
                             "sulawesi tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://video.tribunnews.com/news/957435/jual-es-campur-rp12-ribu-pasangan-ini-berhasil-sekolahkan-anak-hingga-lulus-pkn-stan",
                     "rating": null,
@@ -8292,13 +9677,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng Gorontalo tradisional khas Gorontalo yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8317,6 +9708,8 @@ const DATA_PULAU = [
                             "gorontalo"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://food.detik.com/online-food/d-6086724/nasi-goreng-rp-18-000-vs-rp-140-000-mana-yang-lebih-enak",
                     "rating": null,
@@ -8333,13 +9726,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Sulawesi Tenggara tradisional khas Sulawesi Tenggara yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8358,6 +9757,8 @@ const DATA_PULAU = [
                             "sulawesi tenggara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://video.tribunnews.com/news/957435/jual-es-campur-rp12-ribu-pasangan-ini-berhasil-sekolahkan-anak-hingga-lulus-pkn-stan",
                     "rating": null,
@@ -8375,12 +9776,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8399,6 +9806,8 @@ const DATA_PULAU = [
                             "sulawesi selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp8.000 - Rp12.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-6599561/5-tempat-makan-bubur-ayam-sultan-harganya-sampai-rp-100-ribu-seporsi",
                     "rating": null,
@@ -8678,15 +10087,23 @@ const DATA_PULAU = [
                         "name": "Udang Selingkuh",
                         "origin": "Wamena",
                         "category": "Main Dish",
-                        "description_eng": "Crayfish cooked in sweet and sour sauce",
-                        "description_ind": "Varian Udang Selingkuh otentik dari Wamena.",
+                        "description_eng": "Prawns 'cheated on' with cuttlefish tentacles, battered and fried — a legendary Jayapura specialty.",
+                        "description_ind": "Udang yang 'ditusuki' tentakel sotong lalu digoreng tepung, sajian khas Jayapura yang unik dan legendaris.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Prawns",
+                            "Cuttlefish Tentacles",
+                            "Flour Batter",
+                            "Egg",
+                            "Garlic",
+                            "Chili Sauce"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Udang",
+                            "Tentakel Sotong",
+                            "Tepung",
+                            "Telur",
+                            "Bawang Putih",
+                            "Saus Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8705,6 +10122,8 @@ const DATA_PULAU = [
                             "wamena"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Danau%20Paniai.%20Danau%20Paniai%20adalah%20danau%20yang%20berada%20di%20kabupaten%20Paniai.%20Danau%20ini%20memiliki%20banyak%20keanekaragaman%20hayati%20yang%20sangat%20banyak.%20Salah%20satu%20spesies%20endemiknya%20adalah%20udang%20selingkuh.jpg?width=800",
+                    "ingredients_source": "https://www.indonesia.travel/id/id/travel-ideas/gastronomy/udang-selingkuh",
+
                     "price_range_ind": "Rp100.000 - Rp250.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/6155625/10-makanan-khas-manokwari-yang-wajib-dicoba-pencinta-kuliner-nusantara",
                     "rating": null,
@@ -8717,15 +10136,23 @@ const DATA_PULAU = [
                         "name": "Keladi Tumbuk",
                         "origin": "Biak",
                         "category": "Main Dish",
-                        "description_eng": "Mashed taro root dish",
-                        "description_ind": "Varian Keladi Tumbuk otentik dari Biak.",
+                        "description_eng": "Boiled taro pounded with coconut and salt, a chewy savory snack from Papua.",
+                        "description_ind": "Keladi rebus yang ditumbuk bersama kelapa dan garam, camilan khas Papua yang kenyal dan gurih.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Taro",
+                            "Grated Coconut",
+                            "Salt",
+                            "Chili",
+                            "Anchovies",
+                            "Basil"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Keladi",
+                            "Kelapa Parut",
+                            "Garam",
+                            "Cabai",
+                            "Teri",
+                            "Kemangi"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8744,6 +10171,8 @@ const DATA_PULAU = [
                             "biak"
                         ],
                         "image": null,
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Keladi_tumbuk",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -8756,15 +10185,23 @@ const DATA_PULAU = [
                         "name": "Ikan Kuah Hitam",
                         "origin": "Papua",
                         "category": "Main Dish",
-                        "description_eng": "Fish soup with black ink and spices",
-                        "description_ind": "Varian Ikan Kuah Hitam otentik dari Papua.",
+                        "description_eng": "Sentani lake fish (hebehelo) cooked with kluwek and taro leaves into a dark, earthy broth, traditionally served in clay pottery.",
+                        "description_ind": "Ikan danau khas Sentani (hebehelo) yang dimasak dengan kluwek dan daun keladi hingga kuahnya gelap pekat, disajikan dalam wadah gerabah.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Lake Fish",
+                            "Kluwek",
+                            "Taro Leaves",
+                            "Kemangi",
+                            "Chili",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ikan Danau",
+                            "Kluwek",
+                            "Daun Keladi",
+                            "Kemangi",
+                            "Cabai",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8783,6 +10220,8 @@ const DATA_PULAU = [
                             "papua"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://papua.tribunnews.com/2022/11/18/wisata-papua-sajian-kuliner-khas-ikan-kuah-hitam",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://travel.kompas.com/read/2019/12/03/170200627/icip-icip-makanan-khas-papua-keladi-tumbuk",
                     "rating": null,
@@ -8795,15 +10234,23 @@ const DATA_PULAU = [
                         "name": "Aunu Senebre",
                         "origin": "Papua",
                         "category": "Main Dish",
-                        "description_eng": "Anchovies with taro leaves and coconut",
-                        "description_ind": "Varian Aunu Senebre otentik dari Papua.",
+                        "description_eng": "Anchovies and rice mixed with turmeric-spiced grated coconut, a West Papua specialty.",
+                        "description_ind": "Teri dan nasi yang dicampur kelapa parut berbumbu kunyit, makanan khas Papua Barat.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Anchovies",
+                            "Rice",
+                            "Turmeric",
+                            "Grated Coconut",
+                            "Garlic",
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Teri Nasi",
+                            "Beras",
+                            "Kunyit",
+                            "Kelapa Parut",
+                            "Bawang Putih",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8822,6 +10269,8 @@ const DATA_PULAU = [
                             "papua"
                         ],
                         "image": null,
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Aunu_senebre",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -8834,15 +10283,23 @@ const DATA_PULAU = [
                         "name": "Abon Gulung",
                         "origin": "Manokwari",
                         "category": "Snack",
-                        "description_eng": "Bread rolls filled with thick beef floss",
-                        "description_ind": "Varian Abon Gulung otentik dari Manokwari.",
+                        "description_eng": "A Papua street snack: soft bread rolls buttered and filled with sweet-savory shredded beef.",
+                        "description_ind": "Roti gulung khas Papua yang dilumuri mentega dan mayones lalu diisi abon sapi manis gurih.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Shredded Beef",
+                            "Bread Roll",
+                            "Butter",
+                            "Milk",
+                            "Sugar",
+                            "Mayonnaise"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Abon Sapi",
+                            "Roti Gulung",
+                            "Mentega",
+                            "Susu",
+                            "Gula",
+                            "Mayones"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8861,6 +10318,8 @@ const DATA_PULAU = [
                             "manokwari"
                         ],
                         "image": null,
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Abon_gulung",
+
                     "price_range_ind": "Rp80.000 - Rp100.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/6155625/10-makanan-khas-manokwari-yang-wajib-dicoba-pencinta-kuliner-nusantara",
                     "rating": 3.9,
@@ -8873,15 +10332,23 @@ const DATA_PULAU = [
                         "name": "Es Kelapa Asam",
                         "origin": "Papua",
                         "category": "Beverage",
-                        "description_eng": "Coconut water with tamarind and sugar",
-                        "description_ind": "Varian Es Kelapa Asam otentik dari Papua.",
+                        "description_eng": "Fresh young coconut served over shaved ice with pandan-scented sugar syrup, a Papua refreshment.",
+                        "description_ind": "Kelapa muda segar yang disajikan dengan es serut dan air gula beraroma pandan, minuman khas Papua.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Young Coconut",
+                            "Tamarind",
+                            "Syrup",
+                            "Shaved Ice",
+                            "Pandan",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Kelapa Muda",
+                            "Asam Jawa",
+                            "Sirup",
+                            "Es Serut",
+                            "Pandan",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8912,15 +10379,23 @@ const DATA_PULAU = [
                         "name": "Sambal Colo-Colo Papua",
                         "origin": "Papua",
                         "category": "Condiment",
-                        "description_eng": "Spicy raw chili and tomato mix",
-                        "description_ind": "Varian Sambal Colo-Colo Papua otentik dari Papua.",
+                        "description_eng": "A Papua sambal of bird's eye chilies and shallots cut with lime juice and sweet soy sauce.",
+                        "description_ind": "Sambal khas Papua yang dibuat dari cabai rawit dan bawang merah yang dipecah dengan jeruk nipis dan kecap manis.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Bird's Eye Chili",
+                            "Shallots",
+                            "Lime",
+                            "Sweet Soy Sauce",
+                            "Kemangi",
+                            "Tomato"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Cabai Rawit",
+                            "Bawang Merah",
+                            "Jeruk Nipis",
+                            "Kecap Manis",
+                            "Kemangi",
+                            "Tomat"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8939,6 +10414,8 @@ const DATA_PULAU = [
                             "papua"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Colo-colo",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/6155625/10-makanan-khas-manokwari-yang-wajib-dicoba-pencinta-kuliner-nusantara",
                     "rating": null,
@@ -8951,15 +10428,23 @@ const DATA_PULAU = [
                         "name": "Sate Kerang Papua",
                         "origin": "Papua",
                         "category": "Snack",
-                        "description_eng": "Spicy grilled clam skewers",
-                        "description_ind": "Varian Sate Kerang Papua otentik dari Papua.",
+                        "description_eng": "Jayapura clam satay served with a spicy peanut sauce and a squeeze of lime.",
+                        "description_ind": "Sate kerang khas Jayapura yang disajikan dengan bumbu kacang pedas dan perasan jeruk nipis.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Clams",
+                            "Peanut Sauce",
+                            "Shallots",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Lime"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Kerang",
+                            "Bumbu Kacang",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Jeruk Nipis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -8978,6 +10463,8 @@ const DATA_PULAU = [
                             "papua"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Kerang%20Tampak%20Atas.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate_kerang",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -8990,15 +10477,23 @@ const DATA_PULAU = [
                         "name": "Sup Ikan Red Snapper",
                         "origin": "Jayapura",
                         "category": "Main Dish",
-                        "description_eng": "Clear red snapper soup with basil",
-                        "description_ind": "Varian Sup Ikan Red Snapper otentik dari Jayapura.",
+                        "description_eng": "A Papua red snapper soup in a tangy golden broth of turmeric, ginger, and kemangi basil.",
+                        "description_ind": "Sup kakap merah khas Papua dengan kuah kuning asam berrempah kunyit, jahe, dan kemangi.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Red Snapper",
+                            "Turmeric",
+                            "Tamarind",
+                            "Basil",
+                            "Tomato",
+                            "Ginger"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Kakap Merah",
+                            "Kunyit",
+                            "Asam",
+                            "Kemangi",
+                            "Tomat",
+                            "Jahe"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9017,6 +10512,8 @@ const DATA_PULAU = [
                             "jayapura"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sup_ikan",
+
                     "price_range_ind": "Rp55.000 - Rp70.000",
                     "price_source": "https://www.detik.com/bali/kuliner/d-8693243/kabar-baru-dari-warung-mak-beng-harga-berubah-buka-cabang",
                     "rating": null,
@@ -9029,15 +10526,23 @@ const DATA_PULAU = [
                         "name": "Ayam Goreng Mambri",
                         "origin": "Papua",
                         "category": "Main Dish",
-                        "description_eng": "Fried chicken marinated in local herbs",
-                        "description_ind": "Varian Ayam Goreng Mambri otentik dari Papua.",
+                        "description_eng": "Sorong-style chicken simmered in spiced coconut milk then fried until dry and crisp.",
+                        "description_ind": "Ayam goreng khas Sorong yang direbus dalam santan berrempah lalu digoreng hingga kering dan renyah.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Chicken",
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Chili",
+                            "Coconut Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ayam",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Cabai",
+                            "Santan"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9056,6 +10561,8 @@ const DATA_PULAU = [
                             "papua"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_goreng",
+
                     "price_range_ind": "Rp25.000 - Rp35.000",
                     "price_source": "https://kupang.tribunnews.com/editorial/983528/opini-seporsi-ayam-dua-jam-kerja",
                     "rating": null,
@@ -9071,13 +10578,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Papua.",
                         "description_ind": "Hidangan Kopi Khas Papua tradisional khas Papua yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9096,6 +10604,8 @@ const DATA_PULAU = [
                             "papua"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp3.000 - Rp5.000",
                     "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
                     "rating": null,
@@ -9112,13 +10622,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng Papua Barat Daya tradisional khas Papua Barat Daya yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9137,6 +10653,8 @@ const DATA_PULAU = [
                             "papua barat daya"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp10.000 - Rp20.000",
                     "price_source": "https://travel.tribunnews.com/2021/07/14/nasi-goreng-murah-meriah-di-pati-harganya-cuma-rp-3000-per-porsi",
                     "rating": null,
@@ -9154,12 +10672,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9178,6 +10702,8 @@ const DATA_PULAU = [
                             "papua selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -9195,12 +10721,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9219,6 +10751,8 @@ const DATA_PULAU = [
                             "papua tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -9234,13 +10768,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Papua Pegunungan.",
                         "description_ind": "Hidangan Kopi Khas Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9259,6 +10794,8 @@ const DATA_PULAU = [
                             "papua pegunungan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp3.000 - Rp5.000",
                     "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
                     "rating": null,
@@ -9274,14 +10811,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Papua Barat marinade.",
                         "description_ind": "Hidangan Sate Papua Barat tradisional khas Papua Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9300,6 +10843,8 @@ const DATA_PULAU = [
                             "papua barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
                     "rating": null,
@@ -9317,12 +10862,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9341,6 +10892,8 @@ const DATA_PULAU = [
                             "papua"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -9358,11 +10911,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9381,6 +10941,8 @@ const DATA_PULAU = [
                             "papua pegunungan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
                     "rating": null,
@@ -9396,14 +10958,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Papua Barat.",
                         "description_ind": "Hidangan Soto Papua Barat tradisional khas Papua Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9422,6 +10990,8 @@ const DATA_PULAU = [
                             "papua barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp5.000 - Rp15.000",
                     "price_source": "https://travel.tribunnews.com/2021/06/08/viral-soto-murah-rp-1000-di-sragen-tiap-jumat-tak-perlu-bayar",
                     "rating": null,
@@ -9438,13 +11008,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Mie Kuah Papua Barat tradisional khas Papua Barat yang sangat digemari.",
                         "ingredients_eng": [
                             "Noodles",
-                            "Broth",
+                            "Chicken Broth",
+                            "Garlic",
+                            "Spring Onion",
                             "Vegetables",
-                            "Egg"
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Mie",
+                            "Kaldu Ayam",
+                            "Bawang Putih",
+                            "Daun Bawang",
+                            "Sayuran",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9463,6 +11039,8 @@ const DATA_PULAU = [
                             "papua barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
+
                     "price_range_ind": "Rp5.000 - Rp25.000",
                     "price_source": "https://www.suara.com/lifestyle/2020/08/06/090056/mie-ayam-cuma-lima-ribu-porsi-bikin-kenyang-ini-ada-di-yogya",
                     "rating": null,
@@ -9478,14 +11056,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Papua Tengah.",
                         "description_ind": "Hidangan Sambal Papua Tengah tradisional khas Papua Tengah yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9504,6 +11088,8 @@ const DATA_PULAU = [
                             "papua tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -9521,12 +11107,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9545,6 +11137,8 @@ const DATA_PULAU = [
                             "papua"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp18.000 - Rp26.000",
                     "price_source": "https://jogja.tribunnews.com/2025/04/08/7-warung-bubur-lezat-di-jogja-cocok-untuk-sarapan-atau-kuliner-malam",
                     "rating": null,
@@ -9560,14 +11154,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Papua Pegunungan.",
                         "description_ind": "Hidangan Kerupuk Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9586,6 +11182,8 @@ const DATA_PULAU = [
                             "papua pegunungan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp1.000 - Rp2.000",
                     "price_source": "https://food.detik.com/berita-boga/d-6039515/sah-harga-kerupuk-warung-naik-jadi-rp-2-000-setelah-lebaran",
                     "rating": null,
@@ -9601,14 +11199,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Papua Pegunungan.",
                         "description_ind": "Hidangan Soto Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9627,6 +11231,8 @@ const DATA_PULAU = [
                             "papua pegunungan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp5.000 - Rp15.000",
                     "price_source": "https://travel.tribunnews.com/2021/06/08/viral-soto-murah-rp-1000-di-sragen-tiap-jumat-tak-perlu-bayar",
                     "rating": null,
@@ -9642,14 +11248,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Papua Pegunungan.",
                         "description_ind": "Hidangan Sambal Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9668,6 +11280,8 @@ const DATA_PULAU = [
                             "papua pegunungan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -9685,12 +11299,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9709,6 +11329,8 @@ const DATA_PULAU = [
                             "papua"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp18.000 - Rp26.000",
                     "price_source": "https://jogja.tribunnews.com/2025/04/08/7-warung-bubur-lezat-di-jogja-cocok-untuk-sarapan-atau-kuliner-malam",
                     "rating": null,
@@ -9724,14 +11346,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Papua Selatan marinade.",
                         "description_ind": "Hidangan Sate Papua Selatan tradisional khas Papua Selatan yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9750,6 +11378,8 @@ const DATA_PULAU = [
                             "papua selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
                     "rating": null,
@@ -9766,13 +11396,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Kue Basah Papua Barat Daya tradisional khas Papua Barat Daya yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice Flour",
-                            "Coconut",
-                            "Sugar",
-                            "Pandan"
+                            "Coconut Milk",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Beras",
+                            "Santan",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9791,6 +11427,8 @@ const DATA_PULAU = [
                             "papua barat daya"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
+
                     "price_range_ind": "Rp1.000 - Rp5.000",
                     "price_source": "https://aceh.tribunnews.com/video/1054409/video-harga-tepung-kanji-melonjak-pengusaha-penggilingan-bakso-di-aceh-tamiang-menjerit",
                     "rating": null,
@@ -9807,13 +11445,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Kue Basah Papua Barat Daya tradisional khas Papua Barat Daya yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice Flour",
-                            "Coconut",
-                            "Sugar",
-                            "Pandan"
+                            "Coconut Milk",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Beras",
+                            "Santan",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9832,6 +11476,8 @@ const DATA_PULAU = [
                             "papua barat daya"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
+
                     "price_range_ind": "Rp1.000 - Rp5.000",
                     "price_source": "https://aceh.tribunnews.com/video/1054409/video-harga-tepung-kanji-melonjak-pengusaha-penggilingan-bakso-di-aceh-tamiang-menjerit",
                     "rating": null,
@@ -9847,14 +11493,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Papua.",
                         "description_ind": "Hidangan Sambal Papua tradisional khas Papua yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9873,6 +11525,8 @@ const DATA_PULAU = [
                             "papua"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -9890,11 +11544,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9913,6 +11574,8 @@ const DATA_PULAU = [
                             "papua selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
                     "rating": null,
@@ -9930,12 +11593,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9954,6 +11623,8 @@ const DATA_PULAU = [
                             "papua selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -9969,14 +11640,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Papua Tengah.",
                         "description_ind": "Hidangan Kerupuk Papua Tengah tradisional khas Papua Tengah yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -9995,6 +11668,8 @@ const DATA_PULAU = [
                             "papua tengah"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp1.000 - Rp2.000",
                     "price_source": "https://food.detik.com/berita-boga/d-6039515/sah-harga-kerupuk-warung-naik-jadi-rp-2-000-setelah-lebaran",
                     "rating": null,
@@ -10010,14 +11685,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Papua Selatan marinade.",
                         "description_ind": "Hidangan Sate Papua Selatan tradisional khas Papua Selatan yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10036,6 +11717,8 @@ const DATA_PULAU = [
                             "papua selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
                     "rating": null,
@@ -10051,14 +11734,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Papua Barat.",
                         "description_ind": "Hidangan Sambal Papua Barat tradisional khas Papua Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10077,6 +11766,8 @@ const DATA_PULAU = [
                             "papua barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -10092,14 +11783,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Papua Selatan.",
                         "description_ind": "Hidangan Soto Papua Selatan tradisional khas Papua Selatan yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10118,6 +11815,8 @@ const DATA_PULAU = [
                             "papua selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp5.000 - Rp15.000",
                     "price_source": "https://travel.tribunnews.com/2021/06/08/viral-soto-murah-rp-1000-di-sragen-tiap-jumat-tak-perlu-bayar",
                     "rating": null,
@@ -10133,14 +11832,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Papua.",
                         "description_ind": "Hidangan Sambal Papua tradisional khas Papua yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10159,6 +11864,8 @@ const DATA_PULAU = [
                             "papua"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -10175,13 +11882,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Mie Kuah Papua Selatan tradisional khas Papua Selatan yang sangat digemari.",
                         "ingredients_eng": [
                             "Noodles",
-                            "Broth",
+                            "Chicken Broth",
+                            "Garlic",
+                            "Spring Onion",
                             "Vegetables",
-                            "Egg"
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Mie",
+                            "Kaldu Ayam",
+                            "Bawang Putih",
+                            "Daun Bawang",
+                            "Sayuran",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10200,6 +11913,8 @@ const DATA_PULAU = [
                             "papua selatan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
+
                     "price_range_ind": "Rp5.000 - Rp25.000",
                     "price_source": "https://www.suara.com/lifestyle/2020/08/06/090056/mie-ayam-cuma-lima-ribu-porsi-bikin-kenyang-ini-ada-di-yogya",
                     "rating": null,
@@ -10215,14 +11930,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Papua Pegunungan.",
                         "description_ind": "Hidangan Sambal Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10241,6 +11962,8 @@ const DATA_PULAU = [
                             "papua pegunungan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -10257,13 +11980,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Mie Kuah Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
                         "ingredients_eng": [
                             "Noodles",
-                            "Broth",
+                            "Chicken Broth",
+                            "Garlic",
+                            "Spring Onion",
                             "Vegetables",
-                            "Egg"
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Mie",
+                            "Kaldu Ayam",
+                            "Bawang Putih",
+                            "Daun Bawang",
+                            "Sayuran",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10282,6 +12011,8 @@ const DATA_PULAU = [
                             "papua pegunungan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
+
                     "price_range_ind": "Rp5.000 - Rp25.000",
                     "price_source": "https://www.suara.com/lifestyle/2020/08/06/090056/mie-ayam-cuma-lima-ribu-porsi-bikin-kenyang-ini-ada-di-yogya",
                     "rating": null,
@@ -10298,13 +12029,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Kue Basah Papua Barat tradisional khas Papua Barat yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice Flour",
-                            "Coconut",
-                            "Sugar",
-                            "Pandan"
+                            "Coconut Milk",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Beras",
+                            "Santan",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10323,6 +12060,8 @@ const DATA_PULAU = [
                             "papua barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
+
                     "price_range_ind": "Rp1.000 - Rp5.000",
                     "price_source": "https://aceh.tribunnews.com/video/1054409/video-harga-tepung-kanji-melonjak-pengusaha-penggilingan-bakso-di-aceh-tamiang-menjerit",
                     "rating": null,
@@ -10338,13 +12077,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Papua Pegunungan.",
                         "description_ind": "Hidangan Kopi Khas Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10363,6 +12103,8 @@ const DATA_PULAU = [
                             "papua pegunungan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp3.000 - Rp5.000",
                     "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
                     "rating": null,
@@ -10378,14 +12120,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Papua marinade.",
                         "description_ind": "Hidangan Sate Papua tradisional khas Papua yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10404,6 +12152,8 @@ const DATA_PULAU = [
                             "papua"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://video.tribunnews.com/travel/972435/cicipi-sate-kambing-pak-pur-tawangmangu-harga-rp21-ribu-dapat-10-tusuk-dengan-bumbu-yang-meresap",
                     "rating": null,
@@ -10419,13 +12169,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Papua.",
                         "description_ind": "Hidangan Kopi Khas Papua tradisional khas Papua yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10444,6 +12195,8 @@ const DATA_PULAU = [
                             "papua"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp3.000 - Rp5.000",
                     "price_source": "https://www.detik.com/jatim/berita/d-6110234/harga-mewah-secangkir-kopi-di-warkop-pangku-gresik",
                     "rating": null,
@@ -10460,13 +12213,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Papua Pegunungan tradisional khas Papua Pegunungan yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10485,6 +12244,8 @@ const DATA_PULAU = [
                             "papua pegunungan"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://video.tribunnews.com/news/957435/jual-es-campur-rp12-ribu-pasangan-ini-berhasil-sekolahkan-anak-hingga-lulus-pkn-stan",
                     "rating": null,
@@ -10785,15 +12546,23 @@ const DATA_PULAU = [
                         "name": "Sate Plecing",
                         "origin": "Singaraja",
                         "category": "Main Dish",
-                        "description_eng": "Pork/beef satay with spicy chili sauce",
-                        "description_ind": "Varian Sate Plecing otentik dari Singaraja.",
+                        "description_eng": "Balinese satay served with a fresh, fiery tomato-chili plecing sambal.",
+                        "description_ind": "Sate khas Bali yang disajikan dengan sambal plecing tomat cabai pedas segar.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Beef",
+                            "Tomato Chili Sambal",
+                            "Garlic",
+                            "Kaffir Lime Leaves",
+                            "Coconut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Daging Sapi",
+                            "Sambal Tomat Cabai",
+                            "Bawang Putih",
+                            "Daun Jeruk",
+                            "Kelapa",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10812,6 +12581,8 @@ const DATA_PULAU = [
                             "singaraja"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Plecing.jpg?width=800",
+                    "ingredients_source": "https://www.idntimes.com/food/recipe/resep-sate-plecing-khas-bali-c1c2-01-mtn6k-zmkgrq",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": 4.3,
@@ -10824,15 +12595,23 @@ const DATA_PULAU = [
                         "name": "Nasi Campur Bali",
                         "origin": "Bali",
                         "category": "Main Dish",
-                        "description_eng": "Mixed rice with assorted Balinese sides",
-                        "description_ind": "Varian Nasi Campur Bali otentik dari Bali.",
+                        "description_eng": "A Balinese mixed rice plate with shredded chicken, sate lilit, urab vegetables, and sambal matah over steamed rice.",
+                        "description_ind": "Nasi campur khas Bali berisi ayam suwir, sate lilit, sayur urab, dan sambal matah di atas nasi putih.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Steamed Rice",
+                            "Shredded Chicken",
+                            "Sate Lilit",
+                            "Sambal Matah",
+                            "Vegetables",
+                            "Peanut Sauce"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Nasi Putih",
+                            "Ayam Suwir",
+                            "Sate Lilit",
+                            "Sambal Matah",
+                            "Sayuran",
+                            "Bumbu Kacang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10851,6 +12630,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_campur",
+
                     "price_range_ind": "Rp15.000 - Rp30.000",
                     "price_source": "https://www.detik.com/bali/kuliner/d-6738434/5-rekomendasi-nasi-campur-terpopuler-di-bali",
                     "rating": 4.2,
@@ -10863,15 +12644,23 @@ const DATA_PULAU = [
                         "name": "Tum Ayam",
                         "origin": "Bali",
                         "category": "Side Dish",
-                        "description_eng": "Minced chicken steamed in banana leaf",
-                        "description_ind": "Varian Tum Ayam otentik dari Bali.",
+                        "description_eng": "Balinese tum: minced chicken seasoned with base genep, wrapped in banana leaf and steamed.",
+                        "description_ind": "Tum khas Bali: ayam giling berbumbu basa genep yang dibungkus daun pisang lalu dikukus.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Minced Chicken",
+                            "Banana Leaf",
+                            "Basa Genep",
+                            "Coconut",
+                            "Chili",
+                            "Lime Leaves"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ayam Giling",
+                            "Daun Pisang",
+                            "Basa Genep",
+                            "Kelapa",
+                            "Cabai",
+                            "Daun Jeruk"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10890,6 +12679,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800",
+                    "ingredients_source": "https://www.goodnewsfromindonesia.id/ragam/budaya/tum-ayam-khas-bali",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -10902,15 +12693,23 @@ const DATA_PULAU = [
                         "name": "Rujak Bulung",
                         "origin": "Bali",
                         "category": "Snack",
-                        "description_eng": "Seaweed salad with fish broth and chili",
-                        "description_ind": "Varian Rujak Bulung otentik dari Bali.",
+                        "description_eng": "A fresh Balinese seaweed salad tossed in a sweet-hot dressing of palm sugar and lime.",
+                        "description_ind": "Rujak rumput laut segar khas Bali yang diberi bumbu pedas manis dari gula merah dan jeruk nipis.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Seaweed",
+                            "Shallots",
+                            "Chili",
+                            "Lime",
+                            "Palm Sugar",
+                            "Tamarind"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Rumput Laut",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Jeruk Nipis",
+                            "Gula Merah",
+                            "Asam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10929,6 +12728,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rujak%20Bulung%20Buni.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Rujak_bulung",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://bali.tribunnews.com/2022/08/23/kuliner-bali-rujak-bulung-perpaduan-kenyal-dan-segar-yang-istimewa-harga-mulai-rp-10-ribuan",
                     "rating": null,
@@ -10941,15 +12742,23 @@ const DATA_PULAU = [
                         "name": "Serombotan",
                         "origin": "Klungkung",
                         "category": "Side Dish",
-                        "description_eng": "Mixed vegetables with spicy coconut topping",
-                        "description_ind": "Varian Serombotan otentik dari Klungkung.",
+                        "description_eng": "A Klungkung salad of blanched vegetables dressed in kalas coconut sauce and spicy crushed peanuts.",
+                        "description_ind": "Sayuran rebus khas Klungkung yang disiram bumbu kalas santan dan taburan kacang goreng pedas.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Boiled Vegetables",
+                            "Kalas Sauce",
+                            "Shrimp Paste",
+                            "Chili",
+                            "Fried Tofu",
+                            "Kencur"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Sayuran Rebus",
+                            "Bumbu Kalas",
+                            "Terasi",
+                            "Cabai",
+                            "Tahu Goreng",
+                            "Kencur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -10968,6 +12777,8 @@ const DATA_PULAU = [
                             "klungkung"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Serombotan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Serombotan",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://bali.suara.com/read/2025/04/16/170627/di-balik-nama-serombotan-kuliner-khas-bali-hidangan-para-raja-yang-kini-dijual-rp-5-ribuan",
                     "rating": 4.6,
@@ -10980,15 +12791,23 @@ const DATA_PULAU = [
                         "name": "Bebek Bengil",
                         "origin": "Ubud",
                         "category": "Main Dish",
-                        "description_eng": "Crispy deep-fried half duck",
-                        "description_ind": "Varian Bebek Bengil otentik dari Ubud.",
+                        "description_eng": "Ubud-style crispy fried duck marinated in Bali's base genep spice mix until the skin crackles.",
+                        "description_ind": "Bebek goreng khas Ubud yang dibumbui base genep rempah Bali lalu digoreng hingga kulitnya renyah.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Duck",
+                            "Turmeric",
+                            "Galangal",
+                            "Lemongrass",
+                            "Garlic",
+                            "Coriander"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Bebek",
+                            "Kunyit",
+                            "Lengkuas",
+                            "Serai",
+                            "Bawang Putih",
+                            "Ketumbar"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11007,6 +12826,8 @@ const DATA_PULAU = [
                             "ubud"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bebek%20bengil%2C%20Ubud%2C%20Bali.JPG?width=800",
+                    "ingredients_source": "https://www.bebekbengil.co.id/",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": 3.5,
@@ -11019,15 +12840,23 @@ const DATA_PULAU = [
                         "name": "Sate Kakul",
                         "origin": "Ubud",
                         "category": "Main Dish",
-                        "description_eng": "Grilled snail skewers with sweet soy",
-                        "description_ind": "Varian Sate Kakul otentik dari Ubud.",
+                        "description_eng": "Balinese snail satay grilled with a spiced grated coconut and kencur marinade.",
+                        "description_ind": "Sate keong (kakul) khas Bali yang dibakar dengan bumbu parutan kelapa, kencur, dan cabai.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Snails",
+                            "Grated Coconut",
+                            "Kencur",
+                            "Chili",
+                            "Lime Leaves",
+                            "Sweet Soy Sauce"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Keong",
+                            "Kelapa Parut",
+                            "Kencur",
+                            "Cabai",
+                            "Daun Jeruk",
+                            "Kecap Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11046,6 +12875,8 @@ const DATA_PULAU = [
                             "ubud"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://bali.idntimes.com/food/recipe/resep-sate-kakul-khas-bali-bikin-ketagihan-00-z9kr1-m06lzx",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": 4.4,
@@ -11058,15 +12889,23 @@ const DATA_PULAU = [
                         "name": "Tipat Cantok",
                         "origin": "Bali",
                         "category": "Main Dish",
-                        "description_eng": "Rice cake and vegetables in peanut sauce",
-                        "description_ind": "Varian Tipat Cantok otentik dari Bali.",
+                        "description_eng": "Balinese rice cake and bean sprouts with peanut sauce (cantok) and soy sauce, a popular vegetarian street food.",
+                        "description_ind": "Ketupat dan tauge khas Bali yang disiram bumbu kacang (cantok) dan kecap, sajian vegetarian jalanan.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Rice Cake",
+                            "Bean Sprouts",
+                            "Peanut Sauce",
+                            "Sweet Soy Sauce",
+                            "Tofu",
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ketupat",
+                            "Tauge",
+                            "Bumbu Kacang",
+                            "Kecap Manis",
+                            "Tahu",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11085,6 +12924,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tipat%20Cantok%20Khas%20Bali.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tipat_cantok",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://bali.tribunnews.com/2022/01/13/warung-tipat-cantok-ibu-dayu-denpasar-seporsi-hanya-rp-7-ribu-dengan-proses-pembuatan-tradisional",
                     "rating": null,
@@ -11097,15 +12938,23 @@ const DATA_PULAU = [
                         "name": "Jukut Undis",
                         "origin": "Buleleng",
                         "category": "Main Dish",
-                        "description_eng": "Black pigeon pea soup",
-                        "description_ind": "Varian Jukut Undis otentik dari Buleleng.",
+                        "description_eng": "Black-eyed peas slowly simmered in base genep-spiced coconut milk until the sauce thickens, a Bali classic.",
+                        "description_ind": "Kacang tolo khas Bali yang dimasak lama dalam santan berbumbu base genep hingga kuah mengental.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Black-eyed Peas",
+                            "Coconut Milk",
+                            "Turmeric",
+                            "Shallots",
+                            "Garlic",
+                            "Chicken Stock"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Kacang Tolo",
+                            "Santan",
+                            "Kunyit",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Kaldu Ayam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11124,6 +12973,8 @@ const DATA_PULAU = [
                             "buleleng"
                         ],
                         "image": null,
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kacang_tolo",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": 3.5,
@@ -11136,15 +12987,23 @@ const DATA_PULAU = [
                         "name": "Sambal Matah",
                         "origin": "Bali",
                         "category": "Condiment",
-                        "description_eng": "Raw shallot, lemongrass, and chili relish",
-                        "description_ind": "Varian Sambal Matah otentik dari Bali.",
+                        "description_eng": "Bali's raw sambal of finely sliced shallots, bird's eye chilies, lemongrass, and lime leaves in coconut oil.",
+                        "description_ind": "Sambal khas Bali yang diiris mentah dari bawang merah, cabai rawit, serai, dan daun jeruk berminyak kelapa.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Shallots",
+                            "Bird's Eye Chili",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
+                            "Coconut Oil",
+                            "Lime"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Bawang Merah",
+                            "Cabai Rawit",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Minyak Kelapa",
+                            "Jeruk Nipis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11163,6 +13022,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sambal%20Matah%20Bali.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal_matah",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -11178,14 +13039,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Bali.",
                         "description_ind": "Hidangan Kerupuk Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11204,6 +13067,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp1.000 - Rp2.000",
                     "price_source": "https://food.detik.com/berita-boga/d-6039515/sah-harga-kerupuk-warung-naik-jadi-rp-2-000-setelah-lebaran",
                     "rating": null,
@@ -11219,13 +13084,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Bali.",
                         "description_ind": "Hidangan Kopi Khas Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11244,6 +13110,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
                     "rating": null,
@@ -11259,14 +13127,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Bali.",
                         "description_ind": "Hidangan Sambal Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Bird's Eye Chili",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
+                            "Coconut Oil",
+                            "Lime"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bawang Merah",
+                            "Cabai Rawit",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Minyak Kelapa",
+                            "Jeruk Nipis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11285,6 +13159,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal_matah",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -11300,14 +13176,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Bali marinade.",
                         "description_ind": "Hidangan Sate Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11326,6 +13208,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp20.000 - Rp35.000",
                     "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
                     "rating": null,
@@ -11341,14 +13225,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Bali signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11367,6 +13257,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp15.000 - Rp40.000",
                     "price_source": "https://www.detik.com/jateng/kuliner/d-8093019/8-tempat-makan-ikan-bakar-di-semarang-terenak-dan-murah-menu-dan-harganya",
                     "rating": null,
@@ -11382,14 +13274,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Bali.",
                         "description_ind": "Hidangan Soto Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11408,6 +13306,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp5.000 - Rp15.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-6629724/murah-meriah-di-5-warung-soto-ini-bisa-jajan-soto-mulai-rp-1-000-per-porsi",
                     "rating": null,
@@ -11423,14 +13323,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Bali signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11449,6 +13355,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp15.000 - Rp40.000",
                     "price_source": "https://www.detik.com/jateng/kuliner/d-8093019/8-tempat-makan-ikan-bakar-di-semarang-terenak-dan-murah-menu-dan-harganya",
                     "rating": null,
@@ -11466,11 +13374,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11489,6 +13404,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp23.000 - Rp35.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
                     "rating": null,
@@ -11506,12 +13423,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11530,6 +13453,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-6599561/5-tempat-makan-bubur-ayam-sultan-harganya-sampai-rp-100-ribu-seporsi",
                     "rating": null,
@@ -11547,11 +13472,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11570,6 +13502,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp23.000 - Rp35.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
                     "rating": null,
@@ -11587,12 +13521,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11611,6 +13551,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-6599561/5-tempat-makan-bubur-ayam-sultan-harganya-sampai-rp-100-ribu-seporsi",
                     "rating": null,
@@ -11628,12 +13570,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11652,6 +13600,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-6599561/5-tempat-makan-bubur-ayam-sultan-harganya-sampai-rp-100-ribu-seporsi",
                     "rating": null,
@@ -11667,14 +13617,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Bali signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11693,6 +13649,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp15.000 - Rp40.000",
                     "price_source": "https://www.detik.com/jateng/kuliner/d-8093019/8-tempat-makan-ikan-bakar-di-semarang-terenak-dan-murah-menu-dan-harganya",
                     "rating": null,
@@ -11708,14 +13666,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Bali.",
                         "description_ind": "Hidangan Kerupuk Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11734,6 +13694,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp1.000 - Rp2.000",
                     "price_source": "https://food.detik.com/berita-boga/d-6039515/sah-harga-kerupuk-warung-naik-jadi-rp-2-000-setelah-lebaran",
                     "rating": null,
@@ -11749,14 +13711,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Bali marinade.",
                         "description_ind": "Hidangan Sate Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11775,6 +13743,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp20.000 - Rp35.000",
                     "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
                     "rating": null,
@@ -11790,14 +13760,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Bali signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11816,6 +13792,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp15.000 - Rp40.000",
                     "price_source": "https://www.detik.com/jateng/kuliner/d-8093019/8-tempat-makan-ikan-bakar-di-semarang-terenak-dan-murah-menu-dan-harganya",
                     "rating": null,
@@ -11831,14 +13809,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Bali marinade.",
                         "description_ind": "Hidangan Sate Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11857,6 +13841,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp20.000 - Rp35.000",
                     "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
                     "rating": null,
@@ -11873,13 +13859,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11898,6 +13890,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-6967038/slurpp-5-es-campur-di-jakarta-ini-kelezatannya-melegenda",
                     "rating": null,
@@ -11913,13 +13907,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Bali.",
                         "description_ind": "Hidangan Kopi Khas Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11938,6 +13933,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
                     "rating": null,
@@ -11953,13 +13950,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Bali.",
                         "description_ind": "Hidangan Kopi Khas Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -11978,6 +13976,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
                     "rating": null,
@@ -11993,14 +13993,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Bali.",
                         "description_ind": "Hidangan Kerupuk Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12019,6 +14021,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp1.000 - Rp2.000",
                     "price_source": "https://food.detik.com/berita-boga/d-6039515/sah-harga-kerupuk-warung-naik-jadi-rp-2-000-setelah-lebaran",
                     "rating": null,
@@ -12034,14 +14038,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Bali signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12060,6 +14070,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp15.000 - Rp40.000",
                     "price_source": "https://www.detik.com/jateng/kuliner/d-8093019/8-tempat-makan-ikan-bakar-di-semarang-terenak-dan-murah-menu-dan-harganya",
                     "rating": null,
@@ -12075,13 +14087,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Bali.",
                         "description_ind": "Hidangan Kopi Khas Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12100,6 +14113,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
                     "rating": null,
@@ -12117,11 +14132,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12140,6 +14162,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp23.000 - Rp35.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
                     "rating": null,
@@ -12157,12 +14181,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12181,6 +14211,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-6599561/5-tempat-makan-bubur-ayam-sultan-harganya-sampai-rp-100-ribu-seporsi",
                     "rating": null,
@@ -12198,11 +14230,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12221,6 +14260,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp23.000 - Rp35.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
                     "rating": null,
@@ -12238,12 +14279,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12262,6 +14309,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -12278,13 +14327,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Mie Kuah Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
                             "Noodles",
-                            "Broth",
+                            "Chicken Broth",
+                            "Garlic",
+                            "Spring Onion",
                             "Vegetables",
-                            "Egg"
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Mie",
+                            "Kaldu Ayam",
+                            "Bawang Putih",
+                            "Daun Bawang",
+                            "Sayuran",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12303,6 +14358,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://jakarta.tribunnews.com/2024/11/25/kesulitan-ekonomi-bikin-atik-jual-mi-ayam-rp-2-ribu-perporsi-keuntungan-bersih-perhari-rp-200-ribu",
                     "rating": null,
@@ -12318,14 +14375,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Bali.",
                         "description_ind": "Hidangan Soto Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12344,6 +14407,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp5.000 - Rp15.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-6629724/murah-meriah-di-5-warung-soto-ini-bisa-jajan-soto-mulai-rp-1-000-per-porsi",
                     "rating": null,
@@ -12359,14 +14424,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Bali marinade.",
                         "description_ind": "Hidangan Sate Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12385,6 +14456,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp20.000 - Rp35.000",
                     "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
                     "rating": null,
@@ -12401,13 +14474,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Kue Basah Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice Flour",
-                            "Coconut",
-                            "Sugar",
-                            "Pandan"
+                            "Coconut Milk",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Beras",
+                            "Santan",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12426,6 +14505,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
+
                     "price_range_ind": "Rp1.000 - Rp5.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-5957317/4-tempat-beli-kue-subuh-di-jakarta-harga-mulai-rp-1-000",
                     "rating": null,
@@ -12443,12 +14524,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12467,6 +14554,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -12482,14 +14571,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Bali.",
                         "description_ind": "Hidangan Sambal Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Bird's Eye Chili",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
+                            "Coconut Oil",
+                            "Lime"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bawang Merah",
+                            "Cabai Rawit",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Minyak Kelapa",
+                            "Jeruk Nipis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12508,6 +14603,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal_matah",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -12523,14 +14620,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Bali.",
                         "description_ind": "Hidangan Kerupuk Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12549,6 +14648,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp1.000 - Rp2.000",
                     "price_source": "https://food.detik.com/berita-boga/d-6039515/sah-harga-kerupuk-warung-naik-jadi-rp-2-000-setelah-lebaran",
                     "rating": null,
@@ -12564,14 +14665,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Bali signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Bali tradisional khas Bali yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12590,6 +14697,8 @@ const DATA_PULAU = [
                             "bali"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp15.000 - Rp40.000",
                     "price_source": "https://www.detik.com/jateng/kuliner/d-8093019/8-tempat-makan-ikan-bakar-di-semarang-terenak-dan-murah-menu-dan-harganya",
                     "rating": null,
@@ -12679,18 +14788,18 @@ const DATA_PULAU = [
                         "description_ind": "Daging sapi asap khas Kupang yang diasap perlahan di atas bara kayu kosambi selama berjam-jam, menghasilkan aroma asap harum dan disajikan dengan sambal lu'at segar.",
                         "ingredients_eng": [
                             "Beef",
-                            "Kosambi Wood",
+                            "Smoked Wood",
                             "Salt",
-                            "Spices",
                             "Chili",
+                            "Garlic",
                             "Lime Leaves"
                         ],
                         "ingredients_ind": [
                             "Daging Sapi",
-                            "Kayu Kosambi",
+                            "Asap Kayu",
                             "Garam",
-                            "Rempah Asap",
-                            "Cabai Rawit",
+                            "Cabai",
+                            "Bawang Putih",
                             "Daun Jeruk"
                         ],
                         "flavor_profile": [
@@ -12716,6 +14825,8 @@ const DATA_PULAU = [
                             "kosambi wood smoked"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sei%20sapi%20Pj%20DSC%202925.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Se%27i",
+
                     "price_range_ind": "Rp15.000 - Rp30.000",
                     "price_source": "https://www.tribunnews.com/travel/2020/09/14/nikmatnya-sei-sapi-daging-asap-cita-rasa-tradisional-ala-sei-sapiku",
                     "rating": null,
@@ -12889,15 +15000,23 @@ const DATA_PULAU = [
                         "name": "Jagung Bose",
                         "origin": "Timor",
                         "category": "Main Dish",
-                        "description_eng": "Corn porridge with kidney beans and coconut milk",
-                        "description_ind": "Varian Jagung Bose otentik dari Timor.",
+                        "description_eng": "A Timor corn porridge cooked with mung beans, spinach, and coconut milk, a staple carbohydrate of the Timorese.",
+                        "description_ind": "Bubur jagung khas Timor yang dimasak dengan kacang hijau, bayam, dan santan, sumber karbohidrat utama masyarakat Timor.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Corn",
+                            "Mung Beans",
+                            "Peanuts",
+                            "Spinach",
+                            "Coconut Milk",
+                            "Dried Fish"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Jagung",
+                            "Kacang Hijau",
+                            "Kacang Tanah",
+                            "Bayam",
+                            "Santan",
+                            "Ikan Asin"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12916,6 +15035,8 @@ const DATA_PULAU = [
                             "timor"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jagung%20Bose.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Jagung_bose",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -12928,15 +15049,23 @@ const DATA_PULAU = [
                         "name": "Rumpu Rampe",
                         "origin": "Flores",
                         "category": "Side Dish",
-                        "description_eng": "Stir-fried papaya leaves and flowers",
-                        "description_ind": "Varian Rumpu Rampe otentik dari Flores.",
+                        "description_eng": "A Sumbawa dish of snails and papaya leaves cooked in a spicy-sour spiced broth.",
+                        "description_ind": "Masakan keong dan daun pepaya khas Sumbawa yang dimasak berkuah asam pedas berrempah.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Snails",
+                            "Papaya Leaves",
+                            "Tamarind",
+                            "Chili",
+                            "Coconut Milk",
+                            "Turmeric"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Keong",
+                            "Daun Pepaya",
+                            "Asam",
+                            "Cabai",
+                            "Santan",
+                            "Kunyit"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12955,6 +15084,8 @@ const DATA_PULAU = [
                             "flores"
                         ],
                         "image": null,
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Rumpu_rampe",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -12967,15 +15098,23 @@ const DATA_PULAU = [
                         "name": "Ikan Kuah Asam",
                         "origin": "Kupang",
                         "category": "Main Dish",
-                        "description_eng": "Sour and spicy fish soup",
-                        "description_ind": "Varian Ikan Kuah Asam otentik dari Kupang.",
+                        "description_eng": "A refreshing sour fish soup from Nusa Tenggara with tomato and tamarind broth.",
+                        "description_ind": "Sup ikan asam segar khas Nusa Tenggara dengan kuah tomat dan asam yang menyegarkan.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Fish",
+                            "Tamarind",
+                            "Tomato",
+                            "Turmeric",
+                            "Chili",
+                            "Basil"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ikan",
+                            "Asam",
+                            "Tomat",
+                            "Kunyit",
+                            "Cabai",
+                            "Kemangi"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -12994,6 +15133,8 @@ const DATA_PULAU = [
                             "kupang"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20Kuah%20Asam%20Ternate.jpg?width=800",
+                    "ingredients_source": "https://www.idntimes.com/food/recipe/resep-ikan-kuah-asam-kuning-khas-nusa-tenggara-timur-00-mk1yf-1kfggt",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": 4.2,
@@ -13006,15 +15147,23 @@ const DATA_PULAU = [
                         "name": "Sate Bulayak",
                         "origin": "Lombok",
                         "category": "Main Dish",
-                        "description_eng": "Beef satay with unique spiral rice cake",
-                        "description_ind": "Varian Sate Bulayak otentik dari Lombok.",
+                        "description_eng": "Lombok beef satay in coconut milk gravy served with bulayak — small rice cakes wrapped in banana leaf.",
+                        "description_ind": "Sate sapi berkuah santan khas Lombok yang disajikan dengan bulayak, ketan kecil dibungkus daun pisang.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Beef",
+                            "Coconut Milk",
+                            "Turmeric",
+                            "Glutinous Rice",
+                            "Banana Leaf",
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Daging Sapi",
+                            "Santan",
+                            "Kunyit",
+                            "Beras Ketan",
+                            "Daun Pisang",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13033,6 +15182,8 @@ const DATA_PULAU = [
                             "lombok"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Bulayak.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate_bulayak",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://superapps.kompas.com/read/1527996/travel-update-berburu-sate-bulayak-kuliner-khas-lombok-seporsi-cuma-rp-20-ribu",
                     "rating": 3.9,
@@ -13045,15 +15196,23 @@ const DATA_PULAU = [
                         "name": "Nasi Puyung",
                         "origin": "Lombok",
                         "category": "Main Dish",
-                        "description_eng": "Spicy shredded chicken rice wrapped in banana leaf",
-                        "description_ind": "Varian Nasi Puyung otentik dari Lombok.",
+                        "description_eng": "Puyung rice from Central Lombok served with shredded chicken, serundeng coconut flakes, and spicy shrimp paste sambal.",
+                        "description_ind": "Nasi khas Puyung, Lombok Tengah, yang disajikan dengan ayam suwir, serundeng, dan sambal terasi pedas.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Steamed Rice",
+                            "Shredded Chicken",
+                            "Fried Soybeans",
+                            "Serundeng",
+                            "Sambal",
+                            "Grated Coconut"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Nasi Putih",
+                            "Ayam Suwir",
+                            "Kacang Kedelai Goreng",
+                            "Serundeng",
+                            "Sambal",
+                            "Kelapa Parut"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13072,6 +15231,8 @@ const DATA_PULAU = [
                             "lombok"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://travel.detik.com/domestic-destination/d-3184067/nikmatnya-kuliner-nasi-puyung-khas-lombok",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://www.detik.com/bali/kuliner/d-8311448/nasi-puyung-rp-10-ribu-di-lombok-barat-warga-antre-meski-penjual-belum-buka",
                     "rating": 3.6,
@@ -13084,15 +15245,23 @@ const DATA_PULAU = [
                         "name": "Bebalung",
                         "origin": "Lombok",
                         "category": "Main Dish",
-                        "description_eng": "Beef or buffalo rib soup",
-                        "description_ind": "Varian Bebalung otentik dari Lombok.",
+                        "description_eng": "A Lombok beef rib soup simmered with spices until the meat falls off the bone.",
+                        "description_ind": "Sup iga sapi khas Lombok yang dimasak berrempah hingga daging lepas dari tulang.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Beef Ribs",
+                            "Turmeric",
+                            "Garlic",
+                            "Shallots",
+                            "Chili",
+                            "Peppercorns"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Iga Sapi",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13111,6 +15280,8 @@ const DATA_PULAU = [
                             "lombok"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bebalung%20Lombok.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bebalung",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://ntb.idntimes.com/food/recipe/kuliner-legendaris-di-lombok-01-twm5y-hy3y9d",
                     "rating": 4,
@@ -13123,15 +15294,23 @@ const DATA_PULAU = [
                         "name": "Beberuk Terong",
                         "origin": "Lombok",
                         "category": "Side Dish",
-                        "description_eng": "Raw eggplant salad with spicy tomato sambal",
-                        "description_ind": "Varian Beberuk Terong otentik dari Lombok.",
+                        "description_eng": "Steamed eggplant salad from Lombok tossed in a fresh tomato-chili sambal with lime.",
+                        "description_ind": "Lalapan terong kukus khas Lombok yang dicampur sambal tomat cabai segar berjeruk nipis.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Eggplant",
+                            "Shallots",
+                            "Garlic",
+                            "Red Chili",
+                            "Lime",
+                            "Tomato"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Terong",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai Merah",
+                            "Jeruk Nipis",
+                            "Tomat"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13150,6 +15329,8 @@ const DATA_PULAU = [
                             "lombok"
                         ],
                         "image": null,
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Beberuk_terong",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://flores.tribunnews.com/manggarai-barat/58794/wisata-kuliner-labuan-bajo-ikan-kuah-asam-lapak-mama-mawar-jadi-primadona",
                     "rating": null,
@@ -13162,15 +15343,23 @@ const DATA_PULAU = [
                         "name": "Jawada",
                         "origin": "Flores",
                         "category": "Snack",
-                        "description_eng": "Hair-like crispy sweet snack made of palm sugar",
-                        "description_ind": "Varian Jawada otentik dari Flores.",
+                        "description_eng": "A Lombok moist cake of flour and coconut milk baked in small tins until golden.",
+                        "description_ind": "Kue basah khas Lombok dari tepung dan santan yang dipanggang dalam loyang kecil hingga keemasan.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Wheat Flour",
+                            "Coconut Milk",
+                            "Sugar",
+                            "Banana",
+                            "Vanilla",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Tepung Terigu",
+                            "Santan",
+                            "Gula",
+                            "Pisang",
+                            "Vanila",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13189,6 +15378,8 @@ const DATA_PULAU = [
                             "flores"
                         ],
                         "image": null,
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Jawada",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -13201,15 +15392,23 @@ const DATA_PULAU = [
                         "name": "Daging Se'i Babi",
                         "origin": "Kupang",
                         "category": "Main Dish",
-                        "description_eng": "Smoked pork with local spices (Non-halal)",
-                        "description_ind": "Varian Daging Se'i Babi otentik dari Kupang.",
+                        "description_eng": "Rote-style pork slowly smoked over kosambi wood fire until dry and red.",
+                        "description_ind": "Daging babi khas Rote yang diasap perlahan di atas api kayu kosambi hingga kering merah.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Pork",
+                            "Smoked Wood",
+                            "Salt",
+                            "Chili",
+                            "Garlic",
+                            "Lime Leaves"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Daging Babi",
+                            "Asap Kayu",
+                            "Garam",
+                            "Cabai",
+                            "Bawang Putih",
+                            "Daun Jeruk"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13228,6 +15427,8 @@ const DATA_PULAU = [
                             "kupang"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Se'i%20Babi%203.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Se%27i",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": 4,
@@ -13240,15 +15441,23 @@ const DATA_PULAU = [
                         "name": "Sate Susu",
                         "origin": "Lombok",
                         "category": "Main Dish",
-                        "description_eng": "Grilled cow udder with spicy sauce",
-                        "description_ind": "Varian Sate Susu otentik dari Lombok.",
+                        "description_eng": "Mataram satay of grilled beef udder served with sweet soy sauce and bird's eye chilies.",
+                        "description_ind": "Sate khas Mataram dari tetelan susu sapi yang dibakar dan disajikan dengan kecap dan cabai rawit.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Beef Udder",
+                            "Sweet Soy Sauce",
+                            "Chili",
+                            "Shallots",
+                            "Lime",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Tetelan Susu Sapi",
+                            "Kecap Manis",
+                            "Cabai",
+                            "Bawang Merah",
+                            "Jeruk Nipis",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13267,6 +15476,8 @@ const DATA_PULAU = [
                             "lombok"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate_susu",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -13283,13 +15494,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Mie Kuah Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Noodles",
-                            "Broth",
+                            "Chicken Broth",
+                            "Garlic",
+                            "Spring Onion",
                             "Vegetables",
-                            "Egg"
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Mie",
+                            "Kaldu Ayam",
+                            "Bawang Putih",
+                            "Daun Bawang",
+                            "Sayuran",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13308,6 +15525,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://jateng.tribunnews.com/travel/1230098/viral-mi-ayam-rasa-premium-cuma-rp5000-seporsi-solusi-jajan-ekonomis-di-pati",
                     "rating": null,
@@ -13325,11 +15544,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13348,6 +15574,8 @@ const DATA_PULAU = [
                             "nusa tenggara barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://food.detik.com/warung-makan/d-8668273/sinar-surya-laris-manis-ikan-bakar-padang-tendaan-rp33-ribu-di-benhil",
                     "rating": null,
@@ -13364,13 +15592,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13389,6 +15623,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp12.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
                     "rating": null,
@@ -13404,14 +15640,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Nusa Tenggara Timur signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13430,6 +15672,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp25.000 - Rp40.000",
                     "price_source": "https://food.detik.com/warung-makan/d-8668273/sinar-surya-laris-manis-ikan-bakar-padang-tendaan-rp33-ribu-di-benhil",
                     "rating": null,
@@ -13446,13 +15690,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Kue Basah Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice Flour",
-                            "Coconut",
-                            "Sugar",
-                            "Pandan"
+                            "Coconut Milk",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Beras",
+                            "Santan",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13471,6 +15721,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -13488,12 +15740,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13512,6 +15770,8 @@ const DATA_PULAU = [
                             "nusa tenggara barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Rp2.000 - Rp5.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-5591618/7-menu-warteg-favorit-dengan-harga-murah-cuma-rp-2-ribuan",
                     "rating": null,
@@ -13528,13 +15788,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13553,6 +15819,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp12.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
                     "rating": null,
@@ -13570,12 +15838,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13594,6 +15868,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Rp2.000 - Rp5.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-5591618/7-menu-warteg-favorit-dengan-harga-murah-cuma-rp-2-ribuan",
                     "rating": null,
@@ -13611,11 +15887,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13634,6 +15917,8 @@ const DATA_PULAU = [
                             "nusa tenggara barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://food.detik.com/warung-makan/d-8668273/sinar-surya-laris-manis-ikan-bakar-padang-tendaan-rp33-ribu-di-benhil",
                     "rating": null,
@@ -13650,13 +15935,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13675,6 +15966,8 @@ const DATA_PULAU = [
                             "nusa tenggara barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp12.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
                     "rating": null,
@@ -13692,12 +15985,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13716,6 +16015,8 @@ const DATA_PULAU = [
                             "nusa tenggara barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp10.000 - Rp20.000",
                     "price_source": "https://superapps.kompas.com/read/2446601/bubur-ayam-murah-dengan-topping-melimpah-di-jakarta-utara-seporsi-cuma-rp-15-ribu",
                     "rating": null,
@@ -13732,13 +16033,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13757,6 +16064,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp12.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
                     "rating": null,
@@ -13772,14 +16081,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Nusa Tenggara Barat.",
                         "description_ind": "Hidangan Sambal Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13798,6 +16113,8 @@ const DATA_PULAU = [
                             "nusa tenggara barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://food.detik.com/warung-makan/d-7568097/warung-sambal-atom-pedas-nendang-8-jenis-sambal-yang-sedap-di-warung-makan-24-jam",
                     "rating": null,
@@ -13813,14 +16130,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Nusa Tenggara Timur.",
                         "description_ind": "Hidangan Sambal Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13839,6 +16162,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://food.detik.com/warung-makan/d-7568097/warung-sambal-atom-pedas-nendang-8-jenis-sambal-yang-sedap-di-warung-makan-24-jam",
                     "rating": null,
@@ -13856,12 +16181,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13880,6 +16211,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Rp2.000 - Rp5.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-5591618/7-menu-warteg-favorit-dengan-harga-murah-cuma-rp-2-ribuan",
                     "rating": null,
@@ -13896,13 +16229,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Mie Kuah Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Noodles",
-                            "Broth",
+                            "Chicken Broth",
+                            "Garlic",
+                            "Spring Onion",
                             "Vegetables",
-                            "Egg"
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Mie",
+                            "Kaldu Ayam",
+                            "Bawang Putih",
+                            "Daun Bawang",
+                            "Sayuran",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13921,6 +16260,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://jateng.tribunnews.com/travel/1230098/viral-mi-ayam-rasa-premium-cuma-rp5000-seporsi-solusi-jajan-ekonomis-di-pati",
                     "rating": null,
@@ -13937,13 +16278,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -13962,6 +16309,8 @@ const DATA_PULAU = [
                             "nusa tenggara barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://food.detik.com/online-food/d-6086724/nasi-goreng-rp-18-000-vs-rp-140-000-mana-yang-lebih-enak",
                     "rating": null,
@@ -13978,13 +16327,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14003,6 +16358,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp12.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
                     "rating": null,
@@ -14019,13 +16376,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Mie Kuah Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Noodles",
-                            "Broth",
+                            "Chicken Broth",
+                            "Garlic",
+                            "Spring Onion",
                             "Vegetables",
-                            "Egg"
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Mie",
+                            "Kaldu Ayam",
+                            "Bawang Putih",
+                            "Daun Bawang",
+                            "Sayuran",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14044,6 +16407,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://jateng.tribunnews.com/travel/1230098/viral-mi-ayam-rasa-premium-cuma-rp5000-seporsi-solusi-jajan-ekonomis-di-pati",
                     "rating": null,
@@ -14060,13 +16425,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14085,6 +16456,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp12.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
                     "rating": null,
@@ -14101,13 +16474,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14126,6 +16505,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp12.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
                     "rating": null,
@@ -14141,14 +16522,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Nusa Tenggara Barat.",
                         "description_ind": "Hidangan Sambal Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14167,6 +16554,8 @@ const DATA_PULAU = [
                             "nusa tenggara barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://food.detik.com/warung-makan/d-7568097/warung-sambal-atom-pedas-nendang-8-jenis-sambal-yang-sedap-di-warung-makan-24-jam",
                     "rating": null,
@@ -14182,14 +16571,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Nusa Tenggara Barat marinade.",
                         "description_ind": "Hidangan Sate Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14208,6 +16603,8 @@ const DATA_PULAU = [
                             "nusa tenggara barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://ntb.idntimes.com/food/recipe/kuliner-legendaris-di-lombok-01-twm5y-hy3y9d",
                     "rating": null,
@@ -14223,14 +16620,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Nusa Tenggara Timur.",
                         "description_ind": "Hidangan Sambal Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14249,6 +16652,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://food.detik.com/warung-makan/d-7568097/warung-sambal-atom-pedas-nendang-8-jenis-sambal-yang-sedap-di-warung-makan-24-jam",
                     "rating": null,
@@ -14266,11 +16671,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14289,6 +16701,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://food.detik.com/warung-makan/d-8668273/sinar-surya-laris-manis-ikan-bakar-padang-tendaan-rp33-ribu-di-benhil",
                     "rating": null,
@@ -14305,13 +16719,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14330,6 +16750,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://food.detik.com/online-food/d-6086724/nasi-goreng-rp-18-000-vs-rp-140-000-mana-yang-lebih-enak",
                     "rating": null,
@@ -14345,14 +16767,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Nusa Tenggara Barat.",
                         "description_ind": "Hidangan Sambal Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14371,6 +16799,8 @@ const DATA_PULAU = [
                             "nusa tenggara barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://food.detik.com/warung-makan/d-7568097/warung-sambal-atom-pedas-nendang-8-jenis-sambal-yang-sedap-di-warung-makan-24-jam",
                     "rating": null,
@@ -14387,13 +16817,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14412,6 +16848,8 @@ const DATA_PULAU = [
                             "nusa tenggara barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://food.detik.com/online-food/d-6086724/nasi-goreng-rp-18-000-vs-rp-140-000-mana-yang-lebih-enak",
                     "rating": null,
@@ -14427,13 +16865,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Nusa Tenggara Timur.",
                         "description_ind": "Hidangan Kopi Khas Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14452,6 +16891,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://jakarta.suara.com/read/2026/04/26/175417/7-kopi-susu-gula-aren-murah-di-jakarta-yang-masih-ramah-di-kantong-ada-yang-cuma-rp15-ribuan",
                     "rating": null,
@@ -14467,14 +16908,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Nusa Tenggara Timur.",
                         "description_ind": "Hidangan Sambal Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14493,6 +16940,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://food.detik.com/warung-makan/d-7568097/warung-sambal-atom-pedas-nendang-8-jenis-sambal-yang-sedap-di-warung-makan-24-jam",
                     "rating": null,
@@ -14509,13 +16958,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Nusa Tenggara Barat tradisional khas Nusa Tenggara Barat yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14534,6 +16989,8 @@ const DATA_PULAU = [
                             "nusa tenggara barat"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp12.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
                     "rating": null,
@@ -14549,14 +17006,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Nusa Tenggara Timur signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Sweet Soy Sauce",
+                            "Garlic",
+                            "Coriander",
+                            "Lime",
+                            "Sambal"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Kecap Manis",
+                            "Bawang Putih",
+                            "Ketumbar",
+                            "Jeruk Nipis",
+                            "Sambal"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14575,6 +17038,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
+
                     "price_range_ind": "Rp25.000 - Rp40.000",
                     "price_source": "https://food.detik.com/warung-makan/d-8668273/sinar-surya-laris-manis-ikan-bakar-padang-tendaan-rp33-ribu-di-benhil",
                     "rating": null,
@@ -14591,13 +17056,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Nasi Goreng Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice",
-                            "Soy Sauce",
-                            "Spices",
-                            "Chili"
+                            "Shallots",
+                            "Garlic",
+                            "Chili",
+                            "Sweet Soy Sauce",
+                            "Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Nasi Putih",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Cabai",
+                            "Kecap Manis",
+                            "Telur"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14616,6 +17087,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://food.detik.com/online-food/d-6086724/nasi-goreng-rp-18-000-vs-rp-140-000-mana-yang-lebih-enak",
                     "rating": null,
@@ -14632,13 +17105,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Kue Basah Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice Flour",
-                            "Coconut",
-                            "Sugar",
-                            "Pandan"
+                            "Coconut Milk",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Beras",
+                            "Santan",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14657,6 +17136,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -14672,14 +17153,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Nusa Tenggara Timur.",
                         "description_ind": "Hidangan Sambal Nusa Tenggara Timur tradisional khas Nusa Tenggara Timur yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -14698,6 +17185,8 @@ const DATA_PULAU = [
                             "nusa tenggara timur"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://food.detik.com/warung-makan/d-7568097/warung-sambal-atom-pedas-nendang-8-jenis-sambal-yang-sedap-di-warung-makan-24-jam",
                     "rating": null,
@@ -14994,15 +17483,23 @@ const DATA_PULAU = [
                         "name": "Ikan Asar",
                         "origin": "Ambon",
                         "category": "Main Dish",
-                        "description_eng": "Smoked skipjack tuna with spices",
-                        "description_ind": "Varian Ikan Asar otentik dari Ambon.",
+                        "description_eng": "Salted and sun-dried (asar) skipjack tuna from Maluku, cooked in a spicy yellow broth.",
+                        "description_ind": "Ikan cakalang yang diasinkan dan dijemur (asar) khas Maluku, dimasak berkuah kuning pedas.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Tuna",
+                            "Salt",
+                            "Turmeric",
+                            "Chili",
+                            "Lime Leaves",
+                            "Basil"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ikan Cakalang",
+                            "Garam",
+                            "Kunyit",
+                            "Cabai",
+                            "Daun Jeruk",
+                            "Kemangi"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15021,6 +17518,8 @@ const DATA_PULAU = [
                             "ambon"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Cakalang",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://ambon.tribunnews.com/2023/04/25/ikan-asar-di-batu-meja-harga-mulai-rp-15-ribuan",
                     "rating": null,
@@ -15033,15 +17532,23 @@ const DATA_PULAU = [
                         "name": "Kasbi Kompa",
                         "origin": "Maluku",
                         "category": "Snack",
-                        "description_eng": "Cassava cake steamed with coconut",
-                        "description_ind": "Varian Kasbi Kompa otentik dari Maluku.",
+                        "description_eng": "Maluku cassava steamed with sweet grated coconut, a traditional snack of the Spice Islands.",
+                        "description_ind": "Singkong khas Maluku yang dikukus dengan kelapa parut manis, camilan tradisional kepulauan rempah.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Cassava",
+                            "Grated Coconut",
+                            "Palm Sugar",
+                            "Salt",
+                            "Pandan",
+                            "Banana Leaf"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Singkong",
+                            "Kelapa Parut",
+                            "Gula Merah",
+                            "Garam",
+                            "Pandan",
+                            "Daun Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15060,6 +17567,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": null,
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kasbi",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -15072,15 +17581,23 @@ const DATA_PULAU = [
                         "name": "Kohu-Kohu",
                         "origin": "Ambon",
                         "category": "Side Dish",
-                        "description_eng": "Cassava and fish salad with grated coconut",
-                        "description_ind": "Varian Kohu-Kohu otentik dari Ambon.",
+                        "description_eng": "A Maluku fish salad mixed with kemangi basil, chili, and toasted coconut with a touch of tamarind.",
+                        "description_ind": "Salad ikan khas Maluku yang dicampur kemangi, cabai, dan kelapa sangrai dengan sedikit asam.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Salted Fish",
+                            "Tamarind",
+                            "Basil",
+                            "Chili",
+                            "Shallots",
+                            "Toasted Coconut"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ikan Asin",
+                            "Asam",
+                            "Kemangi",
+                            "Cabai",
+                            "Bawang Merah",
+                            "Kelapa Sangrai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15099,6 +17616,8 @@ const DATA_PULAU = [
                             "ambon"
                         ],
                         "image": null,
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kohu-kohu",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -15111,15 +17630,23 @@ const DATA_PULAU = [
                         "name": "Roti Kenari",
                         "origin": "Ambon",
                         "category": "Snack",
-                        "description_eng": "Sweet bread topped with local pili nuts",
-                        "description_ind": "Varian Roti Kenari otentik dari Ambon.",
+                        "description_eng": "An Ambon sweet-savory bread studded with roasted candlenuts, a colonial-era heritage bake.",
+                        "description_ind": "Roti khas Ambon yang gurih manis berisi kenari panggang, warisan kuliner kolonial Ambon.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Candlenuts",
+                            "Wheat Flour",
+                            "Eggs",
+                            "Sugar",
+                            "Butter",
+                            "Vanilla"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Kenari",
+                            "Tepung Terigu",
+                            "Telur",
+                            "Gula",
+                            "Mentega",
+                            "Vanila"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15138,6 +17665,8 @@ const DATA_PULAU = [
                             "ambon"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roti%20Kenari%20(top%20view).jpg?width=800",
+                    "ingredients_source": "https://www.tempo.co/gaya-hidup/4-kuliner-khas-ambon-berbahan-kacang-kenari-enak-sekali-239412",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -15150,15 +17679,23 @@ const DATA_PULAU = [
                         "name": "Es Kacang Merah Ambon",
                         "origin": "Ambon",
                         "category": "Dessert",
-                        "description_eng": "Red bean shaved ice with syrup and milk",
-                        "description_ind": "Varian Es Kacang Merah Ambon otentik dari Ambon.",
+                        "description_eng": "Ambon's red bean ice: sweet stewed red beans over shaved ice with condensed milk.",
+                        "description_ind": "Es kacang merah khas Ambon: kacang merah rebus manis disajikan dengan es serut dan susu kental manis.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Red Beans",
+                            "Shaved Ice",
+                            "Condensed Milk",
+                            "Sugar",
+                            "Cocoa",
+                            "Jelly"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Kacang Merah",
+                            "Es Serut",
+                            "Susu Kental Manis",
+                            "Gula",
+                            "Cokelat",
+                            "Selatin"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15177,6 +17714,8 @@ const DATA_PULAU = [
                             "ambon"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_kacang_merah",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://ambon.tribunnews.com/2022/04/20/resep-es-kacang-merah-minuman-segar-untuk-buka-puasa-yang-sering-ditemukan-di-ambon",
                     "rating": null,
@@ -15189,15 +17728,23 @@ const DATA_PULAU = [
                         "name": "Halua Kenari",
                         "origin": "Maluku",
                         "category": "Snack",
-                        "description_eng": "Caramelized kenari nut brittle",
-                        "description_ind": "Varian Halua Kenari otentik dari Maluku.",
+                        "description_eng": "Maluku candlenut sweets coated in caramelized palm sugar and sprinkled with sesame.",
+                        "description_ind": "Permen kenari khas Maluku yang dilapisi gula merah karamel dan taburan wijen.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Candlenuts",
+                            "Palm Sugar",
+                            "Water",
+                            "Salt",
+                            "Pandan",
+                            "Sesame"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Kenari",
+                            "Gula Merah",
+                            "Air",
+                            "Garam",
+                            "Pandan",
+                            "Wijen"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15216,6 +17763,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Halua%20Kenari.jpg?width=800",
+                    "ingredients_source": "https://indonesiakaya.com/pustaka-indonesia/halua-kenari-camilan-khas-manado-yang-kaya-nutrisi-dan-rasa/",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -15228,15 +17777,23 @@ const DATA_PULAU = [
                         "name": "Ikan Bakar Dabu-dabu",
                         "origin": "Ambon",
                         "category": "Main Dish",
-                        "description_eng": "Grilled fish with fresh raw sambal",
-                        "description_ind": "Varian Ikan Bakar Dabu-dabu otentik dari Ambon.",
+                        "description_eng": "Manado-Maluku grilled fish served with dabu-dabu — a fresh relish of sliced chili, tomato, and shallots.",
+                        "description_ind": "Ikan bakar khas Manado-Maluku yang disajikan dengan dabu-dabu: irisan cabai, tomat, dan bawang segar.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Fish",
+                            "Red Chili",
+                            "Shallots",
+                            "Tomato",
+                            "Lime",
+                            "Basil"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Ikan",
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Tomat",
+                            "Jeruk Nipis",
+                            "Kemangi"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15255,6 +17812,8 @@ const DATA_PULAU = [
                             "ambon"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20Bakar%20Dabu-dabu%20Ternate%203.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Dabu-dabu",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://ambon.antaranews.com/berita/169632/nikmatnya-ikan-bakar-sambal-colo-colo-khas-maluku",
                     "rating": 4.1,
@@ -15267,15 +17826,23 @@ const DATA_PULAU = [
                         "name": "Sagu Gula",
                         "origin": "Maluku",
                         "category": "Snack",
-                        "description_eng": "Sago baked with melted palm sugar",
-                        "description_ind": "Varian Sagu Gula otentik dari Maluku.",
+                        "description_eng": "Maluku sago pearls cooked with palm sugar and coconut milk into a sticky sweet dessert.",
+                        "description_ind": "Bola-bola sagu khas Maluku yang dimasak dengan gula merah dan santan hingga lengket manis.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Sago",
+                            "Palm Sugar",
+                            "Coconut Milk",
+                            "Pandan",
+                            "Water",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Sagu",
+                            "Gula Merah",
+                            "Santan",
+                            "Pandan",
+                            "Air",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15294,6 +17861,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sagu%20gula%20melaka.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sagu",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://www.antarafoto.com/id/view/1468630/sagu-gula-makanan-khas-maluku",
                     "rating": null,
@@ -15306,15 +17875,23 @@ const DATA_PULAU = [
                         "name": "Pisang Asar",
                         "origin": "Ambon",
                         "category": "Snack",
-                        "description_eng": "Baked plantains mixed with nuts and cinnamon",
-                        "description_ind": "Varian Pisang Asar otentik dari Ambon.",
+                        "description_eng": "Smoked bananas from Central Maluku served with sweet-salted grated coconut (gula garam).",
+                        "description_ind": "Pisang yang diasap khas Maluku Tengah dan disajikan dengan kelapa parut manis (gula garam).",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Bananas",
+                            "Smoked Wood",
+                            "Grated Coconut",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Pisang",
+                            "Asap Kayu",
+                            "Kelapa Parut",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15333,6 +17910,8 @@ const DATA_PULAU = [
                             "ambon"
                         ],
                         "image": null,
+                    "ingredients_source": "https://www.liputan6.com/regional/read/6029217/fakta-unik-pisang-asar-khas-ambon-simak-resepnya",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -15345,15 +17924,23 @@ const DATA_PULAU = [
                         "name": "Sayur Lilin",
                         "origin": "Ternate",
                         "category": "Side Dish",
-                        "description_eng": "Sugar cane flower cooked in coconut milk",
-                        "description_ind": "Varian Sayur Lilin otentik dari Ternate.",
+                        "description_eng": "A Maluku fish ball soup in spiced yellow coconut milk broth with fresh vegetables.",
+                        "description_ind": "Sup bakso ikan khas Maluku dalam kuah santan kuning berrempah, disajikan dengan sayuran segar.",
                         "ingredients_eng": [
-                            "Local Ingredients",
-                            "Spices"
+                            "Fish Balls",
+                            "Coconut Milk",
+                            "Turmeric",
+                            "Chili",
+                            "Galangal",
+                            "Vegetables"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah-rempah"
+                            "Bakso Ikan",
+                            "Santan",
+                            "Kunyit",
+                            "Cabai",
+                            "Lengkuas",
+                            "Sayuran"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15372,6 +17959,8 @@ const DATA_PULAU = [
                             "ternate"
                         ],
                         "image": null,
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sayur_lilin",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -15389,11 +17978,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15412,6 +18008,8 @@ const DATA_PULAU = [
                             "maluku utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp2.000 - Rp5.000",
                     "price_source": "https://ambon.tribunnews.com/2022/04/06/nikmatnya-berbuka-puasa-dengan-pisang-asar-khas-ambon",
                     "rating": 4.4,
@@ -15427,14 +18025,20 @@ const DATA_PULAU = [
                         "description_eng": "Spicy signature chili paste from Maluku.",
                         "description_ind": "Hidangan Sambal Maluku tradisional khas Maluku yang sangat digemari.",
                         "ingredients_eng": [
-                            "Chili",
+                            "Red Chili",
                             "Shallots",
-                            "Shrimp Paste",
-                            "Tomato"
+                            "Garlic",
+                            "Tomato",
+                            "Tamarind",
+                            "Salt"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Bawang Putih",
+                            "Tomat",
+                            "Asam",
+                            "Garam"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15453,6 +18057,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -15469,13 +18075,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15494,6 +18106,8 @@ const DATA_PULAU = [
                             "maluku utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp12.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
                     "rating": null,
@@ -15510,13 +18124,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Mie Kuah Maluku tradisional khas Maluku yang sangat digemari.",
                         "ingredients_eng": [
                             "Noodles",
-                            "Broth",
+                            "Chicken Broth",
+                            "Garlic",
+                            "Spring Onion",
                             "Vegetables",
-                            "Egg"
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Mie",
+                            "Kaldu Ayam",
+                            "Bawang Putih",
+                            "Daun Bawang",
+                            "Sayuran",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15535,6 +18155,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8731384/7-mie-ayam-legendaris-di-jakarta-barat-harganya-mulai-rp15-ribuan",
                     "rating": null,
@@ -15552,12 +18174,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15576,6 +18204,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/pengalaman-bersantap/d-6574135/bubur-ayam-rp-95-000-vs-rp-15-000-enak-yang-mana",
                     "rating": null,
@@ -15591,14 +18221,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Maluku Utara marinade.",
                         "description_ind": "Hidangan Sate Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15617,6 +18253,8 @@ const DATA_PULAU = [
                             "maluku utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp20.000 - Rp40.000",
                     "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
                     "rating": null,
@@ -15634,12 +18272,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15658,6 +18302,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -15674,13 +18320,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15699,6 +18351,8 @@ const DATA_PULAU = [
                             "maluku utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp12.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
                     "rating": null,
@@ -15714,14 +18368,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Maluku Utara.",
                         "description_ind": "Hidangan Kerupuk Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15740,6 +18396,8 @@ const DATA_PULAU = [
                             "maluku utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp4.000 - Rp6.000",
                     "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
                     "rating": null,
@@ -15756,13 +18414,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Kue Basah Maluku tradisional khas Maluku yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice Flour",
-                            "Coconut",
-                            "Sugar",
-                            "Pandan"
+                            "Coconut Milk",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Beras",
+                            "Santan",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15781,6 +18445,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
+
                     "price_range_ind": "Rp1.000 - Rp25.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/6287517/12-rekomendasi-tempat-beli-kue-basah-di-jakarta-dari-pasar-subuh-hingga-toko-premium",
                     "rating": null,
@@ -15796,14 +18462,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Maluku Utara signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Red Chili",
+                            "Shallots",
+                            "Tomato",
+                            "Lime",
+                            "Basil"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Tomat",
+                            "Jeruk Nipis",
+                            "Kemangi"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15822,6 +18494,8 @@ const DATA_PULAU = [
                             "maluku utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Dabu-dabu",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://ambon.antaranews.com/berita/169632/nikmatnya-ikan-bakar-sambal-colo-colo-khas-maluku",
                     "rating": null,
@@ -15837,13 +18511,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Maluku.",
                         "description_ind": "Hidangan Kopi Khas Maluku tradisional khas Maluku yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15862,6 +18537,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
                     "rating": null,
@@ -15877,14 +18554,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Maluku.",
                         "description_ind": "Hidangan Soto Maluku tradisional khas Maluku yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15903,6 +18586,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-6629724/murah-meriah-di-5-warung-soto-ini-bisa-jajan-soto-mulai-rp-1-000-per-porsi",
                     "rating": null,
@@ -15918,14 +18603,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled skewers with local Maluku marinade.",
                         "description_ind": "Hidangan Sate Maluku tradisional khas Maluku yang sangat digemari.",
                         "ingredients_eng": [
-                            "Meat",
-                            "Skewers",
-                            "Peanut/Soy Sauce",
-                            "Shallots"
+                            "Chicken",
+                            "Sweet Soy Sauce",
+                            "Shallots",
+                            "Coriander",
+                            "Peanut Sauce",
+                            "Rice Cakes"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Merah",
+                            "Ketumbar",
+                            "Bumbu Kacang",
+                            "Lontong"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15944,6 +18635,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
+
                     "price_range_ind": "Rp20.000 - Rp40.000",
                     "price_source": "https://food.detik.com/pengalaman-bersantap/d-6387256/sate-ayam-rp-165-000-vs-rp-35-000-begini-tampilan-dan-rasanya",
                     "rating": null,
@@ -15961,12 +18654,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -15985,6 +18684,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -16001,13 +18702,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Maluku tradisional khas Maluku yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16026,6 +18733,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp12.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
                     "rating": null,
@@ -16043,12 +18752,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16067,6 +18782,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -16082,13 +18799,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Maluku.",
                         "description_ind": "Hidangan Kopi Khas Maluku tradisional khas Maluku yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16107,6 +18825,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
                     "rating": null,
@@ -16123,13 +18843,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Mie Kuah Maluku tradisional khas Maluku yang sangat digemari.",
                         "ingredients_eng": [
                             "Noodles",
-                            "Broth",
+                            "Chicken Broth",
+                            "Garlic",
+                            "Spring Onion",
                             "Vegetables",
-                            "Egg"
+                            "Chili"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Mie",
+                            "Kaldu Ayam",
+                            "Bawang Putih",
+                            "Daun Bawang",
+                            "Sayuran",
+                            "Cabai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16148,6 +18874,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
+
                     "price_range_ind": "Rp15.000 - Rp20.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8731384/7-mie-ayam-legendaris-di-jakarta-barat-harganya-mulai-rp15-ribuan",
                     "rating": null,
@@ -16163,13 +18891,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Maluku Utara.",
                         "description_ind": "Hidangan Kopi Khas Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16188,6 +18917,8 @@ const DATA_PULAU = [
                             "maluku utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
                     "rating": null,
@@ -16205,11 +18936,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16228,6 +18966,8 @@ const DATA_PULAU = [
                             "maluku utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp20.000 - Rp35.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
                     "rating": 4.4,
@@ -16245,12 +18985,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16269,6 +19015,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/pengalaman-bersantap/d-6574135/bubur-ayam-rp-95-000-vs-rp-15-000-enak-yang-mana",
                     "rating": null,
@@ -16284,14 +19032,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Maluku.",
                         "description_ind": "Hidangan Soto Maluku tradisional khas Maluku yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16310,6 +19064,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-6629724/murah-meriah-di-5-warung-soto-ini-bisa-jajan-soto-mulai-rp-1-000-per-porsi",
                     "rating": null,
@@ -16325,14 +19081,16 @@ const DATA_PULAU = [
                         "description_eng": "Crispy traditional crackers from Maluku Utara.",
                         "description_ind": "Hidangan Kerupuk Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Tapioca",
-                            "Fish/Shrimp",
+                            "Tapioca Flour",
                             "Garlic",
-                            "Salt"
+                            "Salt",
+                            "White Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Tapioka",
+                            "Bawang Putih",
+                            "Garam",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16351,6 +19109,8 @@ const DATA_PULAU = [
                             "maluku utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
+
                     "price_range_ind": "Rp4.000 - Rp6.000",
                     "price_source": "https://jateng.tribunnews.com/umkm/1272082/curhat-pedagang-kerupuk-di-semarang-harga-rp5000-ukuran-makin-mini-dan-isi-berkurang",
                     "rating": null,
@@ -16367,13 +19127,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Kue Basah Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
                         "ingredients_eng": [
                             "Rice Flour",
-                            "Coconut",
-                            "Sugar",
-                            "Pandan"
+                            "Coconut Milk",
+                            "Palm Sugar",
+                            "Pandan",
+                            "Salt",
+                            "Banana"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Tepung Beras",
+                            "Santan",
+                            "Gula Merah",
+                            "Pandan",
+                            "Garam",
+                            "Pisang"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16392,6 +19158,8 @@ const DATA_PULAU = [
                             "maluku utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
+
                     "price_range_ind": "Rp1.000 - Rp25.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/6287517/12-rekomendasi-tempat-beli-kue-basah-di-jakarta-dari-pasar-subuh-hingga-toko-premium",
                     "rating": null,
@@ -16407,14 +19175,20 @@ const DATA_PULAU = [
                         "description_eng": "Aromatic traditional soup from Maluku Utara.",
                         "description_ind": "Hidangan Soto Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Broth",
-                            "Meat",
+                            "Chicken Broth",
+                            "Rice Cakes",
+                            "Lemongrass",
+                            "Kaffir Lime Leaves",
                             "Turmeric",
-                            "Garlic"
+                            "Fried Shallots"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Kaldu Ayam",
+                            "Lontong",
+                            "Serai",
+                            "Daun Jeruk",
+                            "Kunyit",
+                            "Bawang Goreng"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16433,6 +19207,8 @@ const DATA_PULAU = [
                             "maluku utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-6629724/murah-meriah-di-5-warung-soto-ini-bisa-jajan-soto-mulai-rp-1-000-per-porsi",
                     "rating": null,
@@ -16448,14 +19224,20 @@ const DATA_PULAU = [
                         "description_eng": "Grilled fish with Maluku Utara signature spices.",
                         "description_ind": "Hidangan Ikan Bakar Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Fresh Fish",
-                            "Spices",
-                            "Chili",
-                            "Lime"
+                            "Fish",
+                            "Red Chili",
+                            "Shallots",
+                            "Tomato",
+                            "Lime",
+                            "Basil"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ikan",
+                            "Cabai Merah",
+                            "Bawang Merah",
+                            "Tomat",
+                            "Jeruk Nipis",
+                            "Kemangi"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16474,6 +19256,8 @@ const DATA_PULAU = [
                             "maluku utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Dabu-dabu",
+
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://ambon.antaranews.com/berita/169632/nikmatnya-ikan-bakar-sambal-colo-colo-khas-maluku",
                     "rating": null,
@@ -16490,13 +19274,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Maluku tradisional khas Maluku yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16515,6 +19305,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp12.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
                     "rating": null,
@@ -16531,13 +19323,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16556,6 +19354,8 @@ const DATA_PULAU = [
                             "maluku utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp12.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
                     "rating": null,
@@ -16572,13 +19372,19 @@ const DATA_PULAU = [
                         "description_ind": "Hidangan Es Campur Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
                         "ingredients_eng": [
                             "Shaved Ice",
-                            "Syrup",
-                            "Fruits",
-                            "Milk"
+                            "Mixed Fruits",
+                            "Grass Jelly",
+                            "Coconut Milk",
+                            "Palm Sugar Syrup",
+                            "Condensed Milk"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Es Serut",
+                            "Buah Campur",
+                            "Cincau",
+                            "Santan",
+                            "Sirup Gula Merah",
+                            "Susu Kental Manis"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16597,6 +19403,8 @@ const DATA_PULAU = [
                             "maluku utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
+
                     "price_range_ind": "Rp12.000 - Rp30.000",
                     "price_source": "https://food.detik.com/info-kuliner/d-8671106/slurpp-ini-7-es-legendaris-berumur-puluhan-tahun-di-jakarta",
                     "rating": null,
@@ -16612,13 +19420,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Maluku Utara.",
                         "description_ind": "Hidangan Kopi Khas Maluku Utara tradisional khas Maluku Utara yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16637,6 +19446,8 @@ const DATA_PULAU = [
                             "maluku utara"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
                     "rating": null,
@@ -16654,12 +19465,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Vegetables",
                             "Garlic",
+                            "Shallots",
                             "Chili",
-                            "Salt"
+                            "Oyster Sauce",
+                            "Pepper"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Sayuran",
+                            "Bawang Putih",
+                            "Bawang Merah",
+                            "Cabai",
+                            "Saus Tiram",
+                            "Merica"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16678,6 +19495,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
+
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -16695,11 +19514,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Chicken",
                             "Sweet Soy Sauce",
-                            "Coriander"
+                            "Turmeric",
+                            "Garlic",
+                            "Candlenut",
+                            "Lemongrass"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Ayam",
+                            "Kecap Manis",
+                            "Kunyit",
+                            "Bawang Putih",
+                            "Kemiri",
+                            "Serai"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16718,6 +19544,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
+
                     "price_range_ind": "Rp20.000 - Rp35.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
                     "rating": null,
@@ -16735,12 +19563,18 @@ const DATA_PULAU = [
                         "ingredients_eng": [
                             "Rice Porridge",
                             "Chicken",
-                            "Soy Sauce",
-                            "Crackers"
+                            "Sweet Soy Sauce",
+                            "Fried Shallots",
+                            "Crackers",
+                            "Boiled Egg"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubur Nasi",
+                            "Ayam",
+                            "Kecap Manis",
+                            "Bawang Goreng",
+                            "Kerupuk",
+                            "Telur Rebus"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16759,6 +19593,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
+
                     "price_range_ind": "Rp10.000 - Rp15.000",
                     "price_source": "https://food.detik.com/pengalaman-bersantap/d-6574135/bubur-ayam-rp-95-000-vs-rp-15-000-enak-yang-mana",
                     "rating": null,
@@ -16774,13 +19610,14 @@ const DATA_PULAU = [
                         "description_eng": "Traditional brewed coffee from Maluku.",
                         "description_ind": "Hidangan Kopi Khas Maluku tradisional khas Maluku yang sangat digemari.",
                         "ingredients_eng": [
-                            "Coffee Beans",
-                            "Sugar",
-                            "Water"
+                            "Ground Coffee",
+                            "Hot Water",
+                            "Sugar"
                         ],
                         "ingredients_ind": [
-                            "Bahan Lokal",
-                            "Rempah Rahasia"
+                            "Bubuk Kopi",
+                            "Air Panas",
+                            "Gula"
                         ],
                         "flavor_profile": [
                             "Savory",
@@ -16799,6 +19636,8 @@ const DATA_PULAU = [
                             "maluku"
                         ],
                         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
+                    "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
+
                     "price_range_ind": "Rp5.000 - Rp10.000",
                     "price_source": "https://finance.detik.com/solusiukm/d-7268710/warkop-tongkrongan-anak-muda-jajan-rp-5-000-duduk-berjam-jam-omzetnya-berapa",
                     "rating": null,

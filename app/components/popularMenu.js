@@ -66,8 +66,8 @@ const ALL_ISLAND = DATA_PULAU.map((pulau) => ({
 }));
 
 export function getIsland(jumlah =  8){
-    const randomIsland = [...ALL_ISLAND].sort(() => 0.5 - Math.random());
-    return randomIsland.slice(0,jumlah)
+    // const randomIsland = [...ALL_ISLAND].sort(() => 0.5 - Math.random());
+    return ALL_ISLAND.slice(0,jumlah)
 }
 
 export default  getImagePopularMenu;
