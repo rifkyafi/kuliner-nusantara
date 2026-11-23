@@ -11,4 +11,4 @@
 ## Assets & Sourcing
 
 - When adding images/media to the project, wants sources that are copyright-free ("bebas copyright") — e.g., freely-licensed Wikimedia Commons files (CC/PD) hotlinked via `Special:FilePath`. Confidence: 0.7
-- When adding factual/data content (e.g., prices, ratings), requires it be based on trusted internet sources — real, verifiable figures with a cited source, never invented placeholder values (unverifiable entries stay empty). Confidence: 0.85
+- When adding factual/data content (e.g., prices, ratings, recipe ingredients/spices), requires it be based on trusted internet sources — real, verifiable values with a cited source, never invented placeholder values (unverifiable entries stay empty/null). Reaffirmed explicitly for ingredient data ("bumbu yang asli harus sesuai dengan sumber terpercaya"). Confidence: 0.9

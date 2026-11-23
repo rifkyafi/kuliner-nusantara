@@ -1,0 +1,5649 @@
+[
+  {
+    "id": "sm-001",
+    "name": "Rendang",
+    "origin": "Padang",
+    "category": "Main Dish",
+    "eng": [
+      "Beef",
+      "Coconut Milk",
+      "Toasted Coconut",
+      "Galangal",
+      "Chili",
+      "Spices"
+    ],
+    "ind": [
+      "Daging Sapi",
+      "Santan",
+      "Kelapa Sangrai",
+      "Lengkuas",
+      "Cabai",
+      "Rempah"
+    ]
+  },
+  {
+    "id": "sm-005",
+    "name": "Mie Aceh",
+    "origin": "Aceh",
+    "category": "Main Dish",
+    "eng": [
+      "Yellow Noodles",
+      "Beef",
+      "Seafood",
+      "Bean Sprouts",
+      "Chili",
+      "Curry Spices"
+    ],
+    "ind": [
+      "Mie Kuning",
+      "Daging Sapi",
+      "Seafood",
+      "Tauge",
+      "Cabai",
+      "Rempah Kari"
+    ]
+  },
+  {
+    "id": "sm-006",
+    "name": "Dendeng Balado",
+    "origin": "Padang",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sm-007",
+    "name": "Ayam Pop",
+    "origin": "Bukittinggi",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sm-008",
+    "name": "Soto Padang",
+    "origin": "Padang",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sm-009",
+    "name": "Mie Celor",
+    "origin": "Palembang",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sm-010",
+    "name": "Lempah Kuning",
+    "origin": "Bangka",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sm-011",
+    "name": "Ayam Tangkap",
+    "origin": "Aceh",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sm-012",
+    "name": "Gulai Tunjang",
+    "origin": "Padang",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sm-013",
+    "name": "Sate Padang Pariaman",
+    "origin": "Pariaman",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sm-014",
+    "name": "Babi Panggang Karo",
+    "origin": "Karo",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sm-015",
+    "name": "Tekwan",
+    "origin": "Palembang",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sm-016",
+    "name": "Es Campur Lampung",
+    "origin": "Lampung",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-017",
+    "name": "Kopi Khas Bengkulu",
+    "origin": "Bengkulu",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-018",
+    "name": "Kerupuk Riau",
+    "origin": "Riau",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-019",
+    "name": "Soto Sumatera Barat",
+    "origin": "Sumatera Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-020",
+    "name": "Kue Basah Aceh",
+    "origin": "Aceh",
+    "category": "Snack",
+    "eng": [
+      "Rice Flour",
+      "Coconut",
+      "Sugar",
+      "Pandan"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-021",
+    "name": "Sambal Sumatera Utara",
+    "origin": "Sumatera Utara",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-022",
+    "name": "Ikan Bakar Kepulauan Bangka Belitung",
+    "origin": "Kepulauan Bangka Belitung",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-023",
+    "name": "Sate Jambi",
+    "origin": "Jambi",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-024",
+    "name": "Kerupuk Kepulauan Riau",
+    "origin": "Kepulauan Riau",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-025",
+    "name": "Mie Kuah Kepulauan Bangka Belitung",
+    "origin": "Kepulauan Bangka Belitung",
+    "category": "Main Dish",
+    "eng": [
+      "Noodles",
+      "Broth",
+      "Vegetables",
+      "Egg"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-026",
+    "name": "Kerupuk Sumatera Barat",
+    "origin": "Sumatera Barat",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-027",
+    "name": "Mie Kuah Sumatera Selatan",
+    "origin": "Sumatera Selatan",
+    "category": "Main Dish",
+    "eng": [
+      "Noodles",
+      "Broth",
+      "Vegetables",
+      "Egg"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-028",
+    "name": "Tumis Sayur Bengkulu",
+    "origin": "Bengkulu",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-029",
+    "name": "Ikan Bakar Aceh",
+    "origin": "Aceh",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-030",
+    "name": "Sambal Kepulauan Bangka Belitung",
+    "origin": "Kepulauan Bangka Belitung",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-031",
+    "name": "Tumis Sayur Bengkulu",
+    "origin": "Bengkulu",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-032",
+    "name": "Kerupuk Jambi",
+    "origin": "Jambi",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-033",
+    "name": "Kerupuk Aceh",
+    "origin": "Aceh",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-034",
+    "name": "Sate Kepulauan Bangka Belitung",
+    "origin": "Kepulauan Bangka Belitung",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-035",
+    "name": "Ikan Bakar Aceh",
+    "origin": "Aceh",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-036",
+    "name": "Es Campur Sumatera Utara",
+    "origin": "Sumatera Utara",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-037",
+    "name": "Kerupuk Kepulauan Riau",
+    "origin": "Kepulauan Riau",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-038",
+    "name": "Sambal Aceh",
+    "origin": "Aceh",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-039",
+    "name": "Sate Aceh",
+    "origin": "Aceh",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-040",
+    "name": "Tumis Sayur Lampung",
+    "origin": "Lampung",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-041",
+    "name": "Nasi Goreng Jambi",
+    "origin": "Jambi",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-042",
+    "name": "Tumis Sayur Bengkulu",
+    "origin": "Bengkulu",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-043",
+    "name": "Nasi Goreng Sumatera Utara",
+    "origin": "Sumatera Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-044",
+    "name": "Bubur Ayam Lampung",
+    "origin": "Lampung",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-045",
+    "name": "Kopi Khas Jambi",
+    "origin": "Jambi",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-046",
+    "name": "Es Campur Aceh",
+    "origin": "Aceh",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-047",
+    "name": "Sate Kepulauan Riau",
+    "origin": "Kepulauan Riau",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-048",
+    "name": "Kerupuk Aceh",
+    "origin": "Aceh",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-049",
+    "name": "Kerupuk Sumatera Barat",
+    "origin": "Sumatera Barat",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sm-050",
+    "name": "Kerupuk Aceh",
+    "origin": "Aceh",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-002",
+    "name": "Nasi Liwet Solo",
+    "origin": "Surakarta",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Coconut Milk",
+      "Chicken",
+      "Chayote",
+      "Egg",
+      "Spices"
+    ],
+    "ind": [
+      "Beras",
+      "Santan",
+      "Daging Ayam",
+      "Labu Siam",
+      "Telur",
+      "Rempah"
+    ]
+  },
+  {
+    "id": "jw-006",
+    "name": "Tahu Tek",
+    "origin": "Surabaya",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "jw-007",
+    "name": "Rujak Cingur",
+    "origin": "Surabaya",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "jw-008",
+    "name": "Tongseng",
+    "origin": "Solo",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "jw-009",
+    "name": "Sate Klatak",
+    "origin": "Bantul",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "jw-010",
+    "name": "Mangut Lele",
+    "origin": "Yogyakarta",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "jw-011",
+    "name": "Garang Asem",
+    "origin": "Kudus",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "jw-012",
+    "name": "Empal Gentong",
+    "origin": "Cirebon",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "jw-013",
+    "name": "Batagor",
+    "origin": "Bandung",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "jw-014",
+    "name": "Seblak",
+    "origin": "Bandung",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "jw-015",
+    "name": "Kerak Telor",
+    "origin": "Jakarta",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "jw-016",
+    "name": "Sambal DKI Jakarta",
+    "origin": "DKI Jakarta",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-017",
+    "name": "Bubur Ayam Jawa Barat",
+    "origin": "Jawa Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-018",
+    "name": "Bubur Ayam Jawa Timur",
+    "origin": "Jawa Timur",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-019",
+    "name": "Sate DI Yogyakarta",
+    "origin": "DI Yogyakarta",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-020",
+    "name": "Sambal Jawa Tengah",
+    "origin": "Jawa Tengah",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-021",
+    "name": "Tumis Sayur DI Yogyakarta",
+    "origin": "DI Yogyakarta",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-022",
+    "name": "Nasi Goreng DI Yogyakarta",
+    "origin": "DI Yogyakarta",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-023",
+    "name": "Kue Basah Jawa Tengah",
+    "origin": "Jawa Tengah",
+    "category": "Snack",
+    "eng": [
+      "Rice Flour",
+      "Coconut",
+      "Sugar",
+      "Pandan"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-024",
+    "name": "Ayam Bakar DI Yogyakarta",
+    "origin": "DI Yogyakarta",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-025",
+    "name": "Sambal Banten",
+    "origin": "Banten",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-026",
+    "name": "Es Campur DKI Jakarta",
+    "origin": "DKI Jakarta",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-027",
+    "name": "Sate Jawa Barat",
+    "origin": "Jawa Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-028",
+    "name": "Bubur Ayam Banten",
+    "origin": "Banten",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-029",
+    "name": "Sambal Jawa Tengah",
+    "origin": "Jawa Tengah",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-030",
+    "name": "Kerupuk DKI Jakarta",
+    "origin": "DKI Jakarta",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-031",
+    "name": "Bubur Ayam Jawa Timur",
+    "origin": "Jawa Timur",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-032",
+    "name": "Mie Kuah Jawa Tengah",
+    "origin": "Jawa Tengah",
+    "category": "Main Dish",
+    "eng": [
+      "Noodles",
+      "Broth",
+      "Vegetables",
+      "Egg"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-033",
+    "name": "Sambal Jawa Tengah",
+    "origin": "Jawa Tengah",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-034",
+    "name": "Nasi Goreng Banten",
+    "origin": "Banten",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-035",
+    "name": "Nasi Goreng Jawa Timur",
+    "origin": "Jawa Timur",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-036",
+    "name": "Sambal Jawa Tengah",
+    "origin": "Jawa Tengah",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-037",
+    "name": "Sambal Jawa Tengah",
+    "origin": "Jawa Tengah",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-038",
+    "name": "Sambal DKI Jakarta",
+    "origin": "DKI Jakarta",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-039",
+    "name": "Ayam Bakar Banten",
+    "origin": "Banten",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-040",
+    "name": "Kue Basah Banten",
+    "origin": "Banten",
+    "category": "Snack",
+    "eng": [
+      "Rice Flour",
+      "Coconut",
+      "Sugar",
+      "Pandan"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-041",
+    "name": "Kerupuk Jawa Timur",
+    "origin": "Jawa Timur",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-042",
+    "name": "Kerupuk Banten",
+    "origin": "Banten",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-043",
+    "name": "Kopi Khas Jawa Tengah",
+    "origin": "Jawa Tengah",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-044",
+    "name": "Tumis Sayur Banten",
+    "origin": "Banten",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-045",
+    "name": "Sambal Jawa Timur",
+    "origin": "Jawa Timur",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-046",
+    "name": "Sate DI Yogyakarta",
+    "origin": "DI Yogyakarta",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-047",
+    "name": "Ikan Bakar DKI Jakarta",
+    "origin": "DKI Jakarta",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-048",
+    "name": "Kopi Khas Jawa Barat",
+    "origin": "Jawa Barat",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-049",
+    "name": "Tumis Sayur DKI Jakarta",
+    "origin": "DKI Jakarta",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "jw-050",
+    "name": "Sambal Jawa Tengah",
+    "origin": "Jawa Tengah",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-006",
+    "name": "Soto Banjar",
+    "origin": "Banjarmasin",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "kl-007",
+    "name": "Ketupat Kandangan",
+    "origin": "Kandangan",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "kl-008",
+    "name": "Nasi Kuning Banjar",
+    "origin": "Banjarmasin",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "kl-009",
+    "name": "Bingka Barantai",
+    "origin": "Banjar",
+    "category": "Dessert",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "kl-010",
+    "name": "Pengkang",
+    "origin": "Pontianak",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "kl-011",
+    "name": "Choi Pan",
+    "origin": "Singkawang",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "kl-012",
+    "name": "Bubur Pedas",
+    "origin": "Sambas",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "kl-013",
+    "name": "Ayam Cincane",
+    "origin": "Samarinda",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "kl-014",
+    "name": "Gence Ruan",
+    "origin": "Kutai",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "kl-015",
+    "name": "Tumis Pakis",
+    "origin": "Palangkaraya",
+    "category": "Side Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "kl-016",
+    "name": "Ikan Bakar Kalimantan Utara",
+    "origin": "Kalimantan Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-017",
+    "name": "Kopi Khas Kalimantan Timur",
+    "origin": "Kalimantan Timur",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-018",
+    "name": "Es Campur Kalimantan Timur",
+    "origin": "Kalimantan Timur",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-019",
+    "name": "Soto Kalimantan Timur",
+    "origin": "Kalimantan Timur",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-020",
+    "name": "Ayam Bakar Kalimantan Utara",
+    "origin": "Kalimantan Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-021",
+    "name": "Es Campur Kalimantan Tengah",
+    "origin": "Kalimantan Tengah",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-022",
+    "name": "Bubur Ayam Kalimantan Tengah",
+    "origin": "Kalimantan Tengah",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-023",
+    "name": "Soto Kalimantan Barat",
+    "origin": "Kalimantan Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-024",
+    "name": "Ayam Bakar Kalimantan Utara",
+    "origin": "Kalimantan Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-025",
+    "name": "Sambal Kalimantan Tengah",
+    "origin": "Kalimantan Tengah",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-026",
+    "name": "Soto Kalimantan Selatan",
+    "origin": "Kalimantan Selatan",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-027",
+    "name": "Kue Basah Kalimantan Utara",
+    "origin": "Kalimantan Utara",
+    "category": "Snack",
+    "eng": [
+      "Rice Flour",
+      "Coconut",
+      "Sugar",
+      "Pandan"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-028",
+    "name": "Bubur Ayam Kalimantan Selatan",
+    "origin": "Kalimantan Selatan",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-029",
+    "name": "Ikan Bakar Kalimantan Utara",
+    "origin": "Kalimantan Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-030",
+    "name": "Es Campur Kalimantan Barat",
+    "origin": "Kalimantan Barat",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-031",
+    "name": "Kerupuk Kalimantan Selatan",
+    "origin": "Kalimantan Selatan",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-032",
+    "name": "Mie Kuah Kalimantan Selatan",
+    "origin": "Kalimantan Selatan",
+    "category": "Main Dish",
+    "eng": [
+      "Noodles",
+      "Broth",
+      "Vegetables",
+      "Egg"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-033",
+    "name": "Soto Kalimantan Utara",
+    "origin": "Kalimantan Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-034",
+    "name": "Nasi Goreng Kalimantan Utara",
+    "origin": "Kalimantan Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-035",
+    "name": "Kerupuk Kalimantan Tengah",
+    "origin": "Kalimantan Tengah",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-036",
+    "name": "Kerupuk Kalimantan Timur",
+    "origin": "Kalimantan Timur",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-037",
+    "name": "Kerupuk Kalimantan Utara",
+    "origin": "Kalimantan Utara",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-038",
+    "name": "Bubur Ayam Kalimantan Selatan",
+    "origin": "Kalimantan Selatan",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-039",
+    "name": "Soto Kalimantan Barat",
+    "origin": "Kalimantan Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-040",
+    "name": "Ikan Bakar Kalimantan Timur",
+    "origin": "Kalimantan Timur",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-041",
+    "name": "Soto Kalimantan Timur",
+    "origin": "Kalimantan Timur",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-042",
+    "name": "Bubur Ayam Kalimantan Barat",
+    "origin": "Kalimantan Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-043",
+    "name": "Nasi Goreng Kalimantan Tengah",
+    "origin": "Kalimantan Tengah",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-044",
+    "name": "Tumis Sayur Kalimantan Utara",
+    "origin": "Kalimantan Utara",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-045",
+    "name": "Es Campur Kalimantan Timur",
+    "origin": "Kalimantan Timur",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-046",
+    "name": "Kue Basah Kalimantan Timur",
+    "origin": "Kalimantan Timur",
+    "category": "Snack",
+    "eng": [
+      "Rice Flour",
+      "Coconut",
+      "Sugar",
+      "Pandan"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-047",
+    "name": "Mie Kuah Kalimantan Utara",
+    "origin": "Kalimantan Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Noodles",
+      "Broth",
+      "Vegetables",
+      "Egg"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-048",
+    "name": "Soto Kalimantan Selatan",
+    "origin": "Kalimantan Selatan",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-049",
+    "name": "Nasi Goreng Kalimantan Utara",
+    "origin": "Kalimantan Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "kl-050",
+    "name": "Ikan Bakar Kalimantan Utara",
+    "origin": "Kalimantan Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-006",
+    "name": "Sop Saudara",
+    "origin": "Pangkep",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sl-007",
+    "name": "Pallubasa",
+    "origin": "Makassar",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sl-008",
+    "name": "Es Pisang Ijo",
+    "origin": "Makassar",
+    "category": "Dessert",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sl-009",
+    "name": "Mie Titi",
+    "origin": "Makassar",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sl-010",
+    "name": "Ayam Goreng Sulawesi",
+    "origin": "Makassar",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sl-011",
+    "name": "Jalangkote",
+    "origin": "Makassar",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sl-012",
+    "name": "Ikan Bakar Rica",
+    "origin": "Manado",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sl-013",
+    "name": "Ayam Rica-Rica",
+    "origin": "Manado",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sl-014",
+    "name": "Klappertaart",
+    "origin": "Manado",
+    "category": "Dessert",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sl-015",
+    "name": "Kaledo",
+    "origin": "Donggala",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "sl-016",
+    "name": "Kopi Khas Sulawesi Selatan",
+    "origin": "Sulawesi Selatan",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-017",
+    "name": "Tumis Sayur Sulawesi Tengah",
+    "origin": "Sulawesi Tengah",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-018",
+    "name": "Kerupuk Sulawesi Tenggara",
+    "origin": "Sulawesi Tenggara",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-019",
+    "name": "Kue Basah Sulawesi Barat",
+    "origin": "Sulawesi Barat",
+    "category": "Snack",
+    "eng": [
+      "Rice Flour",
+      "Coconut",
+      "Sugar",
+      "Pandan"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-020",
+    "name": "Kopi Khas Sulawesi Tenggara",
+    "origin": "Sulawesi Tenggara",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-021",
+    "name": "Kopi Khas Sulawesi Tengah",
+    "origin": "Sulawesi Tengah",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-022",
+    "name": "Sambal Sulawesi Tengah",
+    "origin": "Sulawesi Tengah",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-023",
+    "name": "Kopi Khas Sulawesi Tengah",
+    "origin": "Sulawesi Tengah",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-024",
+    "name": "Sambal Sulawesi Utara",
+    "origin": "Sulawesi Utara",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-025",
+    "name": "Ayam Bakar Gorontalo",
+    "origin": "Gorontalo",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-026",
+    "name": "Nasi Goreng Sulawesi Utara",
+    "origin": "Sulawesi Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-027",
+    "name": "Tumis Sayur Sulawesi Utara",
+    "origin": "Sulawesi Utara",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-028",
+    "name": "Sate Gorontalo",
+    "origin": "Gorontalo",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-029",
+    "name": "Kerupuk Sulawesi Barat",
+    "origin": "Sulawesi Barat",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-030",
+    "name": "Sate Sulawesi Barat",
+    "origin": "Sulawesi Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-031",
+    "name": "Kue Basah Gorontalo",
+    "origin": "Gorontalo",
+    "category": "Snack",
+    "eng": [
+      "Rice Flour",
+      "Coconut",
+      "Sugar",
+      "Pandan"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-032",
+    "name": "Ikan Bakar Sulawesi Utara",
+    "origin": "Sulawesi Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-033",
+    "name": "Bubur Ayam Sulawesi Barat",
+    "origin": "Sulawesi Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-034",
+    "name": "Sate Sulawesi Tenggara",
+    "origin": "Sulawesi Tenggara",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-035",
+    "name": "Tumis Sayur Sulawesi Utara",
+    "origin": "Sulawesi Utara",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-036",
+    "name": "Ikan Bakar Sulawesi Barat",
+    "origin": "Sulawesi Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-037",
+    "name": "Ikan Bakar Sulawesi Barat",
+    "origin": "Sulawesi Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-038",
+    "name": "Tumis Sayur Sulawesi Utara",
+    "origin": "Sulawesi Utara",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-039",
+    "name": "Es Campur Sulawesi Utara",
+    "origin": "Sulawesi Utara",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-040",
+    "name": "Bubur Ayam Sulawesi Utara",
+    "origin": "Sulawesi Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-041",
+    "name": "Es Campur Gorontalo",
+    "origin": "Gorontalo",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-042",
+    "name": "Kopi Khas Sulawesi Tengah",
+    "origin": "Sulawesi Tengah",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-043",
+    "name": "Mie Kuah Gorontalo",
+    "origin": "Gorontalo",
+    "category": "Main Dish",
+    "eng": [
+      "Noodles",
+      "Broth",
+      "Vegetables",
+      "Egg"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-044",
+    "name": "Es Campur Sulawesi Barat",
+    "origin": "Sulawesi Barat",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-045",
+    "name": "Soto Sulawesi Tenggara",
+    "origin": "Sulawesi Tenggara",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-046",
+    "name": "Nasi Goreng Sulawesi Barat",
+    "origin": "Sulawesi Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-047",
+    "name": "Es Campur Sulawesi Tengah",
+    "origin": "Sulawesi Tengah",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-048",
+    "name": "Nasi Goreng Gorontalo",
+    "origin": "Gorontalo",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-049",
+    "name": "Es Campur Sulawesi Tenggara",
+    "origin": "Sulawesi Tenggara",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "sl-050",
+    "name": "Bubur Ayam Sulawesi Selatan",
+    "origin": "Sulawesi Selatan",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-006",
+    "name": "Udang Selingkuh",
+    "origin": "Wamena",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "pp-007",
+    "name": "Keladi Tumbuk",
+    "origin": "Biak",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "pp-008",
+    "name": "Ikan Kuah Hitam",
+    "origin": "Papua",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "pp-009",
+    "name": "Aunu Senebre",
+    "origin": "Papua",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "pp-010",
+    "name": "Abon Gulung",
+    "origin": "Manokwari",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "pp-011",
+    "name": "Es Kelapa Asam",
+    "origin": "Papua",
+    "category": "Beverage",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "pp-012",
+    "name": "Sambal Colo-Colo Papua",
+    "origin": "Papua",
+    "category": "Condiment",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "pp-013",
+    "name": "Sate Kerang Papua",
+    "origin": "Papua",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "pp-014",
+    "name": "Sup Ikan Red Snapper",
+    "origin": "Jayapura",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "pp-015",
+    "name": "Ayam Goreng Mambri",
+    "origin": "Papua",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "pp-016",
+    "name": "Kopi Khas Papua",
+    "origin": "Papua",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-017",
+    "name": "Nasi Goreng Papua Barat Daya",
+    "origin": "Papua Barat Daya",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-018",
+    "name": "Tumis Sayur Papua Selatan",
+    "origin": "Papua Selatan",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-019",
+    "name": "Tumis Sayur Papua Tengah",
+    "origin": "Papua Tengah",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-020",
+    "name": "Kopi Khas Papua Pegunungan",
+    "origin": "Papua Pegunungan",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-021",
+    "name": "Sate Papua Barat",
+    "origin": "Papua Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-022",
+    "name": "Tumis Sayur Papua",
+    "origin": "Papua",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-023",
+    "name": "Ayam Bakar Papua Pegunungan",
+    "origin": "Papua Pegunungan",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-024",
+    "name": "Soto Papua Barat",
+    "origin": "Papua Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-025",
+    "name": "Mie Kuah Papua Barat",
+    "origin": "Papua Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Noodles",
+      "Broth",
+      "Vegetables",
+      "Egg"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-026",
+    "name": "Sambal Papua Tengah",
+    "origin": "Papua Tengah",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-027",
+    "name": "Bubur Ayam Papua",
+    "origin": "Papua",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-028",
+    "name": "Kerupuk Papua Pegunungan",
+    "origin": "Papua Pegunungan",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-029",
+    "name": "Soto Papua Pegunungan",
+    "origin": "Papua Pegunungan",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-030",
+    "name": "Sambal Papua Pegunungan",
+    "origin": "Papua Pegunungan",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-031",
+    "name": "Bubur Ayam Papua",
+    "origin": "Papua",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-032",
+    "name": "Sate Papua Selatan",
+    "origin": "Papua Selatan",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-033",
+    "name": "Kue Basah Papua Barat Daya",
+    "origin": "Papua Barat Daya",
+    "category": "Snack",
+    "eng": [
+      "Rice Flour",
+      "Coconut",
+      "Sugar",
+      "Pandan"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-034",
+    "name": "Kue Basah Papua Barat Daya",
+    "origin": "Papua Barat Daya",
+    "category": "Snack",
+    "eng": [
+      "Rice Flour",
+      "Coconut",
+      "Sugar",
+      "Pandan"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-035",
+    "name": "Sambal Papua",
+    "origin": "Papua",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-036",
+    "name": "Ayam Bakar Papua Selatan",
+    "origin": "Papua Selatan",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-037",
+    "name": "Tumis Sayur Papua Selatan",
+    "origin": "Papua Selatan",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-038",
+    "name": "Kerupuk Papua Tengah",
+    "origin": "Papua Tengah",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-039",
+    "name": "Sate Papua Selatan",
+    "origin": "Papua Selatan",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-040",
+    "name": "Sambal Papua Barat",
+    "origin": "Papua Barat",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-041",
+    "name": "Soto Papua Selatan",
+    "origin": "Papua Selatan",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-042",
+    "name": "Sambal Papua",
+    "origin": "Papua",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-043",
+    "name": "Mie Kuah Papua Selatan",
+    "origin": "Papua Selatan",
+    "category": "Main Dish",
+    "eng": [
+      "Noodles",
+      "Broth",
+      "Vegetables",
+      "Egg"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-044",
+    "name": "Sambal Papua Pegunungan",
+    "origin": "Papua Pegunungan",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-045",
+    "name": "Mie Kuah Papua Pegunungan",
+    "origin": "Papua Pegunungan",
+    "category": "Main Dish",
+    "eng": [
+      "Noodles",
+      "Broth",
+      "Vegetables",
+      "Egg"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-046",
+    "name": "Kue Basah Papua Barat",
+    "origin": "Papua Barat",
+    "category": "Snack",
+    "eng": [
+      "Rice Flour",
+      "Coconut",
+      "Sugar",
+      "Pandan"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-047",
+    "name": "Kopi Khas Papua Pegunungan",
+    "origin": "Papua Pegunungan",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-048",
+    "name": "Sate Papua",
+    "origin": "Papua",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-049",
+    "name": "Kopi Khas Papua",
+    "origin": "Papua",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "pp-050",
+    "name": "Es Campur Papua Pegunungan",
+    "origin": "Papua Pegunungan",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-006",
+    "name": "Sate Plecing",
+    "origin": "Singaraja",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "bl-007",
+    "name": "Nasi Campur Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "bl-008",
+    "name": "Tum Ayam",
+    "origin": "Bali",
+    "category": "Side Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "bl-009",
+    "name": "Rujak Bulung",
+    "origin": "Bali",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "bl-010",
+    "name": "Serombotan",
+    "origin": "Klungkung",
+    "category": "Side Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "bl-011",
+    "name": "Bebek Bengil",
+    "origin": "Ubud",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "bl-012",
+    "name": "Sate Kakul",
+    "origin": "Ubud",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "bl-013",
+    "name": "Tipat Cantok",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "bl-014",
+    "name": "Jukut Undis",
+    "origin": "Buleleng",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "bl-015",
+    "name": "Sambal Matah",
+    "origin": "Bali",
+    "category": "Condiment",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "bl-016",
+    "name": "Kerupuk Bali",
+    "origin": "Bali",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-017",
+    "name": "Kopi Khas Bali",
+    "origin": "Bali",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-018",
+    "name": "Sambal Bali",
+    "origin": "Bali",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-019",
+    "name": "Sate Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-020",
+    "name": "Ikan Bakar Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-021",
+    "name": "Soto Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-022",
+    "name": "Ikan Bakar Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-023",
+    "name": "Ayam Bakar Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-024",
+    "name": "Bubur Ayam Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-025",
+    "name": "Ayam Bakar Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-026",
+    "name": "Bubur Ayam Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-027",
+    "name": "Bubur Ayam Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-028",
+    "name": "Ikan Bakar Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-029",
+    "name": "Kerupuk Bali",
+    "origin": "Bali",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-030",
+    "name": "Sate Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-031",
+    "name": "Ikan Bakar Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-032",
+    "name": "Sate Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-033",
+    "name": "Es Campur Bali",
+    "origin": "Bali",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-034",
+    "name": "Kopi Khas Bali",
+    "origin": "Bali",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-035",
+    "name": "Kopi Khas Bali",
+    "origin": "Bali",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-036",
+    "name": "Kerupuk Bali",
+    "origin": "Bali",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-037",
+    "name": "Ikan Bakar Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-038",
+    "name": "Kopi Khas Bali",
+    "origin": "Bali",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-039",
+    "name": "Ayam Bakar Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-040",
+    "name": "Bubur Ayam Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-041",
+    "name": "Ayam Bakar Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-042",
+    "name": "Tumis Sayur Bali",
+    "origin": "Bali",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-043",
+    "name": "Mie Kuah Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Noodles",
+      "Broth",
+      "Vegetables",
+      "Egg"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-044",
+    "name": "Soto Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-045",
+    "name": "Sate Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-046",
+    "name": "Kue Basah Bali",
+    "origin": "Bali",
+    "category": "Snack",
+    "eng": [
+      "Rice Flour",
+      "Coconut",
+      "Sugar",
+      "Pandan"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-047",
+    "name": "Tumis Sayur Bali",
+    "origin": "Bali",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-048",
+    "name": "Sambal Bali",
+    "origin": "Bali",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-049",
+    "name": "Kerupuk Bali",
+    "origin": "Bali",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "bl-050",
+    "name": "Ikan Bakar Bali",
+    "origin": "Bali",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-002",
+    "name": "Se'i Sapi",
+    "origin": "Kupang",
+    "category": "Main Dish",
+    "eng": [
+      "Beef",
+      "Kosambi Wood",
+      "Salt",
+      "Spices",
+      "Chili",
+      "Lime Leaves"
+    ],
+    "ind": [
+      "Daging Sapi",
+      "Kayu Kosambi",
+      "Garam",
+      "Rempah Asap",
+      "Cabai Rawit",
+      "Daun Jeruk"
+    ]
+  },
+  {
+    "id": "nt-006",
+    "name": "Jagung Bose",
+    "origin": "Timor",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "nt-007",
+    "name": "Rumpu Rampe",
+    "origin": "Flores",
+    "category": "Side Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "nt-008",
+    "name": "Ikan Kuah Asam",
+    "origin": "Kupang",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "nt-009",
+    "name": "Sate Bulayak",
+    "origin": "Lombok",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "nt-010",
+    "name": "Nasi Puyung",
+    "origin": "Lombok",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "nt-011",
+    "name": "Bebalung",
+    "origin": "Lombok",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "nt-012",
+    "name": "Beberuk Terong",
+    "origin": "Lombok",
+    "category": "Side Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "nt-013",
+    "name": "Jawada",
+    "origin": "Flores",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "nt-014",
+    "name": "Daging Se'i Babi",
+    "origin": "Kupang",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "nt-015",
+    "name": "Sate Susu",
+    "origin": "Lombok",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "nt-016",
+    "name": "Mie Kuah Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Main Dish",
+    "eng": [
+      "Noodles",
+      "Broth",
+      "Vegetables",
+      "Egg"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-017",
+    "name": "Ayam Bakar Nusa Tenggara Barat",
+    "origin": "Nusa Tenggara Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-018",
+    "name": "Es Campur Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-019",
+    "name": "Ikan Bakar Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-020",
+    "name": "Kue Basah Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Snack",
+    "eng": [
+      "Rice Flour",
+      "Coconut",
+      "Sugar",
+      "Pandan"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-021",
+    "name": "Tumis Sayur Nusa Tenggara Barat",
+    "origin": "Nusa Tenggara Barat",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-022",
+    "name": "Es Campur Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-023",
+    "name": "Tumis Sayur Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-024",
+    "name": "Ayam Bakar Nusa Tenggara Barat",
+    "origin": "Nusa Tenggara Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-025",
+    "name": "Es Campur Nusa Tenggara Barat",
+    "origin": "Nusa Tenggara Barat",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-026",
+    "name": "Bubur Ayam Nusa Tenggara Barat",
+    "origin": "Nusa Tenggara Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-027",
+    "name": "Es Campur Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-028",
+    "name": "Sambal Nusa Tenggara Barat",
+    "origin": "Nusa Tenggara Barat",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-029",
+    "name": "Sambal Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-030",
+    "name": "Tumis Sayur Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-031",
+    "name": "Mie Kuah Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Main Dish",
+    "eng": [
+      "Noodles",
+      "Broth",
+      "Vegetables",
+      "Egg"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-032",
+    "name": "Nasi Goreng Nusa Tenggara Barat",
+    "origin": "Nusa Tenggara Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-033",
+    "name": "Es Campur Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-034",
+    "name": "Mie Kuah Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Main Dish",
+    "eng": [
+      "Noodles",
+      "Broth",
+      "Vegetables",
+      "Egg"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-035",
+    "name": "Es Campur Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-036",
+    "name": "Es Campur Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-037",
+    "name": "Sambal Nusa Tenggara Barat",
+    "origin": "Nusa Tenggara Barat",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-038",
+    "name": "Sate Nusa Tenggara Barat",
+    "origin": "Nusa Tenggara Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-039",
+    "name": "Sambal Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-040",
+    "name": "Ayam Bakar Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-041",
+    "name": "Nasi Goreng Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-042",
+    "name": "Sambal Nusa Tenggara Barat",
+    "origin": "Nusa Tenggara Barat",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-043",
+    "name": "Nasi Goreng Nusa Tenggara Barat",
+    "origin": "Nusa Tenggara Barat",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-044",
+    "name": "Kopi Khas Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-045",
+    "name": "Sambal Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-046",
+    "name": "Es Campur Nusa Tenggara Barat",
+    "origin": "Nusa Tenggara Barat",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-047",
+    "name": "Ikan Bakar Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-048",
+    "name": "Nasi Goreng Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Main Dish",
+    "eng": [
+      "Rice",
+      "Soy Sauce",
+      "Spices",
+      "Chili"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-049",
+    "name": "Kue Basah Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Snack",
+    "eng": [
+      "Rice Flour",
+      "Coconut",
+      "Sugar",
+      "Pandan"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "nt-050",
+    "name": "Sambal Nusa Tenggara Timur",
+    "origin": "Nusa Tenggara Timur",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-006",
+    "name": "Ikan Asar",
+    "origin": "Ambon",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "ml-007",
+    "name": "Kasbi Kompa",
+    "origin": "Maluku",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "ml-008",
+    "name": "Kohu-Kohu",
+    "origin": "Ambon",
+    "category": "Side Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "ml-009",
+    "name": "Roti Kenari",
+    "origin": "Ambon",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "ml-010",
+    "name": "Es Kacang Merah Ambon",
+    "origin": "Ambon",
+    "category": "Dessert",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "ml-011",
+    "name": "Halua Kenari",
+    "origin": "Maluku",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "ml-012",
+    "name": "Ikan Bakar Dabu-dabu",
+    "origin": "Ambon",
+    "category": "Main Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "ml-013",
+    "name": "Sagu Gula",
+    "origin": "Maluku",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "ml-014",
+    "name": "Pisang Asar",
+    "origin": "Ambon",
+    "category": "Snack",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "ml-015",
+    "name": "Sayur Lilin",
+    "origin": "Ternate",
+    "category": "Side Dish",
+    "eng": [
+      "Local Ingredients",
+      "Spices"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah-rempah"
+    ]
+  },
+  {
+    "id": "ml-016",
+    "name": "Ayam Bakar Maluku Utara",
+    "origin": "Maluku Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-017",
+    "name": "Sambal Maluku",
+    "origin": "Maluku",
+    "category": "Condiment",
+    "eng": [
+      "Chili",
+      "Shallots",
+      "Shrimp Paste",
+      "Tomato"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-018",
+    "name": "Es Campur Maluku Utara",
+    "origin": "Maluku Utara",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-019",
+    "name": "Mie Kuah Maluku",
+    "origin": "Maluku",
+    "category": "Main Dish",
+    "eng": [
+      "Noodles",
+      "Broth",
+      "Vegetables",
+      "Egg"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-020",
+    "name": "Bubur Ayam Maluku",
+    "origin": "Maluku",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-021",
+    "name": "Sate Maluku Utara",
+    "origin": "Maluku Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-022",
+    "name": "Tumis Sayur Maluku",
+    "origin": "Maluku",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-023",
+    "name": "Es Campur Maluku Utara",
+    "origin": "Maluku Utara",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-024",
+    "name": "Kerupuk Maluku Utara",
+    "origin": "Maluku Utara",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-025",
+    "name": "Kue Basah Maluku",
+    "origin": "Maluku",
+    "category": "Snack",
+    "eng": [
+      "Rice Flour",
+      "Coconut",
+      "Sugar",
+      "Pandan"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-026",
+    "name": "Ikan Bakar Maluku Utara",
+    "origin": "Maluku Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-027",
+    "name": "Kopi Khas Maluku",
+    "origin": "Maluku",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-028",
+    "name": "Soto Maluku",
+    "origin": "Maluku",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-029",
+    "name": "Sate Maluku",
+    "origin": "Maluku",
+    "category": "Main Dish",
+    "eng": [
+      "Meat",
+      "Skewers",
+      "Peanut/Soy Sauce",
+      "Shallots"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-030",
+    "name": "Tumis Sayur Maluku",
+    "origin": "Maluku",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-031",
+    "name": "Es Campur Maluku",
+    "origin": "Maluku",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-032",
+    "name": "Tumis Sayur Maluku",
+    "origin": "Maluku",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-033",
+    "name": "Kopi Khas Maluku",
+    "origin": "Maluku",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-034",
+    "name": "Mie Kuah Maluku",
+    "origin": "Maluku",
+    "category": "Main Dish",
+    "eng": [
+      "Noodles",
+      "Broth",
+      "Vegetables",
+      "Egg"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-035",
+    "name": "Kopi Khas Maluku Utara",
+    "origin": "Maluku Utara",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-036",
+    "name": "Ayam Bakar Maluku Utara",
+    "origin": "Maluku Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-037",
+    "name": "Bubur Ayam Maluku",
+    "origin": "Maluku",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-038",
+    "name": "Soto Maluku",
+    "origin": "Maluku",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-039",
+    "name": "Kerupuk Maluku Utara",
+    "origin": "Maluku Utara",
+    "category": "Snack",
+    "eng": [
+      "Tapioca",
+      "Fish/Shrimp",
+      "Garlic",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-040",
+    "name": "Kue Basah Maluku Utara",
+    "origin": "Maluku Utara",
+    "category": "Snack",
+    "eng": [
+      "Rice Flour",
+      "Coconut",
+      "Sugar",
+      "Pandan"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-041",
+    "name": "Soto Maluku Utara",
+    "origin": "Maluku Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Broth",
+      "Meat",
+      "Turmeric",
+      "Garlic"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-042",
+    "name": "Ikan Bakar Maluku Utara",
+    "origin": "Maluku Utara",
+    "category": "Main Dish",
+    "eng": [
+      "Fresh Fish",
+      "Spices",
+      "Chili",
+      "Lime"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-043",
+    "name": "Es Campur Maluku",
+    "origin": "Maluku",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-044",
+    "name": "Es Campur Maluku Utara",
+    "origin": "Maluku Utara",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-045",
+    "name": "Es Campur Maluku Utara",
+    "origin": "Maluku Utara",
+    "category": "Dessert",
+    "eng": [
+      "Shaved Ice",
+      "Syrup",
+      "Fruits",
+      "Milk"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-046",
+    "name": "Kopi Khas Maluku Utara",
+    "origin": "Maluku Utara",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-047",
+    "name": "Tumis Sayur Maluku",
+    "origin": "Maluku",
+    "category": "Side Dish",
+    "eng": [
+      "Vegetables",
+      "Garlic",
+      "Chili",
+      "Salt"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-048",
+    "name": "Ayam Bakar Maluku",
+    "origin": "Maluku",
+    "category": "Main Dish",
+    "eng": [
+      "Chicken",
+      "Sweet Soy Sauce",
+      "Coriander"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-049",
+    "name": "Bubur Ayam Maluku",
+    "origin": "Maluku",
+    "category": "Main Dish",
+    "eng": [
+      "Rice Porridge",
+      "Chicken",
+      "Soy Sauce",
+      "Crackers"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  },
+  {
+    "id": "ml-050",
+    "name": "Kopi Khas Maluku",
+    "origin": "Maluku",
+    "category": "Beverage",
+    "eng": [
+      "Coffee Beans",
+      "Sugar",
+      "Water"
+    ],
+    "ind": [
+      "Bahan Lokal",
+      "Rempah Rahasia"
+    ]
+  }
+]

@@ -63,56 +63,56 @@ export default function Jelajahi() {
                 </ul>
             </div>
             {/* Section Daftar Makanan Sesuai Pulau yang Dipilih */}
-<div className="flex flex-col w-full px-6 py-10">
-    <div className="flex justify-between items-center mb-6">
-        <div>
-            <h2 className="font-bold font-[Playfair_Display] sm:text-4xl text-2xl">
-                Kuliner Khas {selectedIsland?.nama}
-            </h2>
-            <p className="text-gray-500 font-[Montserrat] text-sm mt-1">
-                Menampilkan makanan khas dari pulau {selectedIsland?.nama}
-            </p>
-        </div>
-    </div>
-
-    {/* Grid Card Makanan */}
-    <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 font-[Montserrat]">
-        {selectedIsland?.makanan?.map((item) => (
-            <li 
-            key={item.id} 
-            className="bg-[#eaeaea] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col"
-            >
-            <Link
-            href={`/jelajahi/${item.id}`}>
-                <img 
-                    src={item.image} 
-                    alt={item.name} 
-                    className="w-full h-44 object-cover"
-                    />
-                <div className="p-4 flex flex-col justify-between flex-1">
+            <div className="flex flex-col w-full px-6 py-10">
+                <div className="flex justify-between items-center mb-6">
                     <div>
-                        <h3 className="font-bold font-[Playfair_Display] text-lg line-clamp-1">
-                            {item.name}
-                        </h3>
-                        <p className="text-xs text-gray-500 mt-1">
-                            Asal: {item.origin}
+                        <h2 className="font-bold font-[Playfair_Display] sm:text-4xl text-2xl">
+                            Kuliner Khas {selectedIsland?.nama}
+                        </h2>
+                        <p className="text-gray-500 font-[Montserrat] text-sm mt-1">
+                            Menampilkan makanan khas dari pulau {selectedIsland?.nama}
                         </p>
                     </div>
-
-                    <div className="flex justify-between items-center mt-4 pt-3 border-t border-gray-300 text-xs">
-                        <span className="text-gray-700 font-medium">
-                            {item.price_range_ind}
-                        </span>
-                        <span className="text-amber-600 font-bold">
-                            ★ {item.rating || "4.5"}
-                        </span>
-                    </div>
                 </div>
-                </Link>
-            </li>
-        ))}
-    </ul>
-</div>
+
+                {/* Grid Card Makanan */}
+                <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 font-[Montserrat]">
+                    {selectedIsland?.makanan?.map((item) => (
+                        <li 
+                        key={item.id} 
+                        className="bg-[#eaeaea] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col"
+                        >
+                        <Link
+                        href={`/jelajahi/${item.id}`}>
+                            <img 
+                                src={item.image} 
+                                alt={item.name} 
+                                className="w-full h-44 object-cover"
+                                />
+                            <div className="p-4 flex flex-col justify-between flex-1">
+                                <div>
+                                    <h3 className="font-bold font-[Playfair_Display] text-lg line-clamp-1">
+                                        {item.name}
+                                    </h3>
+                                    <p className="text-xs text-gray-500 mt-1">
+                                        Asal: {item.origin}
+                                    </p>
+                                </div>
+
+                                <div className="flex justify-between items-center mt-4 pt-3 border-t border-gray-300 text-xs">
+                                    <span className="text-gray-700 font-medium">
+                                        {item.price_range_ind}
+                                    </span>
+                                    <span className="text-amber-600 font-bold">
+                                        ★ {item.rating || "4.5"}
+                                    </span>
+                                </div>
+                            </div>
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </div>
     )
 }

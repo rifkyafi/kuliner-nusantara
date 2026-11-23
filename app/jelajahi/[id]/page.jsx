@@ -10,6 +10,7 @@ export default function DetailMakanan() {
     const params = useParams();
     const router = useRouter();
     const [makanan, setMakanan] = useState(null)
+    const [activeTab, setActiveTab] = useState("deskripsi")
 
     useEffect(() => {
         if (params?.id) {
@@ -36,29 +37,118 @@ export default function DetailMakanan() {
     }
 
     return (
-        <div className="flex w-full  min-h-screen font-[Montserrat] justify-center bg-[#f5ebdd] items-center -mt-10">
-            <div className="flex flex-col w-full h-150 mx-5 bg-[#eaeaea]/75 backdrop-blur-md border border-white/30 shadow-lg shadow-black/5 rounded-2xl justify-between  ">
-                <span className="flex w-full h-15  justify-between items-center px-2 rounded-t-2xl border-b-2">
-                    {makanan.category}
+        <div className="flex w-full  min-h-screen font-[Montserrat] justify-center sm:bg-[#f5ebdd] bg-[#eaeaea]/75 items-center sm:-mt-10">
+            <div className="flex flex-col w-full sm:h-150 h-auto sm:mx-5 mx-0 bg-[#eaeaea]/75 backdrop-blur-md sm:border sm:border-white/30 shadow-lg shadow-black/5 sm:rounded-2xl sm:justify-between">
+                <span className="flex w-full h-15  justify-between items-center px-2 rounded-t-2xl border-b-2 shrink-0">
+                    <p className="text-gray-400">
+                        {makanan.category}
+                    </p>
                         <button
                         onClick={() => router.back()}
                         className="flex h-auto items-center gap-2 cursor-pointer">
                             Kembali <FaArrowRight/>                  
                         </button>
                 </span>
-                <div className="flex flex-row">
+                <div className="flex sm:flex-row flex-col gap-5">
                     <div className="flex sm:w-1/2 w-full">
                         <div>
                             <img 
                             src={makanan.image}
                             alt={makanan.name} 
-                            className="w-full h-135 object-cover rounded-bl-2xl"/>
+                            className="w-full sm:h-135  h-auto object-cover sm:rounded-bl-2xl"/>
                         
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            Jelajahi / {makanan.pulau} /{makanan.name}
+                    <div className="flex flex-col h-auto sm:w-1/2 w-full sm:px-0 px-2 py-2">
+                        <div className="sm:text-lg text-sm pt-2">
+                            Jelajahi / {makanan.pulau} /  <span className="text-[#c59b27]"> {makanan.name} </span>
+                        </div>
+                        <h1 className="sm:text-8xl text-5xl font-[Playfair_Display] font-semibold">
+                            {makanan.name}
+                        </h1>
+                        <span className="sm:pt-5 pt-2 sm:text-2xl text-lg text-[#c59b27] font-semibold">
+                            Harga: {makanan.price_range_ind}
+                        </span>
+                        <p className="sm:text-md text-sm pt-2 pb-1">
+                            {makanan.is_halal? "Halal" : "Non Halal"}
+                        </p>
+                        <p className="text-[11px] sm:text-xs text-stone-500 pt-1 tracking-wide leading-relaxed">
+                            <span className="font-semibold text-stone-700">Terkait:</span>{" "}
+                            <span className="text-stone-500/90 italic">
+                                {makanan.search_keywords_ind?.join(", ")}
+                            </span>
+                        </p>
+                        <ul className="flex w-full justify-around sm:pt-6 pt-3">
+                            <li>
+                                <button
+                                type="button"
+                                onClick={() => setActiveTab("deskripsi")}    
+                                className={`pb-2 text-sm sm:text-base cursor-pointer font-medium transition-all  ${
+                                    activeTab === "deskripsi"
+                                    ? "border-b-2 border-[#c59b27] text-[#c59b27] font-bold"
+                                    : "border-b-2 text-gray-500 hover:text-black"
+                                }`}
+                                >
+                                    Deskripsi
+                                </button>
+                            </li>
+                            <li>
+                                <button
+                                type="button"
+                                onClick={() => setActiveTab("bahan")}    
+                                className={`pb-2 text-sm sm:text-base cursor-pointer font-medium transition-all  ${
+                                    activeTab === "bahan"
+                                    ? "border-b-2 border-[#c59b27] text-[#c59b27] font-bold"
+                                    : "border-b-2 text-gray-500 hover:text-black"
+                                }`}
+                                >
+                                    Bahan utama
+                                </button>
+                            </li>
+                            <li>
+                                <button
+                                type="button"
+                                onClick={() => setActiveTab("rasa")}
+                                className={`pb-2 text-sm sm:text-base cursor-pointer font-medium transition-all  ${
+                                    activeTab === "rasa"
+                                    ? "border-b-2 border-[#c59b27] text-[#c59b27] font-bold"
+                                    : "border-b-2 text-gray-500 hover:text-black"
+                                }`}
+                                >
+                                    Cita Rasa
+                                </button>
+                            </li>
+                        </ul>
+                        {/* subbab */}
+                        <div className="h-61.25 pr-4">
+                            {activeTab === "deskripsi" && (
+                                <p
+                                className="text-justify sm:pt-3 pt-1 sm:text-lg text-sm">
+                                    {makanan.description_ind}
+                                </p>
+                            )}
+
+                            {activeTab === "bahan" && (
+                                <ul className="text-justify sm:pt-3 pt-1 sm:text-lg text-sm list-decimal px-5">
+                                    {makanan.ingredients_ind?.map((bahan, idx) => (
+                                        <li key={idx}>
+                                            {bahan}
+                                        </li>
+                                    ))}
+                                </ul>
+                            )}
+                            
+                            {activeTab === "rasa" && (
+                                <ul className="text-justify sm:pt-3 pt-1 sm:text-lg text-sm list-decimal px-5">
+                                    {makanan.flavor_profile?.map((rasa, idx) => (
+                                        <li key={idx}>
+                                             {rasa}
+                                        </li>
+                                    ))}
+                                </ul>
+                            )}
+                           
+                            
                         </div>
                     </div>
                 </div>
