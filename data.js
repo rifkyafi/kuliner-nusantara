@@ -422,7 +422,7 @@ const DATA_PULAU = [
                             "traditional",
                             "padang"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto_Padang",
 
                     "price_range_ind": "Rp25.000 - Rp35.000",
@@ -951,7 +951,7 @@ const DATA_PULAU = [
                             "food",
                             "sumatera barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp25.000 - Rp35.000",
@@ -2156,7 +2156,7 @@ const DATA_PULAU = [
                             "food",
                             "lampung"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -3301,7 +3301,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -3350,7 +3350,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -3840,7 +3840,7 @@ const DATA_PULAU = [
                             "food",
                             "banten"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -3983,7 +3983,7 @@ const DATA_PULAU = [
                             "food",
                             "jawa timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -4969,7 +4969,7 @@ const DATA_PULAU = [
                             "south kalimantan",
                             "cempedak"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
                     "price_range_ind": "Rp23.000 - Rp35.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
                     "rating": null,
@@ -5021,7 +5021,7 @@ const DATA_PULAU = [
                             "kalimantan",
                             "sweet savory chicken"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20masak%20merah.jpg?width=800",
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -5173,7 +5173,7 @@ const DATA_PULAU = [
                             "kalimantan seafood",
                             "crispy crab"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soft%20Shell%20Crab%20(3627310255).jpg?width=800",
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://travel.kompas.com/read/2019/09/18/141826127/daripada-rebutan-rendang-datangi-3-rumah-makan-dengan-rendang-paling-enak-di",
                     "rating": 4.1,
@@ -5220,7 +5220,7 @@ const DATA_PULAU = [
                             "traditional",
                             "banjarmasin"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto_Banjar",
 
                     "price_range_ind": "Rp100.000 - Rp300.000",
@@ -5318,7 +5318,7 @@ const DATA_PULAU = [
                             "traditional",
                             "banjarmasin"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20Kuning%20dan%20Ungkep%20Ayam.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_kuning",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -5367,7 +5367,7 @@ const DATA_PULAU = [
                             "traditional",
                             "banjar"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20Bingka%20mini.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bingka",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -5851,7 +5851,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -5949,7 +5949,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -5998,7 +5998,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp13.000 - Rp30.000",
@@ -6047,7 +6047,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -6194,7 +6194,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -6292,7 +6292,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp13.000 - Rp30.000",
@@ -6533,7 +6533,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -6766,7 +6766,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp13.000 - Rp30.000",
@@ -6815,7 +6815,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -6913,7 +6913,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -6962,7 +6962,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp13.000 - Rp30.000",
@@ -7256,7 +7256,7 @@ const DATA_PULAU = [
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -7484,7 +7484,7 @@ const DATA_PULAU = [
                             "spicy yellow fish",
                             "basil fish"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pallumara%20ikan%20sunu-1.jpg?width=800",
                     "price_range_ind": "Rp45.000 - Rp65.000",
                     "price_source": "https://makassar.tribunnews.com/2015/07/07/woku-ratulangi-di-hotel-sahid-rp-55-ribu",
                     "rating": null,
@@ -7883,7 +7883,7 @@ const DATA_PULAU = [
                             "traditional",
                             "makassar"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_goreng",
 
                     "price_range_ind": "Rp20.000 - Rp35.000",
@@ -8978,7 +8978,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp8.000 - Rp12.000",
@@ -9321,7 +9321,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp8.000 - Rp12.000",
@@ -9560,7 +9560,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp6.000 - Rp15.000",
@@ -9805,7 +9805,7 @@ const DATA_PULAU = [
                             "food",
                             "sulawesi selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp8.000 - Rp12.000",
@@ -9929,7 +9929,7 @@ const DATA_PULAU = [
                             "milk pie",
                             "custard tart"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20gapit%2C%202015-06-16.jpg?width=800",
+                        "image": null,
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/6155625/10-makanan-khas-manokwari-yang-wajib-dicoba-pencinta-kuliner-nusantara",
                     "rating": 5,
@@ -10219,7 +10219,7 @@ const DATA_PULAU = [
                             "traditional",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sup%20Ikan%20Siakap.jpg?width=800",
                     "ingredients_source": "https://papua.tribunnews.com/2022/11/18/wisata-papua-sajian-kuliner-khas-ikan-kuah-hitam",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -10268,7 +10268,7 @@ const DATA_PULAU = [
                             "traditional",
                             "papua"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stamp%20of%20Indonesia%20-%202006%20-%20Colnect%20385078%20-%20Indonesian%20Traditional%20Foods%20-%20Aunu%20Senebre.jpeg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Aunu_senebre",
 
                     "price_range_ind": "Harga bervariasi",
@@ -10366,7 +10366,7 @@ const DATA_PULAU = [
                             "traditional",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Kelapa%20Muda.JPG?width=800",
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -10511,7 +10511,7 @@ const DATA_PULAU = [
                             "traditional",
                             "jayapura"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sup%20Ikan%20Siakap.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sup_ikan",
 
                     "price_range_ind": "Rp55.000 - Rp70.000",
@@ -10989,7 +10989,7 @@ const DATA_PULAU = [
                             "food",
                             "papua barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp5.000 - Rp15.000",
@@ -11136,7 +11136,7 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp18.000 - Rp26.000",
@@ -11230,7 +11230,7 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp5.000 - Rp15.000",
@@ -11328,7 +11328,7 @@ const DATA_PULAU = [
                             "food",
                             "papua"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp18.000 - Rp26.000",
@@ -11814,7 +11814,7 @@ const DATA_PULAU = [
                             "food",
                             "papua selatan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp5.000 - Rp15.000",
@@ -12243,7 +12243,7 @@ const DATA_PULAU = [
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -12533,7 +12533,7 @@ const DATA_PULAU = [
                             "bali breakfast",
                             "turmeric rice"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                        "image": null,
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -12629,7 +12629,7 @@ const DATA_PULAU = [
                             "traditional",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20Campur%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_campur",
 
                     "price_range_ind": "Rp15.000 - Rp30.000",
@@ -13305,7 +13305,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp5.000 - Rp15.000",
@@ -13452,7 +13452,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -13550,7 +13550,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -13599,7 +13599,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -14210,7 +14210,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -14406,7 +14406,7 @@ const DATA_PULAU = [
                             "food",
                             "bali"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp5.000 - Rp15.000",
@@ -15622,7 +15622,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -15818,7 +15818,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -16014,7 +16014,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp20.000",
@@ -16063,7 +16063,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -16357,7 +16357,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -16455,7 +16455,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -16504,7 +16504,7 @@ const DATA_PULAU = [
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -17259,7 +17259,7 @@ const DATA_PULAU = [
                             "spice islands soup",
                             "maluku fish"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sup%20Ikan%20Siakap.jpg?width=800",
                     "price_range_ind": "Rp25.000 - Rp50.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/6177151/4-kuliner-khas-ternate-berbahan-dasar-seafood-dan-rempah-lokal-yang-menggoda-selera",
                     "rating": null,
@@ -17517,7 +17517,7 @@ const DATA_PULAU = [
                             "traditional",
                             "ambon"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Smoked%20tuna%20from%20Maluku.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Cakalang",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -17713,7 +17713,7 @@ const DATA_PULAU = [
                             "traditional",
                             "ambon"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20kacang%20merah%20Ternate.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_kacang_merah",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -17958,7 +17958,7 @@ const DATA_PULAU = [
                             "traditional",
                             "ternate"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayori%20lilin%20(Saccharum%20edule).jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sayur_lilin",
 
                     "price_range_ind": "Harga bervariasi",
@@ -18105,7 +18105,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -18203,7 +18203,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -18350,7 +18350,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -18585,7 +18585,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -18722,7 +18722,7 @@ const DATA_PULAU = [
                         ],
                         "is_halal": true,
                         "is_vegetarian": true,
-                        "search_keywords_ind": [
+                        "ingredients_ind": [
                             "es campur",
                             "maluku",
                             "indonesia"
@@ -19014,7 +19014,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -19063,7 +19063,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -19206,7 +19206,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto-Zen-Master-Dogen-Zenji-Portrait.png?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -19353,7 +19353,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -19402,7 +19402,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku utara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -19592,7 +19592,7 @@ const DATA_PULAU = [
                             "food",
                             "maluku"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",

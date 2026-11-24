@@ -2,7 +2,7 @@ import DATA_PULAU from "../../data";
 
 export function getMenuById(id) {
     for (const pulau of DATA_PULAU) {
-        const item = pulau.menu[0].data.find((m) => m.id === id);
+        const item = pulau.menu[0].data.find((menu) => menu.id === id);
         if (item) {
             return {
                 ...item,
@@ -71,3 +71,15 @@ export function getIsland(jumlah =  8){
 }
 
 export default  getImagePopularMenu;
+
+export function searchMenu(keyword = "") {
+    if (!keyword.trim()) return []
+    const lower = keyword.toLowerCase()
+    return ALL_MENU.filter(
+        (item) => 
+            item.name.toLocaleLowerCase().includes(lower) || 
+            item.origin.toLocaleLowerCase().includes(lower) ||
+            item.category.toLocaleLowerCase().includes(lower) ||
+            item.ingredients_ind?.join("").toLocaleLowerCase().includes(lower)
+    );
+} 

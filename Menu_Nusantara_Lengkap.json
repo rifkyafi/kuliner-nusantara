@@ -67,7 +67,7 @@
                             "west sumatera",
                             "slow cooked beef"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beef%20Rendang..JPG?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rendang%20daging%20sapi%20asli%20Padang.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Rendang",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -121,7 +121,7 @@
                             "thick gravy satay",
                             "west sumatera"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20padang.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Padang%20Mak%20Syukur.jpg?width=800",
                     "price_range_ind": "Rp17.000 - Rp40.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/3967713/kuliner-malam-jumat-daging-empuk-dan-bumbu-khas-jadi-andalan-sate-padang-takana-juo",
                     "rating": 4.4,
@@ -223,7 +223,7 @@
                             "north sumatera",
                             "pandan cake"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20bika%20ambon.JPG?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bika%20ambon%20pandan.jpg?width=800",
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": 3.9,
@@ -275,7 +275,7 @@
                             "spicy fried noodles",
                             "acehnese cuisine"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20Aceh.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MIE%202024%20P2.jpg?width=800",
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": 4.6,
@@ -322,7 +322,7 @@
                             "traditional",
                             "padang"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dendeng%20balado.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Dendeng_balado",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -371,7 +371,7 @@
                             "traditional",
                             "bukittinggi"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Pop%201.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_pop",
 
                     "price_range_ind": "Rp10.000 - Rp35.000",
@@ -420,7 +420,7 @@
                             "traditional",
                             "padang"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto_Padang",
 
                     "price_range_ind": "Rp25.000 - Rp35.000",
@@ -469,7 +469,7 @@
                             "traditional",
                             "palembang"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20Celor%20Palembang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie_celor",
 
                     "price_range_ind": "Rp40.000 - Rp60.000",
@@ -518,7 +518,7 @@
                             "traditional",
                             "bangka"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lempah%20kuning%20stew.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Lempah_kuning",
 
                     "price_range_ind": "Rp35.000 - Rp65.000",
@@ -567,7 +567,7 @@
                             "traditional",
                             "aceh"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Masakan%20Khas%20Kota%20Aceh%20Ayam%20Tangkap.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_tangkap",
 
                     "price_range_ind": "Harga bervariasi",
@@ -616,7 +616,7 @@
                             "traditional",
                             "padang"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gulai%20tunjang.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Gulai",
 
                     "price_range_ind": "Harga bervariasi",
@@ -665,7 +665,7 @@
                             "traditional",
                             "pariaman"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate_Padang",
 
                     "price_range_ind": "Rp17.000 - Rp40.000",
@@ -714,7 +714,7 @@
                             "traditional",
                             "karo"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Se'i%20Babi%203.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Babi_panggang_karo",
 
                     "price_range_ind": "Rp25.000 - Rp50.000",
@@ -763,7 +763,7 @@
                             "traditional",
                             "palembang"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tekwan%20Palembang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tekwan",
 
                     "price_range_ind": "Harga bervariasi",
@@ -812,7 +812,7 @@
                             "food",
                             "lampung"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp5.000 - Rp15.000",
@@ -855,7 +855,7 @@
                             "food",
                             "bengkulu"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -900,7 +900,7 @@
                             "food",
                             "riau"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp3.000 - Rp7.000",
@@ -949,7 +949,7 @@
                             "food",
                             "sumatera barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp25.000 - Rp35.000",
@@ -998,7 +998,7 @@
                             "food",
                             "aceh"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
 
                     "price_range_ind": "Rp7.500 - Rp15.000",
@@ -1047,7 +1047,7 @@
                             "food",
                             "sumatera utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -1096,7 +1096,7 @@
                             "food",
                             "kepulauan bangka belitung"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp10.000 - Rp30.000",
@@ -1145,7 +1145,7 @@
                             "food",
                             "jambi"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -1190,7 +1190,7 @@
                             "food",
                             "kepulauan riau"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp3.000 - Rp7.000",
@@ -1239,7 +1239,7 @@
                             "food",
                             "kepulauan bangka belitung"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -1284,7 +1284,7 @@
                             "food",
                             "sumatera barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp3.000 - Rp7.000",
@@ -1333,7 +1333,7 @@
                             "food",
                             "sumatera selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
 
                     "price_range_ind": "Rp40.000 - Rp60.000",
@@ -1382,7 +1382,7 @@
                             "food",
                             "bengkulu"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -1431,7 +1431,7 @@
                             "food",
                             "aceh"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp10.000 - Rp30.000",
@@ -1480,7 +1480,7 @@
                             "food",
                             "kepulauan bangka belitung"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -1529,7 +1529,7 @@
                             "food",
                             "bengkulu"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -1574,7 +1574,7 @@
                             "food",
                             "jambi"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp3.000 - Rp7.000",
@@ -1619,7 +1619,7 @@
                             "food",
                             "aceh"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp3.000 - Rp7.000",
@@ -1668,7 +1668,7 @@
                             "food",
                             "kepulauan bangka belitung"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -1717,7 +1717,7 @@
                             "food",
                             "aceh"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp10.000 - Rp30.000",
@@ -1766,7 +1766,7 @@
                             "food",
                             "sumatera utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp5.000 - Rp15.000",
@@ -1811,7 +1811,7 @@
                             "food",
                             "kepulauan riau"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp3.000 - Rp7.000",
@@ -1860,7 +1860,7 @@
                             "food",
                             "aceh"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -1909,7 +1909,7 @@
                             "food",
                             "aceh"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -1958,7 +1958,7 @@
                             "food",
                             "lampung"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -2007,7 +2007,7 @@
                             "food",
                             "jambi"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp12.000 - Rp32.000",
@@ -2056,7 +2056,7 @@
                             "food",
                             "bengkulu"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -2105,7 +2105,7 @@
                             "food",
                             "sumatera utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp12.000 - Rp32.000",
@@ -2154,7 +2154,7 @@
                             "food",
                             "lampung"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -2197,7 +2197,7 @@
                             "food",
                             "jambi"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -2246,7 +2246,7 @@
                             "food",
                             "aceh"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp5.000 - Rp15.000",
@@ -2295,7 +2295,7 @@
                             "food",
                             "kepulauan riau"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -2340,7 +2340,7 @@
                             "food",
                             "aceh"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp3.000 - Rp7.000",
@@ -2385,7 +2385,7 @@
                             "food",
                             "sumatera barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp3.000 - Rp7.000",
@@ -2430,7 +2430,7 @@
                             "food",
                             "aceh"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp3.000 - Rp7.000",
@@ -2503,7 +2503,7 @@
                             "lumpia",
                             "snack"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lumpia%20Semarang.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Makanan%20Lumpia%20Rebung%20Khas%20Semarang%20Jateng%20Indonesia.jpg?width=800",
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://www.kompas.com/food/read/2026/05/21/123100175/7-rumah-makan-padang-enak-di-jakarta-yang-belum-banyak-orang-tau",
                     "rating": 4.2,
@@ -2609,7 +2609,7 @@
                             "jogja",
                             "traditional stew"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gudeg%20Ayam.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gudeg%20Sagan%20Yogyakarta.jpg?width=800",
                     "price_range_ind": "Rp15.000 - Rp50.000",
                     "price_source": "https://food.detik.com/warung-makan/d-8290307/anti-getok-harga-ini-5-harga-nasi-gudeg-populer-di-jogja",
                     "rating": 4,
@@ -2661,7 +2661,7 @@
                             "surabaya",
                             "east java"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rawon%20Setan.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bumbu%20Rawon.jpg?width=800",
                     "price_range_ind": "Rp20.000 - Rp40.000",
                     "price_source": "https://jatim.idntimes.com/food/dining-guide/jtm-6-kuliner-rawon-di-sekitar-terminal-bungurasih-kuahnya-mantap-c1c2-01-n55lj-hl1gz4",
                     "rating": 4.2,
@@ -2713,7 +2713,7 @@
                             "lamongan",
                             "yellow soup"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20Lamongan.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mangrove%2C%20Lamongan%20Regency%2C%20East%20Java%2C%20Indonesia%202.jpg?width=800",
                     "price_range_ind": "Rp15.000 - Rp25.000",
                     "price_source": "https://style.tribunnews.com/life/376017/libur-sekolah-di-palembang-yuk-berburu-soto-lamongan-bude-yang-legendaris",
                     "rating": 4,
@@ -2760,7 +2760,7 @@
                             "traditional",
                             "surabaya"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tahu%20Th%C3%A8g%20Tahu%20Bumbu%20Lonthong%20Bumbu%20atau%20Tahu%20Tek%20Tahu%20Telor.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tahu_tek",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -2809,7 +2809,7 @@
                             "traditional",
                             "surabaya"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rujak%20Cingur%20khas%20Jawa%20Timur%2CIndonesia%20dengan%20kombinasi%20sayuran%20dan%20kerupuk%20sebagai%20pelengkap.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Rujak_cingur",
 
                     "price_range_ind": "Rp25.000 - Rp50.000",
@@ -2858,7 +2858,7 @@
                             "traditional",
                             "solo"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tongseng%20Sapi.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tongseng",
 
                     "price_range_ind": "Rp23.000 - Rp35.000",
@@ -2907,7 +2907,7 @@
                             "traditional",
                             "bantul"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20klatak%2020170818%20Yogyakarta.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate_klathak",
 
                     "price_range_ind": "Rp30.000 - Rp35.000",
@@ -2956,7 +2956,7 @@
                             "traditional",
                             "yogyakarta"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/9.%20Mangut%20Lele%201.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mangut_lele",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -3005,7 +3005,7 @@
                             "traditional",
                             "kudus"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Garang%20asem%20Pj.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Garang_asem",
 
                     "price_range_ind": "Harga bervariasi",
@@ -3054,7 +3054,7 @@
                             "traditional",
                             "cirebon"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Arya%22%20%EA%A6%B2%EA%A6%BC%EA%A6%A9%EA%A7%80%EA%A6%A5%EA%A6%AD%EA%A7%80%EA%A6%92%EA%A6%BC%EA%A6%A4%EA%A7%80%EA%A6%9B%EA%A6%BA%EA%A6%B4%EA%A6%81%20Indonesian%20soup%20empal%20gentong.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Empal_gentong",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -3103,7 +3103,7 @@
                             "traditional",
                             "bandung"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Batagor%20dan%20Bumbu%20Kacang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Batagor",
 
                     "price_range_ind": "Rp6.000 - Rp15.000",
@@ -3152,7 +3152,7 @@
                             "traditional",
                             "bandung"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Seblak%202.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Seblak",
 
                     "price_range_ind": "Rp7.000 - Rp15.000",
@@ -3201,7 +3201,7 @@
                             "traditional",
                             "jakarta"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerak%20Telor.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerak_telor",
 
                     "price_range_ind": "Harga bervariasi",
@@ -3250,7 +3250,7 @@
                             "food",
                             "dki jakarta"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -3299,7 +3299,7 @@
                             "food",
                             "jawa barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -3348,7 +3348,7 @@
                             "food",
                             "jawa timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -3397,7 +3397,7 @@
                             "food",
                             "di yogyakarta"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -3446,7 +3446,7 @@
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -3495,7 +3495,7 @@
                             "food",
                             "di yogyakarta"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -3544,7 +3544,7 @@
                             "food",
                             "di yogyakarta"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp10.000 - Rp20.000",
@@ -3593,7 +3593,7 @@
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
 
                     "price_range_ind": "Rp1.000 - Rp5.000",
@@ -3642,7 +3642,7 @@
                             "food",
                             "di yogyakarta"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -3691,7 +3691,7 @@
                             "food",
                             "banten"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -3740,7 +3740,7 @@
                             "food",
                             "dki jakarta"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -3789,7 +3789,7 @@
                             "food",
                             "jawa barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -3838,7 +3838,7 @@
                             "food",
                             "banten"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -3887,7 +3887,7 @@
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -3932,7 +3932,7 @@
                             "food",
                             "dki jakarta"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Harga bervariasi",
@@ -3981,7 +3981,7 @@
                             "food",
                             "jawa timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -4030,7 +4030,7 @@
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
 
                     "price_range_ind": "Rp10.000 - Rp20.000",
@@ -4079,7 +4079,7 @@
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -4128,7 +4128,7 @@
                             "food",
                             "banten"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp10.000 - Rp20.000",
@@ -4177,7 +4177,7 @@
                             "food",
                             "jawa timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp10.000 - Rp20.000",
@@ -4226,7 +4226,7 @@
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -4275,7 +4275,7 @@
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -4324,7 +4324,7 @@
                             "food",
                             "dki jakarta"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -4373,7 +4373,7 @@
                             "food",
                             "banten"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -4422,7 +4422,7 @@
                             "food",
                             "banten"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
 
                     "price_range_ind": "Rp1.000 - Rp5.000",
@@ -4467,7 +4467,7 @@
                             "food",
                             "jawa timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Harga bervariasi",
@@ -4512,7 +4512,7 @@
                             "food",
                             "banten"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Harga bervariasi",
@@ -4555,7 +4555,7 @@
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -4604,7 +4604,7 @@
                             "food",
                             "banten"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -4653,7 +4653,7 @@
                             "food",
                             "jawa timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -4702,7 +4702,7 @@
                             "food",
                             "di yogyakarta"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -4751,7 +4751,7 @@
                             "food",
                             "dki jakarta"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp50.000 - Rp100.000",
@@ -4794,7 +4794,7 @@
                             "food",
                             "jawa barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -4843,7 +4843,7 @@
                             "food",
                             "dki jakarta"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -4892,7 +4892,7 @@
                             "food",
                             "jawa tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -4967,7 +4967,7 @@
                             "south kalimantan",
                             "cempedak"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
                     "price_range_ind": "Rp23.000 - Rp35.000",
                     "price_source": "https://food.detik.com/rumah-makan/d-8576320/5-ayam-bakar-enak-di-jakarta-mulai-rp-23-ribuan-dengan-sambal-juara",
                     "rating": null,
@@ -5019,7 +5019,7 @@
                             "kalimantan",
                             "sweet savory chicken"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20masak%20merah.jpg?width=800",
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -5121,7 +5121,7 @@
                             "kalimantan snack",
                             "crispy snack"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Amplang.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Amplang%20Kuku%20Macan%20Khas%20Samarinda.jpg?width=800",
                     "price_range_ind": "Rp150.000 - Rp160.000",
                     "price_source": "https://pontianak.tribunnews.com/kalbar/1170406/usaha-amplang-suka-rasa-jadi-andalan-ekonomi-keluarga-sejak-era-90-an",
                     "rating": null,
@@ -5171,7 +5171,7 @@
                             "kalimantan seafood",
                             "crispy crab"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soft%20Shell%20Crab%20(3627310255).jpg?width=800",
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": 4.1,
@@ -5218,7 +5218,7 @@
                             "traditional",
                             "banjarmasin"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto_Banjar",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -5267,7 +5267,7 @@
                             "traditional",
                             "kandangan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ketupat%20Kandangan%20Haruan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ketupat_Kandangan",
 
                     "price_range_ind": "Rp18.000 - Rp25.000",
@@ -5316,7 +5316,7 @@
                             "traditional",
                             "banjarmasin"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20Kuning%20dan%20Ungkep%20Ayam.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_kuning",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -5365,7 +5365,7 @@
                             "traditional",
                             "banjar"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20Bingka%20mini.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bingka",
 
                     "price_range_ind": "Rp2.000 - Rp3.000",
@@ -5414,7 +5414,7 @@
                             "traditional",
                             "pontianak"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pengkang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Pengkang",
 
                     "price_range_ind": "Harga bervariasi",
@@ -5463,7 +5463,7 @@
                             "traditional",
                             "singkawang"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Choi%20Pan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Choi_pan",
 
                     "price_range_ind": "Rp1.000 - Rp2.000",
@@ -5512,7 +5512,7 @@
                             "traditional",
                             "sambas"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20pedas%20melayu.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_pedas",
 
                     "price_range_ind": "Harga bervariasi",
@@ -5561,7 +5561,7 @@
                             "traditional",
                             "samarinda"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam-cincane.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_cincane",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -5610,7 +5610,7 @@
                             "traditional",
                             "kutai"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gence%20Ruan.JPG?width=800",
                     "ingredients_source": "https://www.detik.com/kalimantan/kuliner/d-7994926/mengenal-gence-ruan-sajian-masakan-ikan-khas-kutai",
 
                     "price_range_ind": "Harga bervariasi",
@@ -5659,7 +5659,7 @@
                             "traditional",
                             "palangkaraya"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://resepkoki.id/resep/resep-tumis-pakis/",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -5708,7 +5708,7 @@
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp14.000 - Rp20.000",
@@ -5751,7 +5751,7 @@
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp3.000 - Rp5.000",
@@ -5800,7 +5800,7 @@
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -5849,7 +5849,7 @@
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -5898,7 +5898,7 @@
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp23.000 - Rp35.000",
@@ -5947,7 +5947,7 @@
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -5996,7 +5996,7 @@
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp13.000 - Rp30.000",
@@ -6045,7 +6045,7 @@
                             "food",
                             "kalimantan barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -6094,7 +6094,7 @@
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp23.000 - Rp35.000",
@@ -6143,7 +6143,7 @@
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -6192,7 +6192,7 @@
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -6241,7 +6241,7 @@
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
 
                     "price_range_ind": "Harga bervariasi",
@@ -6290,7 +6290,7 @@
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp13.000 - Rp30.000",
@@ -6339,7 +6339,7 @@
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp14.000 - Rp20.000",
@@ -6388,7 +6388,7 @@
                             "food",
                             "kalimantan barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -6433,7 +6433,7 @@
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp4.000 - Rp7.000",
@@ -6482,7 +6482,7 @@
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
 
                     "price_range_ind": "Rp15.000 - Rp18.000",
@@ -6531,7 +6531,7 @@
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -6580,7 +6580,7 @@
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp10.000 - Rp20.000",
@@ -6625,7 +6625,7 @@
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp4.000 - Rp7.000",
@@ -6670,7 +6670,7 @@
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp4.000 - Rp7.000",
@@ -6715,7 +6715,7 @@
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp4.000 - Rp7.000",
@@ -6764,7 +6764,7 @@
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp13.000 - Rp30.000",
@@ -6813,7 +6813,7 @@
                             "food",
                             "kalimantan barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -6862,7 +6862,7 @@
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp14.000 - Rp20.000",
@@ -6911,7 +6911,7 @@
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -6960,7 +6960,7 @@
                             "food",
                             "kalimantan barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp13.000 - Rp30.000",
@@ -7009,7 +7009,7 @@
                             "food",
                             "kalimantan tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp10.000 - Rp20.000",
@@ -7058,7 +7058,7 @@
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -7107,7 +7107,7 @@
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -7156,7 +7156,7 @@
                             "food",
                             "kalimantan timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
 
                     "price_range_ind": "Harga bervariasi",
@@ -7205,7 +7205,7 @@
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
 
                     "price_range_ind": "Rp15.000 - Rp18.000",
@@ -7254,7 +7254,7 @@
                             "food",
                             "kalimantan selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -7303,7 +7303,7 @@
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp10.000 - Rp20.000",
@@ -7352,7 +7352,7 @@
                             "food",
                             "kalimantan utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp14.000 - Rp20.000",
@@ -7428,7 +7428,7 @@
                             "makassar",
                             "sulawesi"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coto%20makassar.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coto%20Makassar%20dish.JPG?width=800",
                     "price_range_ind": "Rp100.000 - Rp300.000",
                     "price_source": "https://www.idntimes.com/food/dining-guide/5-restoran-kepiting-enak-populer-di-balikpapan-wajib-dicoba-01-zydpl-9pfq65",
                     "rating": 4.3,
@@ -7482,7 +7482,7 @@
                             "spicy yellow fish",
                             "basil fish"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kakap%20Woku.JPG?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pallumara%20ikan%20sunu-1.jpg?width=800",
                     "price_range_ind": "Rp45.000 - Rp65.000",
                     "price_source": "https://makassar.tribunnews.com/2015/07/07/woku-ratulangi-di-hotel-sahid-rp-55-ribu",
                     "rating": null,
@@ -7586,7 +7586,7 @@
                             "manado porridge",
                             "pumpkin rice"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tinutuan%20bubur%20Manado.JPG?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20Khas%20Manado%20(Tinutuan).jpg?width=800",
                     "price_range_ind": "Rp5.000 - Rp8.000",
                     "price_source": "https://manado.tribunnews.com/2024/04/13/nikmatnya-bubur-manado-hanya-rp6-ribu-di-reko-bawah-minahasa-utara-sulawesi-utara",
                     "rating": 4.1,
@@ -7685,7 +7685,7 @@
                             "traditional",
                             "pangkep"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20campur%20sop%20saudara%20warung%20Pangkep.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sop_saudara",
 
                     "price_range_ind": "Rp15.000 - Rp35.000",
@@ -7734,7 +7734,7 @@
                             "traditional",
                             "makassar"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pallubasa.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Pallubasa",
 
                     "price_range_ind": "Rp14.000 - Rp20.000",
@@ -7783,7 +7783,7 @@
                             "traditional",
                             "makassar"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20pisang%20ijo%20otentik%20Makassar-1.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Pisang_ijo",
 
                     "price_range_ind": "Rp25.000 - Rp35.000",
@@ -7832,7 +7832,7 @@
                             "traditional",
                             "makassar"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MIE%20KERING%20MAKASSAR.jpg?width=800",
                     "ingredients_source": "https://www.goodnewsfromindonesia.id/indonesiana/wisata/melacak-sejarah-mie-titi-legenda-mie-kering-khas-makassar",
 
                     "price_range_ind": "Rp25.000 - Rp57.000",
@@ -7881,7 +7881,7 @@
                             "traditional",
                             "makassar"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_goreng",
 
                     "price_range_ind": "Rp20.000 - Rp35.000",
@@ -7930,7 +7930,7 @@
                             "traditional",
                             "makassar"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jalangkote%20dari%20Makassar.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Jalangkote",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -7979,7 +7979,7 @@
                             "traditional",
                             "manado"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Rica-rica",
 
                     "price_range_ind": "Rp30.000 - Rp85.000",
@@ -8028,7 +8028,7 @@
                             "traditional",
                             "manado"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Rica-rica.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Rica-rica",
 
                     "price_range_ind": "Harga bervariasi",
@@ -8077,7 +8077,7 @@
                             "traditional",
                             "manado"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Klappertaart%20Khas%20Manado.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Klappertaart",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -8126,7 +8126,7 @@
                             "traditional",
                             "donggala"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaledo%20soup%2C%20Central%20Sulawesi%2C%202018-09-16.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kaledo",
 
                     "price_range_ind": "Rp40.000 - Rp60.000",
@@ -8169,7 +8169,7 @@
                             "food",
                             "sulawesi selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp3.000 - Rp5.000",
@@ -8218,7 +8218,7 @@
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -8263,7 +8263,7 @@
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Harga bervariasi",
@@ -8312,7 +8312,7 @@
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
 
                     "price_range_ind": "Harga bervariasi",
@@ -8355,7 +8355,7 @@
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp3.000 - Rp5.000",
@@ -8398,7 +8398,7 @@
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp3.000 - Rp5.000",
@@ -8447,7 +8447,7 @@
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -8490,7 +8490,7 @@
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp3.000 - Rp5.000",
@@ -8539,7 +8539,7 @@
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -8588,7 +8588,7 @@
                             "food",
                             "gorontalo"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -8637,7 +8637,7 @@
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -8686,7 +8686,7 @@
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -8735,7 +8735,7 @@
                             "food",
                             "gorontalo"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp20.000 - Rp35.000",
@@ -8780,7 +8780,7 @@
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Harga bervariasi",
@@ -8829,7 +8829,7 @@
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp20.000 - Rp35.000",
@@ -8878,7 +8878,7 @@
                             "food",
                             "gorontalo"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
 
                     "price_range_ind": "Harga bervariasi",
@@ -8927,7 +8927,7 @@
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Dabu-dabu",
 
                     "price_range_ind": "Rp30.000 - Rp85.000",
@@ -8976,7 +8976,7 @@
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp8.000 - Rp12.000",
@@ -9025,7 +9025,7 @@
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -9074,7 +9074,7 @@
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -9123,7 +9123,7 @@
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp30.000 - Rp85.000",
@@ -9172,7 +9172,7 @@
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp30.000 - Rp85.000",
@@ -9221,7 +9221,7 @@
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -9270,7 +9270,7 @@
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -9319,7 +9319,7 @@
                             "food",
                             "sulawesi utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp8.000 - Rp12.000",
@@ -9368,7 +9368,7 @@
                             "food",
                             "gorontalo"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -9411,7 +9411,7 @@
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp3.000 - Rp5.000",
@@ -9460,7 +9460,7 @@
                             "food",
                             "gorontalo"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
 
                     "price_range_ind": "Rp8.000 - Rp12.000",
@@ -9509,7 +9509,7 @@
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -9558,7 +9558,7 @@
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp6.000 - Rp15.000",
@@ -9607,7 +9607,7 @@
                             "food",
                             "sulawesi barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -9656,7 +9656,7 @@
                             "food",
                             "sulawesi tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -9705,7 +9705,7 @@
                             "food",
                             "gorontalo"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -9754,7 +9754,7 @@
                             "food",
                             "sulawesi tenggara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -9803,7 +9803,7 @@
                             "food",
                             "sulawesi selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp8.000 - Rp12.000",
@@ -9877,7 +9877,7 @@
                             "papua",
                             "fish"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papeda%20Kuah%20Kuning%20Ternate-1.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papeda%20Kuah%20Kuning%20Ternate-3.jpg?width=800",
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://makassar.tribunnews.com/2023/01/29/sop-saudara-dan-ikan-bakar-kuliner-khas-pangkep-sulsel-bikin-ketagihan-harga-mai-rp-25-ribu",
                     "rating": 3.9,
@@ -9927,7 +9927,7 @@
                             "milk pie",
                             "custard tart"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20Pie%20Susu.jpg?width=800",
+                        "image": null,
                     "price_range_ind": "Rp20.000 - Rp30.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/6155625/10-makanan-khas-manokwari-yang-wajib-dicoba-pencinta-kuliner-nusantara",
                     "rating": 5,
@@ -9979,7 +9979,7 @@
                             "papua",
                             "seafood"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jayapura%20grilled%20fish%20and%20shrimp.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "price_range_ind": "Rp40.000 - Rp60.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/6155625/10-makanan-khas-manokwari-yang-wajib-dicoba-pencinta-kuliner-nusantara",
                     "rating": 4.5,
@@ -10024,7 +10024,7 @@
                             "traditional bread",
                             "snack"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sago%20starch%20product%20sagu%20lempeng%20from%20Maluku,ID%20feb2002.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sago%20starch%20product%20sagu%20lempeng%20from%20Maluku%2CID%20feb2002.jpg?width=800",
                     "price_range_ind": "Rp10.000 - Rp20.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/6155625/10-makanan-khas-manokwari-yang-wajib-dicoba-pencinta-kuliner-nusantara",
                     "rating": null,
@@ -10119,7 +10119,7 @@
                             "traditional",
                             "wamena"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Danau%20Paniai.%20Danau%20Paniai%20adalah%20danau%20yang%20berada%20di%20kabupaten%20Paniai.%20Danau%20ini%20memiliki%20banyak%20keanekaragaman%20hayati%20yang%20sangat%20banyak.%20Salah%20satu%20spesies%20endemiknya%20adalah%20udang%20selingkuh.jpg?width=800",
                     "ingredients_source": "https://www.indonesia.travel/id/id/travel-ideas/gastronomy/udang-selingkuh",
 
                     "price_range_ind": "Rp10.000 - Rp20.000",
@@ -10217,7 +10217,7 @@
                             "traditional",
                             "papua"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sup%20Ikan%20Siakap.jpg?width=800",
                     "ingredients_source": "https://papua.tribunnews.com/2022/11/18/wisata-papua-sajian-kuliner-khas-ikan-kuah-hitam",
 
                     "price_range_ind": "Harga bervariasi",
@@ -10266,7 +10266,7 @@
                             "traditional",
                             "papua"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stamp%20of%20Indonesia%20-%202006%20-%20Colnect%20385078%20-%20Indonesian%20Traditional%20Foods%20-%20Aunu%20Senebre.jpeg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Aunu_senebre",
 
                     "price_range_ind": "Harga bervariasi",
@@ -10364,7 +10364,7 @@
                             "traditional",
                             "papua"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Kelapa%20Muda.JPG?width=800",
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -10411,7 +10411,7 @@
                             "traditional",
                             "papua"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Colo-colo",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -10460,7 +10460,7 @@
                             "traditional",
                             "papua"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Kerang%20Tampak%20Atas.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate_kerang",
 
                     "price_range_ind": "Harga bervariasi",
@@ -10509,7 +10509,7 @@
                             "traditional",
                             "jayapura"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sup%20Ikan%20Siakap.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sup_ikan",
 
                     "price_range_ind": "Rp55.000 - Rp70.000",
@@ -10558,7 +10558,7 @@
                             "traditional",
                             "papua"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_goreng",
 
                     "price_range_ind": "Rp25.000 - Rp35.000",
@@ -10601,7 +10601,7 @@
                             "food",
                             "papua"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp3.000 - Rp5.000",
@@ -10650,7 +10650,7 @@
                             "food",
                             "papua barat daya"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp10.000 - Rp20.000",
@@ -10699,7 +10699,7 @@
                             "food",
                             "papua selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -10748,7 +10748,7 @@
                             "food",
                             "papua tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -10791,7 +10791,7 @@
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp3.000 - Rp5.000",
@@ -10840,7 +10840,7 @@
                             "food",
                             "papua barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -10889,7 +10889,7 @@
                             "food",
                             "papua"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -10938,7 +10938,7 @@
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -10987,7 +10987,7 @@
                             "food",
                             "papua barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp5.000 - Rp15.000",
@@ -11036,7 +11036,7 @@
                             "food",
                             "papua barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
 
                     "price_range_ind": "Rp5.000 - Rp25.000",
@@ -11085,7 +11085,7 @@
                             "food",
                             "papua tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -11134,7 +11134,7 @@
                             "food",
                             "papua"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp18.000 - Rp26.000",
@@ -11179,7 +11179,7 @@
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp1.000 - Rp2.000",
@@ -11228,7 +11228,7 @@
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp5.000 - Rp15.000",
@@ -11277,7 +11277,7 @@
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -11326,7 +11326,7 @@
                             "food",
                             "papua"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp18.000 - Rp26.000",
@@ -11375,7 +11375,7 @@
                             "food",
                             "papua selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -11424,7 +11424,7 @@
                             "food",
                             "papua barat daya"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
 
                     "price_range_ind": "Rp1.000 - Rp5.000",
@@ -11473,7 +11473,7 @@
                             "food",
                             "papua barat daya"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
 
                     "price_range_ind": "Rp1.000 - Rp5.000",
@@ -11522,7 +11522,7 @@
                             "food",
                             "papua"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -11571,7 +11571,7 @@
                             "food",
                             "papua selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -11620,7 +11620,7 @@
                             "food",
                             "papua selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -11665,7 +11665,7 @@
                             "food",
                             "papua tengah"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp1.000 - Rp2.000",
@@ -11714,7 +11714,7 @@
                             "food",
                             "papua selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -11763,7 +11763,7 @@
                             "food",
                             "papua barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -11812,7 +11812,7 @@
                             "food",
                             "papua selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp5.000 - Rp15.000",
@@ -11861,7 +11861,7 @@
                             "food",
                             "papua"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -11910,7 +11910,7 @@
                             "food",
                             "papua selatan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
 
                     "price_range_ind": "Rp5.000 - Rp25.000",
@@ -11959,7 +11959,7 @@
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAMBAL%20BAWANG.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -12008,7 +12008,7 @@
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
 
                     "price_range_ind": "Rp5.000 - Rp25.000",
@@ -12057,7 +12057,7 @@
                             "food",
                             "papua barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
 
                     "price_range_ind": "Rp1.000 - Rp5.000",
@@ -12100,7 +12100,7 @@
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp3.000 - Rp5.000",
@@ -12149,7 +12149,7 @@
                             "food",
                             "papua"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -12192,7 +12192,7 @@
                             "food",
                             "papua"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp3.000 - Rp5.000",
@@ -12241,7 +12241,7 @@
                             "food",
                             "papua pegunungan"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -12476,7 +12476,7 @@
                             "bali side dish",
                             "traditional salad"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lawar.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lawar%20getih(balinese%20culture%20food)%20.jpg?width=800",
                     "price_range_ind": "Rp12.000 - Rp40.000",
                     "price_source": "https://kumparan.com/seputar-bali/4-nasi-lawar-di-bali-yang-enak-beserta-kisaran-harga-menunya-21pwSanO7xG",
                     "rating": 4.1,
@@ -12578,7 +12578,7 @@
                             "traditional",
                             "singaraja"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Plecing.jpg?width=800",
                     "ingredients_source": "https://www.idntimes.com/food/recipe/resep-sate-plecing-khas-bali-c1c2-01-mtn6k-zmkgrq",
 
                     "price_range_ind": "Harga bervariasi",
@@ -12627,7 +12627,7 @@
                             "traditional",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20Campur%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_campur",
 
                     "price_range_ind": "Rp15.000 - Rp30.000",
@@ -12676,7 +12676,7 @@
                             "traditional",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20goreng%20(2).JPG?width=800",
                     "ingredients_source": "https://www.goodnewsfromindonesia.id/ragam/budaya/tum-ayam-khas-bali",
 
                     "price_range_ind": "Harga bervariasi",
@@ -12725,7 +12725,7 @@
                             "traditional",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rujak%20Bulung%20Buni.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Rujak_bulung",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -12774,7 +12774,7 @@
                             "traditional",
                             "klungkung"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Serombotan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Serombotan",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -12823,7 +12823,7 @@
                             "traditional",
                             "ubud"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bebek%20bengil%2C%20Ubud%2C%20Bali.JPG?width=800",
                     "ingredients_source": "https://www.bebekbengil.co.id/",
 
                     "price_range_ind": "Harga bervariasi",
@@ -12872,7 +12872,7 @@
                             "traditional",
                             "ubud"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://bali.idntimes.com/food/recipe/resep-sate-kakul-khas-bali-bikin-ketagihan-00-z9kr1-m06lzx",
 
                     "price_range_ind": "Harga bervariasi",
@@ -12921,7 +12921,7 @@
                             "traditional",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tipat%20Cantok%20Khas%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tipat_cantok",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -13019,7 +13019,7 @@
                             "traditional",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sambal%20Matah%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal_matah",
 
                     "price_range_ind": "Harga bervariasi",
@@ -13064,7 +13064,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp1.000 - Rp2.000",
@@ -13107,7 +13107,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -13156,7 +13156,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal_matah",
 
                     "price_range_ind": "Harga bervariasi",
@@ -13205,7 +13205,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp20.000 - Rp35.000",
@@ -13254,7 +13254,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp15.000 - Rp40.000",
@@ -13303,7 +13303,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp5.000 - Rp15.000",
@@ -13352,7 +13352,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp15.000 - Rp40.000",
@@ -13401,7 +13401,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp23.000 - Rp35.000",
@@ -13450,7 +13450,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -13499,7 +13499,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp23.000 - Rp35.000",
@@ -13548,7 +13548,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -13597,7 +13597,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -13646,7 +13646,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp15.000 - Rp40.000",
@@ -13691,7 +13691,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp1.000 - Rp2.000",
@@ -13740,7 +13740,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp20.000 - Rp35.000",
@@ -13789,7 +13789,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp15.000 - Rp40.000",
@@ -13838,7 +13838,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp20.000 - Rp35.000",
@@ -13887,7 +13887,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -13930,7 +13930,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -13973,7 +13973,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -14018,7 +14018,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp1.000 - Rp2.000",
@@ -14067,7 +14067,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp15.000 - Rp40.000",
@@ -14110,7 +14110,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -14159,7 +14159,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp23.000 - Rp35.000",
@@ -14208,7 +14208,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -14257,7 +14257,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp23.000 - Rp35.000",
@@ -14306,7 +14306,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -14355,7 +14355,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -14404,7 +14404,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp5.000 - Rp15.000",
@@ -14453,7 +14453,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp20.000 - Rp35.000",
@@ -14502,7 +14502,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
 
                     "price_range_ind": "Rp1.000 - Rp5.000",
@@ -14551,7 +14551,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -14600,7 +14600,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal_matah",
 
                     "price_range_ind": "Harga bervariasi",
@@ -14645,7 +14645,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp1.000 - Rp2.000",
@@ -14694,7 +14694,7 @@
                             "food",
                             "bali"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp15.000 - Rp40.000",
@@ -14769,7 +14769,7 @@
                             "spicy chicken",
                             "nusa tenggara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Taliwang.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20bakar%20khas%20Taliwang%202.JPG?width=800",
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": 4,
@@ -14822,7 +14822,7 @@
                             "sambal luat",
                             "kosambi wood smoked"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sei%20sapi%20Kupang.jpg?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sei%20sapi%20Pj%20DSC%202925.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Se%27i",
 
                     "price_range_ind": "Rp15.000 - Rp30.000",
@@ -14879,7 +14879,7 @@
                             "spicy sambal salad",
                             "nusa tenggara"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pelecing%20kangkung.JPG?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pelecing%20kangkung%20Lombok.JPG?width=800",
                     "price_range_ind": "Rp5.000 - Rp15.000",
                     "price_source": "https://www.kompas.com/food/read/2022/10/30/210600175/7-tempat-makan-plecing-kangkung-enak-di-lombok-harga-mulai-rp-5.000",
                     "rating": null,
@@ -14985,7 +14985,7 @@
                             "manggarai",
                             "traditional bamboo rice"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ensemble%20%22Kolo%22%20dancing%20folk%20dance%20of%20Gnjilane.jpg?width=800",
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -15032,7 +15032,7 @@
                             "traditional",
                             "timor"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jagung%20Bose.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Jagung_bose",
 
                     "price_range_ind": "Harga bervariasi",
@@ -15130,7 +15130,7 @@
                             "traditional",
                             "kupang"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20Kuah%20Asam%20Ternate.jpg?width=800",
                     "ingredients_source": "https://www.idntimes.com/food/recipe/resep-ikan-kuah-asam-kuning-khas-nusa-tenggara-timur-00-mk1yf-1kfggt",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -15179,7 +15179,7 @@
                             "traditional",
                             "lombok"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Bulayak.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate_bulayak",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -15228,7 +15228,7 @@
                             "traditional",
                             "lombok"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://travel.detik.com/domestic-destination/d-3184067/nikmatnya-kuliner-nasi-puyung-khas-lombok",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -15277,7 +15277,7 @@
                             "traditional",
                             "lombok"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bebalung%20Lombok.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bebalung",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -15424,7 +15424,7 @@
                             "traditional",
                             "kupang"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Se'i%20Babi%203.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Se%27i",
 
                     "price_range_ind": "Harga bervariasi",
@@ -15473,7 +15473,7 @@
                             "traditional",
                             "lombok"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate_susu",
 
                     "price_range_ind": "Harga bervariasi",
@@ -15522,7 +15522,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -15571,7 +15571,7 @@
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -15620,7 +15620,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -15669,7 +15669,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp25.000 - Rp40.000",
@@ -15718,7 +15718,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
 
                     "price_range_ind": "Harga bervariasi",
@@ -15767,7 +15767,7 @@
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Rp2.000 - Rp5.000",
@@ -15816,7 +15816,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -15865,7 +15865,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Rp2.000 - Rp5.000",
@@ -15914,7 +15914,7 @@
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -15963,7 +15963,7 @@
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -16012,7 +16012,7 @@
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp20.000",
@@ -16061,7 +16061,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -16110,7 +16110,7 @@
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -16159,7 +16159,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -16208,7 +16208,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Rp2.000 - Rp5.000",
@@ -16257,7 +16257,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -16306,7 +16306,7 @@
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -16355,7 +16355,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -16404,7 +16404,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -16453,7 +16453,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -16502,7 +16502,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -16551,7 +16551,7 @@
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -16600,7 +16600,7 @@
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -16649,7 +16649,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -16698,7 +16698,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp20.000 - Rp30.000",
@@ -16747,7 +16747,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -16796,7 +16796,7 @@
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -16845,7 +16845,7 @@
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -16888,7 +16888,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -16937,7 +16937,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -16986,7 +16986,7 @@
                             "food",
                             "nusa tenggara barat"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -17035,7 +17035,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ikan_bakar",
 
                     "price_range_ind": "Rp25.000 - Rp40.000",
@@ -17084,7 +17084,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Nasi_goreng",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -17133,7 +17133,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
 
                     "price_range_ind": "Harga bervariasi",
@@ -17182,7 +17182,7 @@
                             "food",
                             "nusa tenggara timur"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -17257,7 +17257,7 @@
                             "spice islands soup",
                             "maluku fish"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sup%20Ikan%20Siakap.jpg?width=800",
                     "price_range_ind": "Rp25.000 - Rp50.000",
                     "price_source": "https://www.liputan6.com/lifestyle/read/6177151/4-kuliner-khas-ternate-berbahan-dasar-seafood-dan-rempah-lokal-yang-menggoda-selera",
                     "rating": null,
@@ -17362,7 +17362,7 @@
                             "maluku traditional rice",
                             "fragrant rice"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasi%20goreng%20indonesia.jpg?width=800",
                     "price_range_ind": "Rp25.000 - Rp35.000",
                     "price_source": "https://travel.tribunnews.com/2016/08/12/kuliner-ternate-maluku-nikmatnya-gohu-ikan-khas-pulau-rempah-rempah",
                     "rating": null,
@@ -17415,7 +17415,7 @@
                             "fresh spicy dip",
                             "maluku condiment"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "price_range_ind": "Rp50.000 - Rp85.000",
                     "price_source": "https://www.indonesia.travel/id/id/travel-ideas/gastronomy/colo-colo",
                     "rating": 4.1,
@@ -17468,7 +17468,7 @@
                             "kenari biscuits",
                             "maluku snack"
                         ],
-                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bagea%20kenari.JPG?width=800",
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bagea%20Kenari%20Manado.jpg?width=800",
                     "price_range_ind": "Harga bervariasi",
                     "price_source": null,
                     "rating": null,
@@ -17515,7 +17515,7 @@
                             "traditional",
                             "ambon"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Smoked%20tuna%20from%20Maluku.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Cakalang",
 
                     "price_range_ind": "Harga bervariasi",
@@ -17662,7 +17662,7 @@
                             "traditional",
                             "ambon"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roti%20Kenari%20(top%20view).jpg?width=800",
                     "ingredients_source": "https://www.tempo.co/gaya-hidup/4-kuliner-khas-ambon-berbahan-kacang-kenari-enak-sekali-239412",
 
                     "price_range_ind": "Harga bervariasi",
@@ -17711,7 +17711,7 @@
                             "traditional",
                             "ambon"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20kacang%20merah%20Ternate.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_kacang_merah",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -17760,7 +17760,7 @@
                             "traditional",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Halua%20Kenari.jpg?width=800",
                     "ingredients_source": "https://indonesiakaya.com/pustaka-indonesia/halua-kenari-camilan-khas-manado-yang-kaya-nutrisi-dan-rasa/",
 
                     "price_range_ind": "Harga bervariasi",
@@ -17809,7 +17809,7 @@
                             "traditional",
                             "ambon"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20Bakar%20Dabu-dabu%20Ternate%203.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Dabu-dabu",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -17858,7 +17858,7 @@
                             "traditional",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sagu%20gula%20melaka.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sagu",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -17956,7 +17956,7 @@
                             "traditional",
                             "ternate"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayori%20lilin%20(Saccharum%20edule).jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sayur_lilin",
 
                     "price_range_ind": "Harga bervariasi",
@@ -18005,7 +18005,7 @@
                             "food",
                             "maluku utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp20.000 - Rp35.000",
@@ -18054,7 +18054,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balinese%20Fish%20Sambal%20-%20Balinese%20House%2C%20Brighton%202026-05-17.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sambal",
 
                     "price_range_ind": "Harga bervariasi",
@@ -18103,7 +18103,7 @@
                             "food",
                             "maluku utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -18152,7 +18152,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -18201,7 +18201,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -18250,7 +18250,7 @@
                             "food",
                             "maluku utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp20.000 - Rp40.000",
@@ -18299,7 +18299,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -18348,7 +18348,7 @@
                             "food",
                             "maluku utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -18393,7 +18393,7 @@
                             "food",
                             "maluku utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp4.000 - Rp6.000",
@@ -18442,7 +18442,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
 
                     "price_range_ind": "Rp1.000 - Rp25.000",
@@ -18491,7 +18491,7 @@
                             "food",
                             "maluku utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Dabu-dabu",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -18534,7 +18534,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -18583,7 +18583,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -18632,7 +18632,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sate%20Ayam%20Panggang.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Sate",
 
                     "price_range_ind": "Rp20.000 - Rp40.000",
@@ -18681,7 +18681,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -18730,7 +18730,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -18779,7 +18779,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -18822,7 +18822,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -18871,7 +18871,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mie%20kuah%20telor%20cabe.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Mie",
 
                     "price_range_ind": "Rp15.000 - Rp20.000",
@@ -18914,7 +18914,7 @@
                             "food",
                             "maluku utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -18963,7 +18963,7 @@
                             "food",
                             "maluku utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp20.000 - Rp35.000",
@@ -19012,7 +19012,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -19061,7 +19061,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -19106,7 +19106,7 @@
                             "food",
                             "maluku utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Menjemur%20Kerupuk%20Ikan.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kerupuk",
 
                     "price_range_ind": "Rp4.000 - Rp6.000",
@@ -19155,7 +19155,7 @@
                             "food",
                             "maluku utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kue%20basah%20kue%20pisang%20kue%20ku.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kue",
 
                     "price_range_ind": "Rp1.000 - Rp25.000",
@@ -19204,7 +19204,7 @@
                             "food",
                             "maluku utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soto%20ayam.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Soto",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -19253,7 +19253,7 @@
                             "food",
                             "maluku utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikan%20kakap%20bakar%20madu.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Dabu-dabu",
 
                     "price_range_ind": "Rp15.000 - Rp25.000",
@@ -19302,7 +19302,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -19351,7 +19351,7 @@
                             "food",
                             "maluku utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -19400,7 +19400,7 @@
                             "food",
                             "maluku utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Es%20Campur%2C%202019.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Es_campur",
 
                     "price_range_ind": "Rp12.000 - Rp30.000",
@@ -19443,7 +19443,7 @@
                             "food",
                             "maluku utara"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",
@@ -19492,7 +19492,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayur%20tumis.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Tumis",
 
                     "price_range_ind": "Harga bervariasi",
@@ -19541,7 +19541,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayam%20Bakar%20Bali.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Ayam_bakar",
 
                     "price_range_ind": "Rp20.000 - Rp35.000",
@@ -19590,7 +19590,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubur%20ayam%20chicken%20porridge.JPG?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Bubur_ayam",
 
                     "price_range_ind": "Rp10.000 - Rp15.000",
@@ -19633,7 +19633,7 @@
                             "food",
                             "maluku"
                         ],
-                        "image": null,
+                        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kopi%20O.jpg?width=800",
                     "ingredients_source": "https://id.wikipedia.org/wiki/Kopi_tubruk",
 
                     "price_range_ind": "Rp5.000 - Rp10.000",

@@ -1,16 +1,18 @@
 'use client'
 
-import { getIsland } from "../components/popularMenu"
+import { getIsland } from "../components/route"
 import { useState, useEffect } from "react"
 import { useSearchParams } from "next/navigation"
 import Link from "next/link"
-import { FaMapPin, FaStar } from "react-icons/fa"
+import { FaMapPin, FaStar, FaChevronLeft, FaChevronRight } from "react-icons/fa"
 
 export default function Jelajahi() {
     const [Island, setIsland] = useState([])
     const [selectedIsland, setSelectedIsland] = useState(null)
     const searchParams = useSearchParams();
     const queryId = searchParams.get("id")
+    const [currentPage, setCurrentPage] = useState(1)
+    const itemsPerPage = 9
 
     useEffect(() =>{
         const dataPulau = getIsland(8);
@@ -28,7 +30,15 @@ export default function Jelajahi() {
         }
     },[queryId])
 
+    useEffect(() => {
+        setCurrentPage(1)
+    },[selectedIsland])
 
+    const totalItems = selectedIsland?.makanan?.length || 0
+    const totalPages = Math.ceil(totalItems/itemsPerPage)
+    const indexOfLastItem = currentPage * itemsPerPage
+    const indexOfFirstItem = indexOfLastItem - itemsPerPage
+    const currentMakanan = selectedIsland?.makanan?.slice(indexOfFirstItem, indexOfLastItem) || []
 
     return (
         <div className="flex flex-col w-full min-h-screen">
@@ -90,17 +100,17 @@ export default function Jelajahi() {
                 </div>
 
                 {/* Grid Card Makanan */}
-                <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 font-[Montserrat]">
-                    {selectedIsland?.makanan?.map((item) => (
+                <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full font-[Montserrat]">
+                    {currentMakanan.map((item) => (
                         <li 
                             key={item.id} 
-                            className="flex flex-col rounded-2xl bg-linear-to-br from-white via-[#fffaf2] to-[#faeedb] border border-amber-200/70 shadow-lg shadow-amber-900/5 hover:border-amber-400 hover:shadow-xl hover:shadow-amber-500/15 hover:-translate-y-1.5 transition-all duration-300 text-stone-800"
+                            className="flex w-full h-60 rounded-2xl bg-linear-to-br from-white via-[#fffaf2] to-[#faeedb] border border-amber-200/70 shadow-lg shadow-amber-900/5 hover:border-amber-400 hover:shadow-xl hover:shadow-amber-500/15 hover:-translate-y-1.5 transition-all duration-300 text-stone-800"
                         >
-                            <Link href={`/jelajahi/${item.id}`} className="flex flex-col h-full">
+                            <Link href={`/jelajahi/${item.id}`} className="flex h-full">
                                 <img 
                                     src={item.image} 
                                     alt={item.name} 
-                                    className="w-full h-40 object-cover rounded-2xl p-2"
+                                    className="w-60 h-60 object-cover rounded-2xl p-2"
                                 />
 
                                 <span className="flex flex-col py-2 px-3 flex-1 justify-between">
@@ -114,8 +124,6 @@ export default function Jelajahi() {
                                         <p className="text-xs flex items-center gap-1 text-gray-500 mt-1">
                                             <FaMapPin className="text-amber-600 shrink-0"/> {item.origin}
                                         </p>
-                                    </div>
-
                                     <div className="pt-2">
                                         <p className="text-xs flex gap-1 text-stone-600">
                                             Kisaran: <span className="font-semibold text-stone-800">{item.price_range_ind}</span>
@@ -124,11 +132,40 @@ export default function Jelajahi() {
                                             <FaStar className="text-amber-500"/> {item.rating || "4.5"}
                                         </p>
                                     </div>
+                                    </div>
+
                                 </span>
                             </Link>
                         </li>
                     ))}
                 </ul>
+                <div className="flex items-center justify-center gap-2 mt-10 font-[Montserrat]">
+                    <button
+                        onClick={() => setCurrentPage((prev) => Math.max(prev - 1,1))}
+                        disabled={currentPage === 1}
+                        className={`p-2.5 rounded-full border transition-all cursor-pointer ${
+                        currentPage === 1
+                            ? "opacity-30 cursor-not-allowed border-gray-300 text-gray-400"
+                            : "bg-white border-amber-300 text-stone-700 hover:bg-amber-50 hover:border-amber-500 shadow-sm"
+                        }`}
+                        title="Halaman Sebelumnya">
+                        <FaChevronLeft className="text-xs" />
+                    </button>
+                        <span>
+                            <span>{currentPage}</span> / {totalPages}
+                        </span>
+                    <button
+                        onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
+                        disabled={currentPage === totalPages}
+                        className={`p-2.5 rounded-full border transition-all cursor-pointer ${
+                        currentPage === totalPages
+                            ? "opacity-30 cursor-not-allowed border-gray-300 text-gray-400"
+                            : "bg-white border-amber-300 text-stone-700 hover:bg-amber-50 hover:border-amber-500 shadow-sm"
+                        }`}
+                        title="Halaman Selanjutnya">
+                         <FaChevronRight className="text-xs" />
+                    </button>
+                </div>
             </div>
         </div>
     )

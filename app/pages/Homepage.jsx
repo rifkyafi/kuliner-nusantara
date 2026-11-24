@@ -1,7 +1,8 @@
 'use client'
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import Footer from "@/components/Footer";
-import { getPopularMenu, getImagePopularMenu, getIsland, getRecomendationMenu } from "@/app/components/popularMenu";
+import { getPopularMenu, getImagePopularMenu, getIsland, getRecomendationMenu } from "@/app/components/route";
 import { FaMagnifyingGlass, FaArrowRight, FaStar, FaMapPin } from "react-icons/fa6";
 import DriftWall from "@/lib/DriftWall";
 import Link from "next/link";
@@ -13,6 +14,8 @@ export default function Homepage(){
     const [imagePopularMenu, setImagePopularMenu] = useState([])
     const[Island, setIsland] = useState([]) 
     const[recomMenu, setRecomMenu] = useState([])
+    const[searchQuery, setSearchQuery] = useState("")
+    const router = useRouter()
 
     useEffect(() => {
         setPopularMenu(getPopularMenu(4))
@@ -29,6 +32,12 @@ export default function Homepage(){
     useEffect(() => {
         setRecomMenu(getRecomendationMenu(5))
     }, [])
+
+    const handleSearch = () => {
+        if(searchQuery.trim()){
+            router.push(`/kuliner?q=${encodeURIComponent(searchQuery.trim())}`)
+        }
+    }
 
     const IMAGES_ITEMS = imagePopularMenu.map((makanan) => ({
         image: makanan.image,
@@ -65,13 +74,21 @@ export default function Homepage(){
                                     <FaMagnifyingGlass
                                     className="sm:h-8 w-auto ml-3"/>
                                     <p>
-                                        <input type="text" placeholder="Cari makanan atau lainnya"
-                                        className="outline-none sm:text-lg text-sm pl-3"/>     
+                                        <input 
+                                        type="text" 
+                                        placeholder="Cari makanan atau lainnya"
+                                        value={searchQuery}
+                                        onChange={(e) => setSearchQuery(e.target.value)}
+                                        onKeyDown={(e) => e.key === "Enter" && handleSearch()}
+                                        className="outline-none sm:text-lg text-sm pl-3 w-full bg-transparent"/>     
                                 </p>
                                 <div className="flex lg:w-full h-full items-center justify-end sm:py-3">
-                                    <p className="w-24 sm:h-12 h-8 flex items-center justify-center bg-black hover:bg-radial from-[#eaeaea] to-white  text-white  hover:text-black  transitionduration-300 rounded-full sm:py-2 py-0.5">
+                                    <button 
+                                        onClick={handleSearch}
+                                        className="w-24 sm:h-12 h-8 flex items-center justify-center bg-black hover:bg-radial from-[#eaeaea] to-white text-white hover:text-black transition-all duration-300 rounded-full sm:py-2 py-0.5 cursor-pointer shrink-0"
+                                    >
                                         Cari
-                                    </p>
+                                    </button>
                                 </div>
                                 </div>
                                 <div className="flex w-145 pt-5">

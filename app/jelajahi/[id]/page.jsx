@@ -2,7 +2,7 @@
 
 import { useParams, useRouter } from "next/navigation"
 import { useState, useEffect, Suspense } from "react"
-import { getMenuById } from "@/app/components/popularMenu"
+import { getMenuById } from "@/app/components/route"
 import { FaArrowRight, FaStar, FaUtensils } from "react-icons/fa6"
 import Link from "next/link"
 
