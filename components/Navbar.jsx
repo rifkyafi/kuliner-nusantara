@@ -33,9 +33,16 @@ export default function Navbar() {
         <div className="flex w-full h-18 justify-center bg-[#f5ebdd]">
         <div className="fixed sm:w-2/3 w-full justify-between sm:h-15 h-18 bg-[#eaeaea]/75 backdrop-blur-md sm:border border-b border-white/30 shadow-lg  shadow-black/5 font-[Montserrat] font-semibold text-black z-10 sm:my-3 my-0 sm:rounded-2xl">
             <div className="flex items-center h-full justify-between px-3">
-                    <h1>
-                        Nama Website
-                    </h1>
+                    <Link
+                    href="/">
+                        <span className="flex h-full items-center font-[Playfair_Display] gap-2">
+                            <img 
+                            src="icon.png"
+                            alt="Ranusaji website kuliner nusantara" 
+                            className="h-10 w-full rounded-full object-contain"/>
+                            Ranusaji
+                        </span>
+                    </Link>
                     <div className="flex justify-between w-1/4 h-full items-center text-sm">
                         <ul className="sm:flex hidden gap-10">
                             <li>
@@ -107,8 +114,7 @@ export default function Navbar() {
             {/* Backdrop blur — klik backdrop untuk menutup modal */}
             {searchOpen && (
                 <div
-                    className="fixed inset-0 z-50 flex flex-col items-center pt-28 px-4"
-                    style={{ backdropFilter: "blur(8px)", backgroundColor: "rgba(0,0,0,0.3)" }}
+                    className="fixed inset-0 z-50 flex flex-col items-center pt-28 px-4 backdrop-blur-lg bg-black/30"
                     onClick={() => { setSearchOpen(false); setSearchQuery("") }}
                 >
                     {/* Kotak modal — stopPropagation agar klik di dalam tidak menutup modal */}

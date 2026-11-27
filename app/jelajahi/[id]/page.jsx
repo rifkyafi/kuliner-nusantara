@@ -37,8 +37,8 @@ function DetailMakananContent() {
     }
 
     return (
-        <div className="flex w-full flex-1 font-[Montserrat] justify-center sm:bg-[#f5ebdd] bg-[#eaeaea]/75 items-center  overflow-hidden">
-            <div className="flex flex-col w-full sm:h-150 h-auto sm:mx-5 mx-0 bg-[#eaeaea]/75 backdrop-blur-md sm:border sm:border-white/30 shadow-lg shadow-black/5 sm:rounded-2xl sm:justify-between">
+        <div className="flex w-full flex-1 font-[Montserrat] justify-center sm:bg-[#f5ebdd] items-center  overflow-hidden">
+            <div className="flex flex-col w-full min-h-screen  backdrop-blur-md sm:border sm:border-white/30 shadow-lg shadow-black/5 sm:rounded-2xl">
                 <span className="flex w-full h-15  justify-between items-center px-2 rounded-t-2xl border-b-2 shrink-0">
                     <p className="text-gray-400">
                         {makanan.category}
@@ -52,10 +52,10 @@ function DetailMakananContent() {
                 <div className="flex sm:flex-row flex-col gap-5">
                     <div className="flex sm:w-1/2 w-full">
                         <div>
-                            <img 
+                            <img                             
                             src={makanan.image}
                             alt={makanan.name} 
-                            className="w-full sm:h-135  h-auto object-cover sm:rounded-bl-2xl"/>
+                            className="w-full sm:h-130 object-center"/>
                         
                         </div>
                     </div>
@@ -153,6 +153,14 @@ function DetailMakananContent() {
                     </div>
                 </div>
 
+                <div className="w-full h-full">
+                    <h1 className="text-4xl font-[Playfair_Display] font-semibold">
+                        Restoran yang Menyediakan
+                    </h1>
+                    <div>
+                        
+                    </div>
+                </div>
             </div>
         </div>
     )

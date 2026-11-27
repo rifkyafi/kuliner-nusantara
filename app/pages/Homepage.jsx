@@ -78,8 +78,8 @@ export default function Homepage(){
                                         type="text" 
                                         placeholder="Cari makanan atau lainnya"
                                         value={searchQuery}
-                                        onChange={(e) => setSearchQuery(e.target.value)}
-                                        onKeyDown={(e) => e.key === "Enter" && handleSearch()}
+                                        onChange={(inputPencarian) => setSearchQuery(inputPencarian.target.value)}
+                                        onKeyDown={(tekanTombol) => tekanTombol.key === "Enter" && handleSearch()}
                                         className="outline-none sm:text-lg text-sm pl-3 w-full bg-transparent"/>     
                                 </p>
                                 <div className="flex lg:w-full h-full items-center justify-end sm:py-3">

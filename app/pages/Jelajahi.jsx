@@ -104,7 +104,7 @@ export default function Jelajahi() {
                     {currentMakanan.map((item) => (
                         <li 
                             key={item.id} 
-                            className="flex w-full h-60 rounded-2xl bg-linear-to-br from-white via-[#fffaf2] to-[#faeedb] border border-amber-200/70 shadow-lg shadow-amber-900/5 hover:border-amber-400 hover:shadow-xl hover:shadow-amber-500/15 hover:-translate-y-1.5 transition-all duration-300 text-stone-800"
+                            className="flex w-full h-60 rounded-2xl bg-linear-to-br from-white via-[#fffaf2] to-white/30 border border-amber-200/70 shadow-lg shadow-amber-900/5 hover:border-amber-400 hover:shadow-xl hover:shadow-amber-500/15 hover:-translate-y-1.5 transition-all duration-300 text-stone-800"
                         >
                             <Link href={`/jelajahi/${item.id}`} className="flex h-full">
                                 <img 
@@ -124,12 +124,12 @@ export default function Jelajahi() {
                                         <p className="text-xs flex items-center gap-1 text-gray-500 mt-1">
                                             <FaMapPin className="text-amber-600 shrink-0"/> {item.origin}
                                         </p>
-                                    <div className="pt-2">
-                                        <p className="text-xs flex gap-1 text-stone-600">
-                                            Kisaran: <span className="font-semibold text-stone-800">{item.price_range_ind}</span>
-                                        </p>
+                                    <div className="pt-1">
                                         <p className="text-xs items-center flex gap-1 pt-1 font-semibold text-amber-600">
-                                            <FaStar className="text-amber-500"/> {item.rating || "4.5"}
+                                            Rating: <FaStar className="text-amber-500"/> {item.rating || "4.5"}
+                                        </p>
+                                        <p className="text-xs flex gap-1 text-stone-600 pt-2">
+                                            Kisaran: <span className="font-semibold text-stone-800">{item.price_range_ind}</span>
                                         </p>
                                     </div>
                                     </div>
