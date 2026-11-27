@@ -1,0 +1,74 @@
+/* Intro logo "R" — ringan, transparan, tanpa video. Total aset ≈ 30 KB. */
+:root{
+  --splash-bg:#faf7ef;          /* warna latar intro */
+  --splash-logo-w:min(58vw,340px); /* lebar logo */
+  --splash-ease:cubic-bezier(.22,.8,.3,1);
+  --splash-pop:cubic-bezier(.34,1.7,.64,1);
+}
+html.splash-lock{overflow:hidden}
+html.splash-skip #splash{display:none}
+
+#splash{
+  position:fixed;inset:0;z-index:99999;display:grid;place-items:center;
+  background:var(--splash-bg);
+  transition:opacity .55s ease,visibility .55s;
+}
+#splash.is-leaving{opacity:0;visibility:hidden}
+.splash-logo{position:relative;width:var(--splash-logo-w)}
+.s-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+.s-layer{position:absolute;display:block;height:auto;opacity:0;pointer-events:none;-webkit-user-select:none;user-select:none;will-change:transform,opacity}
+
+/* Efek sapuan (mask) */
+.s-r,.s-swoosh{
+  -webkit-mask-image:linear-gradient(135deg,#000 38%,transparent 62%);mask-image:linear-gradient(135deg,#000 38%,transparent 62%);
+  -webkit-mask-size:300% 300%;mask-size:300% 300%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+}
+.s-steam{
+  -webkit-mask-image:linear-gradient(0deg,#000 38%,transparent 62%);mask-image:linear-gradient(0deg,#000 38%,transparent 62%);
+  -webkit-mask-size:100% 300%;mask-size:100% 300%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+}
+
+/* Animasi baru berjalan setelah semua gambar siap (kelas .run ditambah oleh JS) */
+.run .s-r      {animation:s-r .85s var(--splash-ease) 0s both}
+.run .s-base   {animation:s-base .4s var(--splash-ease) .5s both}
+.run .s-low    {animation:s-low .5s var(--splash-ease) .55s both}
+.run .s-top    {animation:s-top .5s var(--splash-ease) .65s both}
+.run .s-cone   {animation:s-pop .5s var(--splash-pop) .95s both}
+.run .s-leaf-a {animation:s-leaf .6s var(--splash-pop) 1.1s both}
+.run .s-leaf-b {animation:s-leaf .6s var(--splash-pop) 1.25s both}
+.run .s-swoosh {animation:s-swoosh .6s ease-in-out 1.2s both}
+.run .s-steam-1{animation:s-up .6s ease-out 1.5s both,s-sway 2.4s ease-in-out 2.1s infinite}
+.run .s-steam-2{animation:s-up .6s ease-out 1.65s both,s-sway 2.4s ease-in-out 2.25s infinite reverse}
+
+@keyframes s-r{
+  from{opacity:1;transform:translateY(3%) scale(.95);-webkit-mask-position:100% 100%;mask-position:100% 100%}
+  to  {opacity:1;transform:none;-webkit-mask-position:0 0;mask-position:0 0}}
+@keyframes s-base{from{opacity:0;transform:scaleX(0)}to{opacity:1;transform:none}}
+@keyframes s-low {from{opacity:0;transform:translateY(110%)}to{opacity:1;transform:none}}
+@keyframes s-top {from{opacity:0;transform:translateY(-60%) scaleX(.4)}to{opacity:1;transform:none}}
+@keyframes s-pop {from{opacity:0;transform:scale(0)}to{opacity:1;transform:none}}
+@keyframes s-leaf{from{opacity:0;transform:rotate(30deg) scale(0)}to{opacity:1;transform:none}}
+@keyframes s-swoosh{
+  from{opacity:1;transform:translate(-6%,-4%);-webkit-mask-position:100% 100%;mask-position:100% 100%}
+  to  {opacity:1;transform:none;-webkit-mask-position:0 0;mask-position:0 0}}
+@keyframes s-up{
+  from{opacity:1;transform:translateY(6%);-webkit-mask-position:0 0;mask-position:0 0}
+  to  {opacity:1;transform:none;-webkit-mask-position:0 100%;mask-position:0 100%}}
+@keyframes s-sway{
+  0%,100%{opacity:1;transform:skewX(-3deg)}
+  50%    {opacity:1;transform:skewX(3deg) translateY(-1.5%)}}
+
+/* Hormati pengguna yang mematikan animasi: tampilkan logo statis */
+@media (prefers-reduced-motion:reduce){
+  .s-layer{opacity:1!important;animation:none!important;transform:none!important;
+    -webkit-mask-image:none!important;mask-image:none!important}
+  #splash{transition-duration:.2s}
+}
+/* CSS pendukung splash lock & skip */
+html.splash-lock {
+  overflow: hidden;
+}
+html.splash-skip #splash {
+  display: none !important;
+}
