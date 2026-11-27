@@ -96,12 +96,12 @@ export default function Homepage(){
                                         <p className="flex h-full pt-1 sm:text-md text-sm">
                                             Populer:
                                         </p>
-                                            <ul className="flex text-sm gap-2 flex-wrap sm:flex-row flex-col">
+                                            <ul className="flex text-sm gap-3 flex-wrap sm:flex-row flex-col">
                                                 {popularMenu.map((makanan) => (
-                                                    <li key={makanan.id}>
+                                                    <li key={makanan.id} className="flex">
                                                         <Link
                                                         href={`/jelajahi/${makanan.id}`}
-                                                        className="bg-[#eaeaea] rounded-full p-2 text-nowrap outline-1 sm:text-md text-xs cursor-pointer">
+                                                        className="bg-[#eaeaea] rounded-full p-2 text-nowrap outline-1 sm:text-sm text-xs cursor-pointer inline-flex items-center">
                                                             {makanan.name}
                                                         </Link>
                                                     </li>

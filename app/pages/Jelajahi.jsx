@@ -52,10 +52,10 @@ export default function Jelajahi() {
                                 </h3>
                                 <ul className="flex text-sm gap-2 flex-wrap sm:flex-row pt-3 font-[Montserrat]">
                                     {Island.map((pulau) => (
-                                        <li key={pulau.id}>
+                                        <li key={pulau.id} className="flex">
                                             <Link
                                                 href={`/jelajahi?id=${pulau.id}`}
-                                                className={`rounded-full p-2 text-nowrap outline-1 sm:text-md text-xs cursor-pointer transition-colors ${
+                                                className={`rounded-full p-2 text-nowrap outline-1 sm:text-sm text-xs cursor-pointer transition-colors ${
                                                     selectedIsland?.id === pulau.id
                                                         ? "bg-linear-to-br from-gray-800/85 to-gray-500/85 border border-white/30 shadow-lg shadow-black/5 text-white" 
                                                         : "bg-linear-to-br from-[#eaeaea]/30 to-gray-50/5 border border-black/30 shadow-lg shadow-white/5 text-black"
@@ -104,16 +104,18 @@ export default function Jelajahi() {
                     {currentMakanan.map((item) => (
                         <li 
                             key={item.id} 
-                            className="flex w-full h-60 rounded-2xl bg-linear-to-br from-white via-[#fffaf2] to-white/30 border border-amber-200/70 shadow-lg shadow-amber-900/5 hover:border-amber-400 hover:shadow-xl hover:shadow-amber-500/15 hover:-translate-y-1.5 transition-all duration-300 text-stone-800"
+                            className="w-full h-auto sm:h-50 rounded-2xl bg-linear-to-br from-white via-[#fffaf2] to-white/30 border border-amber-200/70 shadow-lg shadow-amber-900/5 hover:border-amber-400 hover:shadow-xl hover:shadow-amber-500/15 hover:-translate-y-1.5 transition-all duration-300 text-stone-800 overflow-hidden"
                         >
-                            <Link href={`/jelajahi/${item.id}`} className="flex h-full">
+                            <Link 
+                                href={`/jelajahi/${item.id}`} 
+                                className="flex sm:flex-row flex-col h-full">
                                 <img 
                                     src={item.image} 
                                     alt={item.name} 
-                                    className="w-60 h-60 object-cover rounded-2xl p-2"
+                                    className="w-full sm:w-60 h-50 object-cover rounded-2xl p-2"
                                 />
 
-                                <span className="flex flex-col py-2 px-3 flex-1 justify-between">
+                                <span className="flex flex-col py-2 px-3 flex-1 justify-between mt-2">
                                     <div>
                                         <p className="text-xs text-black truncate flex bg-amber-500 w-fit px-2.5 py-0.5 rounded-full font-medium">
                                             {selectedIsland?.nama}
@@ -130,6 +132,14 @@ export default function Jelajahi() {
                                         </p>
                                         <p className="text-xs flex gap-1 text-stone-600 pt-2">
                                             Kisaran: <span className="font-semibold text-stone-800">{item.price_range_ind}</span>
+                                        </p>
+                                        <p className={`text-xs mt-2 bg-gray-400 flex w-fit  py-1 px-2 rounded-full ${
+                                            item.is_halal 
+                                            ? "bg-gray-500/10 text-black" 
+                                            : "bg-gray-500 text-white"}`}>
+                                                {item.is_halal 
+                                                ? "Halal"
+                                                : "Non Halal"}
                                         </p>
                                     </div>
                                     </div>
