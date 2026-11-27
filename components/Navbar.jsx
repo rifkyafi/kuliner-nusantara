@@ -13,7 +13,7 @@ export default function Navbar() {
 
     const handleSearch = () => {
         if (searchQuery.trim()) {
-            router.push(`/kuliner?q=${encodeURIComponent(searchQuery.trim())}`)
+            router.push(`/jelajahi?q=${encodeURIComponent(searchQuery.trim())}`)
             setSearchOpen(false)
             setSearchQuery("")
         }

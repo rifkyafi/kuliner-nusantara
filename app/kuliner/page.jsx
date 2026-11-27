@@ -40,37 +40,50 @@ function KulinerContent() {
                 </div>
             ) : (
                 /* Grid Hasil — desain card sama persis dengan Jelajahi.jsx */
-                <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 font-[Montserrat]">
+                <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full font-[Montserrat]">
                     {results.map((item) => (
-                        <li key={item.id}
-                            className="flex w-full h-52 rounded-2xl bg-linear-to-br from-white via-[#fffaf2] to-[#faeedb] border border-amber-200/70 shadow-lg shadow-amber-900/5 hover:border-amber-400 hover:shadow-xl hover:shadow-amber-500/15 hover:-translate-y-1.5 transition-all duration-300 text-stone-800"
+                        <li 
+                            key={item.id} 
+                            className="w-full h-auto sm:h-50 rounded-2xl bg-linear-to-br from-white via-[#fffaf2] to-white/30 border border-amber-200/70 shadow-lg shadow-amber-900/5 hover:border-amber-400 hover:shadow-xl hover:shadow-amber-500/15 hover:-translate-y-1.5 transition-all duration-300 text-stone-800 overflow-hidden"
                         >
-                            <Link href={`/jelajahi/${item.id}`} className="flex h-full w-full">
+                            <Link 
+                                href={`/jelajahi/${item.id}`} 
+                                className="flex sm:flex-row flex-col h-full">
                                 <img 
                                     src={item.image} 
-                                    alt={item.name}
-                                    className="w-40 h-full object-cover rounded-2xl p-2 shrink-0"
+                                    alt={item.name} 
+                                    className="w-full sm:w-60 h-50 object-cover rounded-2xl p-2"
                                 />
-                                <span className="flex flex-col py-3 px-3 flex-1 justify-between min-w-0">
+
+                                <span className="flex flex-col py-2 px-3 flex-1 justify-between mt-2">
                                     <div>
-                                        <p className="text-xs text-black bg-amber-500 w-fit px-2.5 py-0.5 rounded-full font-medium truncate">
-                                            {item.pulau}
-                                        </p>
-                                        <h3 className="text-base font-bold font-[Playfair_Display] truncate mt-1.5">
+                                        {/* <p className="text-xs text-black truncate flex bg-amber-500 w-fit px-2.5 py-0.5 rounded-full font-medium">
+                                            {selectedIsland?.nama}
+                                        </p> */}
+                                        <h3 className="text-lg font-bold font-[Playfair_Display] truncate mt-1.5">
                                             {item.name}
                                         </h3>
-                                        <p className="text-xs flex items-center gap-1 text-gray-500 mt-1 truncate">
-                                            <FaMapPin className="text-amber-600 shrink-0" /> {item.origin}
+                                        <p className="text-xs flex items-center gap-1 text-gray-500 mt-1">
+                                            <FaMapPin className="text-amber-600 shrink-0"/> {item.origin}
                                         </p>
-                                    </div>
-                                    <div className="pt-2 border-t border-amber-200/40">
-                                        <p className="text-xs flex gap-1 text-stone-600 truncate">
+                                    <div className="pt-1">
+                                        <p className="text-xs items-center flex gap-1 pt-1 font-semibold text-amber-600">
+                                            Rating: <FaStar className="text-amber-500"/> {item.rating || "4.5"}
+                                        </p>
+                                        <p className="text-xs flex gap-1 text-stone-600 pt-2">
                                             Kisaran: <span className="font-semibold text-stone-800">{item.price_range_ind}</span>
                                         </p>
-                                        <p className="text-xs flex items-center gap-1 pt-1 font-semibold text-amber-600">
-                                            <FaStar className="text-amber-500 shrink-0" /> {item.rating || "4.5"}
+                                        <p className={`text-xs mt-2 bg-gray-400 flex w-fit  py-1 px-2 rounded-full ${
+                                            item.is_halal 
+                                            ? "bg-gray-500/10 text-black" 
+                                            : "bg-gray-500 text-white"}`}>
+                                                {item.is_halal 
+                                                ? "Halal"
+                                                : "Non Halal"}
                                         </p>
                                     </div>
+                                    </div>
+
                                 </span>
                             </Link>
                         </li>

@@ -35,7 +35,7 @@ export default function Homepage(){
 
     const handleSearch = () => {
         if(searchQuery.trim()){
-            router.push(`/kuliner?q=${encodeURIComponent(searchQuery.trim())}`)
+            router.push(`/jelajahi?q=${encodeURIComponent(searchQuery.trim())}`)
         }
     }
 
@@ -195,7 +195,7 @@ export default function Homepage(){
                                 </p>
                             </div>
                             <div>
-                                <Link href="/kuliner" className="sm:flex hidden tems-center gap-2 font-[Montserrat] ">
+                                <Link href="/jelajahi" className="sm:flex hidden tems-center gap-2 font-[Montserrat] ">
                                     Lihat semua <FaArrowRight/>
                                 </Link>
                             </div>
